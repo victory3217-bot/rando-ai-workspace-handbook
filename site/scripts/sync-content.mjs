@@ -217,6 +217,8 @@ function koLanding() {
 		""
 	);
 	for (const part of PARTS) {
+		// Optional/advanced chapters (OP01-OP03) stay Planned and are not shown on the public landing page.
+		if (part.dir === "optional") continue;
 		lines.push(`### ${part.label.ko}`, "");
 		for (const chapterId of part.chapters) {
 			const e = entries.find((x) => x.chapter_id === chapterId && x.language === "ko");
