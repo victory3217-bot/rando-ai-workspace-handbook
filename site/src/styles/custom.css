@@ -1,0 +1,54 @@
+/* Light touch: only the accent colours, so the handbook sits next to the
+   Magis Global site without a custom theme to maintain. */
+:root {
+	--sl-color-accent-low: #d9e4e6;
+	--sl-color-accent: #315b62;
+	--sl-color-accent-high: #14253d;
+}
+
+:root[data-theme="dark"] {
+	--sl-color-accent-low: #14303a;
+	--sl-color-accent: #6fa3ab;
+	--sl-color-accent-high: #bcd7db;
+}
+
+/* Korean reads better when a line breaks between words, not inside them. */
+:root:lang(ko) .sl-markdown-content,
+:root:lang(ko) h1 {
+	word-break: keep-all;
+	overflow-wrap: break-word;
+}
+
+/* Same for the chapter titles in the sidebar. */
+:root:lang(ko) .sidebar-content a {
+	word-break: keep-all;
+}
+
+/* `anywhere` stops a long unbreakable string (a URL, a file name) from forcing a
+   horizontal scrollbar on the whole page. */
+:root:lang(ko) .sl-markdown-content :is(p, li, blockquote) {
+	overflow-wrap: anywhere;
+}
+
+/* Tables: never squeeze a column until single characters wrap. A table wider than
+   the screen scrolls sideways inside its own box instead. */
+.sl-markdown-content table {
+	display: block;
+	max-width: 100%;
+	overflow-x: auto;
+}
+
+/* A soft shadow on the right edge while a table can still be scrolled sideways,
+   so readers on phones notice that the table continues. Pure CSS, no script. */
+.sl-markdown-content table {
+	background:
+		linear-gradient(to right, var(--sl-color-bg), var(--sl-color-bg)) left center / 1.5rem 100% no-repeat local,
+		linear-gradient(to left, var(--sl-color-bg), var(--sl-color-bg)) right center / 1.5rem 100% no-repeat local,
+		linear-gradient(to right, rgb(0 0 0 / 0.18), transparent) left center / 0.9rem 100% no-repeat scroll,
+		linear-gradient(to left, rgb(0 0 0 / 0.18), transparent) right center / 0.9rem 100% no-repeat scroll;
+}
+
+:root:lang(ko) .sl-markdown-content :is(th, td) {
+	min-width: 5.5rem;
+	overflow-wrap: normal;
+}

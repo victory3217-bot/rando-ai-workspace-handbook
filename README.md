@@ -1,0 +1,110 @@
+# AI Workspace Handbook / AI 워크스페이스 구축 핸드북
+
+> **상태: 개발 중인 로컬 초안 (v0.0.3, Phase 2C).** 공개되지 않았고, GitHub 원격 저장소와 배포가 없다. 한국어 CH01~CH03만 **본문 초안**(사람의 검토 전)이 있고, 나머지 장은 `content-manifest.json`에 등록만 되어 있다. 영어 본문은 없다.
+
+프로그래밍 경험이 없는 일반 실무자가 자신의 컴퓨터, 클라우드 저장소, AI 도구, 업무문서를 연결해 **개인 AI 업무환경**을 만들고 실제 업무 하나를 끝내도록 돕는 실습형 핸드북이다. 성공 기준은 AI 도구의 기능을 많이 아는 것이 아니라, 자신의 업무에 쓸 수 있는 환경을 만들고 업무 하나를 완수하는 것이다.
+
+*An in-progress, local-only draft of a hands-on handbook for non-programmers. Only three Korean chapters exist, as structural drafts. No English chapter is published.*
+
+## 구성
+
+- **필수 14장** (`AW-CH01`~`AW-CH14`) + **선택·심화 3장** (`AW-OP01`~`AW-OP03`)
+- 한국어를 먼저 쓰고 검토한다. 영어는 한국어 장이 `Reviewed`가 된 뒤 시작한다.
+- 모든 장은 같은 아홉 단계를 따른다: 학습목표 → 핵심 개념 → 업무 적용 사례 → 준비물 → 단계별 실습 → 결과 검증 → 오류 해결 → 완료 체크리스트 → 참고자료.
+
+| ID | 제목 | 상태 |
+|---|---|---|
+| AW-CH01 | AI 워크스페이스란 무엇인가 | Draft (본문 초안, 검토 전) |
+| AW-CH02 | AI 워크스페이스의 구성요소와 전체 구조 | Draft (본문 초안, 검토 전) |
+| AW-CH03 | AI에 입력할 수 있는 정보와 정보보안 | Draft (본문 초안, 검토 전) |
+| AW-CH04 | PC·파일·폴더 관리 | Planned |
+| AW-CH05 | 클라우드 저장소와 업무자료 연결 | Planned |
+| AW-CH06 | ChatGPT 작업환경 구축 | Planned |
+| AW-CH07 | Claude 작업환경 구축 | Planned |
+| AW-CH08 | 개인 지식베이스 구축 | Planned |
+| AW-CH09 | 문서작성과 자료분석 실습 | Planned |
+| AW-CH10 | 프롬프트를 업무 지침서로 표준화 | Planned |
+| AW-CH11 | 반복 업무와 AI Workflow 설계 | Planned |
+| AW-CH12 | 결과 검증과 오류 해결 | Planned |
+| AW-CH13 | 백업·버전 관리 기초 | Planned |
+| AW-CH14 | 나만의 AI 워크스페이스 완성 | Planned |
+| AW-OP01 | Git과 GitHub 기초 | Planned |
+| AW-OP02 | Claude Desktop과 AI 코딩 도구 | Planned |
+| AW-OP03 | AI 하네스 엔지니어링 입문 | Planned |
+
+`Planned`는 "등록만 했고 파일이 없다"는 뜻이다. 어떤 페이지도 생성되지 않는다. (정확한 상태는 `content-manifest.json`이 기준이며 이 표는 사람이 읽기 위한 사본이다.)
+
+## 폴더 구조
+
+```
+content-manifest.json   장별 상태 (chapter_id, title, language, status, last_reviewed)
+VERSION  CHANGELOG.md  glossary.md  source-map.md
+ko/chapters/            한국어 장 (CH01.md ...)  ← 기준 원본
+en/                     영어판. 지금은 README만 있고 장 파일이 없다
+assets/templates/       장별 표준 템플릿 (한국어·영어)
+tools/content_audit.py  구조 감사 도구 (읽기 전용)
+site/                   Astro + Starlight 사이트 (생성 계층)
+```
+
+`site/src/content/docs/`는 빌드할 때마다 `ko/`, `en/`에서 다시 만들어지는 **생성물**이며 git에서 제외된다. 고치려면 항상 `ko/` 또는 `en/` 원본을 고친다. 동기화 스크립트는 원본을 읽기만 하고, 지우는 것은 생성 폴더뿐이다.
+
+## 규칙
+
+1. **장 ID**는 언어와 무관하게 고정한다 (`AW-CH01`...). 파일 첫 줄에 `<!-- chapter_id: AW-CHxx -->`를 넣고, 매니페스트·파일 이름과 일치해야 한다.
+2. **미완성 장을 완성품처럼 보이지 않게 한다.** `Planned`는 페이지가 없고, `Draft`는 사이트에서 "초안" 표시와 안내 배너가 붙는다.
+3. **영어 페이지는 영어 장이 `Reviewed` 또는 `Published`일 때만** 만들어진다. 영어 장이 하나도 해당하지 않으면 Starlight에 영어 언어를 아예 등록하지 않으므로 `/en/` 경로가 생기지 않는다.
+4. **하네스 사례**는 공개가 확인된 저장소만 쓰고, 저장소 이름·파일 경로·확인한 내용·진행 상태·확인일을 모두 적는다. 비공개 저장소, 실제 고객자료, 미공개 교육자료는 쓰지 않는다. 기록은 `source-map.md`에 둔다.
+5. **다른 장으로 가는 `.md` 상대 링크는 쓰지 않는다.** 사이트에서 깨진다. 장 ID(`AW-CH02`)만 적는다.
+6. 도구 화면·요금·계정 조건처럼 바뀌는 내용은 공식 문서를 근거로 쓰고 각 장의 참고자료 표에 확인일을 적는다. 확인하지 못한 것은 〔확인 필요〕로 남긴다.
+7. 연습에는 가상 자료만 쓴다. 개인정보, 회사 기밀, API 키는 예시에도 넣지 않는다.
+
+## 사용법
+
+필요한 것: Node.js 22.23.4 이상, Python 3 (감사 도구).
+
+```bash
+cd site
+npm ci
+npm run build        # 동기화 후 site/dist 생성
+npm run dev          # 로컬 미리보기
+```
+
+```bash
+python tools/content_audit.py                  # 원본 구조 감사
+python tools/content_audit.py --dist site/dist # 빌드 결과까지 감사 (빌드 후)
+```
+
+감사는 읽기 전용이다. 실행하지 못한 검사는 `SKIP`으로 표시되며 PASS로 세지 않는다.
+
+## 기술 버전 선택과 근거
+
+선택: **Astro 7.4.2 + Starlight 0.42.7** (`site/package.json`에 정확한 버전으로 고정, `package-lock.json` 포함). 2026-10-26 기준이며 npm 레지스트리 정보와 이 컴퓨터(Windows 11, Node 24.19.0, npm 11.17.0)에서의 실제 설치·빌드로 확인했다.
+
+| 비교 항목 | 기존 조합 재사용 (Astro 5.18.2 + Starlight 0.30.6, pricing-handbook과 같음) | 최신 조합 (Astro 7.4.2 + Starlight 0.42.7) — **선택** |
+|---|---|---|
+| 설치 후 `npm audit` (운영 의존성) | 16건 (critical 1, high 3, moderate 9, low 3). 해결은 메이저 업그레이드로만 가능하다고 나옴 | **0건** |
+| 이 프로젝트 빌드 | 성공 | 성공 (설정 한 곳 수정 필요, 아래) |
+| Astro 요구 Node | 18.20.8 / 20.3 이상 / 22 이상 | 22.23.4 이상 |
+| Starlight ↔ Astro | Starlight 0.30.6은 Astro ^5 | Starlight 0.42.7은 Astro ^7.2.10 |
+| 코드 변경 | 없음 | 사이드바 그룹 형식 1곳 (`autogenerate`를 `items` 안으로). 이 형식은 Starlight 0.39.0에서 바뀌었다 |
+| 장점 | 형제 핸드북과 동일해 동기화 스크립트·설정을 그대로 재사용 | 알려진 보안 경고 없음, 최신 버전에서 시작해 나중의 대규모 업그레이드를 피함 |
+| 위험 | 알려진 보안 경고(정적 사이트라 서버 기능을 쓰지 않아 영향은 제한적일 것으로 보이나 **개별 평가는 하지 않았다**). 오래된 메이저에 머무름 | Starlight가 1.0 이전이라 마이너 버전 사이에도 설정이 바뀔 수 있음. Node 22.23.4 이상이 필요. 형제 저장소와 버전이 다름 |
+| GitHub Pages | 정적 출력이라 가능 | 정적 출력이라 가능. 배포 워크플로의 Node를 22.23.4 이상(또는 24)으로 맞춰야 함 |
+
+선택 이유: 요구사항이 "안정성과 구현 복잡도 우선"이었다. 최신 조합은 보안 경고가 없고 필요한 코드 변경이 한 곳뿐이어서, 알려진 경고를 안고 시작할 이유가 없다고 판단했다.
+
+**확인하지 않은 것**
+- GitHub Pages에 실제로 배포해 보지 않았다. 배포 워크플로(`.github/workflows`)는 만들지 않았다.
+- Phase 2B와 2C에서 내장 브라우저로 375·768·1440px 화면을 확인했다(가로 넘침, 사이드바·메뉴, 이전/다음, 코드블록 복사 버튼, 검색, 한국어 줄바꿈). 실제 스마트폰, Safari·Firefox 등 다른 브라우저, 인쇄 화면은 확인하지 않았다.
+- **코드블록 복사 버튼:** 버튼이 복사하는 문자열(`data-code`)이 화면에 보이는 양식과 CH01~CH03의 모든 코드블록에서 일치함은 확인했다. 그러나 내장 브라우저에서는 일반 텍스트 영역에서도 복사·붙여넣기가 동작하지 않아(대조 실험) **실제 클립보드 복사는 확인하지 못했다**. Phase 2B 보고서에 "복사 완료!"를 확인했다고 쓴 것은 버튼의 라벨 속성을 읽은 것이었고 성공 표시가 아니었다. 일반 브라우저에서 사람이 한 번 눌러 보아야 한다.
+- 기존 조합의 보안 경고가 이 정적 사이트에 실제로 악용될 수 있는지는 평가하지 않았다.
+- 빌드 경고 `The collection "i18n" does not exist or is empty`는 Phase 2B에서 원인을 확인하고 없앴다. Starlight(`dist/utils/translations.js`)가 빌드할 때 선택 컬렉션 `i18n`(`src/content/i18n/<언어>.json`, 사용자 지정 화면 문구)을 읽는데 이 저장소에 없어서 났다. `content.config.ts`에 컬렉션을 선언하고 빈 `ko.json`을 두었다. 화면 문구는 바뀌지 않는다.
+- 빌드 경고 `Entry docs → 404 was not found`는 남아 있다. 원인은 확인했다. Starlight의 404 경로(`utils/routing/data.js`)가 `getEntry("docs", "404")`로 직접 만든 404 문서를 찾고, 없으면 내장 기본 404 페이지로 대체한다. 그래서 `dist/404.html`은 정상 생성된다. 404 문서를 생성해 보았더니 대신 `Could not render /404 ... conflicts with higher priority route` 경고가 나와서 되돌렸다. 경고 하나를 다른 경고로 바꾸는 것뿐이라 그대로 둔다.
+- **영어 페이지가 처음 생길 때의 위험:** 영어 장이 하나라도 `Reviewed`가 되면 Starlight가 아직 번역하지 않은 장의 `/en/` 주소에 **한국어 본문을 대체 표시**로 만든다(임시 복사본에서 확인: 한국어 단어 1,380개와 2,438개가 영어 주소에 노출). 지금은 영어 장이 없어 `/en/`이 생성되지 않으므로 문제가 없다. 감사 도구(`--dist`)가 이 상황을 FAIL로 잡지만, 대체 표시를 막는 방법은 아직 정하지 않았다(Phase 2D 이후 과제).
+- 기존 조합(Astro 5)을 설치했을 때는 npm이 `esbuild`, `sharp`의 설치 스크립트가 허용 목록에 없다고 경고했다. 최종 선택한 조합을 설치할 때는 이 경고가 나오지 않았고 빌드도 성공했다.
+
+## 공개 전에 해야 할 일
+
+- 사이트의 `noindex` 설정(`site/astro.config.mjs`의 `head`)을 사람이 검토한 뒤 제거한다.
+- 영어 장은 한국어 `Reviewed` 이후에 시작한다.
+- 라이선스, GitHub 원격 저장소, Pages 설정, 배포 워크플로, Magis Global 핸드북 목록 연결은 아직 정하지 않았다.
