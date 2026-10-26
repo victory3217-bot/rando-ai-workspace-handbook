@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">What is an AI Workflow?</title>
+<desc id="d">Shows this book's working definition of an AI Workflow as a work procedure (order) plus who, input, output, checks and exception handling, and how it relates to the CH10 work instructions and to a harness.</desc>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<text x="64" y="70" font-size="22" font-weight="bold" fill="#2f5d9b">CH11 · 1/3</text>
+<text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">What is an AI Workflow?</text>
+<text x="64" y="172" font-size="26" fill="#566273">A design that adds five elements to a work procedure (this book's working definition)</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- left: layered build-up -->
+<rect x="64" y="222" width="696" height="68" rx="12" fill="#14253d"/>
+<text x="90" y="268" font-size="32" font-weight="bold" fill="#ffffff">AI Workflow</text>
+<text x="734" y="266" font-size="24" fill="#ffffff" text-anchor="end">this book's working definition</text>
+
+<rect x="64" y="302" width="696" height="50" rx="12" fill="#e6eef9"/>
+<text x="90" y="336" font-size="26" font-weight="bold" fill="#2f5d9b">+ Who</text>
+<text x="400" y="336" font-size="26" fill="#1f2a37">a person or AI, per step</text>
+<rect x="64" y="362" width="696" height="50" rx="12" fill="#e6eef9"/>
+<text x="90" y="396" font-size="26" font-weight="bold" fill="#2f5d9b">+ What comes in</text>
+<text x="400" y="396" font-size="26" fill="#1f2a37">input of each step</text>
+<rect x="64" y="422" width="696" height="50" rx="12" fill="#e6eef9"/>
+<text x="90" y="456" font-size="26" font-weight="bold" fill="#2f5d9b">+ What goes out</text>
+<text x="400" y="456" font-size="26" fill="#1f2a37">output of each step</text>
+<rect x="64" y="482" width="696" height="50" rx="12" fill="#e6eef9"/>
+<text x="90" y="516" font-size="26" font-weight="bold" fill="#2f5d9b">+ How it is checked</text>
+<text x="400" y="516" font-size="26" fill="#1f2a37">checks (verification)</text>
+<rect x="64" y="542" width="696" height="50" rx="12" fill="#e6eef9"/>
+<text x="90" y="576" font-size="26" font-weight="bold" fill="#2f5d9b">+ What if it fails</text>
+<text x="400" y="576" font-size="26" fill="#1f2a37">exception handling</text>
+
+<rect x="64" y="604" width="696" height="60" rx="12" fill="#f1f5fb" stroke="#5b7fb5" stroke-width="2"/>
+<text x="412" y="643" font-size="28" font-weight="bold" fill="#14253d" text-anchor="middle">Work procedure = the order of the task</text>
+
+<rect x="64" y="682" width="696" height="164" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="90" y="724" font-size="26" font-weight="bold" fill="#14253d">CH10 instructions → CH11 workflow</text>
+<text x="90" y="766" font-size="24" fill="#1f2a37">Instructions: the rules the AI follows</text>
+<text x="90" y="806" font-size="24" fill="#1f2a37">Workflow: places those rules in the flow of work</text>
+
+<!-- right: workflow vs harness -->
+<text x="800" y="242" font-size="26" font-weight="bold" fill="#14253d">Simple workflow and harness</text>
+<rect x="800" y="258" width="358" height="60" rx="12" fill="#14253d"/>
+<text x="979" y="297" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">Simple workflow</text>
+<rect x="1178" y="258" width="358" height="60" rx="12" fill="#2f5d9b"/>
+<text x="1357" y="297" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">Harness</text>
+
+<rect x="800" y="330" width="358" height="120" rx="12" fill="#e6eef9"/>
+<text x="822" y="372" font-size="24" fill="#1f2a37">Design of steps, owners,</text>
+<text x="822" y="404" font-size="24" fill="#1f2a37">approvals, exceptions</text>
+<rect x="1178" y="330" width="358" height="120" rx="12" fill="#e6eef9"/>
+<text x="1200" y="372" font-size="24" fill="#1f2a37">An execution system that</text>
+<text x="1200" y="404" font-size="24" fill="#1f2a37">supports and controls</text>
+<text x="1200" y="436" font-size="24" fill="#1f2a37">how AI does the task</text>
+
+<rect x="800" y="462" width="358" height="140" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="822" y="500" font-size="24" fill="#1f2a37">Made on paper, in</text>
+<text x="822" y="532" font-size="24" fill="#1f2a37">documents, as text</text>
+<text x="822" y="564" font-size="24" fill="#1f2a37">diagrams</text>
+<rect x="1178" y="462" width="358" height="140" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="1200" y="500" font-size="24" fill="#1f2a37">Beyond documents, a</text>
+<text x="1200" y="532" font-size="24" fill="#1f2a37">setup that makes AI</text>
+<text x="1200" y="564" font-size="24" fill="#1f2a37">apply the rules every</text>
+<text x="1200" y="594" font-size="24" fill="#1f2a37">time may be added</text>
+
+<rect x="800" y="614" width="358" height="56" rx="12" fill="#ffffff" stroke="#2f6f73" stroke-width="2"/>
+<text x="979" y="651" font-size="24" font-weight="bold" fill="#2f6f73" text-anchor="middle">Required in CH11</text>
+<rect x="1178" y="614" width="358" height="56" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="1357" y="651" font-size="24" font-weight="bold" fill="#566273" text-anchor="middle">Optional advanced course</text>
+
+<rect x="800" y="684" width="736" height="162" rx="12" fill="#e6eef9"/>
+<text x="822" y="722" font-size="24" font-weight="bold" fill="#14253d">Author's interpretation (not an industry standard)</text>
+<text x="822" y="758" font-size="24" fill="#1f2a37">Workspace, workflow and harness are not exclusive</text>
+<text x="822" y="794" font-size="24" fill="#1f2a37">A harness can use the steps of a workflow</text>
+<text x="822" y="830" font-size="24" fill="#1f2a37">A workflow can be placed inside a harness</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

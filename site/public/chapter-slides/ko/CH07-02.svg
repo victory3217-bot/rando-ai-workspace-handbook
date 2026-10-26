@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">자료를 어디에 두나: 지침 · 지식 · 채팅</title>
+<desc id="d">프로젝트 지침, 프로젝트 지식, 채팅에 각각 무엇을 두는지, 쓰이는 범위, 올리는 방법과 한도를 비교표로 보여 줍니다.</desc>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<text x="64" y="70" font-size="22" font-weight="bold" fill="#2f5d9b">CH07 · 2/3</text>
+<text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">자료를 어디에 두나: 지침 · 지식 · 채팅</text>
+<text x="64" y="172" font-size="26" fill="#566273">지침과 지식의 구분은 저자의 제안 · 쓰이는 범위와 한도는 공식 문서(S7, S8, S10)</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- column headers -->
+<rect x="330" y="226" width="396" height="70" rx="12" fill="#14253d"/>
+<text x="528" y="272" font-size="30" font-weight="bold" fill="#ffffff" text-anchor="middle">프로젝트 지침</text>
+<rect x="736" y="226" width="396" height="70" rx="12" fill="#14253d"/>
+<text x="934" y="272" font-size="30" font-weight="bold" fill="#ffffff" text-anchor="middle">프로젝트 지식</text>
+<rect x="1142" y="226" width="394" height="70" rx="12" fill="#2f5d9b"/>
+<text x="1339" y="272" font-size="30" font-weight="bold" fill="#ffffff" text-anchor="middle">채팅</text>
+
+<!-- row 1: what -->
+<rect x="64" y="306" width="256" height="110" rx="12" fill="#e6eef9"/>
+<text x="192" y="371" font-size="26" font-weight="bold" fill="#14253d" text-anchor="middle">무엇을 두나</text>
+<rect x="330" y="306" width="396" height="110" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="528" y="372" font-size="28" font-weight="bold" fill="#14253d" text-anchor="middle">항상 지킬 규칙</text>
+<rect x="736" y="306" width="396" height="110" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="934" y="372" font-size="28" font-weight="bold" fill="#14253d" text-anchor="middle">읽고 참고할 자료</text>
+<rect x="1142" y="306" width="394" height="110" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="1339" y="372" font-size="28" font-weight="bold" fill="#14253d" text-anchor="middle">한 번만 쓰는 자료</text>
+
+<!-- row 2: examples -->
+<rect x="64" y="426" width="256" height="110" rx="12" fill="#e6eef9"/>
+<text x="192" y="491" font-size="26" font-weight="bold" fill="#14253d" text-anchor="middle">예 (이 장)</text>
+<rect x="330" y="426" width="396" height="110" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="528" y="472" font-size="26" fill="#1f2a37" text-anchor="middle">역할 · 출력 형식</text>
+<text x="528" y="510" font-size="26" fill="#1f2a37" text-anchor="middle">추측 금지</text>
+<rect x="736" y="426" width="396" height="110" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="934" y="472" font-size="26" fill="#1f2a37" text-anchor="middle">빈 회의록 양식</text>
+<text x="934" y="510" font-size="26" fill="#1f2a37" text-anchor="middle">용어 목록</text>
+<rect x="1142" y="426" width="394" height="110" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="1339" y="472" font-size="26" fill="#1f2a37" text-anchor="middle">매번 바뀌는</text>
+<text x="1339" y="510" font-size="26" fill="#1f2a37" text-anchor="middle">가상 회의 메모</text>
+
+<!-- row 3: scope -->
+<rect x="64" y="546" width="256" height="70" rx="12" fill="#e6eef9"/>
+<text x="192" y="591" font-size="26" font-weight="bold" fill="#14253d" text-anchor="middle">쓰이는 범위</text>
+<rect x="330" y="546" width="802" height="70" rx="12" fill="#e6eef9" stroke="#2f6f73" stroke-width="2"/>
+<text x="731" y="591" font-size="28" font-weight="bold" fill="#2f6f73" text-anchor="middle">프로젝트의 모든 대화</text>
+<rect x="1142" y="546" width="394" height="70" rx="12" fill="#f1f5fb" stroke="#5b7fb5" stroke-width="2"/>
+<text x="1339" y="591" font-size="28" font-weight="bold" fill="#2f5d9b" text-anchor="middle">그 채팅 안에서만</text>
+
+<!-- row 4: how / limits -->
+<rect x="64" y="626" width="256" height="220" rx="12" fill="#e6eef9"/>
+<text x="192" y="726" font-size="26" font-weight="bold" fill="#14253d" text-anchor="middle">올리는 방법</text>
+<text x="192" y="764" font-size="26" font-weight="bold" fill="#14253d" text-anchor="middle">과 한도</text>
+<rect x="330" y="626" width="396" height="220" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="528" y="714" font-size="24" fill="#1f2a37" text-anchor="middle">Set project instructions</text>
+<text x="528" y="752" font-size="24" fill="#1f2a37" text-anchor="middle">→ Save instructions</text>
+<rect x="736" y="626" width="396" height="220" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="934" y="670" font-size="24" fill="#1f2a37" text-anchor="middle">+ 단추 · 파일당 30MB</text>
+<text x="934" y="706" font-size="24" fill="#1f2a37" text-anchor="middle">개수 무제한, 단 전체 내용이</text>
+<text x="934" y="742" font-size="24" fill="#1f2a37" text-anchor="middle">컨텍스트 창에 들어와야 함</text>
+<text x="934" y="778" font-size="24" fill="#1f2a37" text-anchor="middle">텍스트만 추출</text>
+<text x="934" y="814" font-size="24" fill="#566273" text-anchor="middle">(멀티모달 PDF 제외)</text>
+<rect x="1142" y="626" width="394" height="220" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="1339" y="714" font-size="24" fill="#1f2a37" text-anchor="middle">파일당 500MB</text>
+<text x="1339" y="752" font-size="24" fill="#1f2a37" text-anchor="middle">채팅당 최대 20개</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

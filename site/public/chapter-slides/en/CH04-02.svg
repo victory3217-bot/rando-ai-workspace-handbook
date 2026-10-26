@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">CH04 Designing a task-based work folder structure</title>
+<desc id="d">Shows the four principles of folder design and the standard folder tree for candidate A, explains which boxes of the CH02 workspace map folders 01 to 03 and 04 connect to, and notes that folder 09 is a visible separator, not a security control.</desc>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<text x="64" y="70" font-size="22" font-weight="700" fill="#2f5d9b">CH04 · 2/3</text>
+<text x="64" y="128" font-size="46" font-weight="700" fill="#14253d">Designing a task-based folder structure</text>
+<text x="64" y="172" font-size="26" fill="#566273">Principles and standard structure: the author's suggestion · candidate A example</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- principles -->
+<rect x="64" y="220" width="356" height="80" rx="12" fill="#2f5d9b"/>
+<text x="242" y="252" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">① By task</text>
+<text x="242" y="286" font-size="24" fill="#ffffff" text-anchor="middle">Divide folders by task</text>
+<rect x="436" y="220" width="356" height="80" rx="12" fill="#2f5d9b"/>
+<text x="614" y="252" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">② Depth</text>
+<text x="614" y="286" font-size="24" fill="#ffffff" text-anchor="middle">About three levels</text>
+<rect x="808" y="220" width="356" height="80" rx="12" fill="#2f5d9b"/>
+<text x="986" y="252" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">③ Numbers</text>
+<text x="986" y="286" font-size="24" fill="#ffffff" text-anchor="middle">Number prefixes fix order</text>
+<rect x="1180" y="220" width="356" height="80" rx="12" fill="#2f5d9b"/>
+<text x="1358" y="252" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">④ Same structure</text>
+<text x="1358" y="286" font-size="24" fill="#ffffff" text-anchor="middle">The same for every task</text>
+
+<!-- tree connectors -->
+<path d="M84 358 V817 M84 385 H104 M84 433 H104 M84 769 H104 M84 817 H104" stroke="#5b7fb5" stroke-width="2" fill="none"/>
+<path d="M124 454 V721 M124 481 H144 M124 529 H144 M124 577 H144 M124 625 H144 M124 673 H144 M124 721 H144" stroke="#5b7fb5" stroke-width="2" fill="none"/>
+
+<!-- rows -->
+<rect x="64" y="316" width="1026" height="42" rx="12" fill="#14253d"/>
+<text x="84" y="345" font-size="24" font-weight="700" fill="#ffffff">AI_Work/</text>
+
+<rect x="104" y="364" width="986" height="42" rx="12" fill="#e6eef9"/>
+<text x="124" y="393" font-size="24" font-weight="700" fill="#14253d">00_Guide</text>
+<text x="660" y="393" font-size="24" fill="#566273">usage rules, file-naming rule</text>
+
+<rect x="104" y="412" width="986" height="42" rx="12" fill="#e6eef9"/>
+<text x="124" y="441" font-size="24" font-weight="700" fill="#14253d">10_TaskA_MeetingMinutes</text>
+<text x="660" y="441" font-size="24" fill="#566273">task-based folder (candidate A)</text>
+
+<rect x="144" y="460" width="946" height="42" rx="12" fill="#ffffff" stroke="#2f6f73" stroke-width="2"/>
+<text x="164" y="489" font-size="24" font-weight="700" fill="#14253d">01_Originals</text>
+<text x="660" y="489" font-size="24" fill="#566273">as received, not touched</text>
+
+<rect x="144" y="508" width="946" height="42" rx="12" fill="#ffffff" stroke="#2f6f73" stroke-width="2"/>
+<text x="164" y="537" font-size="24" font-weight="700" fill="#14253d">02_Working</text>
+<text x="660" y="537" font-size="24" fill="#566273">copy originals and edit here</text>
+
+<rect x="144" y="556" width="946" height="42" rx="12" fill="#ffffff" stroke="#2f6f73" stroke-width="2"/>
+<text x="164" y="585" font-size="24" font-weight="700" fill="#14253d">03_Final</text>
+<text x="660" y="585" font-size="24" fill="#566273">confirmed files that you share</text>
+
+<rect x="144" y="604" width="946" height="42" rx="12" fill="#ffffff" stroke="#2f5d9b" stroke-width="2"/>
+<text x="164" y="633" font-size="24" font-weight="700" fill="#14253d">04_AI_Instructions_and_Templates</text>
+<text x="660" y="633" font-size="24" fill="#566273">boxes ④ and ⑤ of CH02</text>
+
+<rect x="144" y="652" width="946" height="42" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="164" y="681" font-size="24" font-weight="700" fill="#14253d">05_AI_Output_and_Verification_Log</text>
+<text x="660" y="681" font-size="24" fill="#566273">AI drafts + record of checks</text>
+
+<rect x="144" y="700" width="946" height="42" rx="12" fill="#ffffff" stroke="#b7791f" stroke-width="2"/>
+<text x="164" y="729" font-size="24" font-weight="700" fill="#14253d">09_Do_Not_Give_to_AI_(Tier_C)</text>
+<text x="660" y="729" font-size="24" fill="#566273">judged as C in CH03</text>
+
+<rect x="104" y="748" width="986" height="42" rx="12" fill="#e6eef9"/>
+<text x="124" y="777" font-size="24" font-weight="700" fill="#14253d">20_TaskB_</text>
+<text x="660" y="777" font-size="24" fill="#566273">candidate B, same structure</text>
+
+<rect x="104" y="796" width="986" height="42" rx="12" fill="#e6eef9"/>
+<text x="124" y="825" font-size="24" font-weight="700" fill="#14253d">90_Archive</text>
+<text x="660" y="825" font-size="24" fill="#566273">finished work</text>
+
+<!-- annotation connectors -->
+<path d="M1090 481 H1102 M1090 529 H1114 M1090 577 H1102 M1102 481 V577" stroke="#2f6f73" stroke-width="2" fill="none"/>
+<path d="M1090 625 H1114" stroke="#2f5d9b" stroke-width="2" fill="none"/>
+<path d="M1090 721 H1114" stroke="#b7791f" stroke-width="2" fill="none"/>
+
+<!-- annotations -->
+<rect x="1114" y="460" width="422" height="138" rx="12" fill="#ffffff" stroke="#2f6f73" stroke-width="2"/>
+<text x="1134" y="496" font-size="26" font-weight="700" fill="#2f6f73">01–03 = CH02 box ①</text>
+<text x="1134" y="532" font-size="24" fill="#1f2a37">work files of</text>
+<text x="1134" y="566" font-size="24" fill="#1f2a37">PC and local files</text>
+
+<rect x="1114" y="604" width="422" height="90" rx="12" fill="#ffffff" stroke="#2f5d9b" stroke-width="2"/>
+<text x="1134" y="638" font-size="26" font-weight="700" fill="#2f5d9b">Starting place for ④ ⑤</text>
+<text x="1134" y="674" font-size="24" fill="#1f2a37">filled in CH08 and CH10</text>
+
+<rect x="1114" y="700" width="422" height="146" rx="12" fill="#ffffff" stroke="#b7791f" stroke-width="2"/>
+<text x="1134" y="734" font-size="24" font-weight="700" fill="#b7791f">Only a visible separator</text>
+<text x="1134" y="766" font-size="24" fill="#1f2a37">Not a security control</text>
+<text x="1134" y="798" font-size="24" fill="#1f2a37">No guarantee against upload</text>
+<text x="1134" y="830" font-size="24" fill="#1f2a37">Org rules come first (CH03)</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

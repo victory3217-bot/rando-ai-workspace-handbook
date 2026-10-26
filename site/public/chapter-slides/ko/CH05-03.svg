@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">공유와 접근 권한</title>
+<desc id="d">Google Drive의 권한 단계(열기만 가능·댓글·편집)와 공유 범위(특정인·링크가 있는 모든 사람·C 등급), 공유를 기록하고 끝나면 중단하는 흐름, 그리고 중단의 한계와 AI 서비스 연결 시 읽을 수 있는 범위를 보여 줍니다.</desc>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f5d9b"/></marker>
+</defs>
+<text x="64" y="70" font-size="22" font-weight="bold" fill="#2f5d9b">CH05 · 3/3</text>
+<text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">공유와 접근 권한: 필요한 만큼만, 끝나면 끊는다</text>
+<text x="64" y="172" font-size="26" fill="#566273">권한과 공유 범위를 정하고, 기록하고, 일이 끝나면 중단한다</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- panel A: permissions -->
+<rect x="64" y="224" width="480" height="520" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="88" y="266" font-size="30" font-weight="bold" fill="#14253d">권한 [S12]</text>
+<text x="88" y="302" font-size="24" fill="#566273">편집 · 댓글 · 열기만 가능</text>
+<text x="88" y="352" font-size="24" fill="#1f2a37">필요한 사람에게만, 필요한 만큼만</text>
+<text x="88" y="388" font-size="24" fill="#1f2a37">보기 → 댓글 → 편집 순으로 시작</text>
+<text x="88" y="418" font-size="22" fill="#566273">(저자 제안)</text>
+<rect x="92" y="590" width="140" height="130" rx="12" fill="#2f6f73"/>
+<text x="162" y="634" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">보기</text>
+<rect x="242" y="520" width="140" height="200" rx="12" fill="#5b7fb5"/>
+<text x="312" y="564" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">댓글</text>
+<rect x="392" y="450" width="140" height="270" rx="12" fill="#2f5d9b"/>
+<text x="462" y="494" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">편집</text>
+
+<!-- panel B: scope -->
+<rect x="568" y="224" width="480" height="520" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="592" y="266" font-size="30" font-weight="bold" fill="#14253d">공유 범위</text>
+<text x="592" y="302" font-size="24" fill="#566273">특정인과도, 공개로도 공유 가능 [S12]</text>
+<rect x="588" y="326" width="440" height="110" rx="12" fill="#f1f5fb" stroke="#2f6f73" stroke-width="3"/>
+<text x="808" y="370" font-size="26" font-weight="bold" fill="#2f6f73" text-anchor="middle">특정인 초대</text>
+<text x="808" y="408" font-size="24" fill="#1f2a37" text-anchor="middle">이름으로 필요한 사람만</text>
+<rect x="588" y="452" width="440" height="140" rx="12" fill="#f1f5fb" stroke="#b7791f" stroke-width="3"/>
+<text x="808" y="496" font-size="26" font-weight="bold" fill="#14253d" text-anchor="middle">"링크가 있는 모든 사람"</text>
+<text x="808" y="534" font-size="24" fill="#1f2a37" text-anchor="middle">마지막 수단</text>
+<text x="808" y="568" font-size="24" fill="#1f2a37" text-anchor="middle">쓰면 기간을 정한다</text>
+<rect x="588" y="608" width="440" height="116" rx="12" fill="#f1f5fb" stroke="#a33a3a" stroke-width="3"/>
+<text x="808" y="652" font-size="26" font-weight="bold" fill="#a33a3a" text-anchor="middle">C 등급 자료</text>
+<text x="808" y="690" font-size="24" fill="#1f2a37" text-anchor="middle">공유하지 않는다 (CH03)</text>
+
+<!-- panel C: ending -->
+<rect x="1072" y="224" width="464" height="520" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="1096" y="266" font-size="30" font-weight="bold" fill="#14253d">공유의 끝</text>
+<text x="1096" y="302" font-size="24" fill="#566273">기록하고, 끝나면 끊는다</text>
+<rect x="1092" y="326" width="424" height="96" rx="12" fill="#e6eef9" stroke="#2f5d9b" stroke-width="2"/>
+<text x="1116" y="364" font-size="26" font-weight="bold" fill="#14253d">① 기록</text>
+<text x="1116" y="400" font-size="24" fill="#1f2a37">누구와 · 언제 · 어떤 권한</text>
+<line x1="1304" y1="424" x2="1304" y2="446" stroke="#2f5d9b" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="1092" y="450" width="424" height="130" rx="12" fill="#e6eef9" stroke="#2f5d9b" stroke-width="2"/>
+<text x="1116" y="488" font-size="26" font-weight="bold" fill="#14253d">② 끝나면 중단</text>
+<text x="1116" y="524" font-size="24" fill="#1f2a37">권한을 '제거'</text>
+<text x="1116" y="558" font-size="24" fill="#1f2a37">링크 공유를 '제한됨'으로</text>
+<line x1="1304" y1="582" x2="1304" y2="604" stroke="#2f5d9b" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="1092" y="608" width="424" height="116" rx="12" fill="#e6eef9" stroke="#2f5d9b" stroke-width="2"/>
+<text x="1116" y="648" font-size="26" font-weight="bold" fill="#14253d">③ 확인</text>
+<text x="1116" y="686" font-size="24" fill="#1f2a37">상대 계정으로 열리지 않는지 본다</text>
+
+<!-- bottom band -->
+<rect x="64" y="762" width="700" height="86" rx="12" fill="#ffffff" stroke="#a33a3a" stroke-width="2"/>
+<text x="88" y="796" font-size="24" font-weight="bold" fill="#a33a3a">한계</text>
+<text x="88" y="830" font-size="24" fill="#1f2a37">이미 내려받은 사본은 되돌릴 수 없다</text>
+<rect x="788" y="762" width="748" height="86" rx="12" fill="#ffffff" stroke="#2f5d9b" stroke-width="2"/>
+<text x="812" y="796" font-size="24" fill="#1f2a37">AI 서비스에 클라우드 파일을 연결하면 읽는 범위가 넓어짐</text>
+<text x="812" y="830" font-size="24" fill="#566273">이 장에서는 연결을 켜지 않음 (CH06·CH07에서 확인)</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">What a Knowledge Base Is</title>
+<desc id="d">Compares work files and a knowledge base on four criteria, and shows the purpose of a knowledge base and its four components.</desc>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<text x="64" y="70" font-size="22" font-weight="bold" fill="#2f5d9b">CH08 · 1/3</text>
+<text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">What a Knowledge Base Is</text>
+<text x="64" y="172" font-size="26" fill="#566273">Author's interpretation: one folder, one list, and one document are enough to start</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- comparison matrix -->
+<rect x="352" y="226" width="588" height="48" rx="12" fill="#e6eef9" stroke="#c9d4e5" stroke-width="2"/>
+<text x="646" y="260" font-size="28" font-weight="bold" fill="#14253d" text-anchor="middle">Work files</text>
+<rect x="948" y="226" width="588" height="48" rx="12" fill="#14253d"/>
+<text x="1242" y="260" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">Knowledge base</text>
+
+<rect x="64" y="282" width="280" height="90" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="88" y="336" font-size="26" font-weight="bold" fill="#14253d">What it is</text>
+<rect x="352" y="282" width="588" height="90" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="376" y="320" font-size="26" fill="#1f2a37">Files that come up as you work</text>
+<text x="376" y="356" font-size="26" fill="#566273">(meeting notes, deliverables)</text>
+<rect x="948" y="282" width="588" height="90" rx="12" fill="#e6eef9" stroke="#5b7fb5" stroke-width="2"/>
+<text x="972" y="336" font-size="26" fill="#1f2a37">Material organized for repeated use</text>
+
+<rect x="64" y="380" width="280" height="60" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="88" y="420" font-size="26" font-weight="bold" fill="#14253d">Form</text>
+<rect x="352" y="380" width="588" height="60" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="376" y="420" font-size="26" fill="#1f2a37">Different each time</text>
+<rect x="948" y="380" width="588" height="60" rx="12" fill="#e6eef9" stroke="#5b7fb5" stroke-width="2"/>
+<text x="972" y="420" font-size="26" fill="#1f2a37">A set format, a list, and naming rules</text>
+
+<rect x="64" y="448" width="280" height="60" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="88" y="488" font-size="26" font-weight="bold" fill="#14253d">Source and date</text>
+<rect x="352" y="448" width="588" height="60" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="376" y="488" font-size="26" fill="#1f2a37">Often missing</text>
+<rect x="948" y="448" width="588" height="60" rx="12" fill="#e6eef9" stroke="#5b7fb5" stroke-width="2"/>
+<text x="972" y="488" font-size="26" font-weight="bold" fill="#2f6f73">Always recorded</text>
+
+<rect x="64" y="516" width="280" height="60" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="88" y="556" font-size="26" font-weight="bold" fill="#14253d">Who uses it</text>
+<rect x="352" y="516" width="588" height="60" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="376" y="556" font-size="26" fill="#1f2a37">The person who made it</text>
+<rect x="948" y="516" width="588" height="60" rx="12" fill="#e6eef9" stroke="#5b7fb5" stroke-width="2"/>
+<text x="972" y="556" font-size="26" fill="#1f2a37">You, coworkers, and AI services</text>
+
+<!-- purpose -->
+<rect x="64" y="600" width="636" height="240" rx="12" fill="#14253d"/>
+<text x="92" y="638" font-size="28" font-weight="bold" fill="#ffffff">Purpose</text>
+<text x="92" y="674" font-size="24" fill="#ffffff">Stop explaining the same thing again and again,</text>
+<text x="92" y="706" font-size="24" fill="#ffffff">and build a reliable reference to give AI</text>
+<text x="92" y="766" font-size="24" font-weight="bold" fill="#ffffff">“What do I need to know to do this task,</text>
+<text x="92" y="800" font-size="24" font-weight="bold" fill="#ffffff">and where is the evidence for it?”</text>
+
+<!-- components 2x2 -->
+<text x="720" y="626" font-size="24" font-weight="bold" fill="#2f5d9b">Components (boxes ④ and ⑤ in CH02)</text>
+<rect x="720" y="640" width="402" height="94" rx="12" fill="#ffffff" stroke="#5b7fb5" stroke-width="2"/>
+<text x="744" y="678" font-size="26" font-weight="bold" fill="#14253d">① Index</text>
+<text x="744" y="714" font-size="24" fill="#566273">what is where</text>
+<rect x="1134" y="640" width="402" height="94" rx="12" fill="#ffffff" stroke="#5b7fb5" stroke-width="2"/>
+<text x="1158" y="678" font-size="26" font-weight="bold" fill="#14253d">② Knowledge documents</text>
+<text x="1158" y="714" font-size="24" fill="#566273">rules, terms, template notes</text>
+<rect x="720" y="746" width="402" height="94" rx="12" fill="#ffffff" stroke="#5b7fb5" stroke-width="2"/>
+<text x="744" y="784" font-size="26" font-weight="bold" fill="#14253d">③ Source material</text>
+<text x="744" y="820" font-size="24" fill="#566273">or its location</text>
+<rect x="1134" y="746" width="402" height="94" rx="12" fill="#ffffff" stroke="#5b7fb5" stroke-width="2"/>
+<text x="1158" y="784" font-size="26" font-weight="bold" fill="#14253d">④ Source/date record</text>
+<text x="1158" y="820" font-size="24" fill="#566273">where from, when checked</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

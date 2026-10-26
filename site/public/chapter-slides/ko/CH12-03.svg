@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">심각도와 재실행 판단</title>
+<desc id="d">오류의 심각도를 높음·중간·낮음으로 나누는 기준과, 상황에 따라 사람의 최종 확인, 직접 수정, 재실행, 폐기 후 재실행, 사람이 직접 작성, 담당자 확인 중 무엇을 할지 정하는 저자의 교육용 판단 기준을 보여 준다.</desc>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5b7fb5"/></marker>
+</defs>
+<text x="64" y="70" font-size="22" font-weight="bold" fill="#2f5d9b">CH12 · 3/3</text>
+<text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">심각도와 재실행 판단</text>
+<text x="64" y="172" font-size="26" fill="#566273">저자 해석: 교육용 판단 기준이며 정해진 표준이 아니다. 조직 규정이 우선한다</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- Column labels -->
+<text x="64" y="238" font-size="24" font-weight="bold" fill="#566273">심각도</text>
+<text x="795" y="238" text-anchor="middle" font-size="24" font-weight="bold" fill="#566273">상황</text>
+<text x="1318" y="238" text-anchor="middle" font-size="24" font-weight="bold" fill="#566273">조치</text>
+
+<!-- Severity tiers -->
+<rect x="64" y="252" width="436" height="176" rx="12" fill="#ffffff" stroke="#a33a3a" stroke-width="3"/>
+<text x="92" y="294" font-size="30" font-weight="bold" fill="#a33a3a">높음</text>
+<text x="92" y="334" font-size="26" fill="#1f2a37">핵심 항목의 오류:</text>
+<text x="92" y="368" font-size="26" fill="#1f2a37">결정, 담당자, 기한, 숫자</text>
+<text x="92" y="402" font-size="26" fill="#1f2a37">또는 밖으로 나가면 피해 가능</text>
+<rect x="64" y="440" width="436" height="140" rx="12" fill="#ffffff" stroke="#b7791f" stroke-width="3"/>
+<text x="92" y="482" font-size="30" font-weight="bold" fill="#b7791f">중간</text>
+<text x="92" y="520" font-size="26" fill="#1f2a37">핵심은 아니지만 의미를</text>
+<text x="92" y="554" font-size="26" fill="#1f2a37">바꾸는 오류, 누락</text>
+<rect x="64" y="592" width="436" height="100" rx="12" fill="#ffffff" stroke="#5b7fb5" stroke-width="3"/>
+<text x="92" y="652" font-size="30" font-weight="bold" fill="#2f5d9b">낮음</text>
+<text x="190" y="652" font-size="26" fill="#1f2a37">표현, 형식 등</text>
+<rect x="64" y="704" width="436" height="116" rx="12" fill="#e6eef9"/>
+<text x="92" y="742" font-size="26" font-weight="bold" fill="#14253d">재실행이란</text>
+<text x="92" y="776" font-size="24" fill="#1f2a37">같은 지침서와 자료로</text>
+<text x="92" y="808" font-size="24" fill="#1f2a37">AI에게 다시 요청하는 것</text>
+
+<!-- Decision rows -->
+<rect x="530" y="252" width="530" height="88" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="556" y="306" font-size="26" fill="#1f2a37">오류 없음</text>
+<line x1="1064" y1="296" x2="1094" y2="296" stroke="#5b7fb5" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="1100" y="252" width="436" height="88" rx="12" fill="#f1f5fb" stroke="#2f6f73" stroke-width="3"/>
+<text x="1126" y="306" font-size="26" font-weight="bold" fill="#2f6f73">사람의 최종 확인으로 진행</text>
+
+<rect x="530" y="348" width="530" height="88" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="556" y="402" font-size="26" fill="#1f2a37">낮음 오류 몇 개</text>
+<line x1="1064" y1="392" x2="1094" y2="392" stroke="#5b7fb5" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="1100" y="348" width="436" height="88" rx="12" fill="#f1f5fb" stroke="#2f5d9b" stroke-width="3"/>
+<text x="1126" y="402" font-size="26" font-weight="bold" fill="#14253d">사람이 직접 고친다</text>
+
+<rect x="530" y="444" width="530" height="88" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="556" y="480" font-size="26" fill="#1f2a37">지침서·입력 문제로</text>
+<text x="556" y="516" font-size="26" fill="#1f2a37">같은 오류가 반복될 것 같다</text>
+<line x1="1064" y1="488" x2="1094" y2="488" stroke="#5b7fb5" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="1100" y="444" width="436" height="88" rx="12" fill="#f1f5fb" stroke="#2f5d9b" stroke-width="3"/>
+<text x="1126" y="480" font-size="26" font-weight="bold" fill="#14253d">지침서·입력을 고친 뒤 재실행</text>
+<text x="1126" y="516" font-size="26" fill="#1f2a37">고친 점을 기록</text>
+
+<rect x="530" y="540" width="530" height="88" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="556" y="576" font-size="26" fill="#1f2a37">높음 오류가 있거나</text>
+<text x="556" y="612" font-size="26" fill="#1f2a37">지어냄이 여러 개</text>
+<line x1="1064" y1="584" x2="1094" y2="584" stroke="#5b7fb5" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="1100" y="540" width="436" height="88" rx="12" fill="#f1f5fb" stroke="#a33a3a" stroke-width="3"/>
+<text x="1126" y="576" font-size="26" font-weight="bold" fill="#a33a3a">결과 폐기</text>
+<text x="1126" y="612" font-size="26" fill="#1f2a37">원인을 찾아 고친 뒤 재실행</text>
+
+<rect x="530" y="636" width="530" height="88" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="556" y="672" font-size="26" fill="#1f2a37">재실행해도 같은 높음 오류 반복</text>
+<text x="556" y="708" font-size="26" fill="#566273">(권고 2회까지 · 시험하지 않음)</text>
+<line x1="1064" y1="680" x2="1094" y2="680" stroke="#5b7fb5" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="1100" y="636" width="436" height="88" rx="12" fill="#f1f5fb" stroke="#a33a3a" stroke-width="3"/>
+<text x="1126" y="672" font-size="26" font-weight="bold" fill="#14253d">그 부분은 사람이 직접 작성</text>
+<text x="1126" y="708" font-size="26" fill="#1f2a37">지침서 개선 목록에 올림</text>
+
+<rect x="530" y="732" width="530" height="88" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="556" y="768" font-size="26" fill="#1f2a37">판단 필요 · 규칙 모호 ·</text>
+<text x="556" y="804" font-size="26" fill="#1f2a37">등급(CH03) 문제 의심</text>
+<line x1="1064" y1="776" x2="1094" y2="776" stroke="#5b7fb5" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="1100" y="732" width="436" height="88" rx="12" fill="#f1f5fb" stroke="#b7791f" stroke-width="3"/>
+<text x="1126" y="768" font-size="26" font-weight="bold" fill="#14253d">담당자·승인자에게 확인</text>
+<text x="1126" y="804" font-size="26" fill="#1f2a37">확인 전에는 공유하지 않음</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

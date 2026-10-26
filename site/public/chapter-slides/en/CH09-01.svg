@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">Structure of an AI work request</title>
+<desc id="d">Shows the six parts of an AI work request (purpose, input material, task, output format, rules, how to check) and what to define about the input material and the expected output before requesting.</desc>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><polygon points="0,0 10,5 0,10" fill="#5b7fb5"/></marker>
+</defs>
+<text x="64" y="70" font-size="22" font-weight="700" fill="#2f5d9b">CH09 · 1/3</text>
+<text x="64" y="128" font-size="46" font-weight="700" fill="#14253d">Structure of an AI work request</text>
+<text x="64" y="172" font-size="26" fill="#566273">A vague request gives a vague result — include all six parts</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- left: input material -->
+<rect x="64" y="300" width="350" height="300" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<rect x="64" y="300" width="350" height="60" rx="12" fill="#14253d"/>
+<text x="239" y="340" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">Input material</text>
+<text x="88" y="408" font-size="25" fill="#1f2a37">· Tier checked? (CH03)</text>
+<text x="88" y="456" font-size="25" fill="#1f2a37">· Which version?</text>
+<text x="112" y="492" font-size="25" fill="#566273">(CH04 file naming)</text>
+<text x="88" y="540" font-size="25" fill="#1f2a37">· What it contains,</text>
+<text x="112" y="576" font-size="25" fill="#1f2a37">what is missing</text>
+<line x1="414" y1="430" x2="470" y2="430" stroke="#5b7fb5" stroke-width="4" marker-end="url(#ar)"/>
+
+<!-- centre: request -->
+<rect x="474" y="230" width="652" height="56" rx="12" fill="#14253d"/>
+<text x="800" y="268" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle">Work request</text>
+
+<rect x="474" y="300" width="652" height="80" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<rect x="490" y="312" width="280" height="56" rx="10" fill="#2f5d9b"/>
+<text x="630" y="349" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">① Purpose</text>
+<text x="790" y="349" font-size="25" fill="#1f2a37">Why you do this task</text>
+
+<rect x="474" y="390" width="652" height="80" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<rect x="490" y="402" width="280" height="56" rx="10" fill="#2f5d9b"/>
+<text x="630" y="439" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">② Input material</text>
+<text x="790" y="424" font-size="25" fill="#1f2a37">What you give,</text>
+<text x="790" y="456" font-size="25" fill="#1f2a37">and its tier</text>
+
+<rect x="474" y="480" width="652" height="80" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<rect x="490" y="492" width="280" height="56" rx="10" fill="#2f5d9b"/>
+<text x="630" y="529" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">③ Task</text>
+<text x="790" y="529" font-size="25" fill="#1f2a37">The work to be done</text>
+
+<rect x="474" y="570" width="652" height="80" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<rect x="490" y="582" width="280" height="56" rx="10" fill="#2f5d9b"/>
+<text x="630" y="619" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">④ Output format</text>
+<text x="790" y="619" font-size="25" fill="#1f2a37">Shape, items, length</text>
+
+<rect x="474" y="660" width="652" height="80" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<rect x="490" y="672" width="280" height="56" rx="10" fill="#2f5d9b"/>
+<text x="630" y="709" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">⑤ Rules</text>
+<text x="790" y="694" font-size="25" fill="#1f2a37">What not to do; what</text>
+<text x="790" y="726" font-size="25" fill="#1f2a37">to do when you don't know</text>
+
+<rect x="474" y="750" width="652" height="80" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<rect x="490" y="762" width="280" height="56" rx="10" fill="#2f5d9b"/>
+<text x="630" y="799" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">⑥ How to check</text>
+<text x="790" y="784" font-size="25" fill="#1f2a37">What the person</text>
+<text x="790" y="816" font-size="25" fill="#1f2a37">will check</text>
+
+<!-- right: expected output -->
+<line x1="1126" y1="610" x2="1182" y2="610" stroke="#5b7fb5" stroke-width="4" marker-end="url(#ar)"/>
+<rect x="1186" y="380" width="350" height="460" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<rect x="1186" y="380" width="350" height="60" rx="12" fill="#14253d"/>
+<text x="1361" y="420" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">Expected output</text>
+<text x="1210" y="488" font-size="25" fill="#1f2a37">· Who will use it?</text>
+<text x="1210" y="524" font-size="25" fill="#1f2a37">· Which items are</text>
+<text x="1234" y="556" font-size="25" fill="#1f2a37">required?</text>
+<text x="1210" y="598" font-size="25" fill="#1f2a37">· What it will not do</text>
+<text x="1234" y="630" font-size="25" fill="#566273">(deciding for someone,</text>
+<text x="1234" y="662" font-size="25" fill="#566273">sending outside, etc.)</text>
+<rect x="1202" y="694" width="318" height="132" rx="12" fill="#e6eef9" stroke="#2f6f73" stroke-width="2"/>
+<text x="1361" y="732" font-size="24" font-weight="700" fill="#14253d" text-anchor="middle">First write when it</text>
+<text x="1361" y="766" font-size="24" font-weight="700" fill="#14253d" text-anchor="middle">counts as finished</text>
+<text x="1361" y="800" font-size="24" fill="#2f6f73" text-anchor="middle">→ easier verification</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

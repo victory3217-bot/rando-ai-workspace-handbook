@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">Information tiers A, B, C</title>
+<desc id="d">Compares the criterion, examples, and action for information you may enter (A), information you enter after masking (B), and information you do not enter (C). The tiers are the author's teaching scheme, not a legal classification or official standard, and company rules come first.</desc>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<text x="64" y="70" font-size="22" font-weight="700" fill="#2f5d9b">CH03 · 2/3</text>
+<text x="64" y="128" font-size="46" font-weight="700" fill="#14253d">Information tiers A, B, C: sort before you enter</text>
+<text x="64" y="172" font-size="26" fill="#566273">The author's teaching scheme — not a legal classification or an official standard</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- column A -->
+<rect x="64" y="218" width="478" height="570" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<rect x="64" y="218" width="478" height="72" rx="12" fill="#14253d"/>
+<text x="303" y="265" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">A · May enter</text>
+<text x="88" y="330" font-size="24" font-weight="700" fill="#2f5d9b">Criterion</text>
+<text x="88" y="366" font-size="26" fill="#1f2a37">Already public, or not tied to</text>
+<text x="88" y="400" font-size="26" fill="#1f2a37">a specific person or company</text>
+<text x="88" y="482" font-size="24" font-weight="700" fill="#2f5d9b">Examples</text>
+<text x="88" y="516" font-size="24" fill="#1f2a37">Introduction posted on the website</text>
+<text x="88" y="550" font-size="24" fill="#1f2a37">Public version of a press release</text>
+<text x="88" y="584" font-size="24" fill="#1f2a37">General-knowledge questions</text>
+<text x="88" y="618" font-size="24" fill="#1f2a37">This book's fictional data</text>
+<rect x="84" y="690" width="438" height="82" rx="12" fill="#ffffff" stroke="#2f6f73" stroke-width="3"/>
+<text x="303" y="741" font-size="28" font-weight="700" fill="#2f6f73" text-anchor="middle">You may enter it</text>
+
+<!-- column B -->
+<rect x="561" y="218" width="478" height="570" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<rect x="561" y="218" width="478" height="72" rx="12" fill="#14253d"/>
+<text x="800" y="265" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">B · Enter after masking</text>
+<text x="585" y="330" font-size="24" font-weight="700" fill="#2f5d9b">Criterion</text>
+<text x="585" y="366" font-size="26" fill="#1f2a37">Internal work information with</text>
+<text x="585" y="400" font-size="26" fill="#1f2a37">only its structure left after</text>
+<text x="585" y="434" font-size="26" fill="#1f2a37">removing names, amounts, contacts</text>
+<text x="585" y="482" font-size="24" font-weight="700" fill="#2f5d9b">Examples</text>
+<text x="585" y="516" font-size="24" fill="#1f2a37">Meeting minutes</text>
+<text x="585" y="550" font-size="24" fill="#1f2a37">Draft internal reports</text>
+<text x="585" y="584" font-size="24" fill="#1f2a37">Terms by client</text>
+<rect x="573" y="690" width="454" height="82" rx="12" fill="#ffffff" stroke="#b7791f" stroke-width="3"/>
+<text x="800" y="724" font-size="24" font-weight="700" fill="#14253d" text-anchor="middle">Only in an allowed service/account,</text>
+<text x="800" y="756" font-size="24" font-weight="700" fill="#14253d" text-anchor="middle">after masking what could identify</text>
+
+<!-- column C -->
+<rect x="1058" y="218" width="478" height="570" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<rect x="1058" y="218" width="478" height="72" rx="12" fill="#14253d"/>
+<text x="1297" y="265" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">C · Do not enter</text>
+<text x="1082" y="330" font-size="24" font-weight="700" fill="#2f5d9b">Criterion</text>
+<text x="1082" y="366" font-size="26" fill="#1f2a37">Hard to take back once sent,</text>
+<text x="1082" y="400" font-size="26" fill="#1f2a37">or likely to need protection</text>
+<text x="1082" y="434" font-size="26" fill="#1f2a37">under a contract or rule</text>
+<text x="1082" y="482" font-size="24" font-weight="700" fill="#2f5d9b">Examples</text>
+<text x="1082" y="516" font-size="24" fill="#1f2a37">Lists that identify people</text>
+<text x="1082" y="550" font-size="24" fill="#1f2a37">Info treated as sensitive (e.g. health)</text>
+<text x="1082" y="584" font-size="24" fill="#1f2a37">Passwords, verification codes, API keys</text>
+<text x="1082" y="618" font-size="24" fill="#1f2a37">Material under confidentiality</text>
+<text x="1082" y="652" font-size="24" fill="#1f2a37">Business plan before investor release</text>
+<text x="1082" y="686" font-size="24" fill="#1f2a37">Material your organization prohibits</text>
+<rect x="1078" y="704" width="438" height="70" rx="12" fill="#ffffff" stroke="#a33a3a" stroke-width="3"/>
+<text x="1297" y="749" font-size="28" font-weight="700" fill="#a33a3a" text-anchor="middle">Do not enter it</text>
+
+<!-- hedge note -->
+<rect x="64" y="800" width="1472" height="50" rx="12" fill="#e6eef9"/>
+<text x="800" y="834" font-size="24" fill="#14253d" text-anchor="middle">Personal information or a trade secret under the law? Ask security or legal · Company rules come first</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

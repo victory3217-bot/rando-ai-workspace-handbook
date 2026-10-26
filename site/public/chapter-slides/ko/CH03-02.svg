@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">정보 등급 A·B·C</title>
+<desc id="d">업무자료를 넣어도 되는 정보(A), 가린 뒤 넣는 정보(B), 넣지 않는 정보(C)로 나누는 기준과 예, 행동을 비교합니다. 이 등급은 저자의 교육용 기준이며 법적 분류나 공인 기준이 아니고, 회사 규정이 우선합니다.</desc>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<text x="64" y="70" font-size="22" font-weight="700" fill="#2f5d9b">CH03 · 2/3</text>
+<text x="64" y="128" font-size="46" font-weight="700" fill="#14253d">정보 등급 A·B·C: 넣기 전에 나누기</text>
+<text x="64" y="172" font-size="26" fill="#566273">저자의 교육용 기준 — 법적 분류나 공인된 기준이 아닙니다</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- column A -->
+<rect x="64" y="218" width="478" height="570" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<rect x="64" y="218" width="478" height="72" rx="12" fill="#14253d"/>
+<text x="303" y="265" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle">A · 넣어도 되는 정보</text>
+<text x="88" y="330" font-size="24" font-weight="700" fill="#2f5d9b">기준</text>
+<text x="88" y="366" font-size="26" fill="#1f2a37">이미 공개되었거나</text>
+<text x="88" y="400" font-size="26" fill="#1f2a37">특정인·특정 회사와 무관</text>
+<text x="88" y="482" font-size="24" font-weight="700" fill="#2f5d9b">예</text>
+<text x="88" y="516" font-size="24" fill="#1f2a37">홈페이지 소개글</text>
+<text x="88" y="550" font-size="24" fill="#1f2a37">보도자료 공개본</text>
+<text x="88" y="584" font-size="24" fill="#1f2a37">일반 상식 질문</text>
+<text x="88" y="618" font-size="24" fill="#1f2a37">이 책의 가상자료</text>
+<rect x="84" y="690" width="438" height="82" rx="12" fill="#ffffff" stroke="#2f6f73" stroke-width="3"/>
+<text x="303" y="741" font-size="28" font-weight="700" fill="#2f6f73" text-anchor="middle">넣어도 된다</text>
+
+<!-- column B -->
+<rect x="561" y="218" width="478" height="570" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<rect x="561" y="218" width="478" height="72" rx="12" fill="#14253d"/>
+<text x="800" y="265" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle">B · 가린 뒤 넣는 정보</text>
+<text x="585" y="330" font-size="24" font-weight="700" fill="#2f5d9b">기준</text>
+<text x="585" y="366" font-size="26" fill="#1f2a37">회사 내부 업무정보</text>
+<text x="585" y="400" font-size="26" fill="#1f2a37">이름·금액·연락처를 빼면</text>
+<text x="585" y="434" font-size="26" fill="#1f2a37">구조만 남는 것</text>
+<text x="585" y="482" font-size="24" font-weight="700" fill="#2f5d9b">예</text>
+<text x="585" y="516" font-size="24" fill="#1f2a37">회의록</text>
+<text x="585" y="550" font-size="24" fill="#1f2a37">내부 보고서 초안</text>
+<text x="585" y="584" font-size="24" fill="#1f2a37">거래처별 조건</text>
+<rect x="573" y="690" width="454" height="82" rx="12" fill="#ffffff" stroke="#b7791f" stroke-width="3"/>
+<text x="800" y="724" font-size="24" font-weight="700" fill="#14253d" text-anchor="middle">조직이 허용한 서비스·계정에서만,</text>
+<text x="800" y="756" font-size="24" font-weight="700" fill="#14253d" text-anchor="middle">식별 부분을 가린 뒤 넣는다</text>
+
+<!-- column C -->
+<rect x="1058" y="218" width="478" height="570" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<rect x="1058" y="218" width="478" height="72" rx="12" fill="#14253d"/>
+<text x="1297" y="265" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle">C · 넣지 않는 정보</text>
+<text x="1082" y="330" font-size="24" font-weight="700" fill="#2f5d9b">기준</text>
+<text x="1082" y="366" font-size="26" fill="#1f2a37">한번 보내면 되돌리기 어렵거나</text>
+<text x="1082" y="400" font-size="26" fill="#1f2a37">계약·규정상 보호할</text>
+<text x="1082" y="434" font-size="26" fill="#1f2a37">가능성이 큰 정보</text>
+<text x="1082" y="482" font-size="24" font-weight="700" fill="#2f5d9b">예</text>
+<text x="1082" y="516" font-size="24" fill="#1f2a37">사람을 알아볼 수 있는 정보 목록</text>
+<text x="1082" y="550" font-size="24" fill="#1f2a37">민감하게 다루는 정보(건강 등)</text>
+<text x="1082" y="584" font-size="24" fill="#1f2a37">비밀번호·인증번호·API 키</text>
+<text x="1082" y="618" font-size="24" fill="#1f2a37">비밀유지 대상 자료</text>
+<text x="1082" y="652" font-size="24" fill="#1f2a37">투자자 배포 전 사업계획서</text>
+<text x="1082" y="686" font-size="24" fill="#1f2a37">조직이 금지한 자료</text>
+<rect x="1078" y="704" width="438" height="70" rx="12" fill="#ffffff" stroke="#a33a3a" stroke-width="3"/>
+<text x="1297" y="749" font-size="28" font-weight="700" fill="#a33a3a" text-anchor="middle">넣지 않는다</text>
+
+<!-- hedge note -->
+<rect x="64" y="800" width="1472" height="50" rx="12" fill="#e6eef9"/>
+<text x="800" y="834" font-size="24" fill="#14253d" text-anchor="middle">법령상 개인정보·영업비밀 해당 여부는 정보보안·법무 담당자에게 확인 · 회사 규정이 이 장보다 우선</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

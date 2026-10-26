@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">Input → processing → verification → output</title>
+<desc id="d">An example flowchart for candidate A (meeting minutes) showing, for input, processing, verification and output, what a person and the AI do, the approval point, the stop condition and the path back after a fix.</desc>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5b7fb5"/></marker>
+<marker id="ahr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#a33a3a"/></marker>
+<marker id="aha" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b7791f"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<text x="64" y="70" font-size="22" font-weight="bold" fill="#2f5d9b">CH11 · 2/3</text>
+<text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">Input → processing → verification → output</text>
+<text x="64" y="172" font-size="26" fill="#566273">Example flowchart for candidate A (meeting minutes): who does what, where a person stops and approves</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- phases -->
+<rect x="64" y="228" width="220" height="62" rx="12" fill="#14253d"/>
+<text x="174" y="268" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">Input</text>
+<rect x="64" y="318" width="220" height="152" rx="12" fill="#2f5d9b"/>
+<text x="174" y="403" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">Processing</text>
+<rect x="64" y="498" width="220" height="152" rx="12" fill="#5b7fb5"/>
+<text x="174" y="583" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">Verification</text>
+<rect x="64" y="678" width="220" height="152" rx="12" fill="#14253d"/>
+<text x="174" y="763" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">Output</text>
+
+<!-- vertical flow arrows -->
+<line x1="788" y1="292" x2="788" y2="315" stroke="#5b7fb5" stroke-width="3" marker-end="url(#ah)"/>
+<line x1="788" y1="382" x2="788" y2="405" stroke="#5b7fb5" stroke-width="3" marker-end="url(#ah)"/>
+<line x1="788" y1="472" x2="788" y2="495" stroke="#5b7fb5" stroke-width="3" marker-end="url(#ah)"/>
+<line x1="788" y1="562" x2="788" y2="585" stroke="#5b7fb5" stroke-width="3" marker-end="url(#ah)"/>
+<line x1="788" y1="652" x2="788" y2="675" stroke="#5b7fb5" stroke-width="3" marker-end="url(#ah)"/>
+<line x1="788" y1="742" x2="788" y2="765" stroke="#5b7fb5" stroke-width="3" marker-end="url(#ah)"/>
+<text x="804" y="402" font-size="22" fill="#2f6f73">no problem</text>
+<text x="804" y="672" font-size="22" fill="#2f6f73">yes</text>
+
+<!-- n0 input -->
+<rect x="300" y="228" width="820" height="62" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="324" y="268" font-size="26" fill="#1f2a37">Meeting notes (masked, CH03 B)</text>
+<!-- n1 -->
+<rect x="300" y="318" width="140" height="62" rx="12" fill="#ffffff" stroke="#14253d" stroke-width="2"/>
+<text x="370" y="358" font-size="24" font-weight="bold" fill="#14253d" text-anchor="middle">Person</text>
+<rect x="456" y="318" width="664" height="62" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="480" y="358" font-size="26" fill="#1f2a37">1. Check the notes' tier and masking</text>
+<!-- n2 -->
+<rect x="300" y="408" width="140" height="62" rx="12" fill="#2f5d9b"/>
+<text x="370" y="448" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">AI</text>
+<rect x="456" y="408" width="664" height="62" rx="12" fill="#e6eef9"/>
+<text x="480" y="448" font-size="26" fill="#1f2a37">2. Draft minutes per work instructions v02</text>
+<!-- n3 -->
+<rect x="300" y="498" width="140" height="62" rx="12" fill="#ffffff" stroke="#14253d" stroke-width="2"/>
+<text x="370" y="538" font-size="24" font-weight="bold" fill="#14253d" text-anchor="middle">Person</text>
+<rect x="456" y="498" width="664" height="62" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="480" y="538" font-size="26" fill="#1f2a37">3. Fact-check table vs original; recalc numbers</text>
+<!-- n4 approval -->
+<rect x="300" y="588" width="140" height="62" rx="12" fill="#ffffff" stroke="#b7791f" stroke-width="3"/>
+<text x="370" y="628" font-size="24" font-weight="bold" fill="#b7791f" text-anchor="middle">Approver</text>
+<rect x="456" y="588" width="664" height="62" rx="12" fill="#ffffff" stroke="#b7791f" stroke-width="3"/>
+<text x="480" y="628" font-size="26" font-weight="bold" fill="#14253d">◆ Approval: has the manager checked it?</text>
+<!-- n5 -->
+<rect x="300" y="678" width="140" height="62" rx="12" fill="#ffffff" stroke="#14253d" stroke-width="2"/>
+<text x="370" y="718" font-size="24" font-weight="bold" fill="#14253d" text-anchor="middle">Person</text>
+<rect x="456" y="678" width="664" height="62" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="480" y="718" font-size="26" fill="#1f2a37">4. Save final (03_Final), record approval</text>
+<!-- n6 output -->
+<rect x="300" y="768" width="820" height="62" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="324" y="808" font-size="26" fill="#1f2a37">Share with the team (a person sends it directly)</text>
+
+<!-- branch: stop -->
+<line x1="1122" y1="349" x2="1166" y2="349" stroke="#a33a3a" stroke-width="3" marker-end="url(#ahr)"/>
+<rect x="1170" y="296" width="366" height="110" rx="12" fill="#ffffff" stroke="#a33a3a" stroke-width="3"/>
+<text x="1192" y="330" font-size="22" font-weight="bold" fill="#a33a3a">If personal info is found</text>
+<text x="1192" y="362" font-size="24" fill="#1f2a37">Stop: do not process;</text>
+<text x="1192" y="392" font-size="24" fill="#1f2a37">notify person in charge</text>
+
+<!-- branch: fix loop -->
+<line x1="1122" y1="619" x2="1166" y2="619" stroke="#b7791f" stroke-width="3" marker-end="url(#aha)"/>
+<rect x="1170" y="580" width="366" height="80" rx="12" fill="#ffffff" stroke="#b7791f" stroke-width="3"/>
+<text x="1192" y="612" font-size="22" font-weight="bold" fill="#b7791f">No</text>
+<text x="1192" y="644" font-size="24" fill="#1f2a37">Fix, then back to step 3</text>
+<path d="M1353 578 V529 H1126" fill="none" stroke="#b7791f" stroke-width="3" marker-end="url(#aha)"/>
+
+<!-- SOP note -->
+<rect x="1170" y="684" width="366" height="146" rx="12" fill="#e6eef9"/>
+<text x="1192" y="718" font-size="24" font-weight="bold" fill="#14253d">Standard operating</text>
+<text x="1192" y="750" font-size="24" font-weight="bold" fill="#14253d">procedure (SOP)</text>
+<text x="1192" y="784" font-size="24" fill="#1f2a37">this flowchart as</text>
+<text x="1192" y="816" font-size="24" fill="#1f2a37">numbered sentences</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

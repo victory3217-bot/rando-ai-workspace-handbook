@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">Human approval points and exceptions</title>
+<desc id="d">Shows the five criteria (the author's suggestion) for placing a human approval point, the principle of not handing these points to AI, and what to do in six situations where things do not go according to the set procedure.</desc>
+<defs>
+<polygon id="ar" points="0,-10 18,0 0,10" fill="#5b7fb5"/>
+</defs>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<text x="64" y="70" font-size="22" font-weight="bold" fill="#2f5d9b">CH11 · 3/3</text>
+<text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">Human approval points and exceptions</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- left: approval point criteria -->
+<rect x="64" y="222" width="636" height="78" rx="12" fill="#14253d"/>
+<text x="90" y="256" font-size="28" font-weight="bold" fill="#ffffff">Make it a human approval point</text>
+<text x="90" y="288" font-size="22" fill="#ffffff">Author's interpretation (a suggestion)</text>
+
+<rect x="64" y="312" width="636" height="76" rx="12" fill="#e6eef9"/>
+<rect x="64" y="312" width="10" height="76" fill="#b7791f"/>
+<text x="94" y="344" font-size="26" font-weight="bold" fill="#14253d">Going outside</text>
+<text x="94" y="374" font-size="24" fill="#1f2a37">sharing, sending, posting, submitting</text>
+<rect x="64" y="396" width="636" height="76" rx="12" fill="#e6eef9"/>
+<rect x="64" y="396" width="10" height="76" fill="#b7791f"/>
+<text x="94" y="428" font-size="26" font-weight="bold" fill="#14253d">Hard to undo</text>
+<text x="94" y="458" font-size="24" fill="#1f2a37">deleting, overwriting, money decisions</text>
+<rect x="64" y="480" width="636" height="76" rx="12" fill="#e6eef9"/>
+<rect x="64" y="480" width="10" height="76" fill="#b7791f"/>
+<text x="94" y="512" font-size="26" font-weight="bold" fill="#14253d">Judgment and responsibility</text>
+<text x="94" y="542" font-size="24" fill="#1f2a37">who takes on what; is it true</text>
+<rect x="64" y="564" width="636" height="76" rx="12" fill="#e6eef9"/>
+<rect x="64" y="564" width="10" height="76" fill="#b7791f"/>
+<text x="94" y="596" font-size="26" font-weight="bold" fill="#14253d">Before material goes into AI</text>
+<text x="94" y="626" font-size="24" fill="#1f2a37">tier (CH03), masking</text>
+<rect x="64" y="648" width="636" height="76" rx="12" fill="#e6eef9"/>
+<rect x="64" y="648" width="10" height="76" fill="#b7791f"/>
+<text x="94" y="680" font-size="26" font-weight="bold" fill="#14253d">When the AI is unsure</text>
+<text x="94" y="710" font-size="24" fill="#1f2a37">or shows signs of breaking a rule</text>
+
+<rect x="64" y="738" width="636" height="108" rx="12" fill="#ffffff" stroke="#2f6f73" stroke-width="3"/>
+<text x="90" y="772" font-size="26" font-weight="bold" fill="#2f6f73">Do not hand these points over to AI</text>
+<text x="90" y="806" font-size="24" fill="#1f2a37">AI follows instructions</text>
+<text x="90" y="836" font-size="24" fill="#1f2a37">and reports when it does not know</text>
+
+<!-- right: exceptions -->
+<rect x="740" y="222" width="796" height="78" rx="12" fill="#2f5d9b"/>
+<text x="766" y="256" font-size="28" font-weight="bold" fill="#ffffff">Exception handling</text>
+<text x="766" y="288" font-size="22" fill="#ffffff">Off the set procedure → what to do</text>
+
+<rect x="740" y="312" width="320" height="82" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="762" y="346" font-size="24" fill="#1f2a37">Input is empty or</text>
+<text x="762" y="378" font-size="24" fill="#1f2a37">in a different format</text>
+<use href="#ar" x="1064" y="353"/>
+<rect x="1088" y="312" width="448" height="82" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="1110" y="346" font-size="24" fill="#1f2a37">Do not start;</text>
+<text x="1110" y="378" font-size="24" fill="#1f2a37">ask to complete the input</text>
+
+<rect x="740" y="402" width="320" height="82" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="762" y="436" font-size="24" fill="#1f2a37">Personal info or a</text>
+<text x="762" y="468" font-size="24" fill="#1f2a37">password appears</text>
+<use href="#ar" x="1064" y="443"/>
+<rect x="1088" y="402" width="448" height="82" rx="12" fill="#ffffff" stroke="#a33a3a" stroke-width="3"/>
+<text x="1110" y="436" font-size="24" font-weight="bold" fill="#a33a3a">Stop, notify person in charge,</text>
+<text x="1110" y="468" font-size="24" fill="#1f2a37">delete the chat (CH03)</text>
+
+<rect x="740" y="492" width="320" height="82" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="762" y="526" font-size="24" fill="#1f2a37">AI result breaks a</text>
+<text x="762" y="558" font-size="24" fill="#1f2a37">work-instruction rule</text>
+<use href="#ar" x="1064" y="533"/>
+<rect x="1088" y="492" width="448" height="82" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="1110" y="526" font-size="24" fill="#1f2a37">Discard or rewrite it; note the</text>
+<text x="1110" y="558" font-size="24" fill="#1f2a37">broken rule in improvements</text>
+
+<rect x="740" y="582" width="320" height="82" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="762" y="616" font-size="24" fill="#1f2a37">A number or quote</text>
+<text x="762" y="648" font-size="24" fill="#1f2a37">differs from original</text>
+<use href="#ar" x="1064" y="623"/>
+<rect x="1088" y="582" width="448" height="82" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="1110" y="616" font-size="24" fill="#1f2a37">Correct with fact-check table;</text>
+<text x="1110" y="648" font-size="24" fill="#1f2a37">else leave “Needs confirmation”</text>
+
+<rect x="740" y="672" width="320" height="82" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="762" y="706" font-size="24" fill="#1f2a37">AI service is down</text>
+<text x="762" y="738" font-size="24" fill="#1f2a37">or you hit a limit</text>
+<use href="#ar" x="1064" y="713"/>
+<rect x="1088" y="672" width="448" height="82" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="1110" y="706" font-size="24" fill="#1f2a37">Do it by hand per instructions,</text>
+<text x="1110" y="738" font-size="24" fill="#1f2a37">or next day (deadline: notify)</text>
+
+<rect x="740" y="762" width="320" height="82" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="762" y="796" font-size="24" fill="#1f2a37">No approver, or</text>
+<text x="762" y="828" font-size="24" fill="#1f2a37">approval is delayed</text>
+<use href="#ar" x="1064" y="803"/>
+<rect x="1088" y="762" width="448" height="82" rx="12" fill="#ffffff" stroke="#b7791f" stroke-width="3"/>
+<text x="1110" y="796" font-size="24" font-weight="bold" fill="#b7791f">Do not share; wait</text>
+<text x="1110" y="828" font-size="24" fill="#1f2a37">If urgent, ask a superior</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

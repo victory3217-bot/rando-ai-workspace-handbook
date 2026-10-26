@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">복구 순서와 마지막 안전장치</title>
+<desc id="d">잘못 고치거나 지운 파일을 복구하는 네 단계와, 이전 버전 파일에서 휴지통, 서비스의 버전 기록, 백업으로 이어지는 찾는 순서를 보여 준다. 휴지통과 버전 기록은 기간과 조건이 있는 안전망이어서 백업을 대신하지 못한다는 점을 공식 문서의 보관 조건과 함께 설명한다.</desc>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<text x="64" y="70" font-size="22" font-weight="bold" fill="#2f5d9b">CH13 · 2/3</text>
+<text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">복구: 가까운 곳부터, 마지막에 기댈 곳은 백업</text>
+<text x="64" y="172" font-size="26" fill="#566273">복구 순서는 저자의 제안 · 공식 문서 확인일 2026-10-26</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- four recovery steps -->
+<rect x="64" y="216" width="350" height="80" rx="12" fill="#e6eef9" stroke="#c9d4e5" stroke-width="2"/>
+<text x="239" y="249" font-size="26" font-weight="bold" fill="#14253d" text-anchor="middle">① 멈춘다</text>
+<text x="239" y="282" font-size="22" fill="#566273" text-anchor="middle">더 저장하지 않고 닫기</text>
+<polygon points="418,246 434,256 418,266" fill="#2f5d9b"/>
+<rect x="438" y="216" width="350" height="80" rx="12" fill="#2f5d9b"/>
+<text x="613" y="249" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">② 가까운 곳부터 찾기</text>
+<text x="613" y="282" font-size="22" fill="#ffffff" text-anchor="middle">아래 순서대로</text>
+<polygon points="792,246 808,256 792,266" fill="#2f5d9b"/>
+<rect x="812" y="216" width="350" height="80" rx="12" fill="#e6eef9" stroke="#c9d4e5" stroke-width="2"/>
+<text x="987" y="249" font-size="26" font-weight="bold" fill="#14253d" text-anchor="middle">③ 새 이름으로 열기</text>
+<text x="987" y="282" font-size="22" fill="#566273" text-anchor="middle">내용 확인 후 바꾸기</text>
+<polygon points="1166,246 1182,256 1166,266" fill="#2f5d9b"/>
+<rect x="1186" y="216" width="350" height="80" rx="12" fill="#e6eef9" stroke="#c9d4e5" stroke-width="2"/>
+<text x="1361" y="249" font-size="26" font-weight="bold" fill="#14253d" text-anchor="middle">④ 기록하기</text>
+<text x="1361" y="282" font-size="22" fill="#566273" text-anchor="middle">변경이력표 · 오류 기록</text>
+
+<!-- search order -->
+<text x="64" y="334" font-size="24" font-weight="bold" fill="#2f5d9b">② 찾는 순서: 가까운 곳 → 먼 곳</text>
+<rect x="64" y="350" width="344" height="190" rx="12" fill="#ffffff" stroke="#5b7fb5" stroke-width="2"/>
+<text x="236" y="394" font-size="28" font-weight="bold" fill="#14253d" text-anchor="middle">이전 버전 파일</text>
+<text x="236" y="458" font-size="24" fill="#1f2a37" text-anchor="middle">내가 저장해 둔 v01</text>
+<text x="236" y="490" font-size="24" fill="#1f2a37" text-anchor="middle">(예: 90_보관)</text>
+<polygon points="412,435 432,445 412,455" fill="#2f5d9b"/>
+<rect x="440" y="350" width="344" height="190" rx="12" fill="#ffffff" stroke="#5b7fb5" stroke-width="2"/>
+<text x="612" y="394" font-size="28" font-weight="bold" fill="#14253d" text-anchor="middle">휴지통</text>
+<text x="612" y="458" font-size="24" fill="#1f2a37" text-anchor="middle">Windows 휴지통</text>
+<text x="612" y="490" font-size="24" fill="#1f2a37" text-anchor="middle">서비스의 휴지통</text>
+<text x="612" y="522" font-size="24" fill="#566273" text-anchor="middle">비우면 대개 복원 불가</text>
+<polygon points="788,435 808,445 788,455" fill="#2f5d9b"/>
+<rect x="816" y="350" width="344" height="190" rx="12" fill="#ffffff" stroke="#5b7fb5" stroke-width="2"/>
+<text x="988" y="394" font-size="28" font-weight="bold" fill="#14253d" text-anchor="middle">서비스의 버전 기록</text>
+<text x="988" y="458" font-size="24" fill="#1f2a37" text-anchor="middle">서비스마다 조건 다름</text>
+<text x="988" y="490" font-size="24" fill="#1f2a37" text-anchor="middle">세부 조건은</text>
+<text x="988" y="522" font-size="24" fill="#1f2a37" text-anchor="middle">내 계정에서 직접 확인</text>
+<polygon points="1164,435 1184,445 1164,455" fill="#2f5d9b"/>
+<rect x="1192" y="350" width="344" height="190" rx="12" fill="#14253d"/>
+<text x="1364" y="394" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">백업</text>
+<text x="1364" y="458" font-size="24" fill="#ffffff" text-anchor="middle">서비스로 복구할 수</text>
+<text x="1364" y="490" font-size="24" fill="#ffffff" text-anchor="middle">없을 때 기댈 곳</text>
+<text x="1364" y="522" font-size="24" fill="#ffffff" text-anchor="middle">복원 시험으로 확인</text>
+
+<!-- safety-net bracket over trash + version history -->
+<path d="M452 548 V558 H1148 V548" fill="none" stroke="#b7791f" stroke-width="3"/>
+<line x1="800" y1="558" x2="800" y2="568" stroke="#b7791f" stroke-width="3"/>
+<rect x="440" y="568" width="720" height="88" rx="12" fill="#ffffff" stroke="#b7791f" stroke-width="3"/>
+<text x="800" y="604" font-size="24" font-weight="bold" fill="#1f2a37" text-anchor="middle">편리한 안전망 — 그러나 기간과 조건이 있어</text>
+<text x="800" y="638" font-size="24" font-weight="bold" fill="#1f2a37" text-anchor="middle">백업을 대신하지 못한다 (저자 해석)</text>
+
+<!-- official facts -->
+<rect x="64" y="676" width="620" height="174" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="90" y="710" font-size="24" font-weight="bold" fill="#2f5d9b">Google Drive 휴지통 [S14]</text>
+<text x="90" y="746" font-size="24" fill="#1f2a37">휴지통의 파일: 30일 뒤 영구 삭제</text>
+<text x="90" y="780" font-size="24" fill="#1f2a37">Empty trash: 즉시 영구 삭제</text>
+<text x="90" y="814" font-size="24" fill="#1f2a37">소유자가 영구 삭제 → 공유받은 사람도 접근 잃음</text>
+<rect x="704" y="676" width="832" height="174" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="730" y="710" font-size="24" font-weight="bold" fill="#2f5d9b">OneDrive 삭제 복원 [S13]</text>
+<text x="730" y="746" font-size="24" fill="#1f2a37">삭제하거나 덮어쓴 파일: 복원할 수 있는 경우 있음</text>
+<text x="730" y="780" font-size="24" fill="#1f2a37">개인 30일 · 직장·학교 93일 (관리자가 바꾸지 않은 경우)</text>
+<text x="730" y="814" font-size="24" fill="#1f2a37">휴지통에서 영구 삭제 후, 공유받은 파일은 복원 불가</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

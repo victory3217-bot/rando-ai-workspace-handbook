@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">Deciding before you enter</title>
+<desc id="d">With company rules as the premise, shows the decision flow: tier each item, enter A, enter B only in an allowed service and account after masking, and do not enter C but use another method. It also summarizes the principles for unclear cases, masked material that is still guessable, passwords and API keys, and account types.</desc>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5b7fb5"/></marker>
+</defs>
+<text x="64" y="70" font-size="22" font-weight="700" fill="#2f5d9b">CH03 · 3/3</text>
+<text x="64" y="128" font-size="46" font-weight="700" fill="#14253d">Deciding before you enter anything into AI</text>
+<text x="64" y="172" font-size="26" fill="#566273">The tier sets the action; when unsure, be more conservative</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- premise banner -->
+<rect x="64" y="214" width="1472" height="56" rx="12" fill="#14253d"/>
+<text x="800" y="251" font-size="24" fill="#ffffff" text-anchor="middle"><tspan font-weight="700">Premise</tspan> · Company security policy and AI guidelines come first · Do not enter material your organization has not approved</text>
+
+<!-- question -->
+<rect x="64" y="420" width="220" height="120" rx="12" fill="#2f5d9b"/>
+<text x="174" y="468" font-size="26" fill="#ffffff" text-anchor="middle">For each item</text>
+<text x="174" y="508" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle">Which tier?</text>
+
+<path d="M284 480 H309 V335 H330" fill="none" stroke="#5b7fb5" stroke-width="4" marker-end="url(#ar)"/>
+<path d="M309 480 V500 H330" fill="none" stroke="#5b7fb5" stroke-width="4" marker-end="url(#ar)"/>
+<path d="M309 480 V735 H330" fill="none" stroke="#5b7fb5" stroke-width="4" marker-end="url(#ar)"/>
+
+<!-- row A -->
+<rect x="334" y="290" width="696" height="90" rx="12" fill="#ffffff" stroke="#2f6f73" stroke-width="3"/>
+<rect x="354" y="305" width="60" height="60" rx="12" fill="#f1f5fb" stroke="#2f6f73" stroke-width="2"/>
+<text x="384" y="347" font-size="34" font-weight="700" fill="#2f6f73" text-anchor="middle">A</text>
+<text x="440" y="346" font-size="30" font-weight="700" fill="#2f6f73">Enter it</text>
+
+<!-- row B -->
+<rect x="334" y="400" width="696" height="215" rx="12" fill="#ffffff" stroke="#b7791f" stroke-width="3"/>
+<rect x="354" y="418" width="60" height="60" rx="12" fill="#f1f5fb" stroke="#b7791f" stroke-width="2"/>
+<text x="384" y="460" font-size="34" font-weight="700" fill="#b7791f" text-anchor="middle">B</text>
+<text x="440" y="459" font-size="28" font-weight="700" fill="#14253d">Service and account allowed by your org?</text>
+<rect x="440" y="494" width="576" height="50" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="462" y="527" font-size="24" fill="#1f2a37"><tspan font-weight="700" fill="#2f6f73">Yes</tspan> → Mask what could identify, then enter</text>
+<rect x="440" y="554" width="576" height="50" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="462" y="587" font-size="24" fill="#1f2a37"><tspan font-weight="700" fill="#b7791f">No / unsure</tspan> → Ask the person in charge first</text>
+
+<!-- row C -->
+<rect x="334" y="635" width="696" height="210" rx="12" fill="#ffffff" stroke="#a33a3a" stroke-width="3"/>
+<rect x="354" y="653" width="60" height="60" rx="12" fill="#f1f5fb" stroke="#a33a3a" stroke-width="2"/>
+<text x="384" y="695" font-size="34" font-weight="700" fill="#a33a3a" text-anchor="middle">C</text>
+<text x="440" y="694" font-size="30" font-weight="700" fill="#a33a3a">Do not enter it</text>
+<rect x="440" y="726" width="576" height="104" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="462" y="766" font-size="24" fill="#1f2a37"><tspan font-weight="700" fill="#2f5d9b">Instead</tspan> · a template only, with the name spot</text>
+<text x="462" y="808" font-size="24" fill="#1f2a37">as [Customer name], or fictional data</text>
+
+<!-- principle cards -->
+<rect x="1060" y="290" width="476" height="127" rx="12" fill="#e6eef9"/>
+<text x="1084" y="330" font-size="26" font-weight="700" fill="#14253d">If you cannot decide</text>
+<text x="1084" y="368" font-size="24" fill="#1f2a37">Choose the more conservative tier;</text>
+<text x="1084" y="400" font-size="24" fill="#1f2a37">ask, and do not enter until confirmed</text>
+
+<rect x="1060" y="433" width="476" height="127" rx="12" fill="#e6eef9"/>
+<text x="1084" y="473" font-size="26" font-weight="700" fill="#14253d">Still guessable after masking?</text>
+<text x="1084" y="511" font-size="24" fill="#1f2a37">Generalize timing, region, amount,</text>
+<text x="1084" y="543" font-size="24" fill="#1f2a37">or treat that material as Tier C</text>
+
+<rect x="1060" y="576" width="476" height="127" rx="12" fill="#e6eef9"/>
+<text x="1084" y="616" font-size="26" font-weight="700" fill="#14253d">Keys: passwords, API keys</text>
+<text x="1084" y="654" font-size="24" fill="#1f2a37">Check pasted errors, settings for keys</text>
+<text x="1084" y="686" font-size="24" fill="#1f2a37">Exposed? Revoke at once, make new</text>
+
+<rect x="1060" y="719" width="476" height="127" rx="12" fill="#e6eef9"/>
+<text x="1084" y="759" font-size="26" font-weight="700" fill="#14253d">Org account ≠ anything goes</text>
+<text x="1084" y="797" font-size="24" fill="#1f2a37">Company rules decide what to enter</text>
+<text x="1084" y="829" font-size="24" fill="#1f2a37">Personal account: may break rules</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

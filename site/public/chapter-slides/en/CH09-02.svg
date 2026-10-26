@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">Sorting the sentences of an AI draft</title>
+<desc id="d">Shows how each sentence of an AI draft is compared with the source and sorted into fact, inference, assumption or unconfirmed information, and how each category is handled in the final output.</desc>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><polygon points="0,0 10,5 0,10" fill="#5b7fb5"/></marker>
+</defs>
+<text x="64" y="70" font-size="22" font-weight="700" fill="#2f5d9b">CH09 · 2/3</text>
+<text x="64" y="128" font-size="46" font-weight="700" fill="#14253d">Sorting the sentences of an AI draft</text>
+<text x="64" y="172" font-size="26" fill="#566273">Fact, inference, assumption, unconfirmed — each one is handled differently</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<rect x="300" y="216" width="1000" height="54" rx="12" fill="#14253d"/>
+<text x="800" y="252" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">Compare each sentence of the AI draft with the source notes</text>
+<path d="M800 270 V292 M239 292 H1361" stroke="#5b7fb5" stroke-width="3" fill="none"/>
+<line x1="239" y1="292" x2="239" y2="318" stroke="#5b7fb5" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="613" y1="292" x2="613" y2="318" stroke="#5b7fb5" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="987" y1="292" x2="987" y2="318" stroke="#5b7fb5" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="1361" y1="292" x2="1361" y2="318" stroke="#5b7fb5" stroke-width="3" marker-end="url(#ar)"/>
+
+<!-- column 1: fact -->
+<rect x="64" y="322" width="350" height="306" rx="12" fill="#ffffff" stroke="#2f6f73" stroke-width="3"/>
+<text x="239" y="366" font-size="32" font-weight="700" fill="#2f6f73" text-anchor="middle">Fact</text>
+<text x="239" y="404" font-size="24" fill="#1f2a37" text-anchor="middle">Written exactly in the</text>
+<text x="239" y="434" font-size="24" fill="#1f2a37" text-anchor="middle">source; can be verified</text>
+<rect x="80" y="476" width="318" height="138" rx="10" fill="#f1f5fb"/>
+<text x="239" y="514" font-size="24" fill="#1f2a37" text-anchor="middle">"Manager A opposed</text>
+<text x="239" y="547" font-size="24" fill="#1f2a37" text-anchor="middle">the cut"</text>
+<text x="239" y="586" font-size="24" fill="#566273" text-anchor="middle">(in the notes)</text>
+<line x1="239" y1="630" x2="239" y2="646" stroke="#5b7fb5" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="64" y="650" width="350" height="80" rx="12" fill="#e6eef9" stroke="#2f6f73" stroke-width="2"/>
+<text x="239" y="699" font-size="25" font-weight="700" fill="#14253d" text-anchor="middle">Write it as is</text>
+
+<!-- column 2: inference -->
+<rect x="438" y="322" width="350" height="306" rx="12" fill="#ffffff" stroke="#b7791f" stroke-width="3"/>
+<text x="613" y="366" font-size="32" font-weight="700" fill="#b7791f" text-anchor="middle">Inference</text>
+<text x="613" y="404" font-size="24" fill="#1f2a37" text-anchor="middle">A judgment drawn from</text>
+<text x="613" y="434" font-size="24" fill="#1f2a37" text-anchor="middle">facts; not in the source</text>
+<rect x="454" y="476" width="318" height="138" rx="10" fill="#f1f5fb"/>
+<text x="613" y="514" font-size="24" fill="#1f2a37" text-anchor="middle">"The price cut seems to</text>
+<text x="613" y="547" font-size="24" fill="#1f2a37" text-anchor="middle">have been a burden"</text>
+<text x="613" y="586" font-size="24" fill="#566273" text-anchor="middle">(not in the notes)</text>
+<line x1="613" y1="630" x2="613" y2="646" stroke="#5b7fb5" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="438" y="650" width="350" height="80" rx="12" fill="#e6eef9" stroke="#b7791f" stroke-width="2"/>
+<text x="613" y="684" font-size="24" font-weight="700" fill="#14253d" text-anchor="middle">Mark it as inference</text>
+<text x="613" y="714" font-size="24" font-weight="700" fill="#14253d" text-anchor="middle">or do not write it</text>
+
+<!-- column 3: assumption -->
+<rect x="812" y="322" width="350" height="306" rx="12" fill="#ffffff" stroke="#b7791f" stroke-width="3"/>
+<text x="987" y="366" font-size="32" font-weight="700" fill="#b7791f" text-anchor="middle">Assumption</text>
+<text x="987" y="404" font-size="24" fill="#1f2a37" text-anchor="middle">A premise taken as</text>
+<text x="987" y="434" font-size="24" fill="#1f2a37" text-anchor="middle">true without checking</text>
+<rect x="828" y="476" width="318" height="138" rx="10" fill="#f1f5fb"/>
+<text x="987" y="514" font-size="24" fill="#1f2a37" text-anchor="middle">"Associate B will send</text>
+<text x="987" y="547" font-size="24" fill="#1f2a37" text-anchor="middle">it by next Tuesday"</text>
+<text x="987" y="586" font-size="24" fill="#566273" text-anchor="middle">(notes: "by next week")</text>
+<line x1="987" y1="630" x2="987" y2="646" stroke="#5b7fb5" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="812" y="650" width="350" height="80" rx="12" fill="#e6eef9" stroke="#b7791f" stroke-width="2"/>
+<text x="987" y="684" font-size="24" font-weight="700" fill="#14253d" text-anchor="middle">Mark it as assumption</text>
+<text x="987" y="714" font-size="24" font-weight="700" fill="#14253d" text-anchor="middle">and check it</text>
+
+<!-- column 4: unconfirmed -->
+<rect x="1186" y="322" width="350" height="306" rx="12" fill="#ffffff" stroke="#5b7fb5" stroke-width="3"/>
+<text x="1361" y="366" font-size="32" font-weight="700" fill="#2f5d9b" text-anchor="middle">Unconfirmed</text>
+<text x="1361" y="404" font-size="24" fill="#1f2a37" text-anchor="middle">Information you cannot</text>
+<text x="1361" y="434" font-size="24" fill="#1f2a37" text-anchor="middle">yet tell is true</text>
+<rect x="1202" y="476" width="318" height="138" rx="10" fill="#f1f5fb"/>
+<text x="1361" y="514" font-size="24" fill="#1f2a37" text-anchor="middle">"Date of the next</text>
+<text x="1361" y="547" font-size="24" fill="#1f2a37" text-anchor="middle">meeting"</text>
+<text x="1361" y="586" font-size="24" fill="#566273" text-anchor="middle">(notes: undecided)</text>
+<line x1="1361" y1="630" x2="1361" y2="646" stroke="#5b7fb5" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="1186" y="650" width="350" height="80" rx="12" fill="#e6eef9" stroke="#5b7fb5" stroke-width="2"/>
+<text x="1361" y="684" font-size="24" font-weight="700" fill="#14253d" text-anchor="middle">Leave it as "Needs</text>
+<text x="1361" y="714" font-size="24" font-weight="700" fill="#14253d" text-anchor="middle">confirmation"</text>
+
+<!-- rule band -->
+<rect x="64" y="744" width="1472" height="88" rx="12" fill="#2f5d9b"/>
+<text x="800" y="778" font-size="25" font-weight="700" fill="#ffffff" text-anchor="middle">Rule: only facts in the final output · inferences and assumptions marked to stand out</text>
+<text x="800" y="816" font-size="25" fill="#ffffff" text-anchor="middle">Unconfirmed: write "Needs confirmation", never leave it blank · to make AI keep this, put it in rule ⑤ of the request</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

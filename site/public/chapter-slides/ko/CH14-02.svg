@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">완성 수준 Level 1·2·3의 완료 조건</title>
+<desc id="d">이 책이 교육용으로 정한 세 완성 수준(설계 완료, 환경 구축 완료, 업무 실행 및 검증 완료)의 완료 조건을 보여 줍니다. 각 수준은 아래 수준의 조건을 모두 포함합니다.</desc>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<text x="64" y="70" font-size="22" font-weight="bold" fill="#2f5d9b">CH14 · 2/3</text>
+<text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">완성 수준 Level 1·2·3의 완료 조건</text>
+<text x="64" y="172" font-size="26" fill="#566273">저자 해석 · 교육용 구분(인증 기준 아님) · 판정은 학습자의 자기 평가 (2-9절)</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- Level 3 -->
+<rect x="64" y="214" width="280" height="174" rx="12" fill="#14253d"/>
+<text x="204" y="272" font-size="34" font-weight="bold" fill="#ffffff" text-anchor="middle">Level 3</text>
+<text x="204" y="312" font-size="26" fill="#ffffff" text-anchor="middle">업무 실행 및</text>
+<text x="204" y="344" font-size="26" fill="#ffffff" text-anchor="middle">검증 완료</text>
+<rect x="356" y="214" width="1180" height="174" rx="12" fill="#ffffff" stroke="#5b7fb5" stroke-width="2"/>
+<text x="380" y="252" font-size="26" font-weight="bold" fill="#2f5d9b">Level 2 +</text>
+<text x="380" y="284" font-size="24" fill="#1f2a37">· 허용된 자료(조직이 허용한 서비스·계정, CH03의 A 또는 가린 B)로 AI와 실제 업무를 수행</text>
+<text x="400" y="314" font-size="24" fill="#1f2a37">([실제 AI 실행: 허용된 업무 자료])</text>
+<text x="380" y="344" font-size="24" fill="#1f2a37">· CH12의 검증 체크리스트, 오류 기록, 사람의 최종 확인 기록이 있다</text>
+<text x="380" y="374" font-size="24" fill="#1f2a37">· 백업을 했다</text>
+
+<!-- Level 2 -->
+<rect x="64" y="400" width="280" height="174" rx="12" fill="#14253d"/>
+<text x="204" y="458" font-size="34" font-weight="bold" fill="#ffffff" text-anchor="middle">Level 2</text>
+<text x="204" y="498" font-size="26" fill="#ffffff" text-anchor="middle">환경 구축</text>
+<text x="204" y="530" font-size="26" fill="#ffffff" text-anchor="middle">완료</text>
+<rect x="356" y="400" width="1180" height="174" rx="12" fill="#ffffff" stroke="#5b7fb5" stroke-width="2"/>
+<text x="380" y="438" font-size="26" font-weight="bold" fill="#2f5d9b">Level 1 + 사용 가능한 도구에 실제로 설정했다</text>
+<text x="380" y="470" font-size="24" fill="#1f2a37">· 로컬 폴더를 실제로 만들었다 · 사용 가능한 경우 클라우드 폴더, AI 프로젝트</text>
+<text x="400" y="500" font-size="24" fill="#1f2a37">(지침 입력, 가상자료 올림)</text>
+<text x="380" y="530" font-size="24" fill="#1f2a37">· 실행 전 보안 점검을 통과했다 · 가상 파일로 백업과 복원을 한 번 해 봤다</text>
+<text x="380" y="560" font-size="24" fill="#1f2a37">· 가상자료로 실행 준비를 마쳤다</text>
+
+<!-- Level 1 -->
+<rect x="64" y="586" width="280" height="260" rx="12" fill="#14253d"/>
+<text x="204" y="688" font-size="34" font-weight="bold" fill="#ffffff" text-anchor="middle">Level 1</text>
+<text x="204" y="728" font-size="26" fill="#ffffff" text-anchor="middle">설계 완료</text>
+<rect x="356" y="586" width="1180" height="260" rx="12" fill="#ffffff" stroke="#5b7fb5" stroke-width="2"/>
+<text x="380" y="626" font-size="26" font-weight="bold" fill="#2f5d9b">다음 여덟 가지가 문서로 있다</text>
+<text x="380" y="666" font-size="24" fill="#1f2a37">① 최종 구성도  ② 업무 목적 및 범위  ③ 폴더와 자료 관리 규칙  ④ AI 프로젝트 설정(설계서도 가능)</text>
+<text x="380" y="700" font-size="24" fill="#1f2a37">⑤ 업무 지침서  ⑥ 업무 워크플로  ⑦ 검증 체크리스트  ⑧ 백업 및 운영 규칙</text>
+<text x="380" y="740" font-size="24" fill="#1f2a37">· 연결 점검표에서 서로 일치한다 (불일치는 기록)</text>
+<text x="380" y="772" font-size="24" fill="#1f2a37">· 문서만 보고 후보 A의 업무를 설명할 수 있다</text>
+<text x="380" y="804" font-size="24" fill="#1f2a37">· 가상 실행은 포함될 수 있다</text>
+<text x="380" y="834" font-size="24" fill="#566273">계정·조직 제한으로 실제 실행이 불가능해도 달성할 수 있음</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">CH06 Projects and data</title>
+<desc id="d">Under the principle that material in a Project still follows the CH03 tiers and policies, the slide shows when Project data can be used for model training by account type, the rules for file sharing, external connections and deletion, and the four decisions this chapter sets.</desc>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<text x="64" y="70" font-size="22" font-weight="bold" fill="#2f5d9b">CH06 · 3/3</text>
+<text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">Projects and data: the name does not make it safe</text>
+<text x="64" y="172" font-size="26" fill="#566273">Official documentation check [S6]·[S1]·[S2], checked 2026-10-26 · bottom band: the author's judgment</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<rect x="64" y="214" width="1472" height="64" rx="12" fill="#14253d"/>
+<text x="800" y="256" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">Files and chats in a Project still follow the tiers and policies you set in CH03</text>
+
+<text x="64" y="316" font-size="26" font-weight="bold" fill="#14253d">Used for model training?</text>
+<text x="960" y="316" font-size="26" font-weight="bold" fill="#14253d">Sharing · connections · deletion</text>
+
+<!-- training rows -->
+<rect x="64" y="330" width="240" height="116" rx="12" fill="#2f5d9b"/>
+<text x="184" y="397" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">Free · Plus · Pro</text>
+<rect x="316" y="330" width="624" height="116" rx="12" fill="#e6eef9"/>
+<text x="340" y="366" font-size="24" fill="#1f2a37">If Improve the model for everyone is on,</text>
+<text x="340" y="398" font-size="24" font-weight="bold" fill="#a33a3a">information accessed in a Project can be</text>
+<text x="340" y="430" font-size="24" font-weight="bold" fill="#a33a3a">used for model training</text>
+
+<rect x="64" y="456" width="240" height="116" rx="12" fill="#2f5d9b"/>
+<text x="184" y="506" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">Shared Project</text>
+<text x="184" y="540" font-size="22" fill="#ffffff" text-anchor="middle">(personal accounts)</text>
+<rect x="316" y="456" width="624" height="116" rx="12" fill="#e6eef9"/>
+<text x="340" y="492" font-size="24" fill="#1f2a37">Can be used to improve the model only if</text>
+<text x="340" y="524" font-size="24" fill="#1f2a37">the Project owner and all participants</text>
+<text x="340" y="556" font-size="24" fill="#1f2a37">have this setting on</text>
+
+<rect x="64" y="582" width="240" height="118" rx="12" fill="#2f5d9b"/>
+<text x="184" y="632" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">Business ·</text>
+<text x="184" y="666" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">Enterprise · Edu</text>
+<rect x="316" y="582" width="624" height="118" rx="12" fill="#e6eef9"/>
+<text x="340" y="628" font-size="24" fill="#1f2a37">By default, workspace data is</text>
+<text x="340" y="664" font-size="24" font-weight="bold" fill="#2f6f73">not used for model training</text>
+
+<!-- sharing / connection / deletion -->
+<rect x="960" y="330" width="576" height="86" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="986" y="364" font-size="26" font-weight="bold" fill="#14253d">Project files</text>
+<text x="986" y="400" font-size="24" fill="#1f2a37">All members can view and download them</text>
+
+<rect x="960" y="426" width="576" height="86" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="986" y="460" font-size="26" font-weight="bold" fill="#14253d">Google Drive / Slack links as sources</text>
+<text x="986" y="496" font-size="24" fill="#b7791f">You must approve access to connect</text>
+
+<rect x="960" y="522" width="576" height="178" rx="12" fill="#ffffff" stroke="#a33a3a" stroke-width="2"/>
+<text x="986" y="558" font-size="26" font-weight="bold" fill="#a33a3a">Deleting a Project: cannot be undone</text>
+<text x="986" y="592" font-size="24" fill="#1f2a37">Chats, instructions and files stored only</text>
+<text x="986" y="624" font-size="24" fill="#1f2a37">in the Project are removed permanently</text>
+<text x="986" y="656" font-size="24" fill="#1f2a37">Removed from OpenAI systems in 30 days</text>
+<text x="986" y="688" font-size="24" fill="#566273">(except legal or security retention)</text>
+
+<!-- author's decisions -->
+<rect x="64" y="716" width="240" height="118" rx="12" fill="#2f6f73"/>
+<text x="184" y="766" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">What this</text>
+<text x="184" y="800" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">chapter sets</text>
+<rect x="316" y="716" width="240" height="118" rx="12" fill="#ffffff" stroke="#2f6f73" stroke-width="2"/>
+<text x="340" y="766" font-size="24" font-weight="bold" fill="#2f6f73">① Do not share</text>
+<text x="340" y="800" font-size="24" fill="#1f2a37">the Project</text>
+<rect x="568" y="716" width="300" height="118" rx="12" fill="#ffffff" stroke="#2f6f73" stroke-width="2"/>
+<text x="592" y="752" font-size="24" font-weight="bold" fill="#2f6f73">② Do not turn on</text>
+<text x="592" y="784" font-size="24" fill="#1f2a37">external connections</text>
+<text x="592" y="816" font-size="24" fill="#1f2a37">(apps, Google Drive)</text>
+<rect x="880" y="716" width="240" height="118" rx="12" fill="#ffffff" stroke="#2f6f73" stroke-width="2"/>
+<text x="904" y="766" font-size="24" font-weight="bold" fill="#2f6f73">③ Upload</text>
+<text x="904" y="800" font-size="24" fill="#1f2a37">fictional data only</text>
+<rect x="1132" y="716" width="404" height="118" rx="12" fill="#ffffff" stroke="#2f6f73" stroke-width="2"/>
+<text x="1156" y="752" font-size="24" font-weight="bold" fill="#2f6f73">④ No personal info,</text>
+<text x="1156" y="784" font-size="24" fill="#1f2a37">passwords or API keys in the</text>
+<text x="1156" y="816" font-size="24" fill="#1f2a37">Project name or instructions</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

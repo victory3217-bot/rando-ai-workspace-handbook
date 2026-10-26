@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">How local and cloud storage connect</title>
+<desc id="d">Shows the difference between local storage and cloud storage, the two paths that connect them (sync and the web browser), streaming and mirroring in Drive for desktop, and the two ways to connect a work folder to the cloud.</desc>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f5d9b"/></marker>
+</defs>
+<text x="64" y="70" font-size="22" font-weight="bold" fill="#2f5d9b">CH05 · 1/3</text>
+<text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">How local storage and cloud storage connect</text>
+<text x="64" y="172" font-size="26" fill="#566273">Local is your computer, cloud is the service company's servers; sync and the web browser connect them</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- local -->
+<rect x="64" y="224" width="500" height="364" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<rect x="64" y="224" width="500" height="62" rx="12" fill="#14253d"/>
+<text x="314" y="266" font-size="30" font-weight="bold" fill="#ffffff" text-anchor="middle">Local storage</text>
+<text x="92" y="328" font-size="26" fill="#1f2a37">Location: your computer</text>
+<text x="92" y="372" font-size="26" fill="#1f2a37">Opens without the internet</text>
+<text x="92" y="416" font-size="26" fill="#1f2a37">Cannot open from other devices</text>
+<text x="92" y="460" font-size="26" fill="#1f2a37">Share: copy and send the file</text>
+<rect x="84" y="490" width="460" height="84" rx="12" fill="#ffffff" stroke="#b7791f" stroke-width="2"/>
+<text x="104" y="524" font-size="24" fill="#1f2a37"><tspan font-weight="bold" fill="#b7791f">Caution</tspan> can be lost if the</text>
+<text x="104" y="558" font-size="24" fill="#1f2a37">computer breaks</text>
+
+<!-- cloud -->
+<rect x="1036" y="224" width="500" height="364" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<rect x="1036" y="224" width="500" height="62" rx="12" fill="#14253d"/>
+<text x="1286" y="266" font-size="30" font-weight="bold" fill="#ffffff" text-anchor="middle">Cloud storage</text>
+<text x="1064" y="328" font-size="26" fill="#1f2a37">Location: service company's servers</text>
+<text x="1064" y="368" font-size="26" fill="#1f2a37">Internet: usually needed</text>
+<text x="1064" y="400" font-size="22" fill="#566273">(some services have an offline feature)</text>
+<text x="1064" y="440" font-size="26" fill="#1f2a37">Other devices: same account</text>
+<text x="1064" y="478" font-size="26" fill="#1f2a37">Share: by link or invitation</text>
+<rect x="1056" y="494" width="460" height="84" rx="12" fill="#ffffff" stroke="#b7791f" stroke-width="2"/>
+<text x="1076" y="528" font-size="24" fill="#1f2a37"><tspan font-weight="bold" fill="#b7791f">Caution</tspan> manage sharing settings</text>
+<text x="1076" y="562" font-size="24" fill="#1f2a37">and account security yourself</text>
+
+<!-- sync -->
+<line x1="568" y1="350" x2="606" y2="350" stroke="#2f5d9b" stroke-width="4" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<line x1="994" y1="350" x2="1032" y2="350" stroke="#2f5d9b" stroke-width="4" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<rect x="610" y="240" width="380" height="222" rx="12" fill="#e6eef9" stroke="#2f5d9b" stroke-width="2"/>
+<text x="800" y="284" font-size="30" font-weight="bold" fill="#14253d" text-anchor="middle">Sync</text>
+<text x="800" y="326" font-size="26" fill="#1f2a37" text-anchor="middle">Change one side,</text>
+<text x="800" y="362" font-size="26" fill="#1f2a37" text-anchor="middle">the other side matches</text>
+<text x="800" y="404" font-size="24" fill="#2f5d9b" text-anchor="middle">Drive for desktop: edits</text>
+<text x="800" y="438" font-size="24" fill="#2f5d9b" text-anchor="middle">auto-sync both ways [S11]</text>
+
+<!-- browser -->
+<line x1="994" y1="535" x2="1032" y2="535" stroke="#2f5d9b" stroke-width="4" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<rect x="610" y="490" width="380" height="92" rx="12" fill="#ffffff" stroke="#2f5d9b" stroke-width="2"/>
+<text x="800" y="526" font-size="28" font-weight="bold" fill="#14253d" text-anchor="middle">Web browser</text>
+<text x="800" y="562" font-size="24" fill="#1f2a37" text-anchor="middle">Upload · download · share</text>
+
+<!-- bottom left -->
+<rect x="64" y="614" width="720" height="232" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="88" y="656" font-size="28" font-weight="bold" fill="#14253d">On the PC: Drive for desktop [S11]</text>
+<text x="88" y="698" font-size="26" fill="#1f2a37">Shows in File Explorer like a folder</text>
+<text x="88" y="736" font-size="26" fill="#1f2a37"><tspan font-weight="bold" fill="#2f5d9b">Streaming</tspan>: uses almost no computer space</text>
+<text x="88" y="774" font-size="26" fill="#1f2a37"><tspan font-weight="bold" fill="#2f5d9b">Mirroring</tspan>: downloads a full copy</text>
+<text x="88" y="816" font-size="26" font-weight="bold" fill="#14253d">Computer space ≠ Google storage space</text>
+
+<!-- bottom right -->
+<rect x="808" y="614" width="728" height="232" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="832" y="656" font-size="28" font-weight="bold" fill="#14253d">Two ways to connect the work folder</text>
+<text x="832" y="698" font-size="26" fill="#1f2a37">① Create it inside the cloud folder</text>
+<text x="832" y="736" font-size="26" fill="#1f2a37">② Add the existing folder to sync [S11]</text>
+<text x="832" y="780" font-size="24" fill="#566273">Author: test with a practice folder first</text>
+<text x="832" y="816" font-size="24" fill="#566273">Once connected, a copy also exists in the cloud</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

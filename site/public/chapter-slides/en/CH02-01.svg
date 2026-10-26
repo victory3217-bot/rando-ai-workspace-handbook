@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">The five components of an AI Workspace</title>
+<desc id="d">Shows the role and analogy of each of the five components this book uses to describe an AI Workspace, and groups ② and ③ as outside your own computer and ④ and ⑤ as usually a set folder inside ① or ②.</desc>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<text x="64" y="70" font-size="22" font-weight="bold" fill="#2f5d9b">CH02 · 1/3</text>
+<text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">The five components of an AI Workspace</text>
+<text x="64" y="172" font-size="26" fill="#566273">Author's interpretation · the author's classification for teaching, not a standard</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- column headings -->
+<text x="84" y="246" font-size="24" font-weight="bold" fill="#566273">Component</text>
+<text x="520" y="246" font-size="24" font-weight="bold" fill="#566273">What it is (one line)</text>
+<text x="1186" y="246" font-size="24" font-weight="bold" fill="#566273" text-anchor="middle">Analogy</text>
+
+<!-- row 1 -->
+<rect x="64" y="262" width="420" height="104" rx="12" fill="#14253d"/>
+<text x="88" y="324" font-size="29" font-weight="bold" fill="#ffffff">① PC and local files</text>
+<rect x="500" y="262" width="540" height="104" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="524" y="306" font-size="26" fill="#1f2a37">The folders and files inside</text>
+<text x="524" y="342" font-size="26" fill="#1f2a37">your own computer</text>
+<rect x="1056" y="262" width="260" height="104" rx="12" fill="#e6eef9"/>
+<text x="1186" y="306" font-size="25" fill="#1f2a37" text-anchor="middle">The drawers of</text>
+<text x="1186" y="342" font-size="25" fill="#1f2a37" text-anchor="middle">your own desk</text>
+
+<!-- row 2 -->
+<rect x="64" y="378" width="420" height="104" rx="12" fill="#14253d"/>
+<text x="88" y="440" font-size="29" font-weight="bold" fill="#ffffff">② Cloud storage</text>
+<rect x="500" y="378" width="540" height="104" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="524" y="421" font-size="26" fill="#1f2a37">A service that keeps files on internet</text>
+<text x="524" y="457" font-size="26" fill="#1f2a37">servers for use from several devices</text>
+<rect x="1056" y="378" width="260" height="104" rx="12" fill="#e6eef9"/>
+<text x="1186" y="439" font-size="25" fill="#1f2a37" text-anchor="middle">A shared cabinet</text>
+
+<!-- row 3 -->
+<rect x="64" y="494" width="420" height="104" rx="12" fill="#14253d"/>
+<text x="88" y="556" font-size="29" font-weight="bold" fill="#ffffff">③ AI work environment</text>
+<rect x="500" y="494" width="540" height="104" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="524" y="537" font-size="26" fill="#1f2a37">The AI service you use, and the</text>
+<text x="524" y="573" font-size="26" fill="#1f2a37">settings, chats and projects inside it</text>
+<rect x="1056" y="494" width="260" height="104" rx="12" fill="#e6eef9"/>
+<text x="1186" y="537" font-size="25" fill="#1f2a37" text-anchor="middle">The person you</text>
+<text x="1186" y="573" font-size="25" fill="#1f2a37" text-anchor="middle">hand work to</text>
+
+<!-- row 4 -->
+<rect x="64" y="610" width="420" height="104" rx="12" fill="#2f5d9b"/>
+<text x="88" y="652" font-size="27" font-weight="bold" fill="#ffffff">④ Work documents</text>
+<text x="88" y="692" font-size="27" font-weight="bold" fill="#ffffff">and knowledge base</text>
+<rect x="500" y="610" width="540" height="104" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="524" y="653" font-size="26" fill="#1f2a37">Gathers work products, reference</text>
+<text x="524" y="689" font-size="26" fill="#1f2a37">material, frequent templates, criteria</text>
+<rect x="1056" y="610" width="260" height="104" rx="12" fill="#e6eef9"/>
+<text x="1186" y="671" font-size="25" fill="#1f2a37" text-anchor="middle">A document room</text>
+
+<!-- row 5 -->
+<rect x="64" y="726" width="420" height="104" rx="12" fill="#2f5d9b"/>
+<text x="88" y="768" font-size="27" font-weight="bold" fill="#ffffff">⑤ Work instructions and</text>
+<text x="88" y="808" font-size="27" font-weight="bold" fill="#ffffff">confirmation records</text>
+<rect x="500" y="726" width="540" height="104" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="524" y="769" font-size="26" fill="#1f2a37">Rules the AI follows when given work,</text>
+<text x="524" y="805" font-size="26" fill="#1f2a37">and the record of checking the result</text>
+<rect x="1056" y="726" width="260" height="104" rx="12" fill="#e6eef9"/>
+<text x="1186" y="769" font-size="25" fill="#1f2a37" text-anchor="middle">A work manual and</text>
+<text x="1186" y="805" font-size="25" fill="#1f2a37" text-anchor="middle">an approval log</text>
+
+<!-- group: outside my computer (rows 2-3) -->
+<rect x="1332" y="378" width="204" height="220" rx="12" fill="#ffffff" stroke="#b7791f" stroke-width="3"/>
+<text x="1434" y="440" font-size="26" font-weight="bold" fill="#b7791f" text-anchor="middle">② and ③ are</text>
+<text x="1434" y="478" font-size="24" font-weight="bold" fill="#1f2a37" text-anchor="middle">outside your</text>
+<text x="1434" y="512" font-size="24" font-weight="bold" fill="#1f2a37" text-anchor="middle">own computer</text>
+<text x="1434" y="552" font-size="22" fill="#566273" text-anchor="middle">(CH01, 2-3)</text>
+
+<!-- group: ④⑤ location (rows 4-5) -->
+<rect x="1332" y="610" width="204" height="220" rx="12" fill="#f1f5fb" stroke="#2f5d9b" stroke-width="3"/>
+<text x="1434" y="660" font-size="26" font-weight="bold" fill="#2f5d9b" text-anchor="middle">④ ⑤ usually:</text>
+<text x="1434" y="698" font-size="24" fill="#1f2a37" text-anchor="middle">a set folder</text>
+<text x="1434" y="732" font-size="24" fill="#1f2a37" text-anchor="middle">inside ① or ②</text>
+<text x="1434" y="776" font-size="22" fill="#566273" text-anchor="middle">(the same folder)</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">자료의 네 가지 종류</title>
+<desc id="d">원본자료와 요약, 근거자료와 업무 규칙을 두 쌍으로 묶어 각 종류의 뜻, 예, 주의점과 서로의 관계를 보여 주고, 구분하는 이유를 정리한다.</desc>
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2f5d9b"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<text x="64" y="70" font-size="22" font-weight="bold" fill="#2f5d9b">CH08 · 2/3</text>
+<text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">자료의 네 가지 종류</text>
+<text x="64" y="172" font-size="26" fill="#566273">원본자료 · 요약 · 업무 규칙 · 근거자료를 나누어 둔다</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- LEFT: source -> summary -->
+<rect x="64" y="224" width="700" height="210" rx="12" fill="#ffffff" stroke="#5b7fb5" stroke-width="2"/>
+<rect x="64" y="224" width="700" height="56" rx="12" fill="#14253d"/>
+<text x="88" y="262" font-size="30" font-weight="bold" fill="#ffffff">원본자료 — 받은 그대로</text>
+<text x="88" y="324" font-size="26" fill="#1f2a37">예: 회의 메모, 지난 회의록 PDF</text>
+<text x="88" y="362" font-size="26" fill="#566273">주의: 고치지 않는다</text>
+<text x="154" y="398" font-size="26" fill="#566273">등급을 확인한다(CH03)</text>
+
+<line x1="120" y1="440" x2="120" y2="514" stroke="#2f5d9b" stroke-width="4" marker-end="url(#ar)"/>
+<text x="150" y="470" font-size="26" font-weight="bold" fill="#2f5d9b">원본을 줄여서 만든다</text>
+<text x="150" y="506" font-size="24" fill="#b7791f">요약은 원본과 다를 수 있다</text>
+
+<rect x="64" y="522" width="700" height="210" rx="12" fill="#ffffff" stroke="#5b7fb5" stroke-width="2"/>
+<rect x="64" y="522" width="700" height="56" rx="12" fill="#2f5d9b"/>
+<text x="88" y="560" font-size="30" font-weight="bold" fill="#ffffff">요약 — 원본을 줄인 것</text>
+<text x="88" y="622" font-size="26" fill="#1f2a37">예: 지난 3개월 회의 결정 요약</text>
+<text x="88" y="660" font-size="26" fill="#566273">주의: 어느 원본에서 만들었는지 적는다</text>
+<text x="154" y="696" font-size="26" fill="#566273">AI가 만든 요약이면 표시한다</text>
+
+<!-- RIGHT: evidence -> rule -->
+<rect x="836" y="224" width="700" height="210" rx="12" fill="#ffffff" stroke="#5b7fb5" stroke-width="2"/>
+<rect x="836" y="224" width="700" height="56" rx="12" fill="#14253d"/>
+<text x="860" y="262" font-size="30" font-weight="bold" fill="#ffffff">근거자료 — 규칙의 이유</text>
+<text x="860" y="324" font-size="26" fill="#1f2a37">예: 회사의 문서 작성 지침,</text>
+<text x="904" y="360" font-size="26" fill="#1f2a37">팀장 지시 메일</text>
+<text x="860" y="398" font-size="26" fill="#566273">주의: 출처와 날짜를 적는다</text>
+
+<line x1="892" y1="440" x2="892" y2="514" stroke="#2f5d9b" stroke-width="4" marker-end="url(#ar)"/>
+<text x="922" y="470" font-size="26" font-weight="bold" fill="#2f5d9b">규칙이 왜 그런지 보여 준다</text>
+<text x="922" y="506" font-size="24" fill="#b7791f">근거가 없으면 따를 이유를 잃는다</text>
+
+<rect x="836" y="522" width="700" height="210" rx="12" fill="#ffffff" stroke="#5b7fb5" stroke-width="2"/>
+<rect x="836" y="522" width="700" height="56" rx="12" fill="#2f5d9b"/>
+<text x="860" y="560" font-size="30" font-weight="bold" fill="#ffffff">업무 규칙 — 우리가 정한 약속</text>
+<text x="860" y="622" font-size="26" fill="#1f2a37">예: “담당자와 기한이 없으면</text>
+<text x="904" y="658" font-size="26" fill="#1f2a37">‘확인 필요’로 쓴다”</text>
+<text x="860" y="696" font-size="26" fill="#566273">주의: 누가 언제 정했나, 근거가 있나</text>
+
+<!-- why -->
+<rect x="64" y="756" width="1472" height="76" rx="12" fill="#e6eef9" stroke="#5b7fb5" stroke-width="2"/>
+<text x="88" y="804" font-size="26" fill="#1f2a37"><tspan font-weight="bold" fill="#14253d">왜 구분하나 · </tspan>구분해 두면 AI가 “이것은 원본인지, 누군가 줄인 것인지, 약속인지”를 알 수 있다</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

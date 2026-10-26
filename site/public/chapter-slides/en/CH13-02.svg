@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">Recovery order and last resort</title>
+<desc id="d">Shows the four steps for recovering a file deleted or edited by mistake, and the order of places to look: the earlier version file, the trash, the service's version history, then the backup. Trash and version history are a safety net with periods and conditions, so they cannot replace backup; the official retention conditions are listed.</desc>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<text x="64" y="70" font-size="22" font-weight="bold" fill="#2f5d9b">CH13 · 2/3</text>
+<text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">Recovery: look nearby first; backup is the last resort</text>
+<text x="64" y="172" font-size="26" fill="#566273">The recovery order is the author's suggestion · official documents checked 2026-10-26</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- four recovery steps -->
+<rect x="64" y="216" width="350" height="80" rx="12" fill="#e6eef9" stroke="#c9d4e5" stroke-width="2"/>
+<text x="239" y="249" font-size="26" font-weight="bold" fill="#14253d" text-anchor="middle">① Stop</text>
+<text x="239" y="282" font-size="22" fill="#566273" text-anchor="middle">no more saving; close the file</text>
+<polygon points="418,246 434,256 418,266" fill="#2f5d9b"/>
+<rect x="438" y="216" width="350" height="80" rx="12" fill="#2f5d9b"/>
+<text x="613" y="249" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">② Look nearby first</text>
+<text x="613" y="282" font-size="22" fill="#ffffff" text-anchor="middle">in the order below</text>
+<polygon points="792,246 808,256 792,266" fill="#2f5d9b"/>
+<rect x="812" y="216" width="350" height="80" rx="12" fill="#e6eef9" stroke="#c9d4e5" stroke-width="2"/>
+<text x="987" y="249" font-size="24" font-weight="bold" fill="#14253d" text-anchor="middle">③ Open under a new name</text>
+<text x="987" y="282" font-size="22" fill="#566273" text-anchor="middle">check content, then replace</text>
+<polygon points="1166,246 1182,256 1166,266" fill="#2f5d9b"/>
+<rect x="1186" y="216" width="350" height="80" rx="12" fill="#e6eef9" stroke="#c9d4e5" stroke-width="2"/>
+<text x="1361" y="249" font-size="26" font-weight="bold" fill="#14253d" text-anchor="middle">④ Record it</text>
+<text x="1361" y="282" font-size="22" fill="#566273" text-anchor="middle">change log table · error log</text>
+
+<!-- search order -->
+<text x="64" y="334" font-size="24" font-weight="bold" fill="#2f5d9b">② Order of places to look: nearby → far</text>
+<rect x="64" y="350" width="344" height="190" rx="12" fill="#ffffff" stroke="#5b7fb5" stroke-width="2"/>
+<text x="236" y="394" font-size="28" font-weight="bold" fill="#14253d" text-anchor="middle">Earlier version file</text>
+<text x="236" y="458" font-size="24" fill="#1f2a37" text-anchor="middle">the v01 you saved</text>
+<text x="236" y="490" font-size="24" fill="#1f2a37" text-anchor="middle">(e.g., in 90_Archive)</text>
+<polygon points="412,435 432,445 412,455" fill="#2f5d9b"/>
+<rect x="440" y="350" width="344" height="190" rx="12" fill="#ffffff" stroke="#5b7fb5" stroke-width="2"/>
+<text x="612" y="394" font-size="28" font-weight="bold" fill="#14253d" text-anchor="middle">Trash</text>
+<text x="612" y="458" font-size="24" fill="#1f2a37" text-anchor="middle">Windows Recycle Bin</text>
+<text x="612" y="490" font-size="24" fill="#1f2a37" text-anchor="middle">the service's trash</text>
+<text x="612" y="522" font-size="24" fill="#566273" text-anchor="middle">once emptied, often lost</text>
+<polygon points="788,435 808,445 788,455" fill="#2f5d9b"/>
+<rect x="816" y="350" width="344" height="190" rx="12" fill="#ffffff" stroke="#5b7fb5" stroke-width="2"/>
+<text x="988" y="382" font-size="26" font-weight="bold" fill="#14253d" text-anchor="middle">The service's</text>
+<text x="988" y="416" font-size="26" font-weight="bold" fill="#14253d" text-anchor="middle">version history</text>
+<text x="988" y="458" font-size="24" fill="#1f2a37" text-anchor="middle">conditions differ</text>
+<text x="988" y="490" font-size="24" fill="#1f2a37" text-anchor="middle">by service · check the</text>
+<text x="988" y="522" font-size="24" fill="#1f2a37" text-anchor="middle">details in your account</text>
+<polygon points="1164,435 1184,445 1164,455" fill="#2f5d9b"/>
+<rect x="1192" y="350" width="344" height="190" rx="12" fill="#14253d"/>
+<text x="1364" y="394" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">Backup</text>
+<text x="1364" y="458" font-size="24" fill="#ffffff" text-anchor="middle">what you rely on when</text>
+<text x="1364" y="490" font-size="24" fill="#ffffff" text-anchor="middle">the service cannot</text>
+<text x="1364" y="522" font-size="24" fill="#ffffff" text-anchor="middle">recover · restore-tested</text>
+
+<!-- safety-net bracket -->
+<path d="M452 548 V558 H1148 V548" fill="none" stroke="#b7791f" stroke-width="3"/>
+<line x1="800" y1="558" x2="800" y2="568" stroke="#b7791f" stroke-width="3"/>
+<rect x="440" y="568" width="720" height="88" rx="12" fill="#ffffff" stroke="#b7791f" stroke-width="3"/>
+<text x="800" y="604" font-size="24" font-weight="bold" fill="#1f2a37" text-anchor="middle">A convenient safety net, but with periods and</text>
+<text x="800" y="638" font-size="24" font-weight="bold" fill="#1f2a37" text-anchor="middle">conditions: it cannot replace backup (author)</text>
+
+<!-- official facts -->
+<rect x="64" y="676" width="620" height="174" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="90" y="710" font-size="24" font-weight="bold" fill="#2f5d9b">Google Drive trash [S14]</text>
+<text x="90" y="746" font-size="24" fill="#1f2a37">Trashed files: permanently deleted after 30 days</text>
+<text x="90" y="780" font-size="24" fill="#1f2a37">Empty trash: permanently deleted immediately</text>
+<text x="90" y="814" font-size="24" fill="#1f2a37">Owner deletes permanently → others lose access</text>
+<rect x="704" y="676" width="832" height="174" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="730" y="710" font-size="24" font-weight="bold" fill="#2f5d9b">OneDrive deletion restore [S13]</text>
+<text x="730" y="746" font-size="24" fill="#1f2a37">Deleted or overwritten files: can sometimes be restored</text>
+<text x="730" y="780" font-size="24" fill="#1f2a37">Personal 30 days · work/school 93 days (unless admin changed it)</text>
+<text x="730" y="814" font-size="24" fill="#1f2a37">Not after permanent deletion; not files others shared with you</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">CH06 Project memory and chats</title>
+<desc id="d">Compares what project-only memory and default memory refer to, and sums up the rules for moving a regular chat and for temporary chats, plus the author's interpretation for first-time learners.</desc>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<text x="64" y="70" font-size="22" font-weight="bold" fill="#2f5d9b">CH06 · 2/3</text>
+<text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">Memory: what do Project chats refer to?</text>
+<text x="64" y="172" font-size="26" fill="#566273">Chosen at creation, changed in Project settings → Memory · may take several hours to apply [S6]</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- header row -->
+<rect x="64" y="226" width="440" height="66" rx="12" fill="#e6eef9"/>
+<text x="284" y="269" font-size="26" font-weight="bold" fill="#566273" text-anchor="middle">What is referred to</text>
+<rect x="516" y="226" width="440" height="66" rx="12" fill="#14253d"/>
+<text x="736" y="270" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">Project-only memory</text>
+<rect x="968" y="226" width="568" height="66" rx="12" fill="#2f5d9b"/>
+<text x="1252" y="270" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">Default memory</text>
+
+<!-- rows -->
+<rect x="64" y="302" width="440" height="88" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="92" y="355" font-size="26" fill="#1f2a37">Previously saved memories</text>
+<rect x="64" y="400" width="440" height="88" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="92" y="453" font-size="26" fill="#1f2a37">Other chats in the same Project</text>
+<rect x="64" y="498" width="440" height="88" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="92" y="551" font-size="26" fill="#1f2a37">Chats outside the Project</text>
+
+<rect x="516" y="302" width="440" height="88" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="736" y="356" font-size="28" font-weight="bold" fill="#566273" text-anchor="middle">Not referred to</text>
+<rect x="516" y="400" width="440" height="88" rx="12" fill="#ffffff" stroke="#2f6f73" stroke-width="3"/>
+<text x="736" y="454" font-size="28" font-weight="bold" fill="#2f6f73" text-anchor="middle">Can be referred to</text>
+<rect x="516" y="498" width="440" height="88" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="736" y="552" font-size="28" font-weight="bold" fill="#566273" text-anchor="middle">Cannot be referred to</text>
+
+<rect x="968" y="302" width="568" height="284" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="1252" y="346" font-size="28" font-weight="bold" fill="#14253d" text-anchor="middle">Depends on plan and settings</text>
+<rect x="996" y="368" width="512" height="96" rx="12" fill="#f1f5fb"/>
+<text x="1020" y="404" font-size="26" font-weight="bold" fill="#2f5d9b">Business and similar plans</text>
+<text x="1020" y="442" font-size="26" fill="#1f2a37">Can cross-reference outside chats</text>
+<rect x="996" y="474" width="512" height="96" rx="12" fill="#f1f5fb"/>
+<text x="1020" y="510" font-size="26" font-weight="bold" fill="#2f5d9b">Enterprise and Edu</text>
+<text x="1020" y="548" font-size="26" fill="#1f2a37">Stays inside the Project</text>
+
+<!-- bottom notes -->
+<rect x="64" y="610" width="476" height="236" rx="12" fill="#e6eef9"/>
+<text x="92" y="652" font-size="28" font-weight="bold" fill="#14253d">Moving a regular chat in</text>
+<text x="92" y="700" font-size="26" fill="#1f2a37">A chat moved into a Project</text>
+<text x="92" y="738" font-size="26" fill="#1f2a37">picks up the Project's</text>
+<text x="92" y="776" font-size="26" fill="#1f2a37">instructions and file context</text>
+
+<rect x="556" y="610" width="476" height="236" rx="12" fill="#e6eef9"/>
+<text x="584" y="652" font-size="28" font-weight="bold" fill="#14253d">Temporary chat</text>
+<text x="584" y="700" font-size="26" font-weight="bold" fill="#a33a3a">Cannot be added to a Project</text>
+<text x="584" y="738" font-size="26" fill="#1f2a37">If saved, it becomes a regular</text>
+<text x="584" y="776" font-size="26" fill="#1f2a37">chat that follows account settings</text>
+
+<rect x="1048" y="610" width="488" height="236" rx="12" fill="#f1f5fb" stroke="#5b7fb5" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="1076" y="652" font-size="28" font-weight="bold" fill="#2f5d9b">Author's interpretation</text>
+<text x="1076" y="696" font-size="24" font-weight="bold" fill="#2f6f73">Advised at first: project-only memory</text>
+<text x="1076" y="730" font-size="24" fill="#1f2a37">Fictional data won't mix with other</text>
+<text x="1076" y="764" font-size="24" fill="#1f2a37">chats; results are easier to interpret</text>
+<text x="1076" y="798" font-size="24" fill="#566273">Official docs recommend neither</text>
+<text x="1076" y="832" font-size="24" fill="#566273">Memory ≠ data-training setting (CH03)</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

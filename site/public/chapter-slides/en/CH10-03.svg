@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">Test, revise, new version</title>
+<desc id="d">Shows the cycle of writing work instructions, testing them on fictional cases, comparing expected behavior with actual results, and turning the problems into an improvement list and a new version; also shows where CH09 errors go in the instructions and the version management rules.</desc>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f5d9b"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<text x="64" y="70" font-size="22" font-weight="bold" fill="#2f5d9b">CH10 · 3/3</text>
+<text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">Test, revise, then a new version</text>
+<text x="64" y="172" font-size="26" fill="#566273">Test with an AI service, or a person reads only the instructions and acts as the checker</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- cycle nodes -->
+<rect x="64" y="226" width="460" height="170" rx="12" fill="#14253d"/>
+<text x="294" y="276" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">① Write them (v01)</text>
+<text x="294" y="322" font-size="25" fill="#ffffff" text-anchor="middle">Use the eight elements</text>
+<text x="294" y="358" font-size="25" fill="#ffffff" text-anchor="middle">CH09 error types become rules</text>
+
+<rect x="590" y="226" width="460" height="170" rx="12" fill="#ffffff" stroke="#2f5d9b" stroke-width="2"/>
+<text x="820" y="276" font-size="28" font-weight="bold" fill="#14253d" text-anchor="middle">② Test on fictional cases</text>
+<text x="820" y="322" font-size="25" fill="#1f2a37" text-anchor="middle">T1 normal · T2 missing info</text>
+<text x="820" y="358" font-size="25" fill="#1f2a37" text-anchor="middle">T3 out-of-scope request</text>
+
+<rect x="590" y="650" width="460" height="170" rx="12" fill="#ffffff" stroke="#2f5d9b" stroke-width="2"/>
+<text x="820" y="700" font-size="28" font-weight="bold" fill="#14253d" text-anchor="middle">③ Expected vs actual</text>
+<text x="820" y="746" font-size="25" fill="#1f2a37" text-anchor="middle">Record pass or fail</text>
+<text x="820" y="782" font-size="25" fill="#1f2a37" text-anchor="middle">Find vague sentences</text>
+
+<rect x="64" y="650" width="460" height="170" rx="12" fill="#e6eef9" stroke="#2f5d9b" stroke-width="2"/>
+<text x="294" y="700" font-size="28" font-weight="bold" fill="#14253d" text-anchor="middle">④ Improvement list → v02</text>
+<text x="294" y="746" font-size="25" fill="#1f2a37" text-anchor="middle">Fix one thing at a time</text>
+<text x="294" y="782" font-size="25" fill="#1f2a37" text-anchor="middle">Log reason, date, test result</text>
+
+<!-- arrows -->
+<line x1="528" y1="311" x2="584" y2="311" stroke="#2f5d9b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="820" y1="400" x2="820" y2="644" stroke="#2f5d9b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="586" y1="735" x2="530" y2="735" stroke="#2f5d9b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="294" y1="646" x2="294" y2="402" stroke="#2f5d9b" stroke-width="4" marker-end="url(#ah)"/>
+
+<!-- centre rule -->
+<rect x="330" y="462" width="454" height="122" rx="12" fill="#f1f5fb" stroke="#2f6f73" stroke-width="2"/>
+<text x="557" y="511" font-size="27" font-weight="bold" fill="#2f6f73" text-anchor="middle">Finalize a new version</text>
+<text x="557" y="551" font-size="26" fill="#1f2a37" text-anchor="middle">only after results improve</text>
+
+<!-- right panel: errors to rules -->
+<rect x="1080" y="222" width="456" height="360" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="1102" y="258" font-size="26" font-weight="bold" fill="#14253d">From CH09 errors to rules</text>
+<text x="1102" y="288" font-size="22" fill="#566273">Fictional case (section 3)</text>
+<text x="1102" y="328" font-size="24" fill="#1f2a37">Fabricated a quotation</text>
+<text x="1102" y="360" font-size="24" font-weight="bold" fill="#a33a3a">→ Prohibitions</text>
+<text x="1102" y="396" font-size="24" fill="#1f2a37">Changed a key word</text>
+<text x="1102" y="428" font-size="24" font-weight="bold" fill="#a33a3a">→ Prohibitions</text>
+<text x="1102" y="464" font-size="24" fill="#1f2a37">Filled in a name with no owner</text>
+<text x="1102" y="496" font-size="24" font-weight="bold" fill="#b7791f">→ Exception handling</text>
+<text x="1102" y="532" font-size="24" fill="#1f2a37">Left out an open item</text>
+<text x="1102" y="564" font-size="24" font-weight="bold" fill="#2f5d9b">→ Verification criteria</text>
+
+<!-- right panel: version rules -->
+<rect x="1080" y="596" width="456" height="250" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="1102" y="634" font-size="26" font-weight="bold" fill="#14253d">Version management</text>
+<text x="1102" y="662" font-size="22" fill="#566273">The author's suggestion</text>
+<text x="1102" y="698" font-size="24" fill="#1f2a37">Previous version → 90_Archive</text>
+<text x="1102" y="730" font-size="24" fill="#1f2a37">Change the AI project instructions</text>
+<text x="1102" y="762" font-size="24" fill="#1f2a37">(CH06, CH07) to the same version</text>
+<text x="1102" y="794" font-size="24" fill="#566273">If not, the document and the</text>
+<text x="1102" y="826" font-size="24" fill="#566273">rules the AI follows differ</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

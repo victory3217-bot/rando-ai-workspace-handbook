@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">Traditional vs AI Work Environment</title>
+<desc id="d">Compares a traditional office environment with a work environment with AI on five items (how you assign work, where materials are, checking the result, repeated work, records) and shows the key difference: what people understood without saying has to be written down.</desc>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<text x="64" y="70" font-size="22" font-weight="bold" fill="#2f5d9b">CH01 · 2/3</text>
+<text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">How an AI Work Environment Differs from a Traditional Office</text>
+<text x="64" y="172" font-size="26" fill="#566273">Author's interpretation · based on general office work (may differ by company and job)</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- Column headers -->
+<rect x="64" y="222" width="300" height="56" rx="12" fill="#f1f5fb" stroke="#c9d4e5"/>
+<text x="214" y="259" font-size="28" font-weight="bold" fill="#14253d" text-anchor="middle">Comparison item</text>
+<rect x="376" y="222" width="520" height="56" rx="12" fill="#5b7fb5"/>
+<text x="636" y="259" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">Traditional office environment</text>
+<rect x="908" y="222" width="628" height="56" rx="12" fill="#2f5d9b"/>
+<text x="1222" y="259" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">Work environment with AI</text>
+
+<!-- Row 1 -->
+<rect x="64" y="288" width="300" height="86" rx="12" fill="#e6eef9" stroke="#c9d4e5"/>
+<text x="214" y="324" font-size="26" font-weight="bold" fill="#14253d" text-anchor="middle">How you</text>
+<text x="214" y="359" font-size="26" font-weight="bold" fill="#14253d" text-anchor="middle">assign work</text>
+<rect x="376" y="288" width="520" height="86" rx="12" fill="#ffffff" stroke="#c9d4e5"/>
+<text x="636" y="324" font-size="25" fill="#566273" text-anchor="middle">You ask a person in speech</text>
+<text x="636" y="359" font-size="25" fill="#566273" text-anchor="middle">or by messenger</text>
+<rect x="908" y="288" width="628" height="86" rx="12" fill="#ffffff" stroke="#2f5d9b" stroke-width="2"/>
+<text x="1222" y="324" font-size="25" fill="#1f2a37" text-anchor="middle">You give AI written instructions</text>
+<text x="1222" y="359" font-size="25" fill="#1f2a37" text-anchor="middle">and materials</text>
+
+<!-- Row 2 -->
+<rect x="64" y="384" width="300" height="86" rx="12" fill="#e6eef9" stroke="#c9d4e5"/>
+<text x="214" y="420" font-size="26" font-weight="bold" fill="#14253d" text-anchor="middle">Where</text>
+<text x="214" y="455" font-size="26" font-weight="bold" fill="#14253d" text-anchor="middle">materials are</text>
+<rect x="376" y="384" width="520" height="86" rx="12" fill="#ffffff" stroke="#c9d4e5"/>
+<text x="636" y="420" font-size="25" fill="#566273" text-anchor="middle">A person remembers or</text>
+<text x="636" y="455" font-size="25" fill="#566273" text-anchor="middle">asks around to find them</text>
+<rect x="908" y="384" width="628" height="86" rx="12" fill="#ffffff" stroke="#2f5d9b" stroke-width="2"/>
+<text x="1222" y="420" font-size="25" fill="#1f2a37" text-anchor="middle">You decide which materials AI uses and</text>
+<text x="1222" y="455" font-size="25" fill="#1f2a37" text-anchor="middle">provide them, or you must allow access</text>
+
+<!-- Row 3 -->
+<rect x="64" y="480" width="300" height="86" rx="12" fill="#e6eef9" stroke="#c9d4e5"/>
+<text x="214" y="516" font-size="26" font-weight="bold" fill="#14253d" text-anchor="middle">Checking</text>
+<text x="214" y="551" font-size="26" font-weight="bold" fill="#14253d" text-anchor="middle">the result</text>
+<rect x="376" y="480" width="520" height="86" rx="12" fill="#ffffff" stroke="#c9d4e5"/>
+<text x="636" y="516" font-size="25" fill="#566273" text-anchor="middle">The person in charge</text>
+<text x="636" y="551" font-size="25" fill="#566273" text-anchor="middle">checks from experience</text>
+<rect x="908" y="480" width="628" height="86" rx="12" fill="#ffffff" stroke="#2f5d9b" stroke-width="2"/>
+<text x="1222" y="516" font-size="25" fill="#1f2a37" text-anchor="middle">You write the check criteria down</text>
+<text x="1222" y="551" font-size="25" fill="#1f2a37" text-anchor="middle">and check it yourself</text>
+
+<!-- Row 4 -->
+<rect x="64" y="576" width="300" height="86" rx="12" fill="#e6eef9" stroke="#c9d4e5"/>
+<text x="214" y="629" font-size="26" font-weight="bold" fill="#14253d" text-anchor="middle">Repeated work</text>
+<rect x="376" y="576" width="520" height="86" rx="12" fill="#ffffff" stroke="#c9d4e5"/>
+<text x="636" y="612" font-size="25" fill="#566273" text-anchor="middle">A person remembers the</text>
+<text x="636" y="647" font-size="25" fill="#566273" text-anchor="middle">same order every time</text>
+<rect x="908" y="576" width="628" height="86" rx="12" fill="#ffffff" stroke="#2f5d9b" stroke-width="2"/>
+<text x="1222" y="612" font-size="25" fill="#1f2a37" text-anchor="middle">Write the order and criteria in a document,</text>
+<text x="1222" y="647" font-size="25" fill="#1f2a37" text-anchor="middle">and you can hand it over the same way</text>
+
+<!-- Row 5 -->
+<rect x="64" y="672" width="300" height="86" rx="12" fill="#e6eef9" stroke="#c9d4e5"/>
+<text x="214" y="725" font-size="26" font-weight="bold" fill="#14253d" text-anchor="middle">Records</text>
+<rect x="376" y="672" width="520" height="86" rx="12" fill="#ffffff" stroke="#c9d4e5"/>
+<text x="636" y="708" font-size="25" fill="#566273" text-anchor="middle">Scattered across email,</text>
+<text x="636" y="743" font-size="25" fill="#566273" text-anchor="middle">messenger and personal notes</text>
+<rect x="908" y="672" width="628" height="86" rx="12" fill="#ffffff" stroke="#2f5d9b" stroke-width="2"/>
+<text x="1222" y="708" font-size="25" fill="#1f2a37" text-anchor="middle">Collect input, instructions, result and checks,</text>
+<text x="1222" y="743" font-size="25" fill="#1f2a37" text-anchor="middle">and you can reuse them next time</text>
+
+<!-- Key difference -->
+<rect x="64" y="772" width="1472" height="74" rx="12" fill="#14253d"/>
+<text x="800" y="819" font-size="29" font-weight="bold" fill="#ffffff" text-anchor="middle">Key difference: what people understood without saying has to be written down</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

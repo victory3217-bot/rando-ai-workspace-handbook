@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">CH04 파일명 규칙과 원본·작업본·최종본</title>
+<desc id="d">날짜·업무·내용·버전으로 이루어진 파일명 규칙과 피할 이름을 보여 주고, 원본에서 작업본을 거쳐 최종본으로 가는 흐름과 AI 초안이 사람의 확인을 거쳐야 하는 경로, 백업의 기초를 설명합니다.</desc>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f5d9b"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<text x="64" y="70" font-size="22" font-weight="700" fill="#2f5d9b">CH04 · 3/3</text>
+<text x="64" y="128" font-size="46" font-weight="700" fill="#14253d">파일명 규칙과 원본·작업본·최종본</text>
+<text x="64" y="172" font-size="26" fill="#566273">규칙은 저자의 제안 · 어느 것이 최신이고 어디로 돌아갈지 분명하게</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- name anatomy -->
+<rect x="64" y="224" width="230" height="76" rx="12" fill="#e6eef9" stroke="#2f5d9b" stroke-width="2"/>
+<text x="179" y="254" font-size="22" fill="#566273" text-anchor="middle">[날짜]</text>
+<text x="179" y="290" font-size="26" font-weight="700" fill="#14253d" text-anchor="middle">2026-10-12</text>
+<text x="309" y="280" font-size="30" font-weight="700" fill="#566273" text-anchor="middle">_</text>
+<rect x="324" y="224" width="230" height="76" rx="12" fill="#e6eef9" stroke="#2f5d9b" stroke-width="2"/>
+<text x="439" y="254" font-size="22" fill="#566273" text-anchor="middle">[업무]</text>
+<text x="439" y="290" font-size="26" font-weight="700" fill="#14253d" text-anchor="middle">영업회의록</text>
+<text x="569" y="280" font-size="30" font-weight="700" fill="#566273" text-anchor="middle">_</text>
+<rect x="584" y="224" width="200" height="76" rx="12" fill="#e6eef9" stroke="#2f5d9b" stroke-width="2"/>
+<text x="684" y="254" font-size="22" fill="#566273" text-anchor="middle">[내용]</text>
+<text x="684" y="290" font-size="26" font-weight="700" fill="#14253d" text-anchor="middle">3분기</text>
+<text x="799" y="280" font-size="30" font-weight="700" fill="#566273" text-anchor="middle">_</text>
+<rect x="814" y="224" width="130" height="76" rx="12" fill="#e6eef9" stroke="#2f5d9b" stroke-width="2"/>
+<text x="879" y="254" font-size="22" fill="#566273" text-anchor="middle">[버전]</text>
+<text x="879" y="290" font-size="26" font-weight="700" fill="#14253d" text-anchor="middle">v01</text>
+<rect x="954" y="224" width="136" height="76" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="1022" y="254" font-size="22" fill="#566273" text-anchor="middle">확장자</text>
+<text x="1022" y="290" font-size="26" font-weight="700" fill="#14253d" text-anchor="middle">.docx</text>
+
+<!-- rules -->
+<rect x="64" y="310" width="1026" height="44" rx="12" fill="#ffffff" stroke="#c9d4e5"/>
+<rect x="64" y="310" width="170" height="44" rx="12" fill="#2f5d9b"/>
+<text x="149" y="341" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">날짜</text>
+<text x="254" y="341" font-size="24" fill="#1f2a37">연-월-일로 맨 앞에 → 이름순 정렬이 곧 날짜순</text>
+<rect x="64" y="356" width="1026" height="44" rx="12" fill="#ffffff" stroke="#c9d4e5"/>
+<rect x="64" y="356" width="170" height="44" rx="12" fill="#2f5d9b"/>
+<text x="149" y="387" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">버전</text>
+<text x="254" y="387" font-size="24" fill="#1f2a37">v01, v02로 올린다</text>
+<rect x="64" y="402" width="1026" height="44" rx="12" fill="#ffffff" stroke="#c9d4e5"/>
+<rect x="64" y="402" width="170" height="44" rx="12" fill="#2f5d9b"/>
+<text x="149" y="433" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">최종본</text>
+<text x="254" y="433" font-size="24" fill="#1f2a37">이름에 '최종' 대신 03_최종 폴더에 두거나 _확정을 붙임</text>
+<rect x="64" y="448" width="1026" height="44" rx="12" fill="#ffffff" stroke="#c9d4e5"/>
+<rect x="64" y="448" width="170" height="44" rx="12" fill="#2f5d9b"/>
+<text x="149" y="479" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">AI 초안</text>
+<text x="254" y="479" font-size="24" fill="#1f2a37">_AI초안을 붙여 사람이 만든 파일과 구분</text>
+<rect x="64" y="494" width="1026" height="44" rx="12" fill="#ffffff" stroke="#c9d4e5"/>
+<rect x="64" y="494" width="170" height="44" rx="12" fill="#2f5d9b"/>
+<text x="149" y="525" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">문자</text>
+<text x="254" y="525" font-size="24" fill="#1f2a37">\ / : * ? &quot; &lt; &gt; | 는 Windows 이름에 쓸 수 없음 · 단어는 _로 연결</text>
+
+<!-- names to avoid -->
+<rect x="1114" y="224" width="422" height="314" rx="12" fill="#ffffff" stroke="#a33a3a" stroke-width="2"/>
+<text x="1134" y="260" font-size="26" font-weight="700" fill="#a33a3a">피할 이름</text>
+<rect x="1134" y="276" width="382" height="44" rx="12" fill="#f1f5fb" stroke="#c9d4e5"/>
+<text x="1150" y="307" font-size="24" fill="#1f2a37">회의록최종.docx</text>
+<rect x="1134" y="326" width="382" height="44" rx="12" fill="#f1f5fb" stroke="#c9d4e5"/>
+<text x="1150" y="357" font-size="24" fill="#1f2a37">회의록최종_진짜최종(1).docx</text>
+<rect x="1134" y="376" width="382" height="44" rx="12" fill="#f1f5fb" stroke="#c9d4e5"/>
+<text x="1150" y="407" font-size="24" fill="#1f2a37">새 문서.docx</text>
+<text x="1134" y="462" font-size="24" fill="#1f2a37">어느 것이 마지막인지,</text>
+<text x="1134" y="496" font-size="24" fill="#1f2a37">무슨 내용인지 알 수 없음</text>
+
+<!-- flow -->
+<rect x="64" y="562" width="300" height="112" rx="12" fill="#ffffff" stroke="#2f6f73" stroke-width="3"/>
+<text x="214" y="594" font-size="26" font-weight="700" fill="#14253d" text-anchor="middle">01_원본</text>
+<text x="214" y="628" font-size="24" fill="#1f2a37" text-anchor="middle">고치지 않음</text>
+<text x="214" y="660" font-size="24" font-weight="700" fill="#2f6f73" text-anchor="middle">→ 돌아갈 곳</text>
+
+<text x="404" y="622" font-size="24" fill="#2f5d9b" text-anchor="middle">복사</text>
+<line x1="366" y1="642" x2="440" y2="642" stroke="#2f5d9b" stroke-width="3" marker-end="url(#ah)"/>
+
+<rect x="444" y="562" width="290" height="112" rx="12" fill="#ffffff" stroke="#2f5d9b" stroke-width="3"/>
+<text x="589" y="594" font-size="26" font-weight="700" fill="#14253d" text-anchor="middle">02_작업중</text>
+<text x="589" y="628" font-size="24" fill="#1f2a37" text-anchor="middle">사본을 고친다</text>
+<text x="589" y="660" font-size="24" fill="#1f2a37" text-anchor="middle">v01, v02 …</text>
+
+<text x="784" y="622" font-size="24" fill="#2f5d9b" text-anchor="middle">확정</text>
+<line x1="736" y1="642" x2="830" y2="642" stroke="#2f5d9b" stroke-width="3" marker-end="url(#ah)"/>
+
+<rect x="834" y="562" width="256" height="112" rx="12" fill="#14253d"/>
+<text x="962" y="594" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">03_최종</text>
+<text x="962" y="628" font-size="24" fill="#ffffff" text-anchor="middle">확정해 공유하거나</text>
+<text x="962" y="660" font-size="24" fill="#ffffff" text-anchor="middle">제출하는 파일</text>
+
+<!-- AI branch -->
+<rect x="444" y="740" width="646" height="92" rx="12" fill="#f1f5fb" stroke="#5b7fb5" stroke-width="2"/>
+<text x="464" y="774" font-size="24" font-weight="700" fill="#14253d">05_AI결과와검증기록</text>
+<text x="464" y="810" font-size="24" fill="#1f2a37">AI가 만든 결과(_AI초안)를 둔다</text>
+<line x1="589" y1="738" x2="589" y2="680" stroke="#2f5d9b" stroke-width="3" marker-end="url(#ah)"/>
+<text x="606" y="718" font-size="24" fill="#2f5d9b">사람이 확인·수정한 것만 02 → 03</text>
+
+<rect x="64" y="692" width="300" height="140" rx="12" fill="#ffffff" stroke="#2f6f73" stroke-width="2"/>
+<text x="84" y="726" font-size="24" font-weight="700" fill="#2f6f73">AI에게 줄 때</text>
+<text x="84" y="758" font-size="24" fill="#1f2a37">원본이 아니라</text>
+<text x="84" y="790" font-size="24" fill="#1f2a37">사본이나 가린 파일</text>
+<text x="84" y="820" font-size="24" fill="#566273">(CH03)</text>
+
+<!-- backup -->
+<rect x="1114" y="562" width="422" height="270" rx="12" fill="#e6eef9" stroke="#c9d4e5" stroke-width="2"/>
+<text x="1134" y="600" font-size="26" font-weight="700" fill="#14253d">백업의 기초</text>
+<text x="1134" y="638" font-size="24" fill="#1f2a37">다른 곳에 따로 둔 복사본</text>
+<text x="1134" y="671" font-size="24" fill="#1f2a37">≠ 동기화 (CH05)</text>
+<text x="1134" y="704" font-size="24" fill="#1f2a37">서로 다른 장소에 두 벌 이상</text>
+<text x="1134" y="737" font-size="24" fill="#1f2a37">같은 PC의 다른 폴더는</text>
+<text x="1134" y="770" font-size="24" fill="#1f2a37">고장 나면 함께 잃기 쉬움</text>
+<text x="1134" y="803" font-size="24" font-weight="700" fill="#b7791f">한 번 복원해 보기 전엔 모름</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

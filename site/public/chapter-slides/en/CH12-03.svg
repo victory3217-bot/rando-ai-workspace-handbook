@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">Severity and the re-run decision</title>
+<desc id="d">Shows the author's teaching criteria for high, medium and low severity, and how each situation leads to human final confirmation, a direct fix, a re-run, discarding and re-running, a person writing the part, or checking with the owner or approver.</desc>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5b7fb5"/></marker>
+</defs>
+<text x="64" y="70" font-size="22" font-weight="bold" fill="#2f5d9b">CH12 · 3/3</text>
+<text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">Severity and the re-run decision</text>
+<text x="64" y="172" font-size="26" fill="#566273">Author's interpretation: teaching criteria, not a set standard; your organization's rules come first</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- Column labels -->
+<text x="64" y="238" font-size="24" font-weight="bold" fill="#566273">Severity</text>
+<text x="795" y="238" text-anchor="middle" font-size="24" font-weight="bold" fill="#566273">Situation</text>
+<text x="1318" y="238" text-anchor="middle" font-size="24" font-weight="bold" fill="#566273">Action</text>
+
+<!-- Severity tiers -->
+<rect x="64" y="252" width="436" height="176" rx="12" fill="#ffffff" stroke="#a33a3a" stroke-width="3"/>
+<text x="92" y="294" font-size="30" font-weight="bold" fill="#a33a3a">High</text>
+<text x="92" y="334" font-size="26" fill="#1f2a37">Error in a core item:</text>
+<text x="92" y="368" font-size="26" fill="#1f2a37">decision, owner, deadline,</text>
+<text x="92" y="402" font-size="26" fill="#1f2a37">number; or harm if it goes out</text>
+<rect x="64" y="440" width="436" height="140" rx="12" fill="#ffffff" stroke="#b7791f" stroke-width="3"/>
+<text x="92" y="482" font-size="30" font-weight="bold" fill="#b7791f">Medium</text>
+<text x="92" y="520" font-size="26" fill="#1f2a37">Not core, but changes the</text>
+<text x="92" y="554" font-size="26" fill="#1f2a37">meaning; or an omission</text>
+<rect x="64" y="592" width="436" height="100" rx="12" fill="#ffffff" stroke="#5b7fb5" stroke-width="3"/>
+<text x="92" y="652" font-size="30" font-weight="bold" fill="#2f5d9b">Low</text>
+<text x="190" y="652" font-size="26" fill="#1f2a37">Wording, format, etc.</text>
+<rect x="64" y="704" width="436" height="116" rx="12" fill="#e6eef9"/>
+<text x="92" y="742" font-size="26" font-weight="bold" fill="#14253d">What is a re-run?</text>
+<text x="92" y="776" font-size="24" fill="#1f2a37">Asking the AI again with the</text>
+<text x="92" y="808" font-size="24" fill="#1f2a37">same instructions and material</text>
+
+<!-- Decision rows -->
+<rect x="530" y="252" width="530" height="88" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="556" y="306" font-size="26" fill="#1f2a37">No errors</text>
+<line x1="1064" y1="296" x2="1094" y2="296" stroke="#5b7fb5" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="1100" y="252" width="436" height="88" rx="12" fill="#f1f5fb" stroke="#2f6f73" stroke-width="3"/>
+<text x="1126" y="288" font-size="26" font-weight="bold" fill="#2f6f73">Go on to the human</text>
+<text x="1126" y="324" font-size="26" font-weight="bold" fill="#2f6f73">final confirmation</text>
+
+<rect x="530" y="348" width="530" height="88" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="556" y="402" font-size="26" fill="#1f2a37">A few low-severity errors</text>
+<line x1="1064" y1="392" x2="1094" y2="392" stroke="#5b7fb5" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="1100" y="348" width="436" height="88" rx="12" fill="#f1f5fb" stroke="#2f5d9b" stroke-width="3"/>
+<text x="1126" y="402" font-size="26" font-weight="bold" fill="#14253d">A person fixes them directly</text>
+
+<rect x="530" y="444" width="530" height="88" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="556" y="480" font-size="26" fill="#1f2a37">Same error likely to repeat due to</text>
+<text x="556" y="516" font-size="26" fill="#1f2a37">a problem in instructions or input</text>
+<line x1="1064" y1="488" x2="1094" y2="488" stroke="#5b7fb5" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="1100" y="444" width="436" height="88" rx="12" fill="#f1f5fb" stroke="#2f5d9b" stroke-width="3"/>
+<text x="1126" y="480" font-size="26" font-weight="bold" fill="#14253d">Fix instructions/input, re-run</text>
+<text x="1126" y="516" font-size="26" fill="#1f2a37">Record what you fixed</text>
+
+<rect x="530" y="540" width="530" height="88" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="556" y="576" font-size="26" fill="#1f2a37">A high-severity error, or</text>
+<text x="556" y="612" font-size="26" fill="#1f2a37">several fabrications</text>
+<line x1="1064" y1="584" x2="1094" y2="584" stroke="#5b7fb5" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="1100" y="540" width="436" height="88" rx="12" fill="#f1f5fb" stroke="#a33a3a" stroke-width="3"/>
+<text x="1126" y="576" font-size="26" font-weight="bold" fill="#a33a3a">Discard the result</text>
+<text x="1126" y="612" font-size="26" fill="#1f2a37">Find and fix the cause, re-run</text>
+
+<rect x="530" y="636" width="530" height="88" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="556" y="672" font-size="26" fill="#1f2a37">Same high error repeats after re-run</text>
+<text x="556" y="708" font-size="26" fill="#566273">(recommended: up to 2 times; untested)</text>
+<line x1="1064" y1="680" x2="1094" y2="680" stroke="#5b7fb5" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="1100" y="636" width="436" height="88" rx="12" fill="#f1f5fb" stroke="#a33a3a" stroke-width="3"/>
+<text x="1126" y="672" font-size="26" font-weight="bold" fill="#14253d">A person writes that part</text>
+<text x="1126" y="708" font-size="26" fill="#1f2a37">Add it to the improvement list</text>
+
+<rect x="530" y="732" width="530" height="88" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="556" y="768" font-size="26" fill="#1f2a37">Judgment needed, vague rule, or</text>
+<text x="556" y="804" font-size="26" fill="#1f2a37">suspected tier (CH03) problem</text>
+<line x1="1064" y1="776" x2="1094" y2="776" stroke="#5b7fb5" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="1100" y="732" width="436" height="88" rx="12" fill="#f1f5fb" stroke="#b7791f" stroke-width="3"/>
+<text x="1126" y="768" font-size="26" font-weight="bold" fill="#14253d">Check with owner or approver</text>
+<text x="1126" y="804" font-size="26" fill="#1f2a37">Do not share before checking</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">동기화는 백업이 아니다</title>
+<desc id="d">삭제나 잘못된 수정이 동기화로는 다른 곳에도 반영되지만 백업본은 남는다는 점, 동시·오프라인 수정이 충돌 사본을 만드는 경우, OneDrive 복원 기능의 기간과 조건을 비교해 동기화만으로는 백업이 아니라는 판단을 보여 줍니다.</desc>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f5d9b"/></marker>
+</defs>
+<text x="64" y="70" font-size="22" font-weight="bold" fill="#2f5d9b">CH05 · 2/3</text>
+<text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">동기화는 백업이 아니다</text>
+<text x="64" y="172" font-size="26" fill="#566273">동기화는 같은 파일을 여러 곳에 맞춰 두는 것, 백업은 따로 두는 복사본</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- lane 1: sync -->
+<rect x="64" y="226" width="340" height="110" rx="12" fill="#14253d"/>
+<text x="234" y="272" font-size="30" font-weight="bold" fill="#ffffff" text-anchor="middle">동기화</text>
+<text x="234" y="310" font-size="24" fill="#ffffff" text-anchor="middle">같은 최신 상태로 쓰기</text>
+<rect x="430" y="226" width="320" height="110" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="590" y="272" font-size="24" fill="#1f2a37" text-anchor="middle">PC에서 삭제하거나</text>
+<text x="590" y="306" font-size="24" fill="#1f2a37" text-anchor="middle">잘못 고쳐 저장</text>
+<line x1="752" y1="281" x2="786" y2="281" stroke="#2f5d9b" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="790" y="226" width="270" height="110" rx="12" fill="#e6eef9" stroke="#2f5d9b" stroke-width="2"/>
+<text x="925" y="272" font-size="24" fill="#1f2a37" text-anchor="middle">클라우드와</text>
+<text x="925" y="306" font-size="24" fill="#1f2a37" text-anchor="middle">다른 기기</text>
+<rect x="1090" y="226" width="446" height="110" rx="12" fill="#ffffff" stroke="#a33a3a" stroke-width="2"/>
+<rect x="1090" y="226" width="12" height="110" fill="#a33a3a"/>
+<text x="1124" y="272" font-size="26" font-weight="bold" fill="#a33a3a">같이 지워지거나</text>
+<text x="1124" y="308" font-size="26" font-weight="bold" fill="#a33a3a">같이 바뀔 수 있음</text>
+
+<!-- lane 2: backup -->
+<rect x="64" y="350" width="340" height="110" rx="12" fill="#14253d"/>
+<text x="234" y="396" font-size="30" font-weight="bold" fill="#ffffff" text-anchor="middle">백업</text>
+<text x="234" y="434" font-size="24" fill="#ffffff" text-anchor="middle">사고 뒤에 되돌리기</text>
+<rect x="430" y="350" width="320" height="110" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="590" y="396" font-size="24" fill="#1f2a37" text-anchor="middle">원본을 지우거나</text>
+<text x="590" y="430" font-size="24" fill="#1f2a37" text-anchor="middle">잘못 고쳐 저장</text>
+<line x1="754" y1="405" x2="786" y2="405" stroke="#566273" stroke-width="3" stroke-dasharray="6 6"/>
+<rect x="790" y="350" width="270" height="110" rx="12" fill="#e6eef9" stroke="#2f5d9b" stroke-width="2"/>
+<text x="925" y="396" font-size="24" fill="#1f2a37" text-anchor="middle">따로 둔 복사본</text>
+<text x="925" y="430" font-size="24" fill="#1f2a37" text-anchor="middle">같이 변하지 않음</text>
+<rect x="1090" y="350" width="446" height="110" rx="12" fill="#ffffff" stroke="#2f6f73" stroke-width="2"/>
+<rect x="1090" y="350" width="12" height="110" fill="#2f6f73"/>
+<text x="1124" y="396" font-size="26" font-weight="bold" fill="#2f6f73">백업본과 이전 상태가</text>
+<text x="1124" y="432" font-size="26" font-weight="bold" fill="#2f6f73">남아 있음</text>
+
+<!-- lane 3: conflict -->
+<rect x="64" y="474" width="340" height="110" rx="12" fill="#2f5d9b"/>
+<text x="234" y="520" font-size="30" font-weight="bold" fill="#ffffff" text-anchor="middle">충돌</text>
+<text x="234" y="558" font-size="24" fill="#ffffff" text-anchor="middle">동기화가 맞출 수 없을 때</text>
+<rect x="430" y="474" width="320" height="110" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="590" y="520" font-size="24" fill="#1f2a37" text-anchor="middle">두 기기에서 동시에</text>
+<text x="590" y="554" font-size="24" fill="#1f2a37" text-anchor="middle">또는 오프라인으로 따로 수정</text>
+<line x1="752" y1="529" x2="786" y2="529" stroke="#2f5d9b" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="790" y="474" width="270" height="110" rx="12" fill="#e6eef9" stroke="#2f5d9b" stroke-width="2"/>
+<text x="925" y="520" font-size="24" fill="#1f2a37" text-anchor="middle">맞출 수 없는</text>
+<text x="925" y="554" font-size="24" fill="#1f2a37" text-anchor="middle">충돌</text>
+<rect x="1090" y="474" width="446" height="110" rx="12" fill="#ffffff" stroke="#b7791f" stroke-width="2"/>
+<rect x="1090" y="474" width="12" height="110" fill="#b7791f"/>
+<text x="1124" y="520" font-size="26" font-weight="bold" fill="#14253d">충돌 사본이 생길 수 있음</text>
+<text x="1124" y="556" font-size="24" fill="#1f2a37">→ 내용을 비교해 하나만 남김</text>
+
+<!-- restore conditions -->
+<rect x="64" y="606" width="836" height="242" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="88" y="646" font-size="28" font-weight="bold" fill="#14253d">복원에는 기간과 조건이 있다 · OneDrive [S13]</text>
+<text x="88" y="686" font-size="24" fill="#1f2a37">삭제·덮어쓰기·손상된 파일은 복원할 수 있는 경우가 있음</text>
+<text x="88" y="720" font-size="24" fill="#1f2a37">개인 계정: 삭제 후 30일 이내</text>
+<text x="88" y="754" font-size="24" fill="#1f2a37">직장·학교 계정: 93일 이내 (관리자가 바꾸지 않은 경우)</text>
+<text x="88" y="788" font-size="24" fill="#1f2a37"><tspan font-weight="bold" fill="#a33a3a">불가</tspan> 휴지통에서 영구 삭제한 뒤</text>
+<text x="88" y="822" font-size="24" fill="#1f2a37"><tspan font-weight="bold" fill="#a33a3a">불가</tspan> 다른 사람이 나에게 공유한 파일</text>
+
+<!-- conclusion -->
+<rect x="924" y="606" width="612" height="242" rx="12" fill="#14253d"/>
+<text x="952" y="648" font-size="22" font-weight="bold" fill="#e6eef9">저자 해석</text>
+<text x="952" y="694" font-size="30" font-weight="bold" fill="#ffffff">동기화가 켜져 있어도</text>
+<text x="952" y="734" font-size="30" font-weight="bold" fill="#ffffff">백업이 있다고 보지 않는다</text>
+<text x="952" y="782" font-size="26" fill="#ffffff">→ 중요 파일은 따로 둔 복사본</text>
+<text x="952" y="820" font-size="26" fill="#ffffff">→ 복원이 되는지 한 번 확인</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">Sync is not backup</title>
+<desc id="d">Compares how a deletion or mistaken edit is carried to other places by sync while a backup copy remains, how simultaneous or offline edits can create conflict copies, and the time limits and conditions of OneDrive restore, leading to the judgment that sync alone is not a backup.</desc>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f5d9b"/></marker>
+</defs>
+<text x="64" y="70" font-size="22" font-weight="bold" fill="#2f5d9b">CH05 · 2/3</text>
+<text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">Sync is not backup</text>
+<text x="64" y="172" font-size="26" fill="#566273">Sync keeps the same file matched in several places; a backup is a copy kept separately</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- lane 1: sync -->
+<rect x="64" y="226" width="340" height="110" rx="12" fill="#14253d"/>
+<text x="234" y="272" font-size="30" font-weight="bold" fill="#ffffff" text-anchor="middle">Sync</text>
+<text x="234" y="310" font-size="24" fill="#ffffff" text-anchor="middle">Same latest state</text>
+<rect x="430" y="226" width="320" height="110" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="590" y="272" font-size="24" fill="#1f2a37" text-anchor="middle">Deleted or wrongly</text>
+<text x="590" y="306" font-size="24" fill="#1f2a37" text-anchor="middle">edited on the PC</text>
+<line x1="752" y1="281" x2="786" y2="281" stroke="#2f5d9b" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="790" y="226" width="270" height="110" rx="12" fill="#e6eef9" stroke="#2f5d9b" stroke-width="2"/>
+<text x="925" y="272" font-size="24" fill="#1f2a37" text-anchor="middle">Cloud and</text>
+<text x="925" y="306" font-size="24" fill="#1f2a37" text-anchor="middle">other devices</text>
+<rect x="1090" y="226" width="446" height="110" rx="12" fill="#ffffff" stroke="#a33a3a" stroke-width="2"/>
+<rect x="1090" y="226" width="12" height="110" fill="#a33a3a"/>
+<text x="1124" y="272" font-size="26" font-weight="bold" fill="#a33a3a">Can be deleted or</text>
+<text x="1124" y="308" font-size="26" font-weight="bold" fill="#a33a3a">changed there too</text>
+
+<!-- lane 2: backup -->
+<rect x="64" y="350" width="340" height="110" rx="12" fill="#14253d"/>
+<text x="234" y="396" font-size="30" font-weight="bold" fill="#ffffff" text-anchor="middle">Backup</text>
+<text x="234" y="434" font-size="24" fill="#ffffff" text-anchor="middle">Go back after an accident</text>
+<rect x="430" y="350" width="320" height="110" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="590" y="396" font-size="24" fill="#1f2a37" text-anchor="middle">Original deleted or</text>
+<text x="590" y="430" font-size="24" fill="#1f2a37" text-anchor="middle">wrongly edited</text>
+<line x1="754" y1="405" x2="786" y2="405" stroke="#566273" stroke-width="3" stroke-dasharray="6 6"/>
+<rect x="790" y="350" width="270" height="110" rx="12" fill="#e6eef9" stroke="#2f5d9b" stroke-width="2"/>
+<text x="925" y="396" font-size="24" fill="#1f2a37" text-anchor="middle">Separate copy</text>
+<text x="925" y="430" font-size="24" fill="#1f2a37" text-anchor="middle">does not change</text>
+<rect x="1090" y="350" width="446" height="110" rx="12" fill="#ffffff" stroke="#2f6f73" stroke-width="2"/>
+<rect x="1090" y="350" width="12" height="110" fill="#2f6f73"/>
+<text x="1124" y="396" font-size="26" font-weight="bold" fill="#2f6f73">The backup copy and the</text>
+<text x="1124" y="432" font-size="26" font-weight="bold" fill="#2f6f73">earlier state remain</text>
+
+<!-- lane 3: conflict -->
+<rect x="64" y="474" width="340" height="110" rx="12" fill="#2f5d9b"/>
+<text x="234" y="520" font-size="30" font-weight="bold" fill="#ffffff" text-anchor="middle">Conflict</text>
+<text x="234" y="558" font-size="24" fill="#ffffff" text-anchor="middle">When sync cannot match</text>
+<rect x="430" y="474" width="320" height="110" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="590" y="520" font-size="24" fill="#1f2a37" text-anchor="middle">Two devices at once,</text>
+<text x="590" y="554" font-size="24" fill="#1f2a37" text-anchor="middle">or separately offline</text>
+<line x1="752" y1="529" x2="786" y2="529" stroke="#2f5d9b" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="790" y="474" width="270" height="110" rx="12" fill="#e6eef9" stroke="#2f5d9b" stroke-width="2"/>
+<text x="925" y="520" font-size="24" fill="#1f2a37" text-anchor="middle">A conflict that</text>
+<text x="925" y="554" font-size="24" fill="#1f2a37" text-anchor="middle">cannot be matched</text>
+<rect x="1090" y="474" width="446" height="110" rx="12" fill="#ffffff" stroke="#b7791f" stroke-width="2"/>
+<rect x="1090" y="474" width="12" height="110" fill="#b7791f"/>
+<text x="1124" y="520" font-size="26" font-weight="bold" fill="#14253d">A conflict copy may appear</text>
+<text x="1124" y="556" font-size="24" fill="#1f2a37">→ compare the contents, keep one</text>
+
+<!-- restore conditions -->
+<rect x="64" y="606" width="836" height="242" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="88" y="646" font-size="28" font-weight="bold" fill="#14253d">Restore has time limits and conditions · OneDrive [S13]</text>
+<text x="88" y="686" font-size="24" fill="#1f2a37">Deleted, overwritten, damaged: can sometimes be restored</text>
+<text x="88" y="720" font-size="24" fill="#1f2a37">Personal account: within 30 days after deletion</text>
+<text x="88" y="754" font-size="24" fill="#1f2a37">Work or school: within 93 days (unless an admin changed it)</text>
+<text x="88" y="788" font-size="24" fill="#1f2a37"><tspan font-weight="bold" fill="#a33a3a">No</tspan> after permanent deletion from the Recycle Bin</text>
+<text x="88" y="822" font-size="24" fill="#1f2a37"><tspan font-weight="bold" fill="#a33a3a">No</tspan> for a file someone else shared with you</text>
+
+<!-- conclusion -->
+<rect x="924" y="606" width="612" height="242" rx="12" fill="#14253d"/>
+<text x="952" y="648" font-size="22" font-weight="bold" fill="#e6eef9">Author's interpretation</text>
+<text x="952" y="694" font-size="30" font-weight="bold" fill="#ffffff">Sync turned on does not</text>
+<text x="952" y="734" font-size="30" font-weight="bold" fill="#ffffff">mean you have a backup</text>
+<text x="952" y="782" font-size="26" fill="#ffffff">→ Keep a separate copy of key files</text>
+<text x="952" y="820" font-size="26" fill="#ffffff">→ Check once that restoring works</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

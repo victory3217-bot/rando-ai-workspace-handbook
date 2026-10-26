@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">Verification principles: every time, both ways</title>
+<desc id="d">Shows the four reasons AI results must be verified with the same procedure every time, and how comparing the source text and the result in both directions finds both fabrications and omissions.</desc>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#14253d"/></marker>
+<marker id="ah2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5b7fb5"/></marker>
+</defs>
+<text x="64" y="70" font-size="22" font-weight="bold" fill="#2f5d9b">CH12 · 1/3</text>
+<text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">Verification principles: every time, both ways</text>
+<text x="64" y="172" font-size="26" fill="#566273">What matters is not doing it well once, but the same procedure every time</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- Left: why verify every time -->
+<text x="64" y="252" font-size="28" font-weight="bold" fill="#14253d">Why verify every time</text>
+<rect x="64" y="272" width="560" height="124" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="92" y="322" font-size="28" font-weight="bold" fill="#14253d">AI can be wrong</text>
+<text x="92" y="364" font-size="26" fill="#1f2a37">Makes up, wrong numbers, omits (CH09)</text>
+<rect x="64" y="412" width="560" height="124" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="92" y="462" font-size="28" font-weight="bold" fill="#14253d">AI can break instructions</text>
+<text x="92" y="504" font-size="26" fill="#1f2a37">Need a procedure to notice it (CH10)</text>
+<rect x="64" y="552" width="560" height="124" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="92" y="602" font-size="28" font-weight="bold" fill="#14253d">Responsibility is the person's</text>
+<text x="92" y="644" font-size="26" fill="#1f2a37">Once you share or submit it (CH09)</text>
+<rect x="64" y="692" width="560" height="124" rx="12" fill="#e6eef9" stroke="#2f5d9b" stroke-width="2"/>
+<text x="92" y="742" font-size="28" font-weight="bold" fill="#14253d">Same procedure every time</text>
+<text x="92" y="784" font-size="26" fill="#1f2a37">Even tired or rushed → checklist</text>
+
+<!-- Right: two-way comparison -->
+<rect x="660" y="232" width="876" height="120" rx="12" fill="#ffffff" stroke="#14253d" stroke-width="2"/>
+<text x="1098" y="278" text-anchor="middle" font-size="28" font-weight="bold" fill="#14253d">Result → source · find fabrications, distortions</text>
+<text x="1098" y="322" text-anchor="middle" font-size="26" fill="#1f2a37">Each result sentence: find its evidence, mark if none</text>
+
+<rect x="660" y="368" width="220" height="150" rx="12" fill="#14253d"/>
+<text x="770" y="436" text-anchor="middle" font-size="32" font-weight="bold" fill="#ffffff">Source</text>
+<text x="770" y="478" text-anchor="middle" font-size="32" font-weight="bold" fill="#ffffff">text</text>
+<rect x="1316" y="368" width="220" height="150" rx="12" fill="#2f5d9b"/>
+<text x="1426" y="455" text-anchor="middle" font-size="32" font-weight="bold" fill="#ffffff">Result</text>
+<line x1="1310" y1="404" x2="888" y2="404" stroke="#14253d" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="886" y1="482" x2="1308" y2="482" stroke="#5b7fb5" stroke-width="4" marker-end="url(#ah2)"/>
+<text x="1098" y="453" text-anchor="middle" font-size="28" font-weight="bold" fill="#2f5d9b">Two-way comparison</text>
+
+<rect x="660" y="534" width="876" height="140" rx="12" fill="#ffffff" stroke="#5b7fb5" stroke-width="2"/>
+<text x="1098" y="576" text-anchor="middle" font-size="28" font-weight="bold" fill="#14253d">Source → result · find omissions</text>
+<text x="1098" y="614" text-anchor="middle" font-size="26" fill="#1f2a37">Find each source item in the result, one by one:</text>
+<text x="1098" y="650" text-anchor="middle" font-size="26" fill="#1f2a37">agenda item, decision, owner, deadline, undecided matter</text>
+
+<rect x="660" y="690" width="876" height="156" rx="12" fill="#f1f5fb" stroke="#b7791f" stroke-width="2"/>
+<text x="1098" y="732" text-anchor="middle" font-size="28" font-weight="bold" fill="#b7791f">One direction only misses errors</text>
+<text x="1098" y="774" text-anchor="middle" font-size="26" fill="#1f2a37">Result → source only: you miss what is missing</text>
+<text x="1098" y="814" text-anchor="middle" font-size="26" fill="#1f2a37">Source → result only: you miss what was slipped in</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

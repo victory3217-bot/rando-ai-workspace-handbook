@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">CH04 File-naming rule; original, working copy, final version</title>
+<desc id="d">Shows a file-naming rule built from date, task, content, and version, with names to avoid, then explains the flow from original to working copy to final version, the path by which AI drafts must pass a person's check, and the basics of backup.</desc>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f5d9b"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<text x="64" y="70" font-size="22" font-weight="700" fill="#2f5d9b">CH04 · 3/3</text>
+<text x="64" y="128" font-size="46" font-weight="700" fill="#14253d">File names; original, working copy, final</text>
+<text x="64" y="172" font-size="26" fill="#566273">Rules: the author's suggestion · know which file is latest and where to go back</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- name anatomy -->
+<rect x="64" y="224" width="230" height="76" rx="12" fill="#e6eef9" stroke="#2f5d9b" stroke-width="2"/>
+<text x="179" y="254" font-size="22" fill="#566273" text-anchor="middle">[date]</text>
+<text x="179" y="290" font-size="26" font-weight="700" fill="#14253d" text-anchor="middle">2026-10-12</text>
+<text x="309" y="280" font-size="30" font-weight="700" fill="#566273" text-anchor="middle">_</text>
+<rect x="324" y="224" width="230" height="76" rx="12" fill="#e6eef9" stroke="#2f5d9b" stroke-width="2"/>
+<text x="439" y="254" font-size="22" fill="#566273" text-anchor="middle">[task]</text>
+<text x="439" y="290" font-size="26" font-weight="700" fill="#14253d" text-anchor="middle">SalesMeeting</text>
+<text x="569" y="280" font-size="30" font-weight="700" fill="#566273" text-anchor="middle">_</text>
+<rect x="584" y="224" width="200" height="76" rx="12" fill="#e6eef9" stroke="#2f5d9b" stroke-width="2"/>
+<text x="684" y="254" font-size="22" fill="#566273" text-anchor="middle">[content]</text>
+<text x="684" y="290" font-size="26" font-weight="700" fill="#14253d" text-anchor="middle">Minutes_Q3</text>
+<text x="799" y="280" font-size="30" font-weight="700" fill="#566273" text-anchor="middle">_</text>
+<rect x="814" y="224" width="130" height="76" rx="12" fill="#e6eef9" stroke="#2f5d9b" stroke-width="2"/>
+<text x="879" y="254" font-size="22" fill="#566273" text-anchor="middle">[version]</text>
+<text x="879" y="290" font-size="26" font-weight="700" fill="#14253d" text-anchor="middle">v01</text>
+<rect x="954" y="224" width="136" height="76" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="1022" y="254" font-size="22" fill="#566273" text-anchor="middle">extension</text>
+<text x="1022" y="290" font-size="26" font-weight="700" fill="#14253d" text-anchor="middle">.docx</text>
+
+<!-- rules -->
+<rect x="64" y="310" width="1026" height="44" rx="12" fill="#ffffff" stroke="#c9d4e5"/>
+<rect x="64" y="310" width="170" height="44" rx="12" fill="#2f5d9b"/>
+<text x="149" y="341" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">Date</text>
+<text x="254" y="341" font-size="24" fill="#1f2a37">year-month-day, first → sorting by name = sorting by date</text>
+<rect x="64" y="356" width="1026" height="44" rx="12" fill="#ffffff" stroke="#c9d4e5"/>
+<rect x="64" y="356" width="170" height="44" rx="12" fill="#2f5d9b"/>
+<text x="149" y="387" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">Version</text>
+<text x="254" y="387" font-size="24" fill="#1f2a37">Raise it as v01, v02</text>
+<rect x="64" y="402" width="1026" height="44" rx="12" fill="#ffffff" stroke="#c9d4e5"/>
+<rect x="64" y="402" width="170" height="44" rx="12" fill="#2f5d9b"/>
+<text x="149" y="433" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">Final</text>
+<text x="254" y="433" font-size="24" fill="#1f2a37">Not 'final' in the name: put it in 03_Final or add _approved</text>
+<rect x="64" y="448" width="1026" height="44" rx="12" fill="#ffffff" stroke="#c9d4e5"/>
+<rect x="64" y="448" width="170" height="44" rx="12" fill="#2f5d9b"/>
+<text x="149" y="479" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">AI draft</text>
+<text x="254" y="479" font-size="24" fill="#1f2a37">Add _AI_draft to tell it apart from files made by people</text>
+<rect x="64" y="494" width="1026" height="44" rx="12" fill="#ffffff" stroke="#c9d4e5"/>
+<rect x="64" y="494" width="170" height="44" rx="12" fill="#2f5d9b"/>
+<text x="149" y="525" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">Characters</text>
+<text x="254" y="525" font-size="24" fill="#1f2a37">\ / : * ? &quot; &lt; &gt; | not allowed in Windows names · join words with _</text>
+
+<!-- names to avoid -->
+<rect x="1114" y="224" width="422" height="314" rx="12" fill="#ffffff" stroke="#a33a3a" stroke-width="2"/>
+<text x="1134" y="260" font-size="26" font-weight="700" fill="#a33a3a">Names to avoid</text>
+<rect x="1134" y="276" width="382" height="44" rx="12" fill="#f1f5fb" stroke="#c9d4e5"/>
+<text x="1150" y="307" font-size="24" fill="#1f2a37">minutes_final.docx</text>
+<rect x="1134" y="326" width="382" height="44" rx="12" fill="#f1f5fb" stroke="#c9d4e5"/>
+<text x="1150" y="357" font-size="24" fill="#1f2a37">minutes_really_final(1).docx</text>
+<rect x="1134" y="376" width="382" height="44" rx="12" fill="#f1f5fb" stroke="#c9d4e5"/>
+<text x="1150" y="407" font-size="24" fill="#1f2a37">New Document.docx</text>
+<text x="1134" y="462" font-size="24" fill="#1f2a37">Can't tell which one is last</text>
+<text x="1134" y="496" font-size="24" fill="#1f2a37">or what it contains</text>
+
+<!-- flow -->
+<rect x="64" y="562" width="300" height="112" rx="12" fill="#ffffff" stroke="#2f6f73" stroke-width="3"/>
+<text x="214" y="594" font-size="26" font-weight="700" fill="#14253d" text-anchor="middle">01_Originals</text>
+<text x="214" y="628" font-size="24" fill="#1f2a37" text-anchor="middle">never edited</text>
+<text x="214" y="660" font-size="24" font-weight="700" fill="#2f6f73" text-anchor="middle">→ where you go back</text>
+
+<text x="404" y="622" font-size="24" fill="#2f5d9b" text-anchor="middle">copy</text>
+<line x1="366" y1="642" x2="440" y2="642" stroke="#2f5d9b" stroke-width="3" marker-end="url(#ah)"/>
+
+<rect x="444" y="562" width="290" height="112" rx="12" fill="#ffffff" stroke="#2f5d9b" stroke-width="3"/>
+<text x="589" y="594" font-size="26" font-weight="700" fill="#14253d" text-anchor="middle">02_Working</text>
+<text x="589" y="628" font-size="24" fill="#1f2a37" text-anchor="middle">edit the copy</text>
+<text x="589" y="660" font-size="24" fill="#1f2a37" text-anchor="middle">v01, v02 …</text>
+
+<text x="784" y="622" font-size="22" fill="#2f5d9b" text-anchor="middle">approve</text>
+<line x1="736" y1="642" x2="830" y2="642" stroke="#2f5d9b" stroke-width="3" marker-end="url(#ah)"/>
+
+<rect x="834" y="562" width="256" height="112" rx="12" fill="#14253d"/>
+<text x="962" y="594" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">03_Final</text>
+<text x="962" y="628" font-size="24" fill="#ffffff" text-anchor="middle">confirmed; shared</text>
+<text x="962" y="660" font-size="24" fill="#ffffff" text-anchor="middle">or submitted</text>
+
+<!-- AI branch -->
+<rect x="444" y="740" width="646" height="92" rx="12" fill="#f1f5fb" stroke="#5b7fb5" stroke-width="2"/>
+<text x="464" y="774" font-size="24" font-weight="700" fill="#14253d">05_AI_Output_and_Verification_Log</text>
+<text x="464" y="810" font-size="24" fill="#1f2a37">What AI produces (_AI_draft) is kept here</text>
+<line x1="589" y1="738" x2="589" y2="680" stroke="#2f5d9b" stroke-width="3" marker-end="url(#ah)"/>
+<text x="606" y="718" font-size="24" fill="#2f5d9b">Only person-checked + corrected → 02 → 03</text>
+
+<rect x="64" y="692" width="300" height="140" rx="12" fill="#ffffff" stroke="#2f6f73" stroke-width="2"/>
+<text x="84" y="726" font-size="24" font-weight="700" fill="#2f6f73">To AI, give</text>
+<text x="84" y="758" font-size="24" fill="#1f2a37">a copy or masked</text>
+<text x="84" y="790" font-size="24" fill="#1f2a37">file, not the original</text>
+<text x="84" y="820" font-size="24" fill="#566273">(CH03)</text>
+
+<!-- backup -->
+<rect x="1114" y="562" width="422" height="270" rx="12" fill="#e6eef9" stroke="#c9d4e5" stroke-width="2"/>
+<text x="1134" y="600" font-size="26" font-weight="700" fill="#14253d">Backup basics</text>
+<text x="1134" y="638" font-size="24" fill="#1f2a37">A copy kept somewhere else</text>
+<text x="1134" y="671" font-size="24" fill="#1f2a37">≠ sync (CH05)</text>
+<text x="1134" y="704" font-size="24" fill="#1f2a37">Two or more different places</text>
+<text x="1134" y="737" font-size="24" fill="#1f2a37">Another folder on the same PC</text>
+<text x="1134" y="770" font-size="24" fill="#1f2a37">is easily lost if the PC breaks</text>
+<text x="1134" y="803" font-size="24" font-weight="700" fill="#b7791f">Unknown until restored once</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

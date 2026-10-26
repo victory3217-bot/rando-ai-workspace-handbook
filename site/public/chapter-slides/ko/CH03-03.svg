@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">AI에 넣기 전 판단 흐름</title>
+<desc id="d">회사 규정을 전제로, 자료마다 등급을 정해 A는 넣고, B는 허용된 서비스·계정에서 가린 뒤 넣고, C는 넣지 않고 다른 방법을 쓰는 판단 흐름을 보여 줍니다. 판단이 안 설 때, 가려도 짐작될 때, 비밀번호·API 키, 계정 종류에 대한 원칙을 함께 정리합니다.</desc>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5b7fb5"/></marker>
+</defs>
+<text x="64" y="70" font-size="22" font-weight="700" fill="#2f5d9b">CH03 · 3/3</text>
+<text x="64" y="128" font-size="46" font-weight="700" fill="#14253d">AI에 넣기 전 판단 흐름</text>
+<text x="64" y="172" font-size="26" fill="#566273">등급으로 행동을 정하고, 애매하면 더 보수적으로</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- premise banner -->
+<rect x="64" y="214" width="1472" height="56" rx="12" fill="#14253d"/>
+<text x="800" y="251" font-size="26" fill="#ffffff" text-anchor="middle"><tspan font-weight="700">전제</tspan> · 회사 정보보안 규정·AI 사용 지침이 먼저 · 조직이 승인하지 않은 자료는 넣지 않는다</text>
+
+<!-- question -->
+<rect x="64" y="420" width="220" height="120" rx="12" fill="#2f5d9b"/>
+<text x="174" y="468" font-size="26" fill="#ffffff" text-anchor="middle">자료 하나씩</text>
+<text x="174" y="508" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle">어느 등급?</text>
+
+<path d="M284 480 H309 V335 H330" fill="none" stroke="#5b7fb5" stroke-width="4" marker-end="url(#ar)"/>
+<path d="M309 480 V500 H330" fill="none" stroke="#5b7fb5" stroke-width="4" marker-end="url(#ar)"/>
+<path d="M309 480 V735 H330" fill="none" stroke="#5b7fb5" stroke-width="4" marker-end="url(#ar)"/>
+
+<!-- row A -->
+<rect x="334" y="290" width="696" height="90" rx="12" fill="#ffffff" stroke="#2f6f73" stroke-width="3"/>
+<rect x="354" y="305" width="60" height="60" rx="12" fill="#f1f5fb" stroke="#2f6f73" stroke-width="2"/>
+<text x="384" y="347" font-size="34" font-weight="700" fill="#2f6f73" text-anchor="middle">A</text>
+<text x="440" y="346" font-size="30" font-weight="700" fill="#2f6f73">넣는다</text>
+
+<!-- row B -->
+<rect x="334" y="400" width="696" height="215" rx="12" fill="#ffffff" stroke="#b7791f" stroke-width="3"/>
+<rect x="354" y="418" width="60" height="60" rx="12" fill="#f1f5fb" stroke="#b7791f" stroke-width="2"/>
+<text x="384" y="460" font-size="34" font-weight="700" fill="#b7791f" text-anchor="middle">B</text>
+<text x="440" y="459" font-size="28" font-weight="700" fill="#14253d">조직이 허용한 서비스·계정인가?</text>
+<rect x="440" y="494" width="576" height="50" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="462" y="527" font-size="24" fill="#1f2a37"><tspan font-weight="700" fill="#2f6f73">예</tspan> → 식별 부분을 가린 뒤 넣는다</text>
+<rect x="440" y="554" width="576" height="50" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="462" y="587" font-size="24" fill="#1f2a37"><tspan font-weight="700" fill="#b7791f">아니오·모름</tspan> → 담당자에게 먼저 묻는다</text>
+
+<!-- row C -->
+<rect x="334" y="635" width="696" height="210" rx="12" fill="#ffffff" stroke="#a33a3a" stroke-width="3"/>
+<rect x="354" y="653" width="60" height="60" rx="12" fill="#f1f5fb" stroke="#a33a3a" stroke-width="2"/>
+<text x="384" y="695" font-size="34" font-weight="700" fill="#a33a3a" text-anchor="middle">C</text>
+<text x="440" y="694" font-size="30" font-weight="700" fill="#a33a3a">넣지 않는다</text>
+<rect x="440" y="726" width="576" height="104" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="462" y="766" font-size="24" fill="#1f2a37"><tspan font-weight="700" fill="#2f5d9b">대신</tspan> · 양식만 만들고 이름 자리는 [고객명]</text>
+<text x="462" y="808" font-size="24" fill="#1f2a37">또는 가상자료로 바꿔 연습한다</text>
+
+<!-- principle cards -->
+<rect x="1060" y="290" width="476" height="127" rx="12" fill="#e6eef9"/>
+<text x="1084" y="330" font-size="26" font-weight="700" fill="#14253d">판단이 안 서면</text>
+<text x="1084" y="368" font-size="24" fill="#1f2a37">더 보수적인 등급을 고른다</text>
+<text x="1084" y="400" font-size="24" fill="#1f2a37">담당자 확인 전에는 넣지 않는다</text>
+
+<rect x="1060" y="433" width="476" height="127" rx="12" fill="#e6eef9"/>
+<text x="1084" y="473" font-size="26" font-weight="700" fill="#14253d">가린 뒤에도 누구인지 짐작되면</text>
+<text x="1084" y="511" font-size="24" fill="#1f2a37">시기·지역·금액까지 일반화하거나</text>
+<text x="1084" y="543" font-size="24" fill="#1f2a37">그 자료는 C로 취급한다</text>
+
+<rect x="1060" y="576" width="476" height="127" rx="12" fill="#e6eef9"/>
+<text x="1084" y="616" font-size="26" font-weight="700" fill="#14253d">열쇠: 비밀번호·API 키</text>
+<text x="1084" y="654" font-size="24" fill="#1f2a37">오류·설정 파일에 섞였는지 확인</text>
+<text x="1084" y="686" font-size="24" fill="#1f2a37">노출 의심 → 즉시 폐기, 새로 만들기</text>
+
+<rect x="1060" y="719" width="476" height="127" rx="12" fill="#e6eef9"/>
+<text x="1084" y="759" font-size="26" font-weight="700" fill="#14253d">조직용 계정 ≠ 무엇이든 OK</text>
+<text x="1084" y="797" font-size="24" fill="#1f2a37">넣을 자료는 회사 규정이 정한다</text>
+<text x="1084" y="829" font-size="24" fill="#1f2a37">개인 계정에 넣으면 규정 위반 가능</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

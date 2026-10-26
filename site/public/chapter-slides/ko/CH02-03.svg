@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">자료를 주는 방법과 사본이 남는 곳</title>
+<desc id="d">AI 서비스에 자료를 주는 세 가지 방법을 넘기는 자료의 양 순서로 보여 주고, 회의 메모 예로 같은 내용이 PC, 클라우드, AI 대화 기록에 사본으로 남는 과정을 보여 준다.</desc>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2f5d9b"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<text x="64" y="70" font-size="22" font-weight="bold" fill="#2f5d9b">CH02 · 3/3</text>
+<text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">자료를 주는 방법과 사본이 남는 곳</text>
+<text x="64" y="172" font-size="26" fill="#566273">무엇을 넘기는지, 그 자료가 어디에 한 벌 더 남는지</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- left: three ways -->
+<text x="64" y="252" font-size="30" font-weight="bold" fill="#14253d">AI 서비스에 자료를 주는 세 가지 방법</text>
+<rect x="64" y="276" width="420" height="92" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="88" y="314" font-size="28" font-weight="bold" fill="#14253d">1 복사해서 붙여 넣기</text>
+<text x="88" y="350" font-size="24" fill="#1f2a37">내가 직접 고른 한 부분</text>
+<rect x="64" y="380" width="560" height="92" rx="12" fill="#e6eef9" stroke="#5b7fb5" stroke-width="2"/>
+<text x="88" y="418" font-size="28" font-weight="bold" fill="#14253d">2 파일 올리기</text>
+<text x="88" y="454" font-size="24" fill="#1f2a37">파일 전체를 서비스에 올림</text>
+<rect x="64" y="484" width="700" height="92" rx="12" fill="#2f5d9b"/>
+<text x="88" y="522" font-size="28" font-weight="bold" fill="#ffffff">3 연결하기</text>
+<text x="88" y="558" font-size="24" fill="#ffffff">서비스 기능으로 클라우드·다른 도구에 접근</text>
+
+<rect x="64" y="604" width="700" height="226" rx="12" fill="#ffffff" stroke="#b7791f" stroke-width="3"/>
+<text x="88" y="644" font-size="24" font-weight="bold" fill="#b7791f">저자 해석</text>
+<text x="88" y="684" font-size="26" fill="#1f2a37">뒤로 갈수록 한 번에 많은 자료가 닿는다</text>
+<text x="88" y="722" font-size="26" fill="#1f2a37">→ 넘기는 것을 알기 쉬운 순서: 1 → 2 → 3</text>
+<text x="88" y="760" font-size="26" fill="#1f2a37">처음에는 1번과 2번으로 시작</text>
+<text x="88" y="798" font-size="26" fill="#1f2a37">연결은 CH03 정보 등급을 정한 뒤 쓰기 권장</text>
+
+<!-- right: copies trail -->
+<text x="824" y="252" font-size="30" font-weight="bold" fill="#14253d">사본이 남는 곳 — 회의 메모 예</text>
+<rect x="824" y="276" width="712" height="84" rx="12" fill="#14253d"/>
+<text x="848" y="328" font-size="28" font-weight="bold" fill="#ffffff">① PC에 저장</text>
+<text x="1512" y="328" font-size="26" fill="#ffffff" text-anchor="end">PC 안</text>
+<line x1="900" y1="364" x2="900" y2="414" stroke="#2f5d9b" stroke-width="4" marker-end="url(#ah)"/>
+<text x="924" y="398" font-size="24" font-weight="bold" fill="#2f5d9b">②가 동기화</text>
+<rect x="824" y="420" width="712" height="84" rx="12" fill="#2f5d9b"/>
+<text x="848" y="472" font-size="28" font-weight="bold" fill="#ffffff">② 클라우드</text>
+<text x="1512" y="472" font-size="26" fill="#ffffff" text-anchor="end">클라우드 서버 + 동기화된 기기</text>
+<line x1="900" y1="508" x2="900" y2="558" stroke="#2f5d9b" stroke-width="4" marker-end="url(#ah)"/>
+<text x="924" y="542" font-size="24" font-weight="bold" fill="#2f5d9b">메모를 ③에 붙여 넣음</text>
+<rect x="824" y="564" width="712" height="104" rx="12" fill="#e6eef9" stroke="#2f5d9b" stroke-width="2"/>
+<text x="848" y="626" font-size="28" font-weight="bold" fill="#14253d">③ AI 서비스</text>
+<text x="1512" y="608" font-size="26" fill="#1f2a37" text-anchor="end">대화 기록에 남을 수 있음</text>
+<text x="1512" y="644" font-size="24" fill="#566273" text-anchor="end">남는지·얼마나: 서비스마다 다름(CH03)</text>
+
+<rect x="824" y="690" width="712" height="140" rx="12" fill="#ffffff" stroke="#a33a3a" stroke-width="3"/>
+<text x="848" y="730" font-size="26" font-weight="bold" fill="#a33a3a">같은 파일이 여러 곳에 남으면</text>
+<text x="848" y="768" font-size="26" fill="#1f2a37">어느 것이 최신인지, 어디를 지울지 모름</text>
+<text x="848" y="806" font-size="26" fill="#2f6f73" font-weight="bold">→ 원본 한 곳을 정하고 나머지는 사본 표시</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

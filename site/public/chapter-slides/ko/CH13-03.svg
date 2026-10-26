@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">버전관리와 변경관리</title>
+<desc id="d">파일 버전관리의 두 방법(파일명의 버전 번호와 서비스의 버전 기록)을 장단점으로 비교하고, 지침서와 지식문서를 바꿀 때 한 번에 하나씩 고치고 시험한 뒤 보관 위치, 변경이력표, AI 프로젝트 파일, 지식 인덱스를 같은 버전으로 맞춰야 하는 이유를 보여 준다.</desc>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<text x="64" y="70" font-size="22" font-weight="bold" fill="#2f5d9b">CH13 · 3/3</text>
+<text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">버전은 파일명으로, 바꾼 이유는 변경이력표로</text>
+<text x="64" y="172" font-size="26" fill="#566273">변경이력: 언제, 누가, 무엇을, 왜 바꿨는지 남긴 기록</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- left: two version methods -->
+<text x="64" y="238" font-size="26" font-weight="bold" fill="#2f5d9b">파일 버전관리의 두 방법</text>
+<rect x="64" y="256" width="576" height="214" rx="12" fill="#ffffff" stroke="#2f5d9b" stroke-width="3"/>
+<text x="90" y="298" font-size="28" font-weight="bold" fill="#14253d">① 파일명에 버전 번호</text>
+<text x="90" y="336" font-size="24" fill="#1f2a37">v01, v02로 저장 · 이 책의 기본</text>
+<text x="90" y="378" font-size="24" fill="#2f6f73">+ 눈에 보이고 도구가 필요 없음</text>
+<text x="90" y="412" font-size="24" fill="#1f2a37">− 번호를 안 올리면 소용없음</text>
+<text x="90" y="446" font-size="24" fill="#1f2a37">− 파일이 늘어남</text>
+<rect x="64" y="486" width="576" height="176" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="90" y="528" font-size="28" font-weight="bold" fill="#14253d">② 서비스의 버전 기록</text>
+<text x="90" y="566" font-size="24" fill="#1f2a37">클라우드가 이전 상태를 보관</text>
+<text x="90" y="604" font-size="24" fill="#2f6f73">+ 자동</text>
+<text x="90" y="638" font-size="24" fill="#1f2a37">− 서비스마다 조건과 기간이 다름</text>
+<rect x="64" y="680" width="576" height="170" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="90" y="720" font-size="26" font-weight="bold" fill="#14253d">Git은 필수가 아니다</text>
+<text x="90" y="760" font-size="24" fill="#1f2a37">필수 과정은 파일명 버전과</text>
+<text x="90" y="794" font-size="24" fill="#1f2a37">변경이력표로 충분</text>
+<text x="90" y="828" font-size="24" fill="#566273">Git과 GitHub는 선택 과정에서 다룸</text>
+
+<!-- right: change management -->
+<text x="680" y="238" font-size="26" font-weight="bold" fill="#2f5d9b">지침서·지식문서는 AI의 동작과 결과를 바꾼다</text>
+<rect x="680" y="256" width="856" height="56" rx="12" fill="#e6eef9"/>
+<text x="706" y="293" font-size="24" fill="#1f2a37"><tspan font-weight="bold">1</tspan>  변경 필요 발견(오류 기록·시험) → 이유와 바꿀 곳 적기</text>
+<rect x="680" y="324" width="856" height="56" rx="12" fill="#e6eef9"/>
+<text x="706" y="361" font-size="24" fill="#1f2a37"><tspan font-weight="bold">2</tspan>  한 번에 하나만 수정 → 새 버전</text>
+<rect x="680" y="392" width="856" height="56" rx="12" fill="#e6eef9"/>
+<text x="706" y="429" font-size="24" fill="#1f2a37"><tspan font-weight="bold">3</tspan>  시험 사례로 확인 → 합격이면 확정</text>
+<text x="680" y="488" font-size="24" font-weight="bold" fill="#2f5d9b">4  확정한 뒤 함께 갱신할 것</text>
+<rect x="680" y="502" width="422" height="96" rx="12" fill="#2f5d9b"/>
+<text x="891" y="540" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">90_보관</text>
+<text x="891" y="576" font-size="24" fill="#ffffff" text-anchor="middle">이전 버전은 지우지 않고 보관</text>
+<rect x="1114" y="502" width="422" height="96" rx="12" fill="#2f5d9b"/>
+<text x="1325" y="540" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">변경이력표</text>
+<text x="1325" y="576" font-size="24" fill="#ffffff" text-anchor="middle">바꾼 내용·이유·확인 결과</text>
+<rect x="680" y="610" width="422" height="96" rx="12" fill="#2f5d9b"/>
+<text x="891" y="648" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">AI 프로젝트의 파일</text>
+<text x="891" y="684" font-size="24" fill="#ffffff" text-anchor="middle">지침·지식 파일 같은 버전으로</text>
+<rect x="1114" y="610" width="422" height="96" rx="12" fill="#2f5d9b"/>
+<text x="1325" y="648" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">지식 인덱스</text>
+<text x="1325" y="684" font-size="24" fill="#ffffff" text-anchor="middle">상태·갱신일 갱신</text>
+<rect x="680" y="724" width="856" height="126" rx="12" fill="#ffffff" stroke="#a33a3a" stroke-width="3"/>
+<text x="1108" y="776" font-size="24" fill="#1f2a37" text-anchor="middle">문서와 AI 프로젝트의 지침이 서로 다른 버전이면</text>
+<text x="1108" y="816" font-size="26" font-weight="bold" fill="#a33a3a" text-anchor="middle">사람이 읽는 규칙 ≠ AI가 따르는 규칙</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

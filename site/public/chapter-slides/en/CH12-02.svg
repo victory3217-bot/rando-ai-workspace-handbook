@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">Item checks and error handling</title>
+<desc id="d">A table of how to check numbers, dates and deadlines, people, and sources and the errors common in each, plus what omissions and format errors are and the four steps for content generated without evidence.</desc>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<text x="64" y="70" font-size="22" font-weight="bold" fill="#2f5d9b">CH12 · 2/3</text>
+<text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">Item checks and error handling</text>
+<text x="64" y="172" font-size="26" fill="#566273">Check item by item; handle omissions, format errors and fabrication separately</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- Matrix header -->
+<rect x="64" y="216" width="220" height="52" rx="12" fill="#14253d"/>
+<text x="174" y="251" text-anchor="middle" font-size="26" font-weight="bold" fill="#ffffff">Item</text>
+<rect x="296" y="216" width="704" height="52" rx="12" fill="#14253d"/>
+<text x="648" y="251" text-anchor="middle" font-size="26" font-weight="bold" fill="#ffffff">How to check</text>
+<rect x="1012" y="216" width="524" height="52" rx="12" fill="#14253d"/>
+<text x="1274" y="251" text-anchor="middle" font-size="26" font-weight="bold" fill="#ffffff">Common errors</text>
+
+<!-- Row 1: numbers -->
+<rect x="64" y="274" width="220" height="84" rx="12" fill="#e6eef9"/>
+<text x="174" y="326" text-anchor="middle" font-size="28" font-weight="bold" fill="#14253d">Numbers</text>
+<rect x="296" y="274" width="704" height="84" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="320" y="309" font-size="26" fill="#1f2a37">Compare with the source character by character;</text>
+<text x="320" y="343" font-size="26" fill="#1f2a37">recalculate totals and ratios; check units</text>
+<rect x="1012" y="274" width="524" height="84" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="1036" y="326" font-size="26" fill="#1f2a37">Digit, unit, and total errors</text>
+
+<!-- Row 2: dates -->
+<rect x="64" y="364" width="220" height="84" rx="12" fill="#e6eef9"/>
+<text x="174" y="397" text-anchor="middle" font-size="26" font-weight="bold" fill="#14253d">Dates and</text>
+<text x="174" y="435" text-anchor="middle" font-size="26" font-weight="bold" fill="#14253d">deadlines</text>
+<rect x="296" y="364" width="704" height="84" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="320" y="399" font-size="26" fill="#1f2a37">Source wording as is? Did “by next week”</text>
+<text x="320" y="433" font-size="26" fill="#1f2a37">get turned into a weekday or a date?</text>
+<rect x="1012" y="364" width="524" height="84" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="1036" y="399" font-size="26" fill="#1f2a37">Added weekday or date that</text>
+<text x="1036" y="433" font-size="26" fill="#1f2a37">does not exist; off by one day</text>
+
+<!-- Row 3: people -->
+<rect x="64" y="454" width="220" height="84" rx="12" fill="#e6eef9"/>
+<text x="174" y="506" text-anchor="middle" font-size="28" font-weight="bold" fill="#14253d">People</text>
+<rect x="296" y="454" width="704" height="84" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="320" y="489" font-size="26" fill="#1f2a37">Do the name and role (owner, reviewer)</text>
+<text x="320" y="523" font-size="26" fill="#1f2a37">match the pairing in the source?</text>
+<rect x="1012" y="454" width="524" height="84" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="1036" y="489" font-size="26" fill="#1f2a37">Owner and reviewer swapped;</text>
+<text x="1036" y="523" font-size="26" fill="#1f2a37">another person's name</text>
+
+<!-- Row 4: sources -->
+<rect x="64" y="544" width="220" height="84" rx="12" fill="#e6eef9"/>
+<text x="174" y="596" text-anchor="middle" font-size="28" font-weight="bold" fill="#14253d">Sources</text>
+<rect x="296" y="544" width="704" height="84" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="320" y="579" font-size="26" fill="#1f2a37">Is the cited document number (e.g. K01)</text>
+<text x="320" y="613" font-size="26" fill="#1f2a37">really in the index (CH08), with the right content?</text>
+<rect x="1012" y="544" width="524" height="84" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="1036" y="579" font-size="26" fill="#1f2a37">Non-existent document number;</text>
+<text x="1036" y="613" font-size="26" fill="#1f2a37">misdescribing an existing one</text>
+
+<!-- Bottom left: omission and format error -->
+<rect x="64" y="642" width="796" height="196" rx="12" fill="#ffffff" stroke="#5b7fb5" stroke-width="2"/>
+<text x="92" y="680" font-size="26" fill="#1f2a37"><tspan font-weight="bold" fill="#14253d">Omission</tspan>  an agenda item, undecided matter or</text>
+<text x="92" y="714" font-size="26" fill="#1f2a37">“Needs confirmation” mark is missing</text>
+<text x="92" y="756" font-size="26" fill="#1f2a37"><tspan font-weight="bold" fill="#14253d">Format error</tspan>  not the CH10 section 4 output format</text>
+<text x="92" y="790" font-size="26" fill="#1f2a37">→ rule violation even if content is right: record it</text>
+<text x="92" y="824" font-size="26" fill="#1f2a37">→ if repeated: the output format sentence is vague</text>
+
+<!-- Bottom right: fabrication response -->
+<rect x="880" y="642" width="656" height="196" rx="12" fill="#ffffff" stroke="#a33a3a" stroke-width="2"/>
+<text x="908" y="682" font-size="28" font-weight="bold" fill="#a33a3a">If generated without evidence</text>
+<text x="908" y="720" font-size="26" fill="#1f2a37">1 Do not use: delete or “Needs confirmation”</text>
+<text x="908" y="754" font-size="26" fill="#1f2a37">2 Find the cause: input, instructions, scope</text>
+<text x="908" y="788" font-size="26" fill="#1f2a37">3 Prevent recurrence: instructions, test cases</text>
+<text x="908" y="822" font-size="26" fill="#1f2a37">4 Record: error type “fabrication”</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">Errors in AI output and human final approval</title>
+<desc id="d">Shows seven error types in AI output, what each looks like and how to find it, and the procedure and responsibility principle for human final approval.</desc>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<text x="64" y="70" font-size="22" font-weight="700" fill="#2f5d9b">CH09 · 3/3</text>
+<text x="64" y="128" font-size="46" font-weight="700" fill="#14253d">Errors in AI output and human final approval</text>
+<text x="64" y="172" font-size="26" fill="#566273">Each error type has its own check; a person approves the corrected version</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+<!-- error matrix -->
+<rect x="64" y="222" width="252" height="52" rx="10" fill="#14253d"/>
+<text x="190" y="257" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">Error type</text>
+<rect x="324" y="222" width="392" height="52" rx="10" fill="#14253d"/>
+<text x="520" y="257" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">What it looks like</text>
+<rect x="724" y="222" width="352" height="52" rx="10" fill="#14253d"/>
+<text x="900" y="257" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">How to find it</text>
+<rect x="64" y="282" width="252" height="72" rx="10" fill="#e6eef9" stroke="#a33a3a" stroke-width="2"/>
+<text x="190" y="327" font-size="26" font-weight="700" fill="#14253d" text-anchor="middle">Fabrication</text>
+<rect x="324" y="282" width="392" height="72" rx="10" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="344" y="311" font-size="24" fill="#1f2a37">Decision, quotation or</text>
+<text x="344" y="342" font-size="24" fill="#1f2a37">number not in the notes</text>
+<rect x="724" y="282" width="352" height="72" rx="10" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="744" y="311" font-size="24" fill="#14253d">Look up every sentence</text>
+<text x="744" y="342" font-size="24" fill="#14253d">in the source</text>
+<rect x="64" y="361" width="252" height="72" rx="10" fill="#e6eef9" stroke="#a33a3a" stroke-width="2"/>
+<text x="190" y="406" font-size="26" font-weight="700" fill="#14253d" text-anchor="middle">Distortion</text>
+<rect x="324" y="361" width="392" height="72" rx="10" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="344" y="390" font-size="24" fill="#1f2a37">Meaning changes ("revised"</text>
+<text x="344" y="421" font-size="24" fill="#1f2a37">→ "price-cut" proposal)</text>
+<rect x="724" y="361" width="352" height="72" rx="10" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="744" y="390" font-size="24" fill="#14253d">Compare key words</text>
+<text x="744" y="421" font-size="24" fill="#14253d">with the source</text>
+<rect x="64" y="440" width="252" height="72" rx="10" fill="#e6eef9" stroke="#a33a3a" stroke-width="2"/>
+<text x="190" y="485" font-size="26" font-weight="700" fill="#14253d" text-anchor="middle">Omission</text>
+<rect x="324" y="440" width="392" height="72" rx="10" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="344" y="469" font-size="24" fill="#1f2a37">An item that was there</text>
+<text x="344" y="500" font-size="24" fill="#1f2a37">is missing (open items)</text>
+<rect x="724" y="440" width="352" height="72" rx="10" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="744" y="469" font-size="24" fill="#14253d">Compare item counts:</text>
+<text x="744" y="500" font-size="24" fill="#14253d">source vs. result</text>
+<rect x="64" y="519" width="252" height="72" rx="10" fill="#e6eef9" stroke="#a33a3a" stroke-width="2"/>
+<text x="190" y="564" font-size="26" font-weight="700" fill="#14253d" text-anchor="middle">Calculation error</text>
+<rect x="324" y="519" width="392" height="72" rx="10" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="344" y="548" font-size="24" fill="#1f2a37">Total, average or</text>
+<text x="344" y="579" font-size="24" fill="#1f2a37">ratio is wrong</text>
+<rect x="724" y="519" width="352" height="72" rx="10" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="744" y="563" font-size="24" fill="#14253d">Recalculate it yourself</text>
+<rect x="64" y="598" width="252" height="72" rx="10" fill="#e6eef9" stroke="#a33a3a" stroke-width="2"/>
+<text x="190" y="643" font-size="26" font-weight="700" fill="#14253d" text-anchor="middle">Format error</text>
+<rect x="324" y="598" width="392" height="72" rx="10" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="344" y="627" font-size="24" fill="#1f2a37">Not the table format</text>
+<text x="344" y="658" font-size="24" fill="#1f2a37">you asked for</text>
+<rect x="724" y="598" width="352" height="72" rx="10" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="744" y="627" font-size="24" fill="#14253d">Compare with</text>
+<text x="744" y="658" font-size="24" fill="#14253d">request part ④</text>
+<rect x="64" y="677" width="252" height="72" rx="10" fill="#e6eef9" stroke="#a33a3a" stroke-width="2"/>
+<text x="190" y="722" font-size="26" font-weight="700" fill="#14253d" text-anchor="middle">Overconfidence</text>
+<rect x="324" y="677" width="392" height="72" rx="10" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="344" y="706" font-size="24" fill="#1f2a37">States something</text>
+<text x="344" y="737" font-size="24" fill="#1f2a37">unknown as certain</text>
+<rect x="724" y="677" width="352" height="72" rx="10" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="744" y="706" font-size="24" fill="#14253d">Check where "Needs</text>
+<text x="744" y="737" font-size="24" fill="#14253d">confirmation" belongs</text>
+<rect x="64" y="756" width="252" height="72" rx="10" fill="#e6eef9" stroke="#a33a3a" stroke-width="2"/>
+<text x="190" y="801" font-size="26" font-weight="700" fill="#14253d" text-anchor="middle">Source confusion</text>
+<rect x="324" y="756" width="392" height="72" rx="10" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="344" y="785" font-size="24" fill="#1f2a37">Cites a source that</text>
+<text x="344" y="816" font-size="24" fill="#1f2a37">is not in the input</text>
+<rect x="724" y="756" width="352" height="72" rx="10" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="744" y="785" font-size="24" fill="#14253d">Check the source is</text>
+<text x="744" y="816" font-size="24" fill="#14253d">in the input material</text>
+<!-- approval -->
+<rect x="1116" y="222" width="420" height="52" rx="10" fill="#14253d"/>
+<text x="1326" y="257" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">Human final approval</text>
+<line x1="1156" y1="300" x2="1156" y2="610" stroke="#5b7fb5" stroke-width="3"/>
+<rect x="1116" y="286" width="420" height="76" rx="10" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<rect x="1132" y="300" width="48" height="48" rx="10" fill="#2f5d9b"/>
+<text x="1156" y="333" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+<text x="1196" y="317" font-size="24" fill="#1f2a37">Fill in the fact-check</text>
+<text x="1196" y="348" font-size="24" fill="#1f2a37">table to the end</text>
+<rect x="1116" y="374" width="420" height="76" rx="10" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<rect x="1132" y="388" width="48" height="48" rx="10" fill="#2f5d9b"/>
+<text x="1156" y="421" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+<text x="1196" y="405" font-size="24" fill="#1f2a37">Make a corrected version</text>
+<text x="1196" y="436" font-size="24" fill="#1f2a37">that fixes the wrong parts</text>
+<rect x="1116" y="462" width="420" height="76" rx="10" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<rect x="1132" y="476" width="48" height="48" rx="10" fill="#2f5d9b"/>
+<text x="1156" y="509" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+<text x="1196" y="493" font-size="24" fill="#1f2a37">Approver writes down the</text>
+<text x="1196" y="524" font-size="24" fill="#1f2a37">items checked and the date</text>
+<rect x="1116" y="550" width="420" height="76" rx="10" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<rect x="1132" y="564" width="48" height="48" rx="10" fill="#2f5d9b"/>
+<text x="1156" y="597" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+<text x="1196" y="581" font-size="24" fill="#1f2a37">Send only the approved</text>
+<text x="1196" y="612" font-size="24" fill="#1f2a37">file to 03_Final; share it</text>
+<rect x="1116" y="644" width="420" height="190" rx="12" fill="#e6eef9" stroke="#14253d" stroke-width="3"/>
+<text x="1326" y="684" font-size="25" font-weight="700" fill="#14253d" text-anchor="middle">Even if AI wrote it, the</text>
+<text x="1326" y="716" font-size="25" font-weight="700" fill="#14253d" text-anchor="middle">approver is responsible</text>
+<text x="1326" y="748" font-size="25" font-weight="700" fill="#14253d" text-anchor="middle">for the content</text>
+<text x="1326" y="780" font-size="25" fill="#566273" text-anchor="middle">(this book's position,</text>
+<text x="1326" y="812" font-size="25" fill="#566273" text-anchor="middle">Author's interpretation)</text>
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

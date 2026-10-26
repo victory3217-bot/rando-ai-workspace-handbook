@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">지식 폴더의 구조와 연결</title>
+<desc id="d">후보 A 지식 폴더의 하위 구성과, 인덱스가 각 문서의 위치와 상태를 적고 출처기록이 출처와 확인 날짜를 모으는 연결 관계, 상태가 바뀌는 규칙을 보여 준다.</desc>
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2f5d9b"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<text x="64" y="70" font-size="22" font-weight="bold" fill="#2f5d9b">CH08 · 3/3</text>
+<text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">지식 폴더의 구조와 연결</text>
+<text x="64" y="172" font-size="26" fill="#566273">인덱스는 문서가 어디에 있는지 가리키고, 출처기록은 출처와 날짜를 모은다</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- folder tree -->
+<rect x="64" y="226" width="556" height="84" rx="12" fill="#14253d"/>
+<text x="88" y="262" font-size="30" font-weight="bold" fill="#ffffff">지식/ (후보 A)</text>
+<text x="88" y="296" font-size="24" fill="#ffffff">04_AI지침과양식 폴더 안</text>
+<path d="M97,310 V704 M97,360 H130 M97,446 H130 M97,532 H130 M97,618 H130 M97,704 H130" stroke="#5b7fb5" stroke-width="3" fill="none"/>
+
+<rect x="130" y="322" width="490" height="76" rx="12" fill="#e6eef9" stroke="#2f5d9b" stroke-width="3"/>
+<text x="152" y="354" font-size="26" font-weight="bold" fill="#14253d">00_인덱스.md</text>
+<text x="152" y="386" font-size="24" fill="#566273">문서 목록</text>
+<rect x="130" y="408" width="490" height="76" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="152" y="440" font-size="26" font-weight="bold" fill="#14253d">10_업무규칙/</text>
+<text x="152" y="472" font-size="24" fill="#566273">규칙 문서 · 문서마다 출처·갱신일</text>
+<rect x="130" y="494" width="490" height="76" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="152" y="526" font-size="26" font-weight="bold" fill="#14253d">20_양식과예시/</text>
+<text x="152" y="558" font-size="24" fill="#566273">빈 양식, 가상 예시</text>
+<rect x="130" y="580" width="490" height="76" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="152" y="612" font-size="26" font-weight="bold" fill="#14253d">30_용어와기준/</text>
+<text x="152" y="644" font-size="24" fill="#566273">용어, 판단 기준</text>
+<rect x="130" y="666" width="490" height="76" rx="12" fill="#e6eef9" stroke="#2f5d9b" stroke-width="3"/>
+<text x="152" y="698" font-size="26" font-weight="bold" fill="#14253d">90_출처기록.md</text>
+<text x="152" y="730" font-size="24" fill="#566273">출처·갱신일·검토 주기 기록</text>
+
+<!-- connectors -->
+<line x1="620" y1="360" x2="690" y2="360" stroke="#2f5d9b" stroke-width="3"/>
+<line x1="690" y1="420" x2="628" y2="446" stroke="#2f5d9b" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#ar)"/>
+<line x1="620" y1="704" x2="690" y2="704" stroke="#2f5d9b" stroke-width="3"/>
+<line x1="1420" y1="450" x2="1420" y2="466" stroke="#2f5d9b" stroke-width="3"/>
+
+<!-- index panel -->
+<rect x="690" y="226" width="846" height="224" rx="12" fill="#f1f5fb" stroke="#2f5d9b" stroke-width="2"/>
+<rect x="690" y="226" width="846" height="48" rx="12" fill="#2f5d9b"/>
+<text x="714" y="259" font-size="26" font-weight="bold" fill="#ffffff">00_인덱스.md · 문서 한 건에 한 줄</text>
+<text x="714" y="308" font-size="24" fill="#1f2a37">번호 · 문서 이름 · 무엇에 쓰나 · 종류 · 위치 · 등급 ·</text>
+<text x="714" y="340" font-size="24" fill="#1f2a37">출처 번호 · 갱신일 · 상태</text>
+<rect x="714" y="356" width="798" height="80" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="736" y="390" font-size="24" fill="#1f2a37">K01 · 회의록 작성 규칙 · 규칙 · <tspan font-weight="bold" fill="#2f5d9b">10_업무규칙</tspan> · A</text>
+<text x="736" y="422" font-size="24" fill="#1f2a37">출처 1 · 2026-10-26 · <tspan font-weight="bold" fill="#2f6f73">유효</tspan></text>
+
+<!-- status panel -->
+<rect x="690" y="466" width="846" height="178" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="714" y="508" font-size="26" font-weight="bold" fill="#14253d">상태 칸</text>
+<rect x="830" y="478" width="110" height="42" rx="12" fill="#ffffff" stroke="#2f6f73" stroke-width="3"/>
+<text x="885" y="508" font-size="24" font-weight="bold" fill="#2f6f73" text-anchor="middle">유효</text>
+<rect x="956" y="478" width="150" height="42" rx="12" fill="#ffffff" stroke="#b7791f" stroke-width="3"/>
+<text x="1031" y="508" font-size="24" font-weight="bold" fill="#b7791f" text-anchor="middle">검토 필요</text>
+<rect x="1122" y="478" width="110" height="42" rx="12" fill="#f1f5fb" stroke="#566273" stroke-width="3"/>
+<text x="1177" y="508" font-size="24" font-weight="bold" fill="#566273" text-anchor="middle">폐기</text>
+<text x="714" y="562" font-size="24" fill="#1f2a37">충돌 · 다시 확인할 시점 지남 → 검토 필요</text>
+<text x="714" y="596" font-size="24" fill="#1f2a37">결정은 사람이 하고 기록한다 (AI에게 맡기지 않음)</text>
+<text x="714" y="630" font-size="24" fill="#1f2a37">규칙 변경 → v02, 이전 문서는 폐기 · 90_보관 (지우지 않음)</text>
+
+<!-- source log panel -->
+<rect x="690" y="658" width="846" height="182" rx="12" fill="#f1f5fb" stroke="#2f5d9b" stroke-width="2"/>
+<rect x="690" y="658" width="846" height="48" rx="12" fill="#2f5d9b"/>
+<text x="714" y="691" font-size="26" font-weight="bold" fill="#ffffff">90_출처기록.md · 출처를 한 표로 모은다</text>
+<text x="714" y="740" font-size="24" fill="#1f2a37">문서 · 출처 · 출처의 날짜 · 내가 확인한 날 ·</text>
+<text x="714" y="772" font-size="24" fill="#1f2a37">확인한 사람 · 다시 확인할 시점</text>
+<text x="714" y="816" font-size="24" fill="#a33a3a">출처가 없으면 ‘출처 없음’ — 규칙으로 쓰지 않는다</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">CH04 파일·폴더·확장자·경로와 파일 형식</title>
+<desc id="d">경로를 폴더가 겹겹이 담긴 상자로 보여 주어 파일·폴더·경로를 설명하고, 확장자가 여는 프로그램을 정한다는 점과 TXT·Markdown·Word·PDF·Excel·CSV 형식의 차이와 쓰임을 비교합니다.</desc>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<text x="64" y="70" font-size="22" font-weight="700" fill="#2f5d9b">CH04 · 1/3</text>
+<text x="64" y="128" font-size="46" font-weight="700" fill="#14253d">파일·폴더·확장자·경로와 파일 형식</text>
+<text x="64" y="172" font-size="26" fill="#566273">AI 워크스페이스의 바탕: 내 자료를 어디에 두었는지 아는 것</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- Left: path as nested folders -->
+<text x="64" y="240" font-size="28" font-weight="700" fill="#14253d">경로 = 파일이 있는 곳의 주소</text>
+<rect x="64" y="254" width="600" height="66" rx="12" fill="#ffffff" stroke="#2f5d9b" stroke-width="2"/>
+<text x="84" y="296" font-size="26" fill="#1f2a37">문서\AI업무\10_회의록정리\03_최종</text>
+
+<rect x="64" y="334" width="600" height="336" rx="12" fill="#e6eef9" stroke="#c9d4e5" stroke-width="2"/>
+<text x="84" y="370" font-size="26" font-weight="700" fill="#14253d">문서</text>
+<text x="644" y="370" font-size="24" fill="#566273" text-anchor="end">폴더 = 파일을 담는 상자</text>
+<rect x="88" y="388" width="552" height="272" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="108" y="424" font-size="26" font-weight="700" fill="#14253d">AI업무</text>
+<text x="620" y="424" font-size="24" fill="#566273" text-anchor="end">폴더 안에 폴더</text>
+<rect x="112" y="442" width="504" height="208" rx="12" fill="#e6eef9" stroke="#c9d4e5" stroke-width="2"/>
+<text x="132" y="478" font-size="26" font-weight="700" fill="#14253d">10_회의록정리</text>
+<rect x="136" y="496" width="456" height="144" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="156" y="532" font-size="26" font-weight="700" fill="#14253d">03_최종</text>
+<rect x="160" y="544" width="408" height="92" rx="12" fill="#ffffff" stroke="#2f5d9b" stroke-width="2"/>
+<text x="364" y="582" font-size="28" font-weight="700" fill="#14253d" text-anchor="middle">보고서<tspan fill="#2f5d9b">.docx</tspan></text>
+<text x="364" y="620" font-size="24" fill="#566273" text-anchor="middle">파일 = 저장되는 자료 하나</text>
+
+<rect x="64" y="686" width="600" height="160" rx="12" fill="#ffffff" stroke="#b7791f" stroke-width="2"/>
+<text x="84" y="722" font-size="26" font-weight="700" fill="#14253d">확장자 (.docx · .pdf)</text>
+<text x="84" y="758" font-size="24" fill="#1f2a37">어떤 프로그램으로 열지 정함</text>
+<text x="84" y="792" font-size="24" fill="#1f2a37">이름만 .docx → .pdf로 바꾸면 열리지 않음</text>
+<text x="84" y="826" font-size="24" font-weight="700" fill="#2f6f73">→ 확장자는 꼭 보이게 켜 두기</text>
+
+<!-- Right: format matrix grouped -->
+<text x="688" y="240" font-size="28" font-weight="700" fill="#14253d">파일 형식 비교</text>
+
+<!-- group 1 top 254 -->
+<rect x="688" y="254" width="220" height="180" rx="12" fill="#14253d"/>
+<text x="708" y="318" font-size="26" font-weight="700" fill="#ffffff">서식 없는 파일</text>
+<text x="708" y="358" font-size="24" fill="#ffffff">→ AI에게 줄</text>
+<text x="708" y="390" font-size="24" fill="#ffffff">지침·양식</text>
+<rect x="912" y="254" width="310" height="180" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="932" y="290" font-size="26" font-weight="700" fill="#14253d">TXT <tspan font-size="24" font-weight="400" fill="#566273">.txt</tspan></text>
+<text x="932" y="324" font-size="24" fill="#1f2a37">꾸밈 없는 글자만</text>
+<text x="932" y="356" font-size="24" fill="#1f2a37">메모장으로 열림</text>
+<text x="932" y="388" font-size="24" fill="#2f5d9b">→ 메모, 규칙 메모,</text>
+<text x="932" y="420" font-size="24" fill="#2f5d9b">붙여 넣을 글</text>
+<rect x="1226" y="254" width="310" height="180" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="1246" y="290" font-size="26" font-weight="700" fill="#14253d">Markdown <tspan font-size="24" font-weight="400" fill="#566273">.md</tspan></text>
+<text x="1246" y="324" font-size="24" fill="#1f2a37"># 제목, - 목록 같은</text>
+<text x="1246" y="356" font-size="24" fill="#1f2a37">기호로 구조를 적은 글</text>
+<text x="1246" y="388" font-size="24" fill="#2f5d9b">→ AI에게 줄</text>
+<text x="1246" y="420" font-size="24" fill="#2f5d9b">지침과 양식</text>
+
+<!-- group 2 top 440 -->
+<rect x="688" y="440" width="220" height="180" rx="12" fill="#14253d"/>
+<text x="708" y="504" font-size="26" font-weight="700" fill="#ffffff">Word·PDF</text>
+<text x="708" y="544" font-size="24" fill="#ffffff">→ 결과물과</text>
+<text x="708" y="576" font-size="24" fill="#ffffff">제출본</text>
+<rect x="912" y="440" width="310" height="180" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="932" y="476" font-size="26" font-weight="700" fill="#14253d">Word <tspan font-size="24" font-weight="400" fill="#566273">.docx</tspan></text>
+<text x="932" y="510" font-size="24" fill="#1f2a37">글꼴·표·그림 등</text>
+<text x="932" y="542" font-size="24" fill="#1f2a37">편집 서식이 있는 문서</text>
+<text x="932" y="574" font-size="24" fill="#2f5d9b">→ 보고서, 회의록,</text>
+<text x="932" y="606" font-size="24" fill="#2f5d9b">안내문</text>
+<rect x="1226" y="440" width="310" height="180" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="1246" y="476" font-size="26" font-weight="700" fill="#14253d">PDF <tspan font-size="24" font-weight="400" fill="#566273">.pdf</tspan></text>
+<text x="1246" y="510" font-size="24" fill="#1f2a37">모양이 고정된 문서</text>
+<text x="1246" y="542" font-size="24" fill="#1f2a37">보통 읽기용</text>
+<text x="1246" y="574" font-size="24" fill="#2f5d9b">→ 제출용·공유용</text>
+<text x="1246" y="606" font-size="24" fill="#2f5d9b">최종본</text>
+
+<!-- group 3 top 626 -->
+<rect x="688" y="626" width="220" height="180" rx="12" fill="#2f5d9b"/>
+<text x="708" y="706" font-size="26" font-weight="700" fill="#ffffff">표</text>
+<text x="708" y="742" font-size="24" fill="#ffffff">Excel·CSV</text>
+<rect x="912" y="626" width="310" height="180" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="932" y="662" font-size="26" font-weight="700" fill="#14253d">Excel <tspan font-size="24" font-weight="400" fill="#566273">.xlsx</tspan></text>
+<text x="932" y="696" font-size="24" fill="#1f2a37">계산과 표 서식이</text>
+<text x="932" y="728" font-size="24" fill="#1f2a37">있는 표</text>
+<text x="932" y="760" font-size="24" fill="#2f5d9b">→ 목록, 집계, 계산</text>
+<rect x="1226" y="626" width="310" height="180" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="1246" y="662" font-size="26" font-weight="700" fill="#14253d">CSV <tspan font-size="24" font-weight="400" fill="#566273">.csv</tspan></text>
+<text x="1246" y="696" font-size="24" fill="#1f2a37">쉼표로 칸을 나눈</text>
+<text x="1246" y="728" font-size="24" fill="#1f2a37">단순한 표</text>
+<text x="1246" y="760" font-size="24" fill="#2f5d9b">→ 표 자료를 서식</text>
+<text x="1246" y="792" font-size="24" fill="#2f5d9b">없이 주고받을 때</text>
+
+<text x="688" y="838" font-size="22" fill="#566273">왼쪽 칸의 쓰임 묶음은 저자 해석 · 서비스별 지원 형식은 CH06·CH07에서 확인</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

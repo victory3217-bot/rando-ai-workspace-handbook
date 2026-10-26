@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">How you give material, and where copies are left</title>
+<desc id="d">Shows the three ways to give material to an AI service in order of how much material can reach it, and uses the meeting-notes example to show how the same content is left as copies on the PC, in the cloud and in the AI chat history.</desc>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2f5d9b"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<text x="64" y="70" font-size="22" font-weight="bold" fill="#2f5d9b">CH02 · 3/3</text>
+<text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">How you give material, and where copies are left</text>
+<text x="64" y="172" font-size="26" fill="#566273">What you hand over, and where one more instance of it remains</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- left: three ways -->
+<text x="64" y="252" font-size="28" font-weight="bold" fill="#14253d">Three ways to give material to an AI service</text>
+<rect x="64" y="276" width="440" height="92" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="88" y="314" font-size="28" font-weight="bold" fill="#14253d">1 Copy and paste</text>
+<text x="88" y="350" font-size="24" fill="#1f2a37">One part you pick yourself</text>
+<rect x="64" y="380" width="580" height="92" rx="12" fill="#e6eef9" stroke="#5b7fb5" stroke-width="2"/>
+<text x="88" y="418" font-size="28" font-weight="bold" fill="#14253d">2 Upload a file</text>
+<text x="88" y="454" font-size="24" fill="#1f2a37">The whole file goes to the service</text>
+<rect x="64" y="484" width="700" height="92" rx="12" fill="#2f5d9b"/>
+<text x="88" y="522" font-size="28" font-weight="bold" fill="#ffffff">3 Connect</text>
+<text x="88" y="558" font-size="24" fill="#ffffff">A service feature reaches cloud storage or other tools</text>
+
+<rect x="64" y="604" width="700" height="242" rx="12" fill="#ffffff" stroke="#b7791f" stroke-width="3"/>
+<text x="88" y="642" font-size="24" font-weight="bold" fill="#b7791f">Author's interpretation</text>
+<text x="88" y="680" font-size="25" fill="#1f2a37">Further down, more material can reach it at once</text>
+<text x="88" y="716" font-size="25" fill="#1f2a37">→ easiest to know what you hand over: 1 → 2 → 3</text>
+<text x="88" y="752" font-size="25" fill="#1f2a37">Start with options 1 and 2</text>
+<text x="88" y="788" font-size="25" fill="#1f2a37">Use connection only after setting your</text>
+<text x="88" y="824" font-size="25" fill="#1f2a37">information tiers in CH03</text>
+
+<!-- right: copies trail -->
+<text x="824" y="252" font-size="28" font-weight="bold" fill="#14253d">Where copies are left — meeting notes</text>
+<rect x="824" y="276" width="712" height="84" rx="12" fill="#14253d"/>
+<text x="848" y="328" font-size="28" font-weight="bold" fill="#ffffff">① Saved on the PC</text>
+<text x="1512" y="328" font-size="26" fill="#ffffff" text-anchor="end">Inside the PC</text>
+<line x1="900" y1="364" x2="900" y2="414" stroke="#2f5d9b" stroke-width="4" marker-end="url(#ah)"/>
+<text x="924" y="398" font-size="24" font-weight="bold" fill="#2f5d9b">② syncs them</text>
+<rect x="824" y="420" width="712" height="84" rx="12" fill="#2f5d9b"/>
+<text x="848" y="472" font-size="28" font-weight="bold" fill="#ffffff">② Cloud</text>
+<text x="1512" y="472" font-size="26" fill="#ffffff" text-anchor="end">Cloud server + synced devices</text>
+<line x1="900" y1="508" x2="900" y2="558" stroke="#2f5d9b" stroke-width="4" marker-end="url(#ah)"/>
+<text x="924" y="542" font-size="24" font-weight="bold" fill="#2f5d9b">notes pasted into ③</text>
+<rect x="824" y="564" width="712" height="104" rx="12" fill="#e6eef9" stroke="#2f5d9b" stroke-width="2"/>
+<text x="848" y="626" font-size="28" font-weight="bold" fill="#14253d">③ AI service</text>
+<text x="1512" y="608" font-size="26" fill="#1f2a37" text-anchor="end">May remain in chat history</text>
+<text x="1512" y="644" font-size="22" fill="#566273" text-anchor="end">Whether, how much: differs by service (CH03)</text>
+
+<rect x="824" y="684" width="712" height="162" rx="12" fill="#ffffff" stroke="#a33a3a" stroke-width="3"/>
+<text x="848" y="720" font-size="26" font-weight="bold" fill="#a33a3a">Same file left in several places</text>
+<text x="848" y="756" font-size="25" fill="#1f2a37">Which is the latest? Where to delete?</text>
+<text x="848" y="794" font-size="25" fill="#2f6f73" font-weight="bold">→ Decide on one place for the original;</text>
+<text x="848" y="830" font-size="25" fill="#2f6f73" font-weight="bold">mark the rest as copies</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

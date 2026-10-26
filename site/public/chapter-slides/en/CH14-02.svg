@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">Completion conditions for Levels 1, 2 and 3</title>
+<desc id="d">Shows the completion conditions of the three completion levels this book defines for teaching (Design complete, Environment set up, Work executed and verified). Each level includes every condition of the level below it.</desc>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<text x="64" y="70" font-size="22" font-weight="bold" fill="#2f5d9b">CH14 · 2/3</text>
+<text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">Completion conditions for Levels 1, 2 and 3</text>
+<text x="64" y="172" font-size="26" fill="#566273">Author's interpretation · for teaching, not a certification · a learner's self-assessment (2-9)</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- Level 3 -->
+<rect x="64" y="214" width="280" height="174" rx="12" fill="#14253d"/>
+<text x="204" y="272" font-size="34" font-weight="bold" fill="#ffffff" text-anchor="middle">Level 3</text>
+<text x="204" y="312" font-size="26" fill="#ffffff" text-anchor="middle">Work executed</text>
+<text x="204" y="344" font-size="26" fill="#ffffff" text-anchor="middle">and verified</text>
+<rect x="356" y="214" width="1180" height="174" rx="12" fill="#ffffff" stroke="#5b7fb5" stroke-width="2"/>
+<text x="380" y="252" font-size="26" font-weight="bold" fill="#2f5d9b">Level 2 +</text>
+<text x="380" y="284" font-size="24" fill="#1f2a37">· Real work done with AI using allowed material (organization-allowed service and account;</text>
+<text x="400" y="314" font-size="24" fill="#1f2a37">CH03 tier A or masked B) ([Live AI run: approved work data])</text>
+<text x="380" y="344" font-size="24" fill="#1f2a37">· CH12 verification checklist, error log, and human final confirmation record exist</text>
+<text x="380" y="374" font-size="24" fill="#1f2a37">· A backup was made</text>
+
+<!-- Level 2 -->
+<rect x="64" y="400" width="280" height="174" rx="12" fill="#14253d"/>
+<text x="204" y="458" font-size="34" font-weight="bold" fill="#ffffff" text-anchor="middle">Level 2</text>
+<text x="204" y="498" font-size="26" fill="#ffffff" text-anchor="middle">Environment</text>
+<text x="204" y="530" font-size="26" fill="#ffffff" text-anchor="middle">set up</text>
+<rect x="356" y="400" width="1180" height="174" rx="12" fill="#ffffff" stroke="#5b7fb5" stroke-width="2"/>
+<text x="380" y="438" font-size="26" font-weight="bold" fill="#2f5d9b">Level 1 + actually set up in the tools available to you</text>
+<text x="380" y="470" font-size="24" fill="#1f2a37">· Local folders actually created · where available, the cloud folder and the AI Project</text>
+<text x="400" y="500" font-size="24" fill="#1f2a37">(instructions entered, fictional material uploaded)</text>
+<text x="380" y="530" font-size="24" fill="#1f2a37">· Pre-run security check passed · one backup and restore done with fictional files</text>
+<text x="380" y="560" font-size="24" fill="#1f2a37">· Finished preparing to run with fictional material</text>
+
+<!-- Level 1 -->
+<rect x="64" y="586" width="280" height="260" rx="12" fill="#14253d"/>
+<text x="204" y="688" font-size="34" font-weight="bold" fill="#ffffff" text-anchor="middle">Level 1</text>
+<text x="204" y="728" font-size="26" fill="#ffffff" text-anchor="middle">Design complete</text>
+<rect x="356" y="586" width="1180" height="260" rx="12" fill="#ffffff" stroke="#5b7fb5" stroke-width="2"/>
+<text x="380" y="626" font-size="26" font-weight="bold" fill="#2f5d9b">These eight exist as documents</text>
+<text x="380" y="662" font-size="24" fill="#1f2a37">① final workspace map  ② work purpose and scope  ③ folder and material management rules</text>
+<text x="380" y="694" font-size="24" fill="#1f2a37">④ AI Project settings (a design sheet is OK)  ⑤ work instructions  ⑥ work workflow</text>
+<text x="380" y="726" font-size="24" fill="#1f2a37">⑦ verification checklist  ⑧ backup and operating rules</text>
+<text x="380" y="762" font-size="24" fill="#1f2a37">· They agree in the connection check table (mismatches recorded)</text>
+<text x="380" y="794" font-size="24" fill="#1f2a37">· You can explain the candidate A task from the documents alone · a simulated run may be included</text>
+<text x="380" y="830" font-size="24" fill="#566273">Reachable even if account or organization limits prevent a live run</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

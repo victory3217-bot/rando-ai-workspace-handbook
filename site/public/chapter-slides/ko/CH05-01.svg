@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">로컬 저장소와 클라우드 저장소의 연결</title>
+<desc id="d">로컬 저장소와 클라우드 저장소의 차이, 둘을 잇는 동기화와 웹 브라우저 경로, Drive for desktop의 스트리밍·미러링, 업무 폴더를 클라우드에 연결하는 두 방법을 보여 줍니다.</desc>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f5d9b"/></marker>
+</defs>
+<text x="64" y="70" font-size="22" font-weight="bold" fill="#2f5d9b">CH05 · 1/3</text>
+<text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">로컬 저장소와 클라우드 저장소는 이렇게 이어진다</text>
+<text x="64" y="172" font-size="26" fill="#566273">로컬은 내 컴퓨터, 클라우드는 서비스 회사의 서버. 둘을 동기화와 웹 브라우저로 잇는다</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- local -->
+<rect x="64" y="224" width="500" height="364" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<rect x="64" y="224" width="500" height="62" rx="12" fill="#14253d"/>
+<text x="314" y="266" font-size="30" font-weight="bold" fill="#ffffff" text-anchor="middle">로컬 저장소</text>
+<text x="92" y="328" font-size="26" fill="#1f2a37">위치: 내 컴퓨터</text>
+<text x="92" y="372" font-size="26" fill="#1f2a37">인터넷 없이도 열림</text>
+<text x="92" y="416" font-size="26" fill="#1f2a37">다른 기기에서는 열 수 없음</text>
+<text x="92" y="460" font-size="26" fill="#1f2a37">공유: 파일을 복사해 보냄</text>
+<rect x="84" y="490" width="460" height="84" rx="12" fill="#ffffff" stroke="#b7791f" stroke-width="2"/>
+<text x="104" y="524" font-size="24" fill="#1f2a37"><tspan font-weight="bold" fill="#b7791f">주의</tspan> 컴퓨터가 고장 나면</text>
+<text x="104" y="558" font-size="24" fill="#1f2a37">잃을 수 있음</text>
+
+<!-- cloud -->
+<rect x="1036" y="224" width="500" height="364" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<rect x="1036" y="224" width="500" height="62" rx="12" fill="#14253d"/>
+<text x="1286" y="266" font-size="30" font-weight="bold" fill="#ffffff" text-anchor="middle">클라우드 저장소</text>
+<text x="1064" y="328" font-size="26" fill="#1f2a37">위치: 서비스 회사의 서버</text>
+<text x="1064" y="368" font-size="26" fill="#1f2a37">인터넷: 보통 필요</text>
+<text x="1064" y="400" font-size="22" fill="#566273">(오프라인 기능이 있는 서비스도 있음)</text>
+<text x="1064" y="440" font-size="26" fill="#1f2a37">다른 기기: 같은 계정으로 열림</text>
+<text x="1064" y="478" font-size="26" fill="#1f2a37">공유: 링크나 초대</text>
+<rect x="1056" y="494" width="460" height="84" rx="12" fill="#ffffff" stroke="#b7791f" stroke-width="2"/>
+<text x="1076" y="528" font-size="24" fill="#1f2a37"><tspan font-weight="bold" fill="#b7791f">주의</tspan> 공유 설정과 계정 보안을</text>
+<text x="1076" y="562" font-size="24" fill="#1f2a37">스스로 관리해야 함</text>
+
+<!-- sync -->
+<line x1="568" y1="350" x2="606" y2="350" stroke="#2f5d9b" stroke-width="4" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<line x1="994" y1="350" x2="1032" y2="350" stroke="#2f5d9b" stroke-width="4" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<rect x="610" y="240" width="380" height="222" rx="12" fill="#e6eef9" stroke="#2f5d9b" stroke-width="2"/>
+<text x="800" y="284" font-size="30" font-weight="bold" fill="#14253d" text-anchor="middle">동기화</text>
+<text x="800" y="326" font-size="26" fill="#1f2a37" text-anchor="middle">한쪽을 바꾸면</text>
+<text x="800" y="362" font-size="26" fill="#1f2a37" text-anchor="middle">다른 쪽도 같게 맞춤</text>
+<text x="800" y="404" font-size="24" fill="#2f5d9b" text-anchor="middle">Drive for desktop: 수정이</text>
+<text x="800" y="438" font-size="24" fill="#2f5d9b" text-anchor="middle">양쪽에 자동 동기화 [S11]</text>
+
+<!-- browser -->
+<line x1="994" y1="535" x2="1032" y2="535" stroke="#2f5d9b" stroke-width="4" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<rect x="610" y="490" width="380" height="92" rx="12" fill="#ffffff" stroke="#2f5d9b" stroke-width="2"/>
+<text x="800" y="526" font-size="28" font-weight="bold" fill="#14253d" text-anchor="middle">웹 브라우저</text>
+<text x="800" y="562" font-size="24" fill="#1f2a37" text-anchor="middle">올리기 · 내려받기 · 공유</text>
+
+<!-- bottom left -->
+<rect x="64" y="614" width="720" height="232" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="88" y="656" font-size="28" font-weight="bold" fill="#14253d">PC에서 보이는 방식: Drive for desktop [S11]</text>
+<text x="88" y="698" font-size="26" fill="#1f2a37">파일 탐색기에 일반 폴더처럼 보임</text>
+<text x="88" y="736" font-size="26" fill="#1f2a37"><tspan font-weight="bold" fill="#2f5d9b">스트리밍</tspan>: 컴퓨터 공간을 거의 쓰지 않음</text>
+<text x="88" y="774" font-size="26" fill="#1f2a37"><tspan font-weight="bold" fill="#2f5d9b">미러링</tspan>: 전체 복사본을 컴퓨터에 내려받음</text>
+<text x="88" y="816" font-size="26" font-weight="bold" fill="#14253d">컴퓨터 공간 ≠ Google 저장 공간</text>
+
+<!-- bottom right -->
+<rect x="808" y="614" width="728" height="232" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="832" y="656" font-size="28" font-weight="bold" fill="#14253d">업무 폴더를 클라우드에 잇는 두 방법</text>
+<text x="832" y="698" font-size="26" fill="#1f2a37">① 클라우드 폴더 안에 업무 폴더를 만든다</text>
+<text x="832" y="736" font-size="26" fill="#1f2a37">② 기존 폴더를 동기화할 폴더로 추가 [S11]</text>
+<text x="832" y="780" font-size="24" fill="#566273">저자 해석: 연습 폴더로 먼저 시험한다</text>
+<text x="832" y="816" font-size="24" fill="#566273">연결하면 클라우드에도 폴더 사본이 생긴다</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

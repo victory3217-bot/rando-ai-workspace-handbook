@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">실행 구분과 수준 표시 규칙</title>
+<desc id="d">실행 전 보안 점검에서 하나라도 아니오이면 가상 실행으로 대체하고, 세 가지 실행 구분 표시는 서로 바꿔 쓰지 않으며, 가상 자료로 한 실행만으로는 Level 3가 아니라는 판단 논리와 수준 표시 규칙을 보여 줍니다.</desc>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#566273"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<text x="64" y="70" font-size="22" font-weight="bold" fill="#2f5d9b">CH14 · 3/3</text>
+<text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">실행 구분과 수준 표시 규칙</text>
+<text x="64" y="172" font-size="26" fill="#566273">실행 전 점검 → 실행 구분 표시 → 표시할 수 있는 수준 (2-4, 2-7, 2-9절)</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- left: pre-run security check -->
+<rect x="64" y="214" width="476" height="632" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="88" y="256" font-size="28" font-weight="bold" fill="#14253d">실행 전 보안 점검</text>
+<text x="88" y="290" font-size="24" fill="#566273">업무 실행 전에 확인 (2-4절)</text>
+<text x="88" y="346" font-size="24" fill="#1f2a37">□ 입력자료: A 또는 가린 B 등급</text>
+<text x="88" y="414" font-size="24" fill="#1f2a37">□ 조직이 허용한 AI 서비스·계정</text>
+<text x="88" y="482" font-size="24" fill="#1f2a37">□ 개인정보·비밀번호·API 키 없음</text>
+<text x="88" y="550" font-size="24" fill="#1f2a37">□ 프로젝트 공유·외부 연결 안 함</text>
+<rect x="84" y="606" width="436" height="104" rx="12" fill="#ffffff" stroke="#b7791f" stroke-width="3"/>
+<text x="106" y="644" font-size="26" font-weight="bold" fill="#b7791f">하나라도 아니오</text>
+<text x="106" y="680" font-size="24" fill="#1f2a37">실제 AI 실행 없이 가상 실행</text>
+<rect x="84" y="726" width="436" height="104" rx="12" fill="#ffffff" stroke="#2f6f73" stroke-width="3"/>
+<text x="106" y="764" font-size="26" font-weight="bold" fill="#2f6f73">모두 예</text>
+<text x="106" y="800" font-size="24" fill="#1f2a37">실제 AI 서비스 실행 가능</text>
+
+<!-- connectors -->
+<path d="M520,658 H552 V342 H574" fill="none" stroke="#566273" stroke-width="3" marker-end="url(#ah)"/>
+<path d="M520,778 H566 V454 H574" fill="none" stroke="#566273" stroke-width="3" marker-end="url(#ah)"/>
+<path d="M566,566 H574" fill="none" stroke="#566273" stroke-width="3" marker-end="url(#ah)"/>
+
+<!-- right: run type labels -->
+<text x="580" y="262" font-size="28" font-weight="bold" fill="#14253d">실행 구분 표시 — 세 표시는 서로 바꿔 쓰지 않는다</text>
+<rect x="580" y="290" width="320" height="104" rx="12" fill="#14253d"/>
+<text x="740" y="352" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">[가상 실행]</text>
+<rect x="912" y="290" width="368" height="104" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="932" y="326" font-size="24" fill="#1f2a37">가상 자료로 해 봄.</text>
+<text x="932" y="356" font-size="24" fill="#1f2a37">AI 요청 없음 또는</text>
+<text x="932" y="386" font-size="24" fill="#1f2a37">가상 AI 결과물 사용</text>
+
+<rect x="580" y="402" width="320" height="104" rx="12" fill="#2f5d9b"/>
+<text x="740" y="448" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">[실제 AI 실행:</text>
+<text x="740" y="478" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">가상 자료]</text>
+<rect x="912" y="402" width="368" height="104" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="932" y="448" font-size="24" fill="#1f2a37">AI 서비스에</text>
+<text x="932" y="478" font-size="24" fill="#1f2a37">가상 자료로 요청함</text>
+
+<rect x="580" y="514" width="320" height="104" rx="12" fill="#2f5d9b"/>
+<text x="740" y="560" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">[실제 AI 실행:</text>
+<text x="740" y="590" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">허용된 업무 자료]</text>
+<rect x="912" y="514" width="368" height="104" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="932" y="550" font-size="24" fill="#1f2a37">조직이 허용하고 등급</text>
+<text x="932" y="580" font-size="24" fill="#1f2a37">확인을 마친 실제</text>
+<text x="932" y="610" font-size="24" fill="#1f2a37">업무 자료로 요청함</text>
+
+<rect x="1292" y="290" width="244" height="216" rx="12" fill="#ffffff" stroke="#a33a3a" stroke-width="3"/>
+<text x="1414" y="364" font-size="24" fill="#1f2a37" text-anchor="middle">가상 자료로 한</text>
+<text x="1414" y="398" font-size="24" fill="#1f2a37" text-anchor="middle">실행만으로는</text>
+<text x="1414" y="434" font-size="26" font-weight="bold" fill="#a33a3a" text-anchor="middle">Level 3 아님</text>
+<rect x="1292" y="514" width="244" height="104" rx="12" fill="#ffffff" stroke="#2f6f73" stroke-width="3"/>
+<text x="1414" y="558" font-size="24" fill="#1f2a37" text-anchor="middle">Level 3에</text>
+<text x="1414" y="590" font-size="24" font-weight="bold" fill="#2f6f73" text-anchor="middle">필요한 실행</text>
+
+<!-- labelling rule -->
+<rect x="580" y="638" width="956" height="208" rx="12" fill="#e6eef9"/>
+<text x="604" y="676" font-size="28" font-weight="bold" fill="#14253d">수준 표시 규칙</text>
+<text x="604" y="714" font-size="24" fill="#1f2a37">· 도달한 가장 높은 수준 하나만, 근거 문서와 함께 적는다</text>
+<text x="604" y="748" font-size="24" fill="#1f2a37">· Level 1을 완료한 사람을 Level 3 완료자로 표시하지 않는다</text>
+<text x="604" y="782" font-size="24" fill="#1f2a37">· 한 수준의 조건이 하나라도 비어 있으면 그 수준을 달성했다고 쓰지 않고</text>
+<text x="624" y="814" font-size="24" fill="#1f2a37">"다음 수준 진행 중"으로 쓴다</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">지식베이스란 무엇인가</title>
+<desc id="d">업무 파일과 지식베이스를 네 가지 기준으로 비교하고, 지식베이스의 목적과 네 가지 구성요소를 보여 준다.</desc>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<text x="64" y="70" font-size="22" font-weight="bold" fill="#2f5d9b">CH08 · 1/3</text>
+<text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">지식베이스란 무엇인가</text>
+<text x="64" y="172" font-size="26" fill="#566273">저자 해석: 폴더 하나, 목록 한 장, 문서 한 개면 시작할 수 있다</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- comparison matrix -->
+<rect x="352" y="226" width="588" height="48" rx="12" fill="#e6eef9" stroke="#c9d4e5" stroke-width="2"/>
+<text x="646" y="260" font-size="28" font-weight="bold" fill="#14253d" text-anchor="middle">업무 파일</text>
+<rect x="948" y="226" width="588" height="48" rx="12" fill="#14253d"/>
+<text x="1242" y="260" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">지식베이스</text>
+
+<rect x="64" y="282" width="280" height="90" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="88" y="336" font-size="26" font-weight="bold" fill="#14253d">무엇인가</text>
+<rect x="352" y="282" width="588" height="90" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="376" y="320" font-size="26" fill="#1f2a37">일하다 생기는 파일</text>
+<text x="376" y="356" font-size="26" fill="#566273">(회의 메모, 결과물)</text>
+<rect x="948" y="282" width="588" height="90" rx="12" fill="#e6eef9" stroke="#5b7fb5" stroke-width="2"/>
+<text x="972" y="336" font-size="26" fill="#1f2a37">반복해서 쓰려고 정리한 자료</text>
+
+<rect x="64" y="380" width="280" height="60" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="88" y="420" font-size="26" font-weight="bold" fill="#14253d">모양</text>
+<rect x="352" y="380" width="588" height="60" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="376" y="420" font-size="26" fill="#1f2a37">그때그때 다름</text>
+<rect x="948" y="380" width="588" height="60" rx="12" fill="#e6eef9" stroke="#5b7fb5" stroke-width="2"/>
+<text x="972" y="420" font-size="26" fill="#1f2a37">정해진 틀, 목록, 이름 규칙</text>
+
+<rect x="64" y="448" width="280" height="60" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="88" y="488" font-size="26" font-weight="bold" fill="#14253d">출처·날짜</text>
+<rect x="352" y="448" width="588" height="60" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="376" y="488" font-size="26" fill="#1f2a37">없는 경우가 많음</text>
+<rect x="948" y="448" width="588" height="60" rx="12" fill="#e6eef9" stroke="#5b7fb5" stroke-width="2"/>
+<text x="972" y="488" font-size="26" font-weight="bold" fill="#2f6f73">반드시 적음</text>
+
+<rect x="64" y="516" width="280" height="60" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="88" y="556" font-size="26" font-weight="bold" fill="#14253d">누가 쓰나</text>
+<rect x="352" y="516" width="588" height="60" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="376" y="556" font-size="26" fill="#1f2a37">만든 사람</text>
+<rect x="948" y="516" width="588" height="60" rx="12" fill="#e6eef9" stroke="#5b7fb5" stroke-width="2"/>
+<text x="972" y="556" font-size="26" fill="#1f2a37">나, 동료, AI 서비스</text>
+
+<!-- purpose -->
+<rect x="64" y="600" width="636" height="240" rx="12" fill="#14253d"/>
+<text x="92" y="642" font-size="28" font-weight="bold" fill="#ffffff">목적</text>
+<text x="92" y="680" font-size="26" fill="#ffffff">같은 설명을 매번 다시 하지 않고,</text>
+<text x="92" y="716" font-size="26" fill="#ffffff">AI에게 줄 믿을 수 있는 참고자료를 만든다</text>
+<text x="92" y="784" font-size="26" font-weight="bold" fill="#ffffff">“이 업무를 하려면 무엇을 알아야 하고,</text>
+<text x="92" y="820" font-size="26" font-weight="bold" fill="#ffffff">그 근거는 어디에 있는가?”</text>
+
+<!-- components 2x2 -->
+<text x="720" y="626" font-size="24" font-weight="bold" fill="#2f5d9b">구성요소 (CH02의 ④·⑤ 칸)</text>
+<rect x="720" y="640" width="402" height="94" rx="12" fill="#ffffff" stroke="#5b7fb5" stroke-width="2"/>
+<text x="744" y="678" font-size="26" font-weight="bold" fill="#14253d">① 인덱스</text>
+<text x="744" y="714" font-size="24" fill="#566273">어디에 무엇이 있는지</text>
+<rect x="1134" y="640" width="402" height="94" rx="12" fill="#ffffff" stroke="#5b7fb5" stroke-width="2"/>
+<text x="1158" y="678" font-size="26" font-weight="bold" fill="#14253d">② 지식문서</text>
+<text x="1158" y="714" font-size="24" fill="#566273">규칙, 용어, 양식 설명</text>
+<rect x="720" y="746" width="402" height="94" rx="12" fill="#ffffff" stroke="#5b7fb5" stroke-width="2"/>
+<text x="744" y="784" font-size="26" font-weight="bold" fill="#14253d">③ 원본자료</text>
+<text x="744" y="820" font-size="24" fill="#566273">또는 그 위치</text>
+<rect x="1134" y="746" width="402" height="94" rx="12" fill="#ffffff" stroke="#5b7fb5" stroke-width="2"/>
+<text x="1158" y="784" font-size="26" font-weight="bold" fill="#14253d">④ 출처·갱신일 기록</text>
+<text x="1158" y="820" font-size="24" fill="#566273">어디서 왔고 언제 확인했나</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

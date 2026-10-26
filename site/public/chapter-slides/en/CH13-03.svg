@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">Version and change management</title>
+<desc id="d">Compares the two ways to manage file versions (a version number in the file name and the service's version history) by advantage and caution, and shows why changes to work instructions and knowledge documents are made one at a time, tested, and then brought to the same version in the archive, the change log table, the AI project files and the knowledge index.</desc>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<text x="64" y="70" font-size="22" font-weight="bold" fill="#2f5d9b">CH13 · 3/3</text>
+<text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">Versions in file names, reasons in the change log</text>
+<text x="64" y="172" font-size="26" fill="#566273">Change log: a record of when, who, what, and why something was changed</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- left: two version methods -->
+<text x="64" y="238" font-size="26" font-weight="bold" fill="#2f5d9b">Two ways to manage file versions</text>
+<rect x="64" y="256" width="576" height="214" rx="12" fill="#ffffff" stroke="#2f5d9b" stroke-width="3"/>
+<text x="90" y="298" font-size="28" font-weight="bold" fill="#14253d">① Version number in the file name</text>
+<text x="90" y="336" font-size="24" fill="#1f2a37">Save as v01, v02 · this book's default</text>
+<text x="90" y="378" font-size="24" fill="#2f6f73">+ Visible, and needs no tool</text>
+<text x="90" y="412" font-size="24" fill="#1f2a37">− Useless if you do not raise the number</text>
+<text x="90" y="446" font-size="24" fill="#1f2a37">− The number of files grows</text>
+<rect x="64" y="486" width="576" height="176" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="90" y="528" font-size="28" font-weight="bold" fill="#14253d">② The service's version history</text>
+<text x="90" y="566" font-size="24" fill="#1f2a37">The cloud keeps earlier states</text>
+<text x="90" y="604" font-size="24" fill="#2f6f73">+ Automatic</text>
+<text x="90" y="638" font-size="24" fill="#1f2a37">− Conditions and periods differ by service</text>
+<rect x="64" y="680" width="576" height="170" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="90" y="720" font-size="26" font-weight="bold" fill="#14253d">Git is not required</text>
+<text x="90" y="760" font-size="24" fill="#1f2a37">In the core course, file-name versions</text>
+<text x="90" y="794" font-size="24" fill="#1f2a37">and the change log table are enough</text>
+<text x="90" y="828" font-size="24" fill="#566273">Git and GitHub: an optional course</text>
+
+<!-- right: change management -->
+<text x="680" y="238" font-size="24" font-weight="bold" fill="#2f5d9b">Instructions &amp; knowledge docs change AI's behavior and output</text>
+<rect x="680" y="256" width="856" height="56" rx="12" fill="#e6eef9"/>
+<text x="706" y="293" font-size="24" fill="#1f2a37"><tspan font-weight="bold">1</tspan>  Find a needed change (error log, test) → write the reason and where</text>
+<rect x="680" y="324" width="856" height="56" rx="12" fill="#e6eef9"/>
+<text x="706" y="361" font-size="24" fill="#1f2a37"><tspan font-weight="bold">2</tspan>  Change one thing at a time → new version</text>
+<rect x="680" y="392" width="856" height="56" rx="12" fill="#e6eef9"/>
+<text x="706" y="429" font-size="24" fill="#1f2a37"><tspan font-weight="bold">3</tspan>  Check with test cases → approve it if it passes</text>
+<text x="680" y="488" font-size="24" font-weight="bold" fill="#2f5d9b">4  After approval, also update</text>
+<rect x="680" y="502" width="422" height="96" rx="12" fill="#2f5d9b"/>
+<text x="891" y="540" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">90_Archive</text>
+<text x="891" y="576" font-size="24" fill="#ffffff" text-anchor="middle">keep the previous version</text>
+<rect x="1114" y="502" width="422" height="96" rx="12" fill="#2f5d9b"/>
+<text x="1325" y="540" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">Change log table</text>
+<text x="1325" y="576" font-size="24" fill="#ffffff" text-anchor="middle">what changed · why · check result</text>
+<rect x="680" y="610" width="422" height="96" rx="12" fill="#2f5d9b"/>
+<text x="891" y="648" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">AI project files</text>
+<text x="891" y="684" font-size="24" fill="#ffffff" text-anchor="middle">replace with the same version</text>
+<rect x="1114" y="610" width="422" height="96" rx="12" fill="#2f5d9b"/>
+<text x="1325" y="648" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">Knowledge index</text>
+<text x="1325" y="684" font-size="24" fill="#ffffff" text-anchor="middle">update status and update date</text>
+<rect x="680" y="724" width="856" height="126" rx="12" fill="#ffffff" stroke="#a33a3a" stroke-width="3"/>
+<text x="1108" y="776" font-size="24" fill="#1f2a37" text-anchor="middle">If the document and the AI project's instructions are different versions</text>
+<text x="1108" y="816" font-size="26" font-weight="bold" fill="#a33a3a" text-anchor="middle">rules people read ≠ rules AI follows</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

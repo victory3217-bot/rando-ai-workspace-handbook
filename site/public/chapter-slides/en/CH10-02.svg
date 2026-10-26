@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">The eight elements of work instructions</title>
+<desc id="d">Lays out the eight sections of work instructions in document order (purpose and scope, input conditions, execution steps, output format, prohibitions, exception handling, verification criteria, revision log) and what each section should state.</desc>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<text x="64" y="70" font-size="22" font-weight="bold" fill="#2f5d9b">CH10 · 2/3</text>
+<text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">The eight elements of work instructions</text>
+<text x="64" y="172" font-size="26" fill="#566273">A header (document number / version / updated on / author / tier), then eight sections</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- 1 -->
+<rect x="64" y="222" width="728" height="142" rx="12" fill="#ffffff" stroke="#5b7fb5" stroke-width="2"/>
+<rect x="84" y="242" width="52" height="52" rx="12" fill="#14253d"/>
+<text x="110" y="278" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">1</text>
+<text x="156" y="279" font-size="30" font-weight="bold" fill="#14253d">Purpose and scope</text>
+<text x="156" y="318" font-size="25" fill="#1f2a37">Purpose: the CH01 purpose in one sentence</text>
+<text x="156" y="350" font-size="25" fill="#1f2a37">Scope: what you do and do not do, side by side</text>
+
+<!-- 2 -->
+<rect x="64" y="376" width="728" height="142" rx="12" fill="#ffffff" stroke="#5b7fb5" stroke-width="2"/>
+<rect x="84" y="396" width="52" height="52" rx="12" fill="#14253d"/>
+<text x="110" y="432" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">2</text>
+<text x="156" y="433" font-size="30" font-weight="bold" fill="#14253d">Input conditions</text>
+<text x="156" y="472" font-size="25" fill="#1f2a37">Material you accept: name, format, tier</text>
+<text x="156" y="504" font-size="25" fill="#1f2a37">Material you must not accept, and what to do</text>
+
+<!-- 3 -->
+<rect x="64" y="530" width="728" height="142" rx="12" fill="#ffffff" stroke="#5b7fb5" stroke-width="2"/>
+<rect x="84" y="550" width="52" height="52" rx="12" fill="#14253d"/>
+<text x="110" y="586" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">3</text>
+<text x="156" y="587" font-size="30" font-weight="bold" fill="#14253d">Execution steps</text>
+<text x="156" y="626" font-size="25" fill="#1f2a37">Numbered, in order, one action per step</text>
+<text x="156" y="658" font-size="25" fill="#1f2a37">A judgment step gets its criterion next to it</text>
+
+<!-- 4 -->
+<rect x="64" y="684" width="728" height="142" rx="12" fill="#ffffff" stroke="#5b7fb5" stroke-width="2"/>
+<rect x="84" y="704" width="52" height="52" rx="12" fill="#14253d"/>
+<text x="110" y="740" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">4</text>
+<text x="156" y="741" font-size="30" font-weight="bold" fill="#14253d">Output format</text>
+<text x="156" y="780" font-size="25" fill="#1f2a37">Columns, required items, length, marking rules</text>
+<text x="156" y="812" font-size="25" fill="#1f2a37">"Needs confirmation"; condition for "done"</text>
+
+<!-- 5 -->
+<rect x="808" y="222" width="728" height="142" rx="12" fill="#ffffff" stroke="#a33a3a" stroke-width="2"/>
+<rect x="828" y="242" width="52" height="52" rx="12" fill="#a33a3a"/>
+<text x="854" y="278" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">5</text>
+<text x="900" y="279" font-size="30" font-weight="bold" fill="#14253d">Prohibitions</text>
+<text x="900" y="318" font-size="25" fill="#1f2a37">Content not in the notes; changing names,</text>
+<text x="900" y="350" font-size="25" fill="#1f2a37">amounts, dates; deciding; sending; personal info</text>
+
+<!-- 6 -->
+<rect x="808" y="376" width="728" height="142" rx="12" fill="#ffffff" stroke="#b7791f" stroke-width="2"/>
+<rect x="828" y="396" width="52" height="52" rx="12" fill="#b7791f"/>
+<text x="854" y="432" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">6</text>
+<text x="900" y="433" font-size="30" font-weight="bold" fill="#14253d">Exception handling</text>
+<text x="900" y="472" font-size="25" fill="#1f2a37">"In this situation, do this" as a table</text>
+<text x="900" y="504" font-size="25" fill="#1f2a37">Unknown term, rule conflict: ask, don't guess</text>
+
+<!-- 7 -->
+<rect x="808" y="530" width="728" height="142" rx="12" fill="#ffffff" stroke="#5b7fb5" stroke-width="2"/>
+<rect x="828" y="550" width="52" height="52" rx="12" fill="#14253d"/>
+<text x="854" y="586" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">7</text>
+<text x="900" y="587" font-size="30" font-weight="bold" fill="#14253d">Verification criteria</text>
+<text x="900" y="626" font-size="25" fill="#1f2a37">How to check: fact-check table, recalculation</text>
+<text x="900" y="658" font-size="25" fill="#1f2a37">Pass/fail condition (e.g. 0 items not in notes)</text>
+
+<!-- 8 -->
+<rect x="808" y="684" width="728" height="142" rx="12" fill="#ffffff" stroke="#5b7fb5" stroke-width="2"/>
+<rect x="828" y="704" width="52" height="52" rx="12" fill="#14253d"/>
+<text x="854" y="740" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">8</text>
+<text x="900" y="741" font-size="30" font-weight="bold" fill="#14253d">Revision log</text>
+<text x="900" y="780" font-size="25" fill="#1f2a37">Version, date, change, reason, test result</text>
+<text x="900" y="812" font-size="25" fill="#1f2a37">Version in the file name too (v01, v02)</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

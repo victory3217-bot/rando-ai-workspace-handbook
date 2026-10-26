@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">CH06 What a Project is made of</title>
+<desc id="d">Compared with a regular chat, a ChatGPT Project bundles chats, Project sources and Project instructions in one place; the slide also shows file counts by plan and the author's mapping to the CH02 workspace map.</desc>
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2f5d9b"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<text x="64" y="70" font-size="22" font-weight="bold" fill="#2f5d9b">CH06 · 1/3</text>
+<text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">A Project bundles one task in one place</text>
+<text x="64" y="172" font-size="26" fill="#566273">Official documentation check [S6], checked 2026-10-26 · varies by plan and workspace settings</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- regular chat -->
+<rect x="64" y="230" width="470" height="270" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="299" y="278" font-size="30" font-weight="bold" fill="#566273" text-anchor="middle">Regular chat</text>
+<text x="92" y="330" font-size="26" fill="#1f2a37">Tends to end after one chat</text>
+<text x="92" y="378" font-size="26" fill="#1f2a37">Which files you gave,</text>
+<text x="92" y="414" font-size="26" fill="#1f2a37">which instructions you set:</text>
+<text x="92" y="462" font-size="26" font-weight="bold" fill="#a33a3a">say it again every time</text>
+
+<line x1="538" y1="365" x2="608" y2="365" stroke="#2f5d9b" stroke-width="5" marker-end="url(#ar)"/>
+
+<!-- author interpretation -->
+<rect x="64" y="530" width="470" height="285" rx="12" fill="#f1f5fb" stroke="#5b7fb5" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="92" y="576" font-size="26" font-weight="bold" fill="#2f5d9b">Author's interpretation</text>
+<text x="92" y="622" font-size="24" fill="#1f2a37">In the CH02 workspace map:</text>
+<text x="92" y="656" font-size="24" fill="#1f2a37">the place where ④ work documents</text>
+<text x="92" y="690" font-size="24" fill="#1f2a37">and ⑤ work instructions go</text>
+<text x="92" y="724" font-size="24" fill="#1f2a37">into ③ the AI work environment</text>
+<text x="92" y="776" font-size="24" fill="#566273">Not official wording</text>
+
+<!-- project container -->
+<rect x="614" y="230" width="922" height="585" rx="12" fill="#ffffff" stroke="#14253d" stroke-width="3"/>
+<rect x="614" y="230" width="922" height="66" rx="12" fill="#14253d"/>
+<text x="1075" y="273" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">Project: related chats, files, instructions in one place</text>
+
+<rect x="640" y="308" width="190" height="112" rx="12" fill="#2f5d9b"/>
+<text x="735" y="374" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">Chats</text>
+<rect x="846" y="308" width="664" height="112" rx="12" fill="#e6eef9"/>
+<text x="870" y="352" font-size="26" fill="#1f2a37">Use the Project's context for ongoing</text>
+<text x="870" y="390" font-size="26" fill="#566273">work (writing, research, planning, etc.)</text>
+
+<rect x="640" y="430" width="190" height="112" rx="12" fill="#2f5d9b"/>
+<text x="735" y="478" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">Project</text>
+<text x="735" y="512" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">sources</text>
+<rect x="846" y="430" width="664" height="112" rx="12" fill="#e6eef9"/>
+<text x="870" y="474" font-size="26" fill="#1f2a37">Uploaded files: PDFs, spreadsheets,</text>
+<text x="870" y="512" font-size="26" fill="#1f2a37">documents, images, or pasted text</text>
+
+<rect x="640" y="552" width="190" height="120" rx="12" fill="#2f5d9b"/>
+<text x="735" y="604" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">Project</text>
+<text x="735" y="638" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">instructions</text>
+<rect x="846" y="552" width="664" height="120" rx="12" fill="#e6eef9"/>
+<text x="870" y="590" font-size="26" fill="#1f2a37">Apply only inside that Project</text>
+<text x="870" y="625" font-size="26" font-weight="bold" fill="#14253d">Priority over global custom instructions</text>
+<text x="870" y="660" font-size="24" fill="#566273">Set in: ••• → Project settings</text>
+
+<rect x="640" y="684" width="870" height="118" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
+<text x="664" y="718" font-size="24" fill="#1f2a37"><tspan font-weight="bold" fill="#14253d">Files by plan:</tspan>  Free 5 · Go, Plus 25</text>
+<text x="664" y="752" font-size="24" fill="#1f2a37">Edu, Pro, Business, Enterprise 40 · 10 files per upload</text>
+<text x="664" y="786" font-size="24" fill="#1f2a37">Unlimited number of Projects · no separate charge for Projects</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>

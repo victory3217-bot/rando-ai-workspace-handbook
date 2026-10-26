@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">기존 사무환경과 AI 업무환경의 차이</title>
+<desc id="d">일을 시키는 방식, 자료의 위치, 결과물 확인, 반복 업무, 기록의 다섯 항목에서 기존 사무환경과 AI와 함께 쓰는 업무환경을 비교하고, 핵심 차이는 말하지 않아도 통하던 것을 글로 적어 두어야 한다는 점임을 보여 준다.</desc>
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<text x="64" y="70" font-size="22" font-weight="bold" fill="#2f5d9b">CH01 · 2/3</text>
+<text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">기존 사무환경과 AI 업무환경은 무엇이 다른가</text>
+<text x="64" y="172" font-size="26" fill="#566273">저자 해석 · 일반 사무 업무 기준의 비교 (회사와 업무에 따라 다를 수 있음)</text>
+<rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
+
+<!-- Column headers -->
+<rect x="64" y="222" width="300" height="56" rx="12" fill="#f1f5fb" stroke="#c9d4e5"/>
+<text x="214" y="259" font-size="28" font-weight="bold" fill="#14253d" text-anchor="middle">비교 항목</text>
+<rect x="376" y="222" width="520" height="56" rx="12" fill="#5b7fb5"/>
+<text x="636" y="259" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">기존 사무환경</text>
+<rect x="908" y="222" width="628" height="56" rx="12" fill="#2f5d9b"/>
+<text x="1222" y="259" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">AI와 함께 쓰는 업무환경</text>
+
+<!-- Row 1 -->
+<rect x="64" y="288" width="300" height="86" rx="12" fill="#e6eef9" stroke="#c9d4e5"/>
+<text x="214" y="341" font-size="26" font-weight="bold" fill="#14253d" text-anchor="middle">일을 시키는 방식</text>
+<rect x="376" y="288" width="520" height="86" rx="12" fill="#ffffff" stroke="#c9d4e5"/>
+<text x="636" y="341" font-size="26" fill="#566273" text-anchor="middle">사람에게 말이나 메신저로 부탁한다</text>
+<rect x="908" y="288" width="628" height="86" rx="12" fill="#ffffff" stroke="#2f5d9b" stroke-width="2"/>
+<text x="1222" y="341" font-size="26" fill="#1f2a37" text-anchor="middle">글로 쓴 지시와 자료를 AI에게 준다</text>
+
+<!-- Row 2 -->
+<rect x="64" y="384" width="300" height="86" rx="12" fill="#e6eef9" stroke="#c9d4e5"/>
+<text x="214" y="437" font-size="26" font-weight="bold" fill="#14253d" text-anchor="middle">자료의 위치</text>
+<rect x="376" y="384" width="520" height="86" rx="12" fill="#ffffff" stroke="#c9d4e5"/>
+<text x="636" y="437" font-size="26" fill="#566273" text-anchor="middle">사람이 기억하거나 물어서 찾는다</text>
+<rect x="908" y="384" width="628" height="86" rx="12" fill="#ffffff" stroke="#2f5d9b" stroke-width="2"/>
+<text x="1222" y="420" font-size="26" fill="#1f2a37" text-anchor="middle">AI가 쓸 자료를 내가 정해서 제공하거나</text>
+<text x="1222" y="455" font-size="26" fill="#1f2a37" text-anchor="middle">접근을 허용해야 한다</text>
+
+<!-- Row 3 -->
+<rect x="64" y="480" width="300" height="86" rx="12" fill="#e6eef9" stroke="#c9d4e5"/>
+<text x="214" y="533" font-size="26" font-weight="bold" fill="#14253d" text-anchor="middle">결과물 확인</text>
+<rect x="376" y="480" width="520" height="86" rx="12" fill="#ffffff" stroke="#c9d4e5"/>
+<text x="636" y="533" font-size="26" fill="#566273" text-anchor="middle">담당자가 경험으로 확인한다</text>
+<rect x="908" y="480" width="628" height="86" rx="12" fill="#ffffff" stroke="#2f5d9b" stroke-width="2"/>
+<text x="1222" y="516" font-size="26" fill="#1f2a37" text-anchor="middle">확인 기준을 글로 적어 두고</text>
+<text x="1222" y="551" font-size="26" fill="#1f2a37" text-anchor="middle">내가 직접 확인한다</text>
+
+<!-- Row 4 -->
+<rect x="64" y="576" width="300" height="86" rx="12" fill="#e6eef9" stroke="#c9d4e5"/>
+<text x="214" y="629" font-size="26" font-weight="bold" fill="#14253d" text-anchor="middle">반복 업무</text>
+<rect x="376" y="576" width="520" height="86" rx="12" fill="#ffffff" stroke="#c9d4e5"/>
+<text x="636" y="612" font-size="26" fill="#566273" text-anchor="middle">사람이 매번 같은 순서를</text>
+<text x="636" y="647" font-size="26" fill="#566273" text-anchor="middle">기억해서 한다</text>
+<rect x="908" y="576" width="628" height="86" rx="12" fill="#ffffff" stroke="#2f5d9b" stroke-width="2"/>
+<text x="1222" y="612" font-size="26" fill="#1f2a37" text-anchor="middle">순서와 기준을 문서로 적어 두면</text>
+<text x="1222" y="647" font-size="26" fill="#1f2a37" text-anchor="middle">같은 방식으로 맡길 수 있다</text>
+
+<!-- Row 5 -->
+<rect x="64" y="672" width="300" height="86" rx="12" fill="#e6eef9" stroke="#c9d4e5"/>
+<text x="214" y="725" font-size="26" font-weight="bold" fill="#14253d" text-anchor="middle">기록</text>
+<rect x="376" y="672" width="520" height="86" rx="12" fill="#ffffff" stroke="#c9d4e5"/>
+<text x="636" y="725" font-size="26" fill="#566273" text-anchor="middle">메일, 메신저, 개인 메모에 흩어진다</text>
+<rect x="908" y="672" width="628" height="86" rx="12" fill="#ffffff" stroke="#2f5d9b" stroke-width="2"/>
+<text x="1222" y="708" font-size="26" fill="#1f2a37" text-anchor="middle">입력 · 지시 · 결과 · 확인 내용을 모아 두면</text>
+<text x="1222" y="743" font-size="26" fill="#1f2a37" text-anchor="middle">다음에 재사용할 수 있다</text>
+
+<!-- Key difference -->
+<rect x="64" y="772" width="1472" height="74" rx="12" fill="#14253d"/>
+<text x="800" y="819" font-size="30" font-weight="bold" fill="#ffffff" text-anchor="middle">핵심 차이: 사람 사이에서 말하지 않아도 통하던 것을 글로 적어 두어야 한다</text>
+
+<text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+</svg>
