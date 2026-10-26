@@ -1,38 +1,52 @@
 # AI Workspace Handbook / AI 워크스페이스 구축 핸드북
 
-> **상태: 개발 중인 로컬 초안 (v0.0.4, Phase 2D).** 공개되지 않았고, GitHub 원격 저장소와 배포가 없다. 한국어 CH01~CH03만 **본문 초안**(사람의 검토 전)이 있고, 나머지 장은 `content-manifest.json`에 등록만 되어 있다. 영어 본문은 없다.
+> **상태: 공개된 초안 (v0.0.4).** 한국어 **필수 과정 CH01~CH14의 본문 초안**이 있으며 모두 `Draft`다. 저자 승인과 실제 학습자 시험은 아직 없다. 선택·심화 OP01~OP03은 `content-manifest.json`에 등록만 되어 있다(`Planned`). 영어 본문은 없다. 사이트: https://victory3217-bot.github.io/rando-ai-workspace-handbook/
 
 프로그래밍 경험이 없는 일반 실무자가 자신의 컴퓨터, 클라우드 저장소, AI 도구, 업무문서를 연결해 **개인 AI 업무환경**을 만들고 실제 업무 하나를 끝내도록 돕는 실습형 핸드북이다. 성공 기준은 AI 도구의 기능을 많이 아는 것이 아니라, 자신의 업무에 쓸 수 있는 환경을 만들고 업무 하나를 완수하는 것이다.
 
-*An in-progress, local-only draft of a hands-on handbook for non-programmers. Only three Korean chapters exist, as structural drafts. No English chapter is published.*
+*A public draft of a hands-on handbook for non-programmers. The 14 core Korean chapters exist as drafts that have not been approved by the author or tested with learners; the three optional chapters are only registered as Planned. There is no English edition yet.*
+
+## 저작권과 이용 조건 / Copyright and terms of use
+
+- 이 저장소의 교재, 실습자료, 강사용 안내서, 사이트 코드와 그 밖의 모든 내용의 저작권은 저자(Magis Global)에게 있다. **별도의 오픈소스 라이선스를 부여하지 않는다.**
+- 개인의 학습과 교육 참고를 위해 읽고 웹사이트에서 사용하는 것은 환영한다. 그 밖의 복제, 수정, 재배포, 번역, 상업적 이용(강의·교재·상품에 쓰는 것 포함)은 사전에 저자의 허락을 받아야 한다.
+- 내용은 **저자 승인 전의 초안**이며, 제품 기능과 정책은 바뀔 수 있다. 각 장에 적힌 출처와 확인일을 기준으로 직접 다시 확인하고, 조직의 정보보안 규정이 우선한다. 법률·보안 자문이 아니다.
+- 모든 예시(회사, 인물, 파일, 회의 메모, AI 결과물)는 교육용 가상 자료이며 실제와 무관하다.
+
+*No open-source license is granted. All rights are reserved by the author (Magis Global). Reading and using the site for personal study is welcome; copying, modifying, redistributing, translating, or commercial use requires the author's prior permission. This is an unreviewed draft, not legal or security advice, and all examples are fictional.*
+
+## 공개 정책
+
+교안(CH01~CH14), 실습자료와 워크북, **강사용 해설과 정답**, 워크숍 운영자료, 용어집, 사이트 코드, 저자 검토기록을 이 저장소에 모두 공개한다. 실제 개인정보·고객정보·비밀번호·API 키·허가되지 않은 타인의 비공개 자료는 어디에도 넣지 않으며 모든 예시는 가상이다. 웹사이트에서는 학습자가 실습 전에 정답을 먼저 보지 않도록 강사용 안내서를 별도 메뉴(기본 접힘)와 안내 페이지 뒤에 두고 검색에서 제외한다. 저자 승인 전의 초안이다. 공개 절차는 `review/LAUNCH_PLAN_PUBLIC.md`를 본다.
 
 ## 구성
 
-- **필수 14장** (`AW-CH01`~`AW-CH14`) + **선택·심화 3장** (`AW-OP01`~`AW-OP03`)
+- **현재 핸드북의 기본 범위는 필수 14장**(`AW-CH01`~`AW-CH14`)이다. 1차 교육대상은 비개발자 일반 실무자다.
+- **선택·심화 3장**(`AW-OP01`~`AW-OP03`)은 삭제하지 않고 `Planned`로만 유지한다. Git·GitHub, Claude Code, 하네스 엔지니어링은 *향후 별도 교육과정*으로 분리해 개발하는 방향이며, 현재 프로젝트 범위에서 집필을 보류한다.
 - 한국어를 먼저 쓰고 검토한다. 영어는 한국어 장이 `Reviewed`가 된 뒤 시작한다.
 - 모든 장은 같은 아홉 단계를 따른다: 학습목표 → 핵심 개념 → 업무 적용 사례 → 준비물 → 단계별 실습 → 결과 검증 → 오류 해결 → 완료 체크리스트 → 참고자료.
 
 | ID | 제목 | 상태 |
 |---|---|---|
-| AW-CH01 | AI 워크스페이스란 무엇인가 | Draft (본문 초안, 검토 전) |
-| AW-CH02 | AI 워크스페이스의 구성요소와 전체 구조 | Draft (본문 초안, 검토 전) |
-| AW-CH03 | AI에 입력할 수 있는 정보와 정보보안 | Draft (본문 초안, 검토 전) |
-| AW-CH04 | PC·파일·폴더 관리 | Planned |
-| AW-CH05 | 클라우드 저장소와 업무자료 연결 | Planned |
-| AW-CH06 | ChatGPT 작업환경 구축 | Planned |
-| AW-CH07 | Claude 작업환경 구축 | Planned |
-| AW-CH08 | 개인 지식베이스 구축 | Planned |
-| AW-CH09 | 문서작성과 자료분석 실습 | Planned |
-| AW-CH10 | 프롬프트를 업무 지침서로 표준화 | Planned |
-| AW-CH11 | 반복 업무와 AI Workflow 설계 | Planned |
-| AW-CH12 | 결과 검증과 오류 해결 | Planned |
-| AW-CH13 | 백업·버전 관리 기초 | Planned |
-| AW-CH14 | 나만의 AI 워크스페이스 완성 | Planned |
+| AW-CH01 | AI 워크스페이스란 무엇인가 | Draft (본문 초안, 저자 승인 전) |
+| AW-CH02 | AI 워크스페이스의 구성요소와 전체 구조 | Draft (본문 초안, 저자 승인 전) |
+| AW-CH03 | AI에 입력할 수 있는 정보와 정보보안 | Draft (본문 초안, 저자 승인 전) |
+| AW-CH04 | PC·파일·폴더 관리 | Draft (본문 초안, 저자 승인 전) |
+| AW-CH05 | 클라우드 저장소와 업무자료 연결 | Draft (본문 초안, 저자 승인 전) |
+| AW-CH06 | ChatGPT 작업환경 구축 | Draft (본문 초안, 저자 승인 전) |
+| AW-CH07 | Claude 작업환경 구축 | Draft (본문 초안, 저자 승인 전) |
+| AW-CH08 | 개인 지식베이스 구축 | Draft (본문 초안, 저자 승인 전) |
+| AW-CH09 | 문서작성과 자료분석 실습 | Draft (본문 초안, 저자 승인 전) |
+| AW-CH10 | 프롬프트를 업무 지침서로 표준화 | Draft (본문 초안, 저자 승인 전) |
+| AW-CH11 | 반복 업무와 AI Workflow 설계 | Draft (본문 초안, 저자 승인 전) |
+| AW-CH12 | 결과 검증과 오류 해결 | Draft (본문 초안, 저자 승인 전) |
+| AW-CH13 | 백업·버전 관리 기초 | Draft (본문 초안, 저자 승인 전) |
+| AW-CH14 | 나만의 AI 워크스페이스 완성 | Draft (본문 초안, 저자 승인 전) |
 | AW-OP01 | Git과 GitHub 기초 | Planned |
 | AW-OP02 | Claude Desktop과 AI 코딩 도구 | Planned |
 | AW-OP03 | AI 하네스 엔지니어링 입문 | Planned |
 
-`Planned`는 "등록만 했고 파일이 없다"는 뜻이다. 어떤 페이지도 생성되지 않는다. (정확한 상태는 `content-manifest.json`이 기준이며 이 표는 사람이 읽기 위한 사본이다.)
+`Draft`는 본문 초안이 있으나 저자 승인과 학습자 시험 전이라는 뜻이고(`last_reviewed`는 비어 있음), `Planned`는 "등록만 했고 파일이 없다"는 뜻이다. 어떤 페이지도 생성되지 않는다. (정확한 상태는 `content-manifest.json`이 기준이며 이 표는 사람이 읽기 위한 사본이다.)
 
 ## 폴더 구조
 
@@ -42,7 +56,8 @@ VERSION  CHANGELOG.md  glossary.md  source-map.md
 ko/chapters/            한국어 장 (CH01.md ...)  ← 기준 원본
 en/                     영어판. 지금은 README만 있고 장 파일이 없다
 assets/templates/       장별 표준 템플릿 (한국어·영어)
-review/                 저자 검토 자료(장마다 한 쪽). 사이트에 게시되지 않음
+workshop/               6시간 워크숍 실습자료(가상 자료, 참가자 워크북, 강사용 안내서와 정답). 사이트의 실습자료·강사용 메뉴로 게시됨
+review/                 저자 검토 자료(장마다 한 쪽)와 통합 검토·워크숍·런칭 계획. 저장소에는 공개되며 사이트에는 게시되지 않음
 tools/content_audit.py  구조 감사 도구 (읽기 전용)
 site/                   Astro + Starlight 사이트 (생성 계층)
 ```
@@ -128,8 +143,8 @@ python tools/content_audit.py --dist site/dist # 빌드 결과까지 감사 (빌
 - `LanguageSelect.astro`는 Starlight 0.42.x의 원본 컴포넌트를 복사해 고친 것이다. Starlight를 올릴 때 원본과 비교해야 한다.
 - 이 구성은 *영어와 한국어 두 언어*만을 전제로 한다. 세 번째 언어를 추가할 때는 다시 설계해야 한다.
 
-## 공개 전에 해야 할 일
+## 앞으로 할 일
 
-- 사이트의 `noindex` 설정(`site/astro.config.mjs`의 `head`)을 사람이 검토한 뒤 제거한다.
+- (완료) 일반 페이지의 `noindex`를 제거했다. 강사용 안내서 두 페이지는 따로 `noindex`를 유지한다.
 - 영어 장은 한국어 `Reviewed` 이후에 시작한다.
-- 라이선스, GitHub 원격 저장소, Pages 설정, 배포 워크플로, Magis Global 핸드북 목록 연결은 아직 정하지 않았다.
+- Magis Global 핸드북 목록 연결은 아직 하지 않았다(최소 변경안은 `review/LAUNCH_PLAN_PUBLIC.md`).
