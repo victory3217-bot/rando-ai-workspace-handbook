@@ -35,13 +35,13 @@ const STATUS_NOTICE = {
 	ko: {
 		Draft: {
 			badge: "초안",
-			banner: "작성 중인 원고입니다. 내용 검토와 수정이 진행 중이며, 최종 승인 및 공개 전 상태입니다.",
+			banner: "이 교안은 현재 공개 초안으로 제공되고 있으며, 내용 검토와 개선이 진행 중입니다. 최종 승인된 판본은 아닙니다.",
 		},
 		Translated: { badge: "검토 전", banner: "번역 후 아직 검토되지 않은 장입니다." },
 		"Needs Update": { badge: "수정 필요", banner: "원본이 바뀌어 수정이 필요한 장입니다." },
 	},
 	en: {
-		Draft: { badge: "Draft", banner: "Work in progress. Review and revision are under way, and this chapter is not yet approved or published." },
+		Draft: { badge: "Draft", banner: "This chapter is currently published as a draft. Review and improvement are under way, and it is not an approved final edition." },
 		Translated: { badge: "Unreviewed", banner: "Translated but not yet reviewed." },
 		"Needs Update": { badge: "Needs update", banner: "The source changed; this chapter needs an update." },
 	},
@@ -213,7 +213,7 @@ function koLanding() {
 	const total = entries.filter((e) => e.language === "ko").length;
 	const core = generated.ko.filter((id) => id.startsWith("AW-CH")).length;
 	lines.push(
-		`> **개발 중인 초안입니다.** 필수 과정 ${core}개 장의 본문 초안이 있습니다. 초안은 작성 중인 원고이며, 내용 검토와 수정이 진행 중이고, 최종 승인 및 공개 전 상태입니다. 선택·심화 과정은 향후 별도 교육과정으로 개발할 계획이며 지금은 본문이 없습니다.`,
+		`> **개발 중인 초안입니다.** 필수 과정 ${core}개 장의 본문 초안이 있습니다. 이 교안은 현재 공개 초안으로 제공되고 있으며, 내용 검토와 개선이 진행 중입니다. 최종 승인된 판본은 아닙니다. 선택·심화 과정은 향후 별도 교육과정으로 개발할 계획이며 지금은 본문이 없습니다.`,
 		""
 	);
 	for (const part of PARTS) {
