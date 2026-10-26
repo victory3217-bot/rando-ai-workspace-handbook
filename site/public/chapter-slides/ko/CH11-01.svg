@@ -1,74 +1,106 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
-<title id="t">AI Workflow란 무엇인가</title>
-<desc id="d">업무 절차(순서)에 누가, 입력, 출력, 확인, 예외 처리를 더한 것이 AI Workflow라는 이 책의 작업 정의와, CH10 지침서 및 하네스와의 관계를 보여 준다.</desc>
+<title id="t">AI Workflow와 일을 맡기는 세 가지 방식</title>
+<desc id="d">업무 절차(순서)에 다섯 요소를 더한 AI Workflow의 작업 정의와, 같은 일을 사람 주도 AI 활용, 사전 설계 AI Workflow, Agentic Workflow로 맡길 때 다음 단계를 누가 정하고 AI와 사람이 각각 무엇을 하는지 비교한다. 세 방식은 성숙 단계가 아니며 업무에 따라 고른다.</desc>
 <rect width="1600" height="900" fill="#f7f9fc"/>
 <text x="64" y="70" font-size="22" font-weight="bold" fill="#2f5d9b">CH11 · 1/3</text>
-<text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">AI Workflow란 무엇인가</text>
-<text x="64" y="172" font-size="26" fill="#566273">업무 절차(순서)에 다섯 요소를 더한 설계 (이 책의 작업 정의)</text>
+<text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">AI Workflow와 일을 맡기는 세 가지 방식</text>
+<text x="64" y="172" font-size="26" fill="#566273">작업 정의, 그리고 같은 일을 맡기는 세 방식</text>
 <rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
 
-<!-- left: layered build-up -->
-<rect x="64" y="222" width="696" height="68" rx="12" fill="#14253d"/>
-<text x="90" y="268" font-size="32" font-weight="bold" fill="#ffffff">AI Workflow</text>
-<text x="734" y="266" font-size="24" fill="#ffffff" text-anchor="end">이 책의 작업 정의</text>
+<!-- left: AI Workflow definition -->
+<rect x="64" y="212" width="380" height="56" rx="12" fill="#14253d"/>
+<text x="84" y="250" font-size="30" font-weight="bold" fill="#ffffff">AI Workflow</text>
+<rect x="64" y="276" width="380" height="52" rx="12" fill="#f1f5fb" stroke="#5b7fb5" stroke-width="2"/>
+<text x="254" y="311" font-size="26" font-weight="bold" fill="#14253d" text-anchor="middle">업무 절차 = 일의 순서</text>
+<rect x="64" y="336" width="380" height="208" rx="12" fill="#e6eef9"/>
+<text x="84" y="374" font-size="24" fill="#1f2a37"><tspan font-weight="bold" fill="#2f5d9b">+</tspan> 누가 (사람/AI)</text>
+<text x="84" y="412" font-size="24" fill="#1f2a37"><tspan font-weight="bold" fill="#2f5d9b">+</tspan> 무엇을 받아</text>
+<text x="84" y="450" font-size="24" fill="#1f2a37"><tspan font-weight="bold" fill="#2f5d9b">+</tspan> 무엇을 내고</text>
+<text x="84" y="488" font-size="24" fill="#1f2a37"><tspan font-weight="bold" fill="#2f5d9b">+</tspan> 어떻게 확인하며</text>
+<text x="84" y="526" font-size="24" fill="#1f2a37"><tspan font-weight="bold" fill="#2f5d9b">+</tspan> 안 되면 어떻게 하는지</text>
+<rect x="64" y="554" width="380" height="147" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="84" y="588" font-size="24" font-weight="bold" fill="#14253d">CH10 지침서</text>
+<text x="84" y="620" font-size="24" fill="#1f2a37">= AI가 따를 규칙</text>
+<text x="84" y="656" font-size="24" font-weight="bold" fill="#14253d">CH11 Workflow</text>
+<text x="84" y="688" font-size="24" fill="#1f2a37">= 그 규칙을 일의 흐름 속에</text>
 
-<rect x="64" y="302" width="696" height="50" rx="12" fill="#e6eef9"/>
-<text x="90" y="336" font-size="26" font-weight="bold" fill="#2f5d9b">+ 누가</text>
-<text x="400" y="336" font-size="26" fill="#1f2a37">단계마다 사람 또는 AI</text>
-<rect x="64" y="362" width="696" height="50" rx="12" fill="#e6eef9"/>
-<text x="90" y="396" font-size="26" font-weight="bold" fill="#2f5d9b">+ 무엇을 받아</text>
-<text x="400" y="396" font-size="26" fill="#1f2a37">각 단계의 입력</text>
-<rect x="64" y="422" width="696" height="50" rx="12" fill="#e6eef9"/>
-<text x="90" y="456" font-size="26" font-weight="bold" fill="#2f5d9b">+ 무엇을 내고</text>
-<text x="400" y="456" font-size="26" fill="#1f2a37">각 단계의 출력</text>
-<rect x="64" y="482" width="696" height="50" rx="12" fill="#e6eef9"/>
-<text x="90" y="516" font-size="26" font-weight="bold" fill="#2f5d9b">+ 어떻게 확인</text>
-<text x="400" y="516" font-size="26" fill="#1f2a37">확인(검증)</text>
-<rect x="64" y="542" width="696" height="50" rx="12" fill="#e6eef9"/>
-<text x="90" y="576" font-size="26" font-weight="bold" fill="#2f5d9b">+ 안 되면</text>
-<text x="400" y="576" font-size="26" fill="#1f2a37">예외 처리</text>
+<!-- right: three ways matrix -->
+<rect x="662" y="212" width="286" height="70" rx="12" fill="#2f5d9b"/>
+<text x="805" y="242" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">방식 1</text>
+<text x="805" y="273" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">사람 주도 AI 활용</text>
+<rect x="956" y="212" width="286" height="70" rx="12" fill="#2f5d9b"/>
+<text x="1099" y="242" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">방식 2</text>
+<text x="1099" y="273" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">사전 설계 AI Workflow</text>
+<rect x="1250" y="212" width="286" height="70" rx="12" fill="#2f5d9b"/>
+<text x="1393" y="242" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">방식 3 (개념만 설명)</text>
+<text x="1393" y="273" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">Agentic Workflow</text>
 
-<rect x="64" y="604" width="696" height="60" rx="12" fill="#f1f5fb" stroke="#5b7fb5" stroke-width="2"/>
-<text x="412" y="643" font-size="28" font-weight="bold" fill="#14253d" text-anchor="middle">업무 절차 = 일의 순서</text>
+<!-- row 1: who decides -->
+<rect x="464" y="288" width="190" height="101" rx="12" fill="#e6eef9"/>
+<text x="478" y="331" font-size="24" font-weight="bold" fill="#14253d">다음 단계를</text>
+<text x="478" y="363" font-size="24" font-weight="bold" fill="#14253d">누가 정하나</text>
+<rect x="662" y="288" width="286" height="101" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="676" y="318" font-size="24" fill="#1f2a37">사람이</text>
+<text x="676" y="349" font-size="24" fill="#1f2a37">그때그때 정함</text>
+<rect x="956" y="288" width="286" height="101" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="970" y="318" font-size="24" fill="#1f2a37">미리 정해 둔</text>
+<text x="970" y="349" font-size="24" fill="#1f2a37">단계와 분기 조건</text>
+<rect x="1250" y="288" width="286" height="101" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="1264" y="318" font-size="24" font-weight="bold" fill="#14253d">AI 에이전트가</text>
+<text x="1264" y="349" font-size="24" fill="#1f2a37">목표·도구·권한·제한</text>
+<text x="1264" y="380" font-size="24" fill="#1f2a37">안에서 상황에 따라</text>
 
-<rect x="64" y="682" width="696" height="164" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
-<text x="90" y="724" font-size="26" font-weight="bold" fill="#14253d">CH10 지침서 → CH11 Workflow</text>
-<text x="90" y="766" font-size="24" fill="#1f2a37">지침서: AI가 따를 규칙</text>
-<text x="90" y="806" font-size="24" fill="#1f2a37">Workflow: 그 규칙을 일의 흐름 속에 놓는 설계</text>
+<!-- row 2: AI does -->
+<rect x="464" y="395" width="190" height="70" rx="12" fill="#e6eef9"/>
+<text x="478" y="439" font-size="24" font-weight="bold" fill="#14253d">AI가 하는 일</text>
+<rect x="662" y="395" width="286" height="70" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="676" y="425" font-size="24" fill="#1f2a37">사람이 요청한 작업</text>
+<text x="676" y="456" font-size="24" fill="#1f2a37">(작성·요약·분석)</text>
+<rect x="956" y="395" width="286" height="70" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="970" y="425" font-size="24" fill="#1f2a37">일부 단계에서</text>
+<text x="970" y="456" font-size="24" fill="#1f2a37">분석·생성·분류</text>
+<rect x="1250" y="395" width="286" height="70" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="1264" y="425" font-size="24" fill="#1f2a37">다음 행동과 도구</text>
+<text x="1264" y="456" font-size="24" fill="#1f2a37">사용을 골라 진행</text>
 
-<!-- right: workflow vs harness -->
-<text x="800" y="242" font-size="26" font-weight="bold" fill="#14253d">단순 Workflow와 하네스</text>
-<rect x="800" y="258" width="358" height="60" rx="12" fill="#14253d"/>
-<text x="979" y="297" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">단순 Workflow</text>
-<rect x="1178" y="258" width="358" height="60" rx="12" fill="#2f5d9b"/>
-<text x="1357" y="297" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">하네스</text>
+<!-- row 3: person does -->
+<rect x="464" y="471" width="190" height="132" rx="12" fill="#e6eef9"/>
+<text x="478" y="531" font-size="24" font-weight="bold" fill="#14253d">사람이</text>
+<text x="478" y="563" font-size="24" font-weight="bold" fill="#14253d">하는 일</text>
+<rect x="662" y="471" width="286" height="132" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="676" y="501" font-size="24" fill="#1f2a37">단계 정하기, 요청,</text>
+<text x="676" y="532" font-size="24" fill="#1f2a37">결과 검증</text>
+<rect x="956" y="471" width="286" height="132" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="970" y="501" font-size="24" fill="#1f2a37">흐름 설계,</text>
+<text x="970" y="532" font-size="24" fill="#1f2a37">승인 지점에서 확인</text>
+<rect x="1250" y="471" width="286" height="132" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="1264" y="501" font-size="24" fill="#1f2a37">목표·자료·도구,</text>
+<text x="1264" y="532" font-size="24" fill="#1f2a37">권한 범위·제한 설정,</text>
+<text x="1264" y="563" font-size="24" fill="#1f2a37">승인·검증하고</text>
+<text x="1264" y="594" font-size="24" fill="#1f2a37">결과에 책임</text>
 
-<rect x="800" y="330" width="358" height="120" rx="12" fill="#e6eef9"/>
-<text x="822" y="372" font-size="24" fill="#1f2a37">단계, 담당, 승인,</text>
-<text x="822" y="404" font-size="24" fill="#1f2a37">예외의 설계</text>
-<rect x="1178" y="330" width="358" height="120" rx="12" fill="#e6eef9"/>
-<text x="1200" y="372" font-size="24" fill="#1f2a37">AI의 수행을 지원하고</text>
-<text x="1200" y="404" font-size="24" fill="#1f2a37">통제하는 실행 체계</text>
+<!-- row 4: predictability -->
+<rect x="464" y="609" width="190" height="42" rx="12" fill="#e6eef9"/>
+<text x="478" y="640" font-size="24" font-weight="bold" fill="#14253d">경로 예측</text>
+<rect x="662" y="609" width="286" height="42" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="676" y="640" font-size="24" fill="#1f2a37">사람에 따라 다름</text>
+<rect x="956" y="609" width="286" height="42" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="970" y="640" font-size="24" fill="#1f2a37">높음 (정해진 경로)</text>
+<rect x="1250" y="609" width="286" height="42" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="1264" y="640" font-size="24" fill="#1f2a37">낮을 수 있음</text>
 
-<rect x="800" y="462" width="358" height="140" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
-<text x="822" y="500" font-size="24" fill="#1f2a37">종이, 문서,</text>
-<text x="822" y="532" font-size="24" fill="#1f2a37">글자 도표로 만든다</text>
-<rect x="1178" y="462" width="358" height="140" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
-<text x="1200" y="500" font-size="24" fill="#1f2a37">문서뿐 아니라</text>
-<text x="1200" y="532" font-size="24" fill="#1f2a37">규칙을 AI에게 매번</text>
-<text x="1200" y="564" font-size="24" fill="#1f2a37">적용하게 하는 구성이</text>
-<text x="1200" y="594" font-size="24" fill="#1f2a37">더해질 수 있음</text>
+<!-- human approval note -->
+<rect x="464" y="657" width="1072" height="44" rx="12" fill="#ffffff" stroke="#b7791f" stroke-width="3"/>
+<text x="482" y="688" font-size="24" fill="#1f2a37"><tspan font-weight="bold" fill="#b7791f">Human-in-the-loop</tspan>  방식 3에서도 파일 수정·공유·외부 발송·삭제는 사람의 승인</text>
 
-<rect x="800" y="614" width="358" height="56" rx="12" fill="#ffffff" stroke="#2f6f73" stroke-width="2"/>
-<text x="979" y="651" font-size="24" font-weight="bold" fill="#2f6f73" text-anchor="middle">CH11 필수</text>
-<rect x="1178" y="614" width="358" height="56" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
-<text x="1357" y="651" font-size="24" font-weight="bold" fill="#566273" text-anchor="middle">선택·심화 과정</text>
-
-<rect x="800" y="684" width="736" height="162" rx="12" fill="#e6eef9"/>
-<text x="822" y="722" font-size="24" font-weight="bold" fill="#14253d">저자 해석 (업계 표준이라고 단정하지 않음)</text>
-<text x="822" y="758" font-size="24" fill="#1f2a37">워크스페이스·Workflow·하네스는 배타적 분류가 아님</text>
-<text x="822" y="794" font-size="24" fill="#1f2a37">하네스는 Workflow의 단계를 활용할 수 있음</text>
-<text x="822" y="830" font-size="24" fill="#1f2a37">Workflow는 하네스 안에 들어갈 수 있음</text>
+<!-- bottom strip -->
+<rect x="64" y="712" width="976" height="138" rx="12" fill="#e6eef9"/>
+<text x="88" y="764" font-size="28" font-weight="bold" fill="#14253d">성숙 단계가 아님: 뒤의 방식이 늘 더 좋지는 않다</text>
+<text x="88" y="814" font-size="24" fill="#1f2a37">고르는 기준: 위험도 · 반복성 · 규칙의 명확성 · 비용 · 검증 가능성</text>
+<rect x="1056" y="712" width="480" height="138" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
+<text x="1076" y="756" font-size="24" font-weight="bold" fill="#14253d">저자 해석, 업계 표준 아님</text>
+<text x="1076" y="792" font-size="22" fill="#566273">워크스페이스·Workflow·하네스·</text>
+<text x="1076" y="824" font-size="22" fill="#566273">에이전트는 배타적 분류가 아님</text>
 
 <text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
 </svg>
