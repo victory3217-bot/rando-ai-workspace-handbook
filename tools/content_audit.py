@@ -428,6 +428,42 @@ def check_parity(entries) -> None:
     record("FAIL" if bad else "PASS", f"parity: English edition matches the Korean structure ({len(pairs)} file pairs)", "; ".join(bad[:6]))
 
 
+# --- Lecture slides (site/public/chapter-slides/<locale>/CHxx-NN.svg) ---------------------------------------
+def check_slides(entries) -> None:
+    root = ROOT / "site" / "public" / "chapter-slides"
+    problems = []
+    total = 0
+    for e in entries:
+        if e.get("language") != "ko" or not e["chapter_id"].startswith("AW-CH") or e.get("status") == "Planned":
+            continue
+        s = stem(e["chapter_id"])
+        counts = {}
+        for loc in ("ko", "en"):
+            files = sorted((root / loc).glob(f"{s}-[0-9][0-9].svg")) if (root / loc).exists() else []
+            counts[loc] = [f.name for f in files]
+            total += len(files)
+        if counts["ko"] != counts["en"]:
+            problems.append(f"{s}: ko {counts['ko']} / en {counts['en']}")
+        elif not 1 <= len(counts["ko"]) <= 3:
+            problems.append(f"{s}: {len(counts['ko'])} slides (must be 1-3)")
+        elif counts["ko"] != [f"{s}-{n:02d}.svg" for n in range(1, len(counts["ko"]) + 1)]:
+            problems.append(f"{s}: slide numbering has gaps {counts['ko']}")
+        for loc in ("ko", "en"):
+            for name in counts[loc]:
+                svg = (root / loc / name).read_text(encoding="utf-8")
+                if 'viewBox="0 0 1600 900"' not in svg:
+                    problems.append(f"{loc}/{name}: viewBox is not 0 0 1600 900")
+                if not re.search(r"<title[^>]*>[^<]+</title>", svg) or not re.search(r"<desc[^>]*>[^<]+</desc>", svg):
+                    problems.append(f"{loc}/{name}: missing <title> or <desc>")
+                if re.search(r"<(image|foreignObject|script)\b|@import|(?:href|src)=\"https?:", svg):
+                    problems.append(f"{loc}/{name}: external or script content")
+                if f'lang="{loc}"' not in svg:
+                    problems.append(f"{loc}/{name}: lang attribute is not {loc}")
+                if loc == "en" and re.search(r"[가-힣]", re.sub(r"<[^>]+>", " ", svg)):
+                    problems.append(f"{loc}/{name}: Korean text in an English slide")
+    record("FAIL" if problems else "PASS", f"slides: every published chapter has 1-3 matching ko/en SVG slides ({total} files)", "; ".join(problems[:6]))
+
+
 def check_support_docs(entries) -> None:
     need = ["README.md", "VERSION", "CHANGELOG.md", "glossary.md", "source-map.md", "content-manifest.json"]
     absent = [n for n in need if not (ROOT / n).exists()]
@@ -512,6 +548,22 @@ def check_dist(dist: Path, entries) -> None:
         record("PASS" if ok else "FAIL", "dist: /en/ holds only the English overview page while no English chapter is releasable", "; ".join(extra) or "overview page missing")
     else:
         record("PASS", "dist: no unreleased English chapter page")
+
+
+    # lecture slides appear on the chapter pages; the old overview SVG is no longer used on the start pages
+    slide_bad = []
+    for loc in ("ko", "en"):
+        for ch in sorted((dist / loc / "chapters").rglob("index.html")) if (dist / loc / "chapters").exists() else []:
+            h = ch.read_text(encoding="utf-8", errors="ignore")
+            cid = ch.parent.name.upper()
+            if f"chapter-slides/{loc}/{cid}-01.svg" not in h:
+                slide_bad.append(str(ch.relative_to(dist)))
+        landing = dist / loc / "index.html"
+        if landing.exists() and "handbook-overview" in landing.read_text(encoding="utf-8", errors="ignore"):
+            slide_bad.append(f"{loc}/index.html still shows the overview SVG")
+        for f in (dist / "chapter-slides" / loc).glob("*.svg") if (dist / "chapter-slides" / loc).exists() else []:
+            pass
+    record("FAIL" if slide_bad else "PASS", "dist: chapter pages show their slides; start pages no longer show the overview SVG", "; ".join(slide_bad[:5]))
 
     hangul_in_en = []
     if en_dir.exists():
@@ -619,6 +671,7 @@ def main() -> int:
         check_links_and_cases()
         check_content_quality(entries)
         check_parity(entries)
+        check_slides(entries)
         check_support_docs(entries)
         if args.dist:
             check_dist((ROOT / args.dist) if not Path(args.dist).is_absolute() else Path(args.dist), entries)

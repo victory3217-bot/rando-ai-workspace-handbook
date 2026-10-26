@@ -99,6 +99,29 @@ mkdirSync(OUT_ROOT, { recursive: true });
 
 const generated = { ko: [], en: [] };
 
+// Lecture slides (SVG) for a chapter live in site/public/chapter-slides/<locale>/CHxx-NN.svg. They are inserted
+// under the chapter title when the chapter page is generated, so the chapter Markdown stays untouched.
+const SLIDE_HINT = {
+	ko: "슬라이드를 누르면 원본 SVG가 열립니다.",
+	en: "Select a slide to open the original SVG.",
+};
+function chapterSlides(locale, chapterId) {
+	const stem = fileStem(chapterId);
+	const dir = join(SITE_ROOT, "public", "chapter-slides", locale);
+	const out = [];
+	for (let n = 1; n <= 9; n++) {
+		const name = `${stem}-${String(n).padStart(2, "0")}.svg`;
+		const file = join(dir, name);
+		if (!existsSync(file)) break;
+		const svg = readFileSync(file, "utf8");
+		const m = svg.match(/<title[^>]*>([^<]*)<\/title>/);
+		const alt = (m ? m[1].trim() : `${stem} slide ${n}`).replace(/[\[\]]/g, "");
+		const url = `${BASE}chapter-slides/${locale}/${name}`;
+		out.push(`[![${alt}](${url})](${url})`);
+	}
+	return out.length ? out.join("\n\n") + `\n\n*${SLIDE_HINT[locale]}*\n\n` : "";
+}
+
 for (const locale of locales) {
 	let order = 1;
 	for (const part of PARTS) {
@@ -119,7 +142,7 @@ for (const locale of locales) {
 			writeGenerated(
 				join(OUT_ROOT, locale, "chapters", part.dir, `${fileStem(chapterId).toLowerCase()}.md`),
 				fm,
-				body
+				chapterSlides(locale, chapterId) + body
 			);
 			generated[locale].push(chapterId);
 		}
@@ -253,11 +276,6 @@ function koLanding() {
 	lines.push(
 		`> 프로그래밍 경험이 없는 일반 실무자를 위한 ${core}개 장의 실습형 교안입니다. 실습자료와 용어집을 함께 제공하며, 본 교안은 지속적으로 업데이트됩니다. English: [English edition](${BASE}en/)`,
 		"",
-		"### 한눈에 보기",
-		"",
-		`[![AI 워크스페이스 핸드북 한눈에 보기: 학습 대상, 4개 Part와 14개 장, 누적 실습 흐름, 산출물, 실행 구분, 활용 방법](${BASE}handbook-overview.ko.svg)](${BASE}handbook-overview.ko.svg)`,
-		"",
-		"그림을 누르면 원본 SVG가 열립니다.",
 		""
 	);
 	for (const part of PARTS) {
@@ -308,11 +326,6 @@ function enLanding() {
 	lines.push(
 		`> A ${core}-chapter hands-on handbook for office professionals with no programming experience. Workshop materials and a glossary are included, and the handbook is updated continuously. Korean: [한국어 판](${BASE}ko/)`,
 		"",
-		"### At a glance",
-		"",
-		`[![AI Workspace Handbook at a glance: audience, goal, 4 parts and 14 chapters, cumulative practice flow, outputs, run types, and ways to use it](${BASE}handbook-overview.en.svg)](${BASE}handbook-overview.en.svg)`,
-		"",
-		"Select the image to open the original SVG.",
 		""
 	);
 	for (const part of PARTS) {

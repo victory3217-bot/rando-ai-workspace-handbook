@@ -52,3 +52,11 @@
 	min-width: 5.5rem;
 	overflow-wrap: normal;
 }
+
+/* Lecture slides at the top of each chapter: full width, framed, so the light slide reads as an image in dark mode too. */
+.sl-markdown-content img[src*="/chapter-slides/"] {
+	width: 100%;
+	height: auto;
+	border: 1px solid var(--sl-color-gray-5);
+	border-radius: 6px;
+}
