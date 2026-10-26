@@ -18,6 +18,7 @@ import {
 	BASE,
 	HANDBOOK_TITLE,
 	PARTS,
+	EXTRA_PAGES,
 	EN_RELEASABLE,
 	loadManifest,
 	fileStem,
@@ -34,13 +35,13 @@ const STATUS_NOTICE = {
 	ko: {
 		Draft: {
 			badge: "초안",
-			banner: "이 장은 초안입니다. 사람의 검토를 거치지 않았으며 내용이 바뀔 수 있습니다.",
+			banner: "작성 중인 원고입니다. 내용 검토와 수정이 진행 중이며, 최종 승인 및 공개 전 상태입니다.",
 		},
 		Translated: { badge: "검토 전", banner: "번역 후 아직 검토되지 않은 장입니다." },
 		"Needs Update": { badge: "수정 필요", banner: "원본이 바뀌어 수정이 필요한 장입니다." },
 	},
 	en: {
-		Draft: { badge: "Draft", banner: "This chapter is a structural draft and has not been reviewed." },
+		Draft: { badge: "Draft", banner: "Work in progress. Review and revision are under way, and this chapter is not yet approved or published." },
 		Translated: { badge: "Unreviewed", banner: "Translated but not yet reviewed." },
 		"Needs Update": { badge: "Needs update", banner: "The source changed; this chapter needs an update." },
 	},
@@ -53,6 +54,7 @@ function yamlEscape(s) {
 function yamlLine(key, value, indent) {
 	const pad = "  ".repeat(indent);
 	if (value === undefined) return null;
+	if (Array.isArray(value)) return `${pad}${key}: ${JSON.stringify(value)}`; // JSON is valid YAML
 	if (value !== null && typeof value === "object") {
 		const nested = Object.entries(value)
 			.map(([k, v]) => yamlLine(k, v, indent + 1))
@@ -137,14 +139,81 @@ if (missingKorean.length > 0) {
 	process.exit(1);
 }
 
+// ---- workshop materials, reference pages, instructor guide (Korean only) ----------------------
+// Copied from ../workshop and ../glossary.md without changing the prose. The instructor guide holds the
+// answers: it gets its own group, a gate page, no search indexing and a noindex tag.
+
+const EXTRA_BANNER =
+	"초안 (저자 승인 전). 시간 배분은 검증되지 않은 예상이며 실제 학습자 시험은 아직 하지 않았습니다.";
+const ANSWERS_BANNER =
+	"이 문서에는 실습의 정답과 오류 해설이 들어 있습니다. 학습자는 실습을 마친 뒤에 열어 보세요.";
+const extraGenerated = [];
+for (const p of EXTRA_PAGES) {
+	const srcFile = join(REPO_ROOT, p.src);
+	if (!existsSync(srcFile)) continue;
+	const { title, body } = extractTitle(readFileSync(srcFile, "utf8"), p.slug);
+	const fm = { title, sidebar: { order: p.order }, banner: { content: p.answers ? ANSWERS_BANNER : EXTRA_BANNER } };
+	if (p.answers) {
+		fm.pagefind = false;
+		fm.head = [{ tag: "meta", attrs: { name: "robots", content: "noindex, nofollow" } }];
+	}
+	writeGenerated(join(OUT_ROOT, "ko", p.dir, `${p.slug}.md`), fm, body);
+	extraGenerated.push(p);
+}
+const hasExtra = (dir) => extraGenerated.some((p) => p.dir === dir);
+
+if (hasExtra("workshop")) {
+	writeGenerated(
+		join(OUT_ROOT, "ko", "workshop", "index.md"),
+		{ title: "실습자료 안내", sidebar: { order: 0 }, banner: { content: EXTRA_BANNER } },
+		[
+			"6시간 워크숍과 자기 학습에 쓰는 참가자용 자료입니다. 모두 교육용 가상 자료이며 실제 개인정보, 고객정보, 회사 기밀은 들어 있지 않습니다.",
+			"",
+			"| 자료 | 용도 |",
+			"|---|---|",
+			"| [참가자 워크북](learner-workbook/) | CH01~CH14 핵심 실습 양식을 하나로 모은 기록 문서 |",
+			"| [가상 회의자료](sample-meeting-notes/) | 실습에 입력하는 가상 회의 메모(자료 1~6) |",
+			"| [가상 AI 결과물](sample-ai-output/) | 검증 연습용 가상 AI 결과물(실제 AI 출력이 아님) |",
+			"| [워크스페이스 양식](workspace-template/) | 최종 구성도와 규칙 묶음 양식 |",
+			"",
+			"문서 안에 `sample-meeting-notes.md` 같은 파일 이름이 나오면 위 표의 같은 이름 자료를 뜻합니다.",
+			"",
+			"**정답과 해설은 이 메뉴에 없습니다.** 실습의 정답과 오류 해설은 강사용 안내서에 있으며, 왼쪽 메뉴 맨 아래의 별도 묶음(기본으로 접혀 있음)에 있습니다. 실습을 마치기 전에는 열지 않는 것을 권합니다. 다만 일부 장(CH03, CH06, CH09, CH12)의 본문 6절에는 저자 해설이 함께 실려 있습니다.",
+			"",
+		].join("\n")
+	);
+}
+if (hasExtra("instructor")) {
+	writeGenerated(
+		join(OUT_ROOT, "ko", "instructor", "index.md"),
+		{
+			title: "강사용 안내서: 열기 전에",
+			sidebar: { order: 1 },
+			banner: { content: ANSWERS_BANNER },
+			pagefind: false,
+			head: [{ tag: "meta", attrs: { name: "robots", content: "noindex, nofollow" } }],
+		},
+		[
+			"**이 안내서에는 실습의 정답과 오류 해설이 들어 있습니다.** 공개 자료이지만, 학습자가 실습을 하기 전에 정답이 눈에 띄지 않도록 실습자료와 메뉴를 나누고 검색에서 제외했습니다.",
+			"",
+			"- 학습자: 실습을 마친 뒤에 열어 보세요.",
+			"- 강사·진행자: 6시간 및 3시간×2회 운영안, 정답과 해설, 예상 질문, 대체 경로, 완성 수준(Level 1~3) 판정 기준이 들어 있습니다.",
+			"",
+			"[강사용 안내서 열기](instructor-guide/)",
+			"",
+		].join("\n")
+	);
+}
+
 // ---- landing pages -------------------------------------------------------
 
 function koLanding() {
 	const lines = [];
 	const written = generated.ko.length;
 	const total = entries.filter((e) => e.language === "ko").length;
+	const core = generated.ko.filter((id) => id.startsWith("AW-CH")).length;
 	lines.push(
-		`> **개발 중인 초안입니다.** 전체 ${total}개 장(필수 14 + 선택·심화 3) 중 ${written}개 장만 초안이 있고, 나머지는 준비 중입니다. 초안은 사람의 검토를 거치지 않았으며 내용이 바뀔 수 있습니다.`,
+		`> **개발 중인 초안입니다.** 필수 과정 ${core}개 장의 본문 초안이 있습니다. 초안은 작성 중인 원고이며, 내용 검토와 수정이 진행 중이고, 최종 승인 및 공개 전 상태입니다. 선택·심화 과정은 향후 별도 교육과정으로 개발할 계획이며 지금은 본문이 없습니다.`,
 		""
 	);
 	for (const part of PARTS) {
@@ -156,7 +225,7 @@ function koLanding() {
 				const tag = STATUS_NOTICE.ko[e.status] ? ` _(${STATUS_NOTICE.ko[e.status].badge})_` : "";
 				lines.push(`- [${chapterId} · ${e.title}](chapters/${part.dir}/${fileStem(chapterId).toLowerCase()}/)${tag}`);
 			} else {
-				lines.push(`- ${chapterId} · ${e.title} — 준비 중`);
+				lines.push(`- ${chapterId} · ${e.title} — 향후 별도 과정 예정`);
 			}
 		}
 		lines.push("");

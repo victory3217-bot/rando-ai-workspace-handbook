@@ -8,6 +8,7 @@ import {
 	BASE,
 	HANDBOOK_TITLE,
 	PARTS,
+	EXTRA_GROUPS,
 	loadManifest,
 	enabledLocales,
 } from "./handbook.config.mjs";
@@ -37,6 +38,16 @@ const chapterSidebar = PARTS.filter((p) => existsSync(join(generatedChapters, p.
 	items: [{ autogenerate: { directory: `chapters/${p.dir}` } }],
 }));
 
+// Workshop materials, reference pages and the instructor guide (Korean only). Shown only if the sync
+// step generated them; the instructor group is collapsed so answers are not in view by default.
+const generatedKo = join(SITE_ROOT, "src", "content", "docs", "ko");
+const extraSidebar = EXTRA_GROUPS.filter((g) => existsSync(join(generatedKo, g.dir))).map((g) => ({
+	label: g.label[defaultLocale],
+	translations: Object.fromEntries(locales.filter((l) => l !== defaultLocale).map((l) => [l, g.label[l]])),
+	collapsed: g.collapsed === true,
+	items: [{ autogenerate: { directory: g.dir } }],
+}));
+
 export default defineConfig({
 	site: SITE_URL,
 	base: BASE,
@@ -51,10 +62,9 @@ export default defineConfig({
 			},
 			routeMiddleware: "./src/route-data.ts",
 			customCss: ["./src/styles/custom.css"],
-			// Unpublished draft: keep out of search engines. Remove this line when the
-			// handbook is approved for public release.
-			head: [{ tag: "meta", attrs: { name: "robots", content: "noindex, nofollow" } }],
-			sidebar: chapterSidebar,
+			// Public site: general pages are indexable. Only the instructor guide pages (which contain the
+			// answers) carry their own noindex tag; see EXTRA_PAGES and scripts/sync-content.mjs.
+			sidebar: [...chapterSidebar, ...extraSidebar],
 		}),
 	],
 });

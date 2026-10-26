@@ -454,13 +454,19 @@ def check_dist(dist: Path, entries) -> None:
     record("FAIL" if broken else "PASS", f"dist: internal links resolve ({checked} checked)", "; ".join(broken[:10]))
     record("FAIL" if anchors else "PASS", "dist: in-site #anchors exist", "; ".join(anchors[:10]))
 
-    sample = dist / "ko" / "index.html"
-    if sample.exists():
-        html = sample.read_text(encoding="utf-8", errors="ignore")
-        ok = 'name="robots"' in html and "noindex" in html
-        record("PASS" if ok else "FAIL", "dist: noindex present while unpublished")
+    # Public site: general pages are indexable; only the instructor-guide pages (answers) stay noindex.
+    general = [dist / "ko" / "index.html", dist / "ko" / "chapters" / "part-1" / "ch01" / "index.html", dist / "ko" / "workshop" / "index.html"]
+    if all(p.exists() for p in general):
+        flagged = [str(p.relative_to(dist)) for p in general if "noindex" in p.read_text(encoding="utf-8", errors="ignore")]
+        record("FAIL" if flagged else "PASS", "dist: general pages are indexable (no noindex)", "; ".join(flagged))
     else:
-        record("SKIP", "dist: noindex present while unpublished", "dist/ko/index.html missing")
+        record("SKIP", "dist: general pages are indexable (no noindex)", "sample pages missing")
+    gated = [dist / "ko" / "instructor" / "index.html", dist / "ko" / "instructor" / "instructor-guide" / "index.html"]
+    if all(p.exists() for p in gated):
+        missing = [str(p.relative_to(dist)) for p in gated if "noindex" not in p.read_text(encoding="utf-8", errors="ignore")]
+        record("FAIL" if missing else "PASS", "dist: instructor-guide pages keep noindex", "; ".join(missing))
+    else:
+        record("SKIP", "dist: instructor-guide pages keep noindex", "instructor pages missing")
 
     # --- partial English release: everything that points to another language must point to a real page
     alt_bad, sel_bad, side_bad, empty_bad = [], [], [], []

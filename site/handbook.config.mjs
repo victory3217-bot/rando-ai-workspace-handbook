@@ -56,6 +56,26 @@ export const PARTS = [
 	},
 ];
 
+// Learning materials besides the chapters. Sources live in ../workshop and ../glossary.md and are
+// copied into src/content/docs/ko/<dir>/ by scripts/sync-content.mjs (Korean only; there is no
+// English edition of these yet). The instructor guide holds the answers to the exercises, so it is
+// kept in its own sidebar group (collapsed), behind a gate page, out of the search index and out of
+// search engines. It is public, but a learner does not meet the answers while doing the exercises.
+export const EXTRA_GROUPS = [
+	{ dir: "workshop", label: { ko: "실습자료(참가자용)", en: "Workshop materials (participants)" } },
+	{ dir: "reference", label: { ko: "참고자료", en: "Reference" } },
+	{ dir: "instructor", label: { ko: "강사용 안내서(정답·해설 포함)", en: "Instructor guide (contains answers)" }, collapsed: true },
+];
+
+export const EXTRA_PAGES = [
+	{ src: "workshop/learner-workbook.md", dir: "workshop", slug: "learner-workbook", order: 1 },
+	{ src: "workshop/sample-meeting-notes.md", dir: "workshop", slug: "sample-meeting-notes", order: 2 },
+	{ src: "workshop/sample-ai-output.md", dir: "workshop", slug: "sample-ai-output", order: 3 },
+	{ src: "workshop/workspace-template.md", dir: "workshop", slug: "workspace-template", order: 4 },
+	{ src: "glossary.md", dir: "reference", slug: "glossary", order: 1 },
+	{ src: "workshop/instructor-guide.md", dir: "instructor", slug: "instructor-guide", order: 2, answers: true },
+];
+
 export function loadManifest() {
 	const raw = JSON.parse(readFileSync(join(REPO_ROOT, "content-manifest.json"), "utf8"));
 	return raw.entries;
