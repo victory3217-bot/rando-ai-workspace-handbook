@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
 <title id="t">Severity and the re-run decision</title>
 <desc id="d">Shows the author's teaching criteria for high, medium and low severity, and how each situation leads to human final confirmation, a direct fix, a re-run, discarding and re-running, a person writing the part, or checking with the owner or approver.</desc>
 <rect width="1600" height="900" fill="#f7f9fc"/>

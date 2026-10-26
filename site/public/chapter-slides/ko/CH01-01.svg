@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
 <title id="t">AI 워크스페이스란 무엇인가</title>
-<desc id="d">AI 서비스 하나(연필)는 입력한 글·파일·지시와 내가 제공한 자료로만 일하지만, 이 책의 AI 워크스페이스는 폴더, 클라우드 파일, AI 서비스, 업무 문서, 규칙을 합친 작업환경 전체이며 서비스의 'workspace' 용어와 다르다는 것을 보여 준다.</desc>
+<desc id="d">AI 서비스 하나(연필)는 입력한 글·파일·지시를 받아 일반 지식과 내가 제공한 자료로 새 글을 만들 뿐 내 업무파일을 모두 자동으로 읽지는 않지만, 이 책의 AI 워크스페이스는 폴더, 클라우드 파일, AI 서비스, 업무 문서, 규칙을 합친 작업환경 전체이며 서비스의 'workspace' 용어와 다르다는 것을 보여 준다.</desc>
 <defs>
 <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f5d9b"/></marker>
 </defs>

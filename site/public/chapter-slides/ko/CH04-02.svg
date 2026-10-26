@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
 <title id="t">CH04 업무 기준 폴더 구조 설계</title>
 <desc id="d">폴더 설계의 네 가지 원칙과 후보 A를 위한 표준 폴더 트리를 보여 주고, 01~03과 04 폴더가 CH02 구성도의 어느 칸과 이어지는지, 09 폴더가 보안 통제가 아니라 눈에 보이는 구분 장치라는 점을 설명합니다.</desc>
 <rect width="1600" height="900" fill="#f7f9fc"/>

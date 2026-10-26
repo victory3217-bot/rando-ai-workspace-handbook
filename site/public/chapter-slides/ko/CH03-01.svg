@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
 <title id="t">전송·저장·학습은 서로 다른 질문</title>
 <desc id="d">AI 서비스에 입력한 내용은 먼저 서비스 회사로 전송되고, 저장 여부와 학습 사용 여부는 그와 별개로 확인해야 하는 질문임을 보여 줍니다. 학습에 쓰이지 않거나 저장되지 않아도 전송은 일어난다는 점을 흔한 오해와 대비합니다.</desc>
 <rect width="1600" height="900" fill="#f7f9fc"/>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
 <title id="t">공유와 접근 권한</title>
 <desc id="d">Google Drive의 권한 단계(열기만 가능·댓글·편집)와 공유 범위(특정인·링크가 있는 모든 사람·C 등급), 공유를 기록하고 끝나면 중단하는 흐름, 그리고 중단의 한계와 AI 서비스 연결 시 읽을 수 있는 범위를 보여 줍니다.</desc>
 <rect width="1600" height="900" fill="#f7f9fc"/>
@@ -7,7 +7,7 @@
 </defs>
 <text x="64" y="70" font-size="22" font-weight="bold" fill="#2f5d9b">CH05 · 3/3</text>
 <text x="64" y="128" font-size="46" font-weight="bold" fill="#14253d">공유와 접근 권한: 필요한 만큼만, 끝나면 끊는다</text>
-<text x="64" y="172" font-size="26" fill="#566273">권한과 공유 범위를 정하고, 기록하고, 일이 끝나면 중단한다</text>
+<text x="64" y="172" font-size="26" fill="#566273">공유 원칙(저자 제안): 필요한 만큼만 주고, 기록하고, 일이 끝나면 중단한다</text>
 <rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
 
 <!-- panel A: permissions -->
@@ -62,7 +62,8 @@
 <text x="88" y="830" font-size="24" fill="#1f2a37">이미 내려받은 사본은 되돌릴 수 없다</text>
 <rect x="788" y="762" width="748" height="86" rx="12" fill="#ffffff" stroke="#2f5d9b" stroke-width="2"/>
 <text x="812" y="796" font-size="24" fill="#1f2a37">AI 서비스에 클라우드 파일을 연결하면 읽는 범위가 넓어짐</text>
-<text x="812" y="830" font-size="24" fill="#566273">이 장에서는 연결을 켜지 않음 (CH06·CH07에서 확인)</text>
+<text x="812" y="830" font-size="24" fill="#566273">이 장에서는 연결을 켜지 않음 (동작 확인은 CH06·CH07)</text>
 
 <text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+<text x="1536" y="872" font-size="22" fill="#566273" text-anchor="end">[S12] 공식 문서 확인일 2026-10-26</text>
 </svg>

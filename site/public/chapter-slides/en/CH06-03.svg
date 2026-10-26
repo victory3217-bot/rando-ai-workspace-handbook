@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
 <title id="t">CH06 Projects and data</title>
 <desc id="d">Under the principle that material in a Project still follows the CH03 tiers and policies, the slide shows when Project data can be used for model training by account type, the rules for file sharing, external connections and deletion, and the four decisions this chapter sets.</desc>
 <rect width="1600" height="900" fill="#f7f9fc"/>
@@ -18,8 +18,8 @@
 <text x="184" y="397" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">Free · Plus · Pro</text>
 <rect x="316" y="330" width="624" height="116" rx="12" fill="#e6eef9"/>
 <text x="340" y="366" font-size="24" fill="#1f2a37">If Improve the model for everyone is on,</text>
-<text x="340" y="398" font-size="24" font-weight="bold" fill="#a33a3a">information accessed in a Project can be</text>
-<text x="340" y="430" font-size="24" font-weight="bold" fill="#a33a3a">used for model training</text>
+<text x="340" y="398" font-size="24" font-weight="bold" fill="#a33a3a">information accessed in a Project</text>
+<text x="340" y="430" font-size="24" font-weight="bold" fill="#a33a3a">can be used for training</text>
 
 <rect x="64" y="456" width="240" height="116" rx="12" fill="#2f5d9b"/>
 <text x="184" y="506" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">Shared Project</text>
@@ -49,7 +49,7 @@
 <text x="986" y="558" font-size="26" font-weight="bold" fill="#a33a3a">Deleting a Project: cannot be undone</text>
 <text x="986" y="592" font-size="24" fill="#1f2a37">Chats, instructions and files stored only</text>
 <text x="986" y="624" font-size="24" fill="#1f2a37">in the Project are removed permanently</text>
-<text x="986" y="656" font-size="24" fill="#1f2a37">Removed from OpenAI systems in 30 days</text>
+<text x="986" y="656" font-size="24" fill="#1f2a37">Removed from OpenAI systems within 30 days</text>
 <text x="986" y="688" font-size="24" fill="#566273">(except legal or security retention)</text>
 
 <!-- author's decisions -->

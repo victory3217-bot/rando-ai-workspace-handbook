@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
-<title id="t">Test, revise, new version</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">Test, revise, then a new version</title>
 <desc id="d">Shows the cycle of writing work instructions, testing them on fictional cases, comparing expected behavior with actual results, and turning the problems into an improvement list and a new version; also shows where CH09 errors go in the instructions and the version management rules.</desc>
 <defs>
 <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f5d9b"/></marker>
@@ -40,7 +40,7 @@
 <!-- centre rule -->
 <rect x="330" y="462" width="454" height="122" rx="12" fill="#f1f5fb" stroke="#2f6f73" stroke-width="2"/>
 <text x="557" y="511" font-size="27" font-weight="bold" fill="#2f6f73" text-anchor="middle">Finalize a new version</text>
-<text x="557" y="551" font-size="26" fill="#1f2a37" text-anchor="middle">only after results improve</text>
+<text x="557" y="551" font-size="26" fill="#1f2a37" text-anchor="middle">once tests show it improved</text>
 
 <!-- right panel: errors to rules -->
 <rect x="1080" y="222" width="456" height="360" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>

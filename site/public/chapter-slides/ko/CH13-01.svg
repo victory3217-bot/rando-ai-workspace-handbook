@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
 <title id="t">저장·동기화·백업·버전 기록의 차이</title>
 <desc id="d">저장, 동기화, 백업, 버전 기록을 하는 일, 지웠을 때, 잘못 고쳤을 때, 책임의 네 기준으로 비교하고, 동기화는 삭제도 퍼뜨리므로 백업이 아니라는 결론을 공식 문서 근거와 함께 보여 준다.</desc>
 <rect width="1600" height="900" fill="#f7f9fc"/>

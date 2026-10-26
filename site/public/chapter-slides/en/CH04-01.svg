@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
 <title id="t">CH04 Files, folders, extensions, paths, and file formats</title>
 <desc id="d">Shows a path as folders nested inside one another to explain files, folders, and paths, notes that the file extension decides which program opens a file, and compares the TXT, Markdown, Word, PDF, Excel, and CSV formats and their uses.</desc>
 <rect width="1600" height="900" fill="#f7f9fc"/>
 <text x="64" y="70" font-size="22" font-weight="700" fill="#2f5d9b">CH04 · 1/3</text>
 <text x="64" y="128" font-size="46" font-weight="700" fill="#14253d">Files, folders, extensions, paths, formats</text>
-<text x="64" y="172" font-size="26" fill="#566273">AI Workspace foundation: knowing where you put your material</text>
+<text x="64" y="172" font-size="26" fill="#566273">AI Workspace foundation: knowing where your material is</text>
 <rect x="64" y="196" width="1472" height="3" fill="#c9d4e5"/>
 
 <!-- Left: path as nested folders -->
@@ -44,14 +44,14 @@
 <text x="708" y="402" font-size="24" fill="#ffffff">for AI</text>
 <rect x="912" y="254" width="310" height="180" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
 <text x="932" y="290" font-size="26" font-weight="700" fill="#14253d">TXT <tspan font-size="24" font-weight="400" fill="#566273">.txt</tspan></text>
-<text x="932" y="324" font-size="24" fill="#1f2a37">Plain text only, no</text>
-<text x="932" y="356" font-size="24" fill="#1f2a37">styling; Notepad</text>
+<text x="932" y="324" font-size="24" fill="#1f2a37">Plain text, no styling</text>
+<text x="932" y="356" font-size="24" fill="#1f2a37">Opens in Notepad</text>
 <text x="932" y="388" font-size="24" fill="#2f5d9b">→ memos, rule notes,</text>
 <text x="932" y="420" font-size="24" fill="#2f5d9b">text to paste</text>
 <rect x="1226" y="254" width="310" height="180" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
 <text x="1246" y="290" font-size="26" font-weight="700" fill="#14253d">Markdown <tspan font-size="24" font-weight="400" fill="#566273">.md</tspan></text>
-<text x="1246" y="324" font-size="24" fill="#1f2a37">Text with # headings,</text>
-<text x="1246" y="356" font-size="24" fill="#1f2a37">- lists for structure</text>
+<text x="1246" y="324" font-size="24" fill="#1f2a37">Structure in symbols:</text>
+<text x="1246" y="356" font-size="24" fill="#1f2a37"># headings, - lists</text>
 <text x="1246" y="388" font-size="24" fill="#2f5d9b">→ instructions and</text>
 <text x="1246" y="420" font-size="24" fill="#2f5d9b">templates for AI</text>
 
@@ -62,8 +62,8 @@
 <text x="708" y="576" font-size="24" fill="#ffffff">submissions</text>
 <rect x="912" y="440" width="310" height="180" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
 <text x="932" y="476" font-size="26" font-weight="700" fill="#14253d">Word <tspan font-size="24" font-weight="400" fill="#566273">.docx</tspan></text>
-<text x="932" y="510" font-size="24" fill="#1f2a37">Fonts, tables, pictures:</text>
-<text x="932" y="542" font-size="24" fill="#1f2a37">editing formats</text>
+<text x="932" y="510" font-size="24" fill="#1f2a37">Formatted with fonts,</text>
+<text x="932" y="542" font-size="24" fill="#1f2a37">tables, pictures</text>
 <text x="932" y="574" font-size="24" fill="#2f5d9b">→ reports, minutes,</text>
 <text x="932" y="606" font-size="24" fill="#2f5d9b">notices</text>
 <rect x="1226" y="440" width="310" height="180" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>

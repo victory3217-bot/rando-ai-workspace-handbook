@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
 <title id="t">How local and cloud storage connect</title>
 <desc id="d">Shows the difference between local storage and cloud storage, the two paths that connect them (sync and the web browser), streaming and mirroring in Drive for desktop, and the two ways to connect a work folder to the cloud.</desc>
 <rect width="1600" height="900" fill="#f7f9fc"/>
@@ -29,7 +29,7 @@
 <text x="1064" y="328" font-size="26" fill="#1f2a37">Location: service company's servers</text>
 <text x="1064" y="368" font-size="26" fill="#1f2a37">Internet: usually needed</text>
 <text x="1064" y="400" font-size="22" fill="#566273">(some services have an offline feature)</text>
-<text x="1064" y="440" font-size="26" fill="#1f2a37">Other devices: same account</text>
+<text x="1064" y="440" font-size="26" fill="#1f2a37">Other devices: opens, same account</text>
 <text x="1064" y="478" font-size="26" fill="#1f2a37">Share: by link or invitation</text>
 <rect x="1056" y="494" width="460" height="84" rx="12" fill="#ffffff" stroke="#b7791f" stroke-width="2"/>
 <text x="1076" y="528" font-size="24" fill="#1f2a37"><tspan font-weight="bold" fill="#b7791f">Caution</tspan> manage sharing settings</text>
@@ -68,4 +68,5 @@
 <text x="832" y="816" font-size="24" fill="#566273">Once connected, a copy also exists in the cloud</text>
 
 <text x="64" y="872" font-size="20" fill="#566273">Magis Global · AI Workspace Handbook</text>
+<text x="1536" y="872" font-size="22" fill="#566273" text-anchor="end">[S11] official documentation checked 2026-10-26</text>
 </svg>

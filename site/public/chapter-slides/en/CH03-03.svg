@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
 <title id="t">Deciding before you enter</title>
 <desc id="d">With company rules as the premise, shows the decision flow: tier each item, enter A, enter B only in an allowed service and account after masking, and do not enter C but use another method. It also summarizes the principles for unclear cases, masked material that is still guessable, passwords and API keys, and account types.</desc>
 <rect width="1600" height="900" fill="#f7f9fc"/>
@@ -37,7 +37,7 @@
 <rect x="440" y="494" width="576" height="50" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
 <text x="462" y="527" font-size="24" fill="#1f2a37"><tspan font-weight="700" fill="#2f6f73">Yes</tspan> → Mask what could identify, then enter</text>
 <rect x="440" y="554" width="576" height="50" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
-<text x="462" y="587" font-size="24" fill="#1f2a37"><tspan font-weight="700" fill="#b7791f">No / unsure</tspan> → Ask the person in charge first</text>
+<text x="462" y="587" font-size="24" fill="#1f2a37"><tspan font-weight="700" fill="#b7791f">No / unsure</tspan> → Do not enter; ask first</text>
 
 <!-- row C -->
 <rect x="334" y="635" width="696" height="210" rx="12" fill="#ffffff" stroke="#a33a3a" stroke-width="3"/>
@@ -60,9 +60,9 @@
 <text x="1084" y="543" font-size="24" fill="#1f2a37">or treat that material as Tier C</text>
 
 <rect x="1060" y="576" width="476" height="127" rx="12" fill="#e6eef9"/>
-<text x="1084" y="616" font-size="26" font-weight="700" fill="#14253d">Keys: passwords, API keys</text>
+<text x="1084" y="616" font-size="26" font-weight="700" fill="#14253d">Never paste passwords, API keys</text>
 <text x="1084" y="654" font-size="24" fill="#1f2a37">Check pasted errors, settings for keys</text>
-<text x="1084" y="686" font-size="24" fill="#1f2a37">Exposed? Revoke at once, make new</text>
+<text x="1084" y="686" font-size="24" fill="#1f2a37">Suspected leak? Revoke, make new</text>
 
 <rect x="1060" y="719" width="476" height="127" rx="12" fill="#e6eef9"/>
 <text x="1084" y="759" font-size="26" font-weight="700" fill="#14253d">Org account ≠ anything goes</text>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
 <title id="t">검증 원칙: 매번, 양방향으로</title>
 <desc id="d">AI 결과를 매번 같은 절차로 검증해야 하는 네 가지 이유와, 원문과 결과를 두 방향으로 대조해 지어낸 것과 빠진 것을 함께 찾는 원리를 보여 준다.</desc>
 <rect width="1600" height="900" fill="#f7f9fc"/>

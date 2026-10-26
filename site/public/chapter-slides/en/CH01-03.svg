@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
 <title id="t">Workspace, Workflow, Harness</title>
 <desc id="d">Following this book's working definitions, it separates the workspace (environment), the workflow (steps and procedure) and the harness (an execution system that supports and controls AI) by focus, and shows that they are not mutually exclusive because a harness can use the workflow's steps and the workspace's materials and tools.</desc>
 <defs>

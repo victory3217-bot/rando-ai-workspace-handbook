@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
 <title id="t">AI에 넣기 전 판단 흐름</title>
 <desc id="d">회사 규정을 전제로, 자료마다 등급을 정해 A는 넣고, B는 허용된 서비스·계정에서 가린 뒤 넣고, C는 넣지 않고 다른 방법을 쓰는 판단 흐름을 보여 줍니다. 판단이 안 설 때, 가려도 짐작될 때, 비밀번호·API 키, 계정 종류에 대한 원칙을 함께 정리합니다.</desc>
 <rect width="1600" height="900" fill="#f7f9fc"/>
@@ -37,7 +37,7 @@
 <rect x="440" y="494" width="576" height="50" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
 <text x="462" y="527" font-size="24" fill="#1f2a37"><tspan font-weight="700" fill="#2f6f73">예</tspan> → 식별 부분을 가린 뒤 넣는다</text>
 <rect x="440" y="554" width="576" height="50" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
-<text x="462" y="587" font-size="24" fill="#1f2a37"><tspan font-weight="700" fill="#b7791f">아니오·모름</tspan> → 담당자에게 먼저 묻는다</text>
+<text x="462" y="587" font-size="24" fill="#1f2a37"><tspan font-weight="700" fill="#b7791f">아니오·모름</tspan> → 넣지 않고 담당자에게 확인</text>
 
 <!-- row C -->
 <rect x="334" y="635" width="696" height="210" rx="12" fill="#ffffff" stroke="#a33a3a" stroke-width="3"/>
@@ -60,7 +60,7 @@
 <text x="1084" y="543" font-size="24" fill="#1f2a37">그 자료는 C로 취급한다</text>
 
 <rect x="1060" y="576" width="476" height="127" rx="12" fill="#e6eef9"/>
-<text x="1084" y="616" font-size="26" font-weight="700" fill="#14253d">열쇠: 비밀번호·API 키</text>
+<text x="1084" y="616" font-size="26" font-weight="700" fill="#14253d">비밀번호·API 키는 넣지 않는다</text>
 <text x="1084" y="654" font-size="24" fill="#1f2a37">오류·설정 파일에 섞였는지 확인</text>
 <text x="1084" y="686" font-size="24" fill="#1f2a37">노출 의심 → 즉시 폐기, 새로 만들기</text>
 

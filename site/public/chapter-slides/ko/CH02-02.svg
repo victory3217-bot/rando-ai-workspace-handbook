@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
 <title id="t">구성도 한 장: 다섯 칸은 이렇게 이어진다</title>
 <desc id="d">다섯 구성요소 사이의 자료 이동을 화살표로 보여 주는 구성도이다. ①과 ②는 동기화하고, ①의 자료를 붙여 넣거나 올려야 ③이 읽으며, 결과는 내가 ①에 저장하고, ③은 ④와 ⑤에서 참고자료와 규칙을 받는다.</desc>
 <defs>
@@ -29,7 +29,7 @@
 <!-- ③ -->
 <rect x="64" y="610" width="560" height="220" rx="12" fill="#2f5d9b"/>
 <text x="344" y="672" font-size="34" font-weight="bold" fill="#ffffff" text-anchor="middle">③ AI 작업환경</text>
-<text x="344" y="720" font-size="26" fill="#ffffff" text-anchor="middle">넣어 준 자료만 읽고 초안 작성</text>
+<text x="344" y="720" font-size="26" fill="#ffffff" text-anchor="middle">내가 넣어 준 자료를 읽고 초안 작성</text>
 <text x="344" y="762" font-size="26" fill="#ffffff" text-anchor="middle">사본: 대화 기록 등</text>
 <text x="344" y="800" font-size="24" fill="#ffffff" text-anchor="middle">(서비스별로 다름, CH03)</text>
 

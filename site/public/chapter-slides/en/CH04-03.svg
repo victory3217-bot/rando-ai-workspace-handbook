@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
 <title id="t">CH04 File-naming rule; original, working copy, final version</title>
 <desc id="d">Shows a file-naming rule built from date, task, content, and version, with names to avoid, then explains the flow from original to working copy to final version, the path by which AI drafts must pass a person's check, and the basics of backup.</desc>
 <defs>

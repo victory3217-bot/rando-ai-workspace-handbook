@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
 <title id="t">Version and change management</title>
 <desc id="d">Compares the two ways to manage file versions (a version number in the file name and the service's version history) by advantage and caution, and shows why changes to work instructions and knowledge documents are made one at a time, tested, and then brought to the same version in the archive, the change log table, the AI project files and the knowledge index.</desc>
 <rect width="1600" height="900" fill="#f7f9fc"/>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
 <title id="t">Claude 프로젝트의 구성과 작동 원리</title>
 <desc id="d">프로젝트 안에서 지침과 지식이 모든 대화에 적용되고, 대화끼리는 지식에 넣은 것만 공유되며, 이름과 설명은 Claude가 볼 수 없고 메모리는 프로젝트별로 나뉘는 구조를 보여 줍니다.</desc>
 <defs>
