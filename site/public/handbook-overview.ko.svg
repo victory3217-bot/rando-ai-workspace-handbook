@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 3880" width="720" height="3880" role="img" aria-labelledby="t d" lang="ko" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">AI 워크스페이스 핸드북 한눈에 보기</title>
+<desc id="d">AI 워크스페이스 핸드북의 학습 대상, 최종 목표, 4개 Part와 14개 장, 누적 실습 흐름, 산출물 흐름, 실행 구분, 활용 방법을 한 장으로 정리한 요약 이미지.</desc>
+<rect width="720" height="3880" fill="#fbfaf7"/>
+<rect x="0" y="0" width="720" height="178" rx="0" fill="#14253d"/>
+<text x="36" y="82" font-size="36" font-weight="700" fill="#ffffff" text-anchor="start">AI 워크스페이스 핸드북 한눈에 보기</text>
+<text x="36" y="128" font-size="24" font-weight="400" fill="#cfd8e6" text-anchor="start">비개발자 일반 실무자를 위한 14장 실습형 교안</text>
+<rect x="36" y="210" width="316" height="160" rx="14" fill="#f4f1ea" stroke="#d9d4c7" stroke-width="2"/>
+<text x="56" y="250" font-size="22" font-weight="700" fill="#2f6f73" text-anchor="start">학습 대상</text>
+<text x="56" y="290" font-size="24" font-weight="700" fill="#1f2a37" text-anchor="start">비개발자</text>
+<text x="56" y="322" font-size="24" font-weight="700" fill="#1f2a37" text-anchor="start">일반 실무자</text>
+<rect x="368" y="210" width="316" height="160" rx="14" fill="#f4f1ea" stroke="#d9d4c7" stroke-width="2"/>
+<text x="388" y="250" font-size="22" font-weight="700" fill="#2f6f73" text-anchor="start">최종 목표</text>
+<text x="388" y="290" font-size="22" font-weight="500" fill="#1f2a37" text-anchor="start">AI와 함께 업무 하나를</text>
+<text x="388" y="322" font-size="22" font-weight="500" fill="#1f2a37" text-anchor="start">끝낼 수 있는 업무환경 구축</text>
+<text x="36" y="418" font-size="28" font-weight="700" fill="#14253d" text-anchor="start">4개 Part · 14개 장</text>
+<rect x="36" y="440" width="648" height="52" rx="12" fill="#2f6f73"/>
+<text x="56" y="475" font-size="24" font-weight="700" fill="#ffffff" text-anchor="start">Part 1 · AI 워크스페이스 이해</text>
+<rect x="36" y="500" width="648" height="84" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<rect x="36" y="500" width="8" height="84" rx="4" fill="#2f6f73"/>
+<text x="60" y="534" font-size="22" font-weight="700" fill="#2f6f73" text-anchor="start">CH01</text>
+<text x="132" y="534" font-size="24" font-weight="700" fill="#1f2a37" text-anchor="start">AI 워크스페이스란 무엇인가</text>
+<text x="132" y="566" font-size="22" font-weight="400" fill="#566273" text-anchor="start">후보 업무 A와 AI 활용 목적</text>
+<rect x="36" y="592" width="648" height="84" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<rect x="36" y="592" width="8" height="84" rx="4" fill="#2f6f73"/>
+<text x="60" y="626" font-size="22" font-weight="700" fill="#2f6f73" text-anchor="start">CH02</text>
+<text x="132" y="626" font-size="24" font-weight="700" fill="#1f2a37" text-anchor="start">구성요소와 전체 구조</text>
+<text x="132" y="658" font-size="22" font-weight="400" fill="#566273" text-anchor="start">다섯 칸 구성도와 데이터 이동</text>
+<rect x="36" y="684" width="648" height="84" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<rect x="36" y="684" width="8" height="84" rx="4" fill="#2f6f73"/>
+<text x="60" y="718" font-size="22" font-weight="700" fill="#2f6f73" text-anchor="start">CH03</text>
+<text x="132" y="718" font-size="24" font-weight="700" fill="#1f2a37" text-anchor="start">입력 정보와 정보보안</text>
+<text x="132" y="750" font-size="22" font-weight="400" fill="#566273" text-anchor="start">A·B·C 정보 등급, 자료 검토</text>
+<rect x="36" y="790" width="648" height="52" rx="12" fill="#3d5a80"/>
+<text x="56" y="825" font-size="24" font-weight="700" fill="#ffffff" text-anchor="start">Part 2 · 개인 AI 업무환경 구축</text>
+<rect x="36" y="850" width="648" height="84" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<rect x="36" y="850" width="8" height="84" rx="4" fill="#3d5a80"/>
+<text x="60" y="884" font-size="22" font-weight="700" fill="#3d5a80" text-anchor="start">CH04</text>
+<text x="132" y="884" font-size="24" font-weight="700" fill="#1f2a37" text-anchor="start">PC·파일·폴더 관리</text>
+<text x="132" y="916" font-size="22" font-weight="400" fill="#566273" text-anchor="start">업무 폴더와 파일명 규칙</text>
+<rect x="36" y="942" width="648" height="84" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<rect x="36" y="942" width="8" height="84" rx="4" fill="#3d5a80"/>
+<text x="60" y="976" font-size="22" font-weight="700" fill="#3d5a80" text-anchor="start">CH05</text>
+<text x="132" y="976" font-size="24" font-weight="700" fill="#1f2a37" text-anchor="start">클라우드 저장과 업무자료 연결</text>
+<text x="132" y="1008" font-size="22" font-weight="400" fill="#566273" text-anchor="start">동기화와 백업의 차이, 공유 권한</text>
+<rect x="36" y="1034" width="648" height="84" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<rect x="36" y="1034" width="8" height="84" rx="4" fill="#3d5a80"/>
+<text x="60" y="1068" font-size="22" font-weight="700" fill="#3d5a80" text-anchor="start">CH06</text>
+<text x="132" y="1068" font-size="24" font-weight="700" fill="#1f2a37" text-anchor="start">ChatGPT 작업환경</text>
+<text x="132" y="1100" font-size="22" font-weight="400" fill="#566273" text-anchor="start">프로젝트·지침·자료 구성</text>
+<rect x="36" y="1126" width="648" height="84" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<rect x="36" y="1126" width="8" height="84" rx="4" fill="#3d5a80"/>
+<text x="60" y="1160" font-size="22" font-weight="700" fill="#3d5a80" text-anchor="start">CH07</text>
+<text x="132" y="1160" font-size="24" font-weight="700" fill="#1f2a37" text-anchor="start">Claude 작업환경</text>
+<text x="132" y="1192" font-size="22" font-weight="400" fill="#566273" text-anchor="start">프로젝트·지식·서비스 비교</text>
+<rect x="36" y="1232" width="648" height="52" rx="12" fill="#5b6c8f"/>
+<text x="56" y="1267" font-size="24" font-weight="700" fill="#ffffff" text-anchor="start">Part 3 · AI와 업무자료 활용</text>
+<rect x="36" y="1292" width="648" height="84" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<rect x="36" y="1292" width="8" height="84" rx="4" fill="#5b6c8f"/>
+<text x="60" y="1326" font-size="22" font-weight="700" fill="#5b6c8f" text-anchor="start">CH08</text>
+<text x="132" y="1326" font-size="24" font-weight="700" fill="#1f2a37" text-anchor="start">개인 지식베이스</text>
+<text x="132" y="1358" font-size="22" font-weight="400" fill="#566273" text-anchor="start">인덱스·출처·갱신일 관리</text>
+<rect x="36" y="1384" width="648" height="84" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<rect x="36" y="1384" width="8" height="84" rx="4" fill="#5b6c8f"/>
+<text x="60" y="1418" font-size="22" font-weight="700" fill="#5b6c8f" text-anchor="start">CH09</text>
+<text x="132" y="1418" font-size="24" font-weight="700" fill="#1f2a37" text-anchor="start">문서작성과 자료분석</text>
+<text x="132" y="1450" font-size="22" font-weight="400" fill="#566273" text-anchor="start">요청문, 사실·수치 확인</text>
+<rect x="36" y="1476" width="648" height="84" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<rect x="36" y="1476" width="8" height="84" rx="4" fill="#5b6c8f"/>
+<text x="60" y="1510" font-size="22" font-weight="700" fill="#5b6c8f" text-anchor="start">CH10</text>
+<text x="132" y="1510" font-size="24" font-weight="700" fill="#1f2a37" text-anchor="start">업무 지침서 표준화</text>
+<text x="132" y="1542" font-size="22" font-weight="400" fill="#566273" text-anchor="start">재사용 가능한 지침서</text>
+<rect x="36" y="1568" width="648" height="84" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<rect x="36" y="1568" width="8" height="84" rx="4" fill="#5b6c8f"/>
+<text x="60" y="1602" font-size="22" font-weight="700" fill="#5b6c8f" text-anchor="start">CH11</text>
+<text x="132" y="1602" font-size="24" font-weight="700" fill="#1f2a37" text-anchor="start">반복 업무와 Workflow</text>
+<text x="132" y="1634" font-size="22" font-weight="400" fill="#566273" text-anchor="start">흐름도·승인 지점·예외 처리</text>
+<rect x="36" y="1674" width="648" height="52" rx="12" fill="#14253d"/>
+<text x="56" y="1709" font-size="24" font-weight="700" fill="#ffffff" text-anchor="start">Part 4 · 운영과 완성</text>
+<rect x="36" y="1734" width="648" height="84" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<rect x="36" y="1734" width="8" height="84" rx="4" fill="#14253d"/>
+<text x="60" y="1768" font-size="22" font-weight="700" fill="#14253d" text-anchor="start">CH12</text>
+<text x="132" y="1768" font-size="24" font-weight="700" fill="#1f2a37" text-anchor="start">결과 검증과 오류 해결</text>
+<text x="132" y="1800" font-size="22" font-weight="400" fill="#566273" text-anchor="start">검증 체크리스트, 재실행 판단</text>
+<rect x="36" y="1826" width="648" height="84" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<rect x="36" y="1826" width="8" height="84" rx="4" fill="#14253d"/>
+<text x="60" y="1860" font-size="22" font-weight="700" fill="#14253d" text-anchor="start">CH13</text>
+<text x="132" y="1860" font-size="24" font-weight="700" fill="#1f2a37" text-anchor="start">백업과 버전 관리</text>
+<text x="132" y="1892" font-size="22" font-weight="400" fill="#566273" text-anchor="start">복구 가능한 업무자료</text>
+<rect x="36" y="1918" width="648" height="84" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<rect x="36" y="1918" width="8" height="84" rx="4" fill="#14253d"/>
+<text x="60" y="1952" font-size="22" font-weight="700" fill="#14253d" text-anchor="start">CH14</text>
+<text x="132" y="1952" font-size="24" font-weight="700" fill="#1f2a37" text-anchor="start">나만의 AI 워크스페이스 완성</text>
+<text x="132" y="1984" font-size="22" font-weight="400" fill="#566273" text-anchor="start">최종 점검과 완성 수준 평가</text>
+<text x="36" y="2046" font-size="28" font-weight="700" fill="#14253d" text-anchor="start">누적 실습 흐름</text>
+<text x="36" y="2082" font-size="22" font-weight="400" fill="#566273" text-anchor="start">각 장의 결과물이 다음 장의 입력이 됩니다</text>
+<rect x="36" y="2106" width="316" height="50" rx="25" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<circle cx="62" cy="2131" r="17" fill="#2f6f73" stroke="none" stroke-width="2"/>
+<text x="62" y="2139" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+<text x="90" y="2139" font-size="22" font-weight="500" fill="#1f2a37" text-anchor="start">후보 업무 A</text>
+<rect x="368" y="2106" width="316" height="50" rx="25" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<circle cx="394" cy="2131" r="17" fill="#2f6f73" stroke="none" stroke-width="2"/>
+<text x="394" y="2139" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+<text x="422" y="2139" font-size="22" font-weight="500" fill="#1f2a37" text-anchor="start">업무환경 구성도</text>
+<rect x="36" y="2168" width="316" height="50" rx="25" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<circle cx="62" cy="2193" r="17" fill="#2f6f73" stroke="none" stroke-width="2"/>
+<text x="62" y="2201" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+<text x="90" y="2201" font-size="22" font-weight="500" fill="#1f2a37" text-anchor="start">정보 등급 검토</text>
+<rect x="368" y="2168" width="316" height="50" rx="25" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<circle cx="394" cy="2193" r="17" fill="#2f6f73" stroke="none" stroke-width="2"/>
+<text x="394" y="2201" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+<text x="422" y="2201" font-size="22" font-weight="500" fill="#1f2a37" text-anchor="start">폴더 구조</text>
+<rect x="36" y="2230" width="316" height="50" rx="25" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<circle cx="62" cy="2255" r="17" fill="#2f6f73" stroke="none" stroke-width="2"/>
+<text x="62" y="2263" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">5</text>
+<text x="90" y="2263" font-size="22" font-weight="500" fill="#1f2a37" text-anchor="start">저장·공유 규칙</text>
+<rect x="368" y="2230" width="316" height="50" rx="25" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<circle cx="394" cy="2255" r="17" fill="#2f6f73" stroke="none" stroke-width="2"/>
+<text x="394" y="2263" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">6</text>
+<text x="422" y="2263" font-size="22" font-weight="500" fill="#1f2a37" text-anchor="start">AI 프로젝트</text>
+<rect x="36" y="2292" width="316" height="50" rx="25" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<circle cx="62" cy="2317" r="17" fill="#2f6f73" stroke="none" stroke-width="2"/>
+<text x="62" y="2325" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">7</text>
+<text x="90" y="2325" font-size="22" font-weight="500" fill="#1f2a37" text-anchor="start">지식베이스</text>
+<rect x="368" y="2292" width="316" height="50" rx="25" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<circle cx="394" cy="2317" r="17" fill="#2f6f73" stroke="none" stroke-width="2"/>
+<text x="394" y="2325" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">8</text>
+<text x="422" y="2325" font-size="22" font-weight="500" fill="#1f2a37" text-anchor="start">업무 요청문</text>
+<rect x="36" y="2354" width="316" height="50" rx="25" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<circle cx="62" cy="2379" r="17" fill="#2f6f73" stroke="none" stroke-width="2"/>
+<text x="62" y="2387" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">9</text>
+<text x="90" y="2387" font-size="22" font-weight="500" fill="#1f2a37" text-anchor="start">업무 지침서</text>
+<rect x="368" y="2354" width="316" height="50" rx="25" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<circle cx="394" cy="2379" r="17" fill="#2f6f73" stroke="none" stroke-width="2"/>
+<text x="394" y="2387" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">10</text>
+<text x="422" y="2387" font-size="22" font-weight="500" fill="#1f2a37" text-anchor="start">업무 워크플로</text>
+<rect x="36" y="2416" width="316" height="50" rx="25" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<circle cx="62" cy="2441" r="17" fill="#2f6f73" stroke="none" stroke-width="2"/>
+<text x="62" y="2449" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">11</text>
+<text x="90" y="2449" font-size="22" font-weight="500" fill="#1f2a37" text-anchor="start">결과 검증</text>
+<rect x="368" y="2416" width="316" height="50" rx="25" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<circle cx="394" cy="2441" r="17" fill="#2f6f73" stroke="none" stroke-width="2"/>
+<text x="394" y="2449" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">12</text>
+<text x="422" y="2449" font-size="22" font-weight="500" fill="#1f2a37" text-anchor="start">백업·버전 관리</text>
+<rect x="36" y="2478" width="316" height="50" rx="25" fill="#14253d" stroke="#14253d" stroke-width="2"/>
+<circle cx="62" cy="2503" r="17" fill="#14253d" stroke="#ffffff" stroke-width="2"/>
+<text x="62" y="2511" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">13</text>
+<text x="90" y="2511" font-size="22" font-weight="700" fill="#ffffff" text-anchor="start">나만의 워크스페이스</text>
+<text x="36" y="2592" font-size="28" font-weight="700" fill="#14253d" text-anchor="start">산출물이 쌓여 하나의 워크스페이스로</text>
+<rect x="36" y="2616" width="648" height="92" rx="12" fill="#f4f1ea" stroke="#d9d4c7" stroke-width="2"/>
+<text x="56" y="2654" font-size="26" font-weight="700" fill="#2f6f73" text-anchor="start">설계</text>
+<text x="148" y="2654" font-size="22" font-weight="500" fill="#566273" text-anchor="start">CH01–03</text>
+<text x="56" y="2690" font-size="22" font-weight="400" fill="#1f2a37" text-anchor="start">후보 A · 구성도 · 정보 등급</text>
+<text x="360" y="2736" font-size="22" font-weight="400" fill="#2f6f73" text-anchor="middle">▼</text>
+<rect x="36" y="2748" width="648" height="92" rx="12" fill="#f4f1ea" stroke="#d9d4c7" stroke-width="2"/>
+<text x="56" y="2786" font-size="26" font-weight="700" fill="#2f6f73" text-anchor="start">구축</text>
+<text x="148" y="2786" font-size="22" font-weight="500" fill="#566273" text-anchor="start">CH04–08</text>
+<text x="56" y="2822" font-size="22" font-weight="400" fill="#1f2a37" text-anchor="start">폴더 · 저장 규칙 · 프로젝트 · 지식</text>
+<text x="360" y="2868" font-size="22" font-weight="400" fill="#2f6f73" text-anchor="middle">▼</text>
+<rect x="36" y="2880" width="648" height="92" rx="12" fill="#f4f1ea" stroke="#d9d4c7" stroke-width="2"/>
+<text x="56" y="2918" font-size="26" font-weight="700" fill="#2f6f73" text-anchor="start">운영</text>
+<text x="148" y="2918" font-size="22" font-weight="500" fill="#566273" text-anchor="start">CH09–14</text>
+<text x="56" y="2954" font-size="22" font-weight="400" fill="#1f2a37" text-anchor="start">요청문 · 지침서 · 워크플로 · 검증 · 백업</text>
+<text x="360" y="3000" font-size="22" font-weight="400" fill="#2f6f73" text-anchor="middle">▼</text>
+<rect x="36" y="3012" width="648" height="100" rx="14" fill="#14253d"/>
+<text x="360" y="3056" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">개인 AI 워크스페이스</text>
+<text x="360" y="3092" font-size="22" font-weight="500" fill="#cfd8e6" text-anchor="middle">9가지 최종 산출물</text>
+<text x="36" y="3174" font-size="28" font-weight="700" fill="#14253d" text-anchor="start">실행 구분 (섞어 쓰지 않습니다)</text>
+<rect x="36" y="3198" width="648" height="88" rx="12" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<rect x="36" y="3198" width="10" height="88" rx="5" fill="#2f6f73"/>
+<text x="64" y="3234" font-size="24" font-weight="700" fill="#2f6f73" text-anchor="start">가상 실행</text>
+<text x="64" y="3266" font-size="22" font-weight="400" fill="#566273" text-anchor="start">가상 자료·가상 결과물로 따라 해 보기</text>
+<rect x="36" y="3296" width="648" height="88" rx="12" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<rect x="36" y="3296" width="10" height="88" rx="5" fill="#3d5a80"/>
+<text x="64" y="3332" font-size="24" font-weight="700" fill="#3d5a80" text-anchor="start">실제 AI 실행: 가상 자료</text>
+<text x="64" y="3364" font-size="22" font-weight="400" fill="#566273" text-anchor="start">AI 서비스에 가상 자료로 요청</text>
+<rect x="36" y="3394" width="648" height="88" rx="12" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<rect x="36" y="3394" width="10" height="88" rx="5" fill="#14253d"/>
+<text x="64" y="3430" font-size="24" font-weight="700" fill="#14253d" text-anchor="start">실제 AI 실행: 허용된 업무 자료</text>
+<text x="64" y="3462" font-size="22" font-weight="400" fill="#566273" text-anchor="start">조직이 허용하고 등급 확인을 마친 자료</text>
+<text x="36" y="3540" font-size="28" font-weight="700" fill="#14253d" text-anchor="start">이렇게 활용하세요</text>
+<rect x="36" y="3564" width="316" height="112" rx="12" fill="#f4f1ea" stroke="#d9d4c7" stroke-width="2"/>
+<text x="56" y="3606" font-size="24" font-weight="700" fill="#2f6f73" text-anchor="start">자기주도 학습</text>
+<text x="56" y="3640" font-size="22" font-weight="400" fill="#1f2a37" text-anchor="start">CH01부터 순서대로,</text>
+<text x="56" y="3666" font-size="22" font-weight="400" fill="#1f2a37" text-anchor="start">후보 A 하나로</text>
+<rect x="368" y="3564" width="316" height="112" rx="12" fill="#f4f1ea" stroke="#d9d4c7" stroke-width="2"/>
+<text x="388" y="3606" font-size="24" font-weight="700" fill="#2f6f73" text-anchor="start">워크숍 교안</text>
+<text x="388" y="3640" font-size="22" font-weight="400" fill="#1f2a37" text-anchor="start">6시간 또는</text>
+<text x="388" y="3666" font-size="22" font-weight="400" fill="#1f2a37" text-anchor="start">3시간×2회 운영안</text>
+<rect x="36" y="3688" width="648" height="112" rx="12" fill="#f4f1ea" stroke="#d9d4c7" stroke-width="2"/>
+<text x="56" y="3730" font-size="24" font-weight="700" fill="#2f6f73" text-anchor="start">강사용 자료 연계</text>
+<text x="56" y="3764" font-size="22" font-weight="400" fill="#1f2a37" text-anchor="start">정답·해설·운영 안내는</text>
+<text x="56" y="3790" font-size="22" font-weight="400" fill="#1f2a37" text-anchor="start">별도 메뉴에서</text>
+<text x="360" y="3844" font-size="22" font-weight="500" fill="#566273" text-anchor="middle">Magis Global · AI 워크스페이스 핸드북</text>
+</svg>

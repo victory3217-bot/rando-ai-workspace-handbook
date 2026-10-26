@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 3880" width="720" height="3880" role="img" aria-labelledby="t d" lang="en" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','Segoe UI',Arial,sans-serif">
+<title id="t">AI Workspace Handbook at a Glance</title>
+<desc id="d">One-page summary of the AI Workspace Handbook: audience, goal, 4 parts and 14 chapters, cumulative practice flow, output flow, run types, and ways to use it.</desc>
+<rect width="720" height="3880" fill="#fbfaf7"/>
+<rect x="0" y="0" width="720" height="178" rx="0" fill="#14253d"/>
+<text x="36" y="82" font-size="34" font-weight="700" fill="#ffffff" text-anchor="start">AI Workspace Handbook at a Glance</text>
+<text x="36" y="128" font-size="24" font-weight="400" fill="#cfd8e6" text-anchor="start">A 14-chapter hands-on handbook for non-programmers</text>
+<rect x="36" y="210" width="316" height="160" rx="14" fill="#f4f1ea" stroke="#d9d4c7" stroke-width="2"/>
+<text x="56" y="250" font-size="22" font-weight="700" fill="#2f6f73" text-anchor="start">Who it is for</text>
+<text x="56" y="290" font-size="24" font-weight="700" fill="#1f2a37" text-anchor="start">Non-programmer</text>
+<text x="56" y="322" font-size="24" font-weight="700" fill="#1f2a37" text-anchor="start">office professionals</text>
+<rect x="368" y="210" width="316" height="160" rx="14" fill="#f4f1ea" stroke="#d9d4c7" stroke-width="2"/>
+<text x="388" y="250" font-size="22" font-weight="700" fill="#2f6f73" text-anchor="start">Final goal</text>
+<text x="388" y="290" font-size="22" font-weight="500" fill="#1f2a37" text-anchor="start">Build a work environment</text>
+<text x="388" y="322" font-size="22" font-weight="500" fill="#1f2a37" text-anchor="start">that finishes one real</text>
+<text x="388" y="354" font-size="22" font-weight="500" fill="#1f2a37" text-anchor="start">task with AI</text>
+<text x="36" y="418" font-size="28" font-weight="700" fill="#14253d" text-anchor="start">4 Parts · 14 Chapters</text>
+<rect x="36" y="440" width="648" height="52" rx="12" fill="#2f6f73"/>
+<text x="56" y="475" font-size="24" font-weight="700" fill="#ffffff" text-anchor="start">Part 1 · Understanding the AI Workspace</text>
+<rect x="36" y="500" width="648" height="84" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<rect x="36" y="500" width="8" height="84" rx="4" fill="#2f6f73"/>
+<text x="60" y="534" font-size="22" font-weight="700" fill="#2f6f73" text-anchor="start">CH01</text>
+<text x="132" y="534" font-size="24" font-weight="700" fill="#1f2a37" text-anchor="start">What Is an AI Workspace?</text>
+<text x="132" y="566" font-size="22" font-weight="400" fill="#566273" text-anchor="start">Candidate task A and its AI purpose</text>
+<rect x="36" y="592" width="648" height="84" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<rect x="36" y="592" width="8" height="84" rx="4" fill="#2f6f73"/>
+<text x="60" y="626" font-size="22" font-weight="700" fill="#2f6f73" text-anchor="start">CH02</text>
+<text x="132" y="626" font-size="24" font-weight="700" fill="#1f2a37" text-anchor="start">Components and Overall Structure</text>
+<text x="132" y="658" font-size="22" font-weight="400" fill="#566273" text-anchor="start">Five-box map and data movement</text>
+<rect x="36" y="684" width="648" height="84" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<rect x="36" y="684" width="8" height="84" rx="4" fill="#2f6f73"/>
+<text x="60" y="718" font-size="22" font-weight="700" fill="#2f6f73" text-anchor="start">CH03</text>
+<text x="132" y="718" font-size="24" font-weight="700" fill="#1f2a37" text-anchor="start">What You May Enter, and Security</text>
+<text x="132" y="750" font-size="22" font-weight="400" fill="#566273" text-anchor="start">A/B/C information tiers, data review</text>
+<rect x="36" y="790" width="648" height="52" rx="12" fill="#3d5a80"/>
+<text x="56" y="825" font-size="24" font-weight="700" fill="#ffffff" text-anchor="start">Part 2 · Your Personal AI Work Environment</text>
+<rect x="36" y="850" width="648" height="84" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<rect x="36" y="850" width="8" height="84" rx="4" fill="#3d5a80"/>
+<text x="60" y="884" font-size="22" font-weight="700" fill="#3d5a80" text-anchor="start">CH04</text>
+<text x="132" y="884" font-size="24" font-weight="700" fill="#1f2a37" text-anchor="start">PC, Files, and Folders</text>
+<text x="132" y="916" font-size="22" font-weight="400" fill="#566273" text-anchor="start">Work folders and file-name rules</text>
+<rect x="36" y="942" width="648" height="84" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<rect x="36" y="942" width="8" height="84" rx="4" fill="#3d5a80"/>
+<text x="60" y="976" font-size="22" font-weight="700" fill="#3d5a80" text-anchor="start">CH05</text>
+<text x="132" y="976" font-size="24" font-weight="700" fill="#1f2a37" text-anchor="start">Cloud Storage and Work Documents</text>
+<text x="132" y="1008" font-size="22" font-weight="400" fill="#566273" text-anchor="start">Sync vs. backup, sharing permissions</text>
+<rect x="36" y="1034" width="648" height="84" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<rect x="36" y="1034" width="8" height="84" rx="4" fill="#3d5a80"/>
+<text x="60" y="1068" font-size="22" font-weight="700" fill="#3d5a80" text-anchor="start">CH06</text>
+<text x="132" y="1068" font-size="24" font-weight="700" fill="#1f2a37" text-anchor="start">ChatGPT Work Environment</text>
+<text x="132" y="1100" font-size="22" font-weight="400" fill="#566273" text-anchor="start">Project, instructions, materials</text>
+<rect x="36" y="1126" width="648" height="84" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<rect x="36" y="1126" width="8" height="84" rx="4" fill="#3d5a80"/>
+<text x="60" y="1160" font-size="22" font-weight="700" fill="#3d5a80" text-anchor="start">CH07</text>
+<text x="132" y="1160" font-size="24" font-weight="700" fill="#1f2a37" text-anchor="start">Claude Work Environment</text>
+<text x="132" y="1192" font-size="22" font-weight="400" fill="#566273" text-anchor="start">Project, knowledge, comparison</text>
+<rect x="36" y="1232" width="648" height="52" rx="12" fill="#5b6c8f"/>
+<text x="56" y="1267" font-size="24" font-weight="700" fill="#ffffff" text-anchor="start">Part 3 · Working with AI and Your Documents</text>
+<rect x="36" y="1292" width="648" height="84" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<rect x="36" y="1292" width="8" height="84" rx="4" fill="#5b6c8f"/>
+<text x="60" y="1326" font-size="22" font-weight="700" fill="#5b6c8f" text-anchor="start">CH08</text>
+<text x="132" y="1326" font-size="24" font-weight="700" fill="#1f2a37" text-anchor="start">Personal Knowledge Base</text>
+<text x="132" y="1358" font-size="22" font-weight="400" fill="#566273" text-anchor="start">Index, sources, update dates</text>
+<rect x="36" y="1384" width="648" height="84" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<rect x="36" y="1384" width="8" height="84" rx="4" fill="#5b6c8f"/>
+<text x="60" y="1418" font-size="22" font-weight="700" fill="#5b6c8f" text-anchor="start">CH09</text>
+<text x="132" y="1418" font-size="24" font-weight="700" fill="#1f2a37" text-anchor="start">Writing and Analyzing Material</text>
+<text x="132" y="1450" font-size="22" font-weight="400" fill="#566273" text-anchor="start">Request, fact and number checks</text>
+<rect x="36" y="1476" width="648" height="84" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<rect x="36" y="1476" width="8" height="84" rx="4" fill="#5b6c8f"/>
+<text x="60" y="1510" font-size="22" font-weight="700" fill="#5b6c8f" text-anchor="start">CH10</text>
+<text x="132" y="1510" font-size="24" font-weight="700" fill="#1f2a37" text-anchor="start">Turning Prompts into Instructions</text>
+<text x="132" y="1542" font-size="22" font-weight="400" fill="#566273" text-anchor="start">Reusable work instructions</text>
+<rect x="36" y="1568" width="648" height="84" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<rect x="36" y="1568" width="8" height="84" rx="4" fill="#5b6c8f"/>
+<text x="60" y="1602" font-size="22" font-weight="700" fill="#5b6c8f" text-anchor="start">CH11</text>
+<text x="132" y="1602" font-size="24" font-weight="700" fill="#1f2a37" text-anchor="start">Repeatable AI Workflows</text>
+<text x="132" y="1634" font-size="22" font-weight="400" fill="#566273" text-anchor="start">Flowchart, approval points, exceptions</text>
+<rect x="36" y="1674" width="648" height="52" rx="12" fill="#14253d"/>
+<text x="56" y="1709" font-size="24" font-weight="700" fill="#ffffff" text-anchor="start">Part 4 · Operating and Completing</text>
+<rect x="36" y="1734" width="648" height="84" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<rect x="36" y="1734" width="8" height="84" rx="4" fill="#14253d"/>
+<text x="60" y="1768" font-size="22" font-weight="700" fill="#14253d" text-anchor="start">CH12</text>
+<text x="132" y="1768" font-size="24" font-weight="700" fill="#1f2a37" text-anchor="start">Verifying Results and Fixing Errors</text>
+<text x="132" y="1800" font-size="22" font-weight="400" fill="#566273" text-anchor="start">Checklist and re-run decisions</text>
+<rect x="36" y="1826" width="648" height="84" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<rect x="36" y="1826" width="8" height="84" rx="4" fill="#14253d"/>
+<text x="60" y="1860" font-size="22" font-weight="700" fill="#14253d" text-anchor="start">CH13</text>
+<text x="132" y="1860" font-size="24" font-weight="700" fill="#1f2a37" text-anchor="start">Backup and Version Control Basics</text>
+<text x="132" y="1892" font-size="22" font-weight="400" fill="#566273" text-anchor="start">Recoverable work files</text>
+<rect x="36" y="1918" width="648" height="84" rx="10" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<rect x="36" y="1918" width="8" height="84" rx="4" fill="#14253d"/>
+<text x="60" y="1952" font-size="22" font-weight="700" fill="#14253d" text-anchor="start">CH14</text>
+<text x="132" y="1952" font-size="24" font-weight="700" fill="#1f2a37" text-anchor="start">Completing Your AI Workspace</text>
+<text x="132" y="1984" font-size="22" font-weight="400" fill="#566273" text-anchor="start">Final review and completion levels</text>
+<text x="36" y="2046" font-size="28" font-weight="700" fill="#14253d" text-anchor="start">Cumulative practice flow</text>
+<text x="36" y="2082" font-size="22" font-weight="400" fill="#566273" text-anchor="start">Each chapter's output becomes the next chapter's input</text>
+<rect x="36" y="2106" width="316" height="50" rx="25" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<circle cx="62" cy="2131" r="17" fill="#2f6f73" stroke="none" stroke-width="2"/>
+<text x="62" y="2139" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+<text x="90" y="2139" font-size="22" font-weight="500" fill="#1f2a37" text-anchor="start">Candidate task A</text>
+<rect x="368" y="2106" width="316" height="50" rx="25" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<circle cx="394" cy="2131" r="17" fill="#2f6f73" stroke="none" stroke-width="2"/>
+<text x="394" y="2139" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+<text x="422" y="2139" font-size="22" font-weight="500" fill="#1f2a37" text-anchor="start">Workspace map</text>
+<rect x="36" y="2168" width="316" height="50" rx="25" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<circle cx="62" cy="2193" r="17" fill="#2f6f73" stroke="none" stroke-width="2"/>
+<text x="62" y="2201" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+<text x="90" y="2201" font-size="22" font-weight="500" fill="#1f2a37" text-anchor="start">Information tiers</text>
+<rect x="368" y="2168" width="316" height="50" rx="25" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<circle cx="394" cy="2193" r="17" fill="#2f6f73" stroke="none" stroke-width="2"/>
+<text x="394" y="2201" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+<text x="422" y="2201" font-size="22" font-weight="500" fill="#1f2a37" text-anchor="start">Folder structure</text>
+<rect x="36" y="2230" width="316" height="50" rx="25" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<circle cx="62" cy="2255" r="17" fill="#2f6f73" stroke="none" stroke-width="2"/>
+<text x="62" y="2263" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">5</text>
+<text x="90" y="2263" font-size="22" font-weight="500" fill="#1f2a37" text-anchor="start">Storage and sharing</text>
+<rect x="368" y="2230" width="316" height="50" rx="25" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<circle cx="394" cy="2255" r="17" fill="#2f6f73" stroke="none" stroke-width="2"/>
+<text x="394" y="2263" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">6</text>
+<text x="422" y="2263" font-size="22" font-weight="500" fill="#1f2a37" text-anchor="start">AI project</text>
+<rect x="36" y="2292" width="316" height="50" rx="25" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<circle cx="62" cy="2317" r="17" fill="#2f6f73" stroke="none" stroke-width="2"/>
+<text x="62" y="2325" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">7</text>
+<text x="90" y="2325" font-size="22" font-weight="500" fill="#1f2a37" text-anchor="start">Knowledge base</text>
+<rect x="368" y="2292" width="316" height="50" rx="25" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<circle cx="394" cy="2317" r="17" fill="#2f6f73" stroke="none" stroke-width="2"/>
+<text x="394" y="2325" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">8</text>
+<text x="422" y="2325" font-size="22" font-weight="500" fill="#1f2a37" text-anchor="start">Work request</text>
+<rect x="36" y="2354" width="316" height="50" rx="25" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<circle cx="62" cy="2379" r="17" fill="#2f6f73" stroke="none" stroke-width="2"/>
+<text x="62" y="2387" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">9</text>
+<text x="90" y="2387" font-size="22" font-weight="500" fill="#1f2a37" text-anchor="start">Work instructions</text>
+<rect x="368" y="2354" width="316" height="50" rx="25" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<circle cx="394" cy="2379" r="17" fill="#2f6f73" stroke="none" stroke-width="2"/>
+<text x="394" y="2387" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">10</text>
+<text x="422" y="2387" font-size="22" font-weight="500" fill="#1f2a37" text-anchor="start">Workflow</text>
+<rect x="36" y="2416" width="316" height="50" rx="25" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<circle cx="62" cy="2441" r="17" fill="#2f6f73" stroke="none" stroke-width="2"/>
+<text x="62" y="2449" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">11</text>
+<text x="90" y="2449" font-size="22" font-weight="500" fill="#1f2a37" text-anchor="start">Verification</text>
+<rect x="368" y="2416" width="316" height="50" rx="25" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<circle cx="394" cy="2441" r="17" fill="#2f6f73" stroke="none" stroke-width="2"/>
+<text x="394" y="2449" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">12</text>
+<text x="422" y="2449" font-size="22" font-weight="500" fill="#1f2a37" text-anchor="start">Backup and versions</text>
+<rect x="36" y="2478" width="316" height="50" rx="25" fill="#14253d" stroke="#14253d" stroke-width="2"/>
+<circle cx="62" cy="2503" r="17" fill="#14253d" stroke="#ffffff" stroke-width="2"/>
+<text x="62" y="2511" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">13</text>
+<text x="90" y="2511" font-size="22" font-weight="700" fill="#ffffff" text-anchor="start">Your workspace</text>
+<text x="36" y="2592" font-size="28" font-weight="700" fill="#14253d" text-anchor="start">Outputs add up to one workspace</text>
+<rect x="36" y="2616" width="648" height="92" rx="12" fill="#f4f1ea" stroke="#d9d4c7" stroke-width="2"/>
+<text x="56" y="2654" font-size="26" font-weight="700" fill="#2f6f73" text-anchor="start">Design</text>
+<text x="176" y="2654" font-size="22" font-weight="500" fill="#566273" text-anchor="start">CH01–03</text>
+<text x="56" y="2690" font-size="22" font-weight="400" fill="#1f2a37" text-anchor="start">Task A, map, information tiers</text>
+<text x="360" y="2736" font-size="22" font-weight="400" fill="#2f6f73" text-anchor="middle">▼</text>
+<rect x="36" y="2748" width="648" height="92" rx="12" fill="#f4f1ea" stroke="#d9d4c7" stroke-width="2"/>
+<text x="56" y="2786" font-size="26" font-weight="700" fill="#2f6f73" text-anchor="start">Build</text>
+<text x="176" y="2786" font-size="22" font-weight="500" fill="#566273" text-anchor="start">CH04–08</text>
+<text x="56" y="2822" font-size="22" font-weight="400" fill="#1f2a37" text-anchor="start">Folders, rules, project, knowledge</text>
+<text x="360" y="2868" font-size="22" font-weight="400" fill="#2f6f73" text-anchor="middle">▼</text>
+<rect x="36" y="2880" width="648" height="92" rx="12" fill="#f4f1ea" stroke="#d9d4c7" stroke-width="2"/>
+<text x="56" y="2918" font-size="26" font-weight="700" fill="#2f6f73" text-anchor="start">Operate</text>
+<text x="176" y="2918" font-size="22" font-weight="500" fill="#566273" text-anchor="start">CH09–14</text>
+<text x="56" y="2954" font-size="22" font-weight="400" fill="#1f2a37" text-anchor="start">Request, instructions, workflow, checks, backup</text>
+<text x="360" y="3000" font-size="22" font-weight="400" fill="#2f6f73" text-anchor="middle">▼</text>
+<rect x="36" y="3012" width="648" height="100" rx="14" fill="#14253d"/>
+<text x="360" y="3056" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">Your personal AI workspace</text>
+<text x="360" y="3092" font-size="22" font-weight="500" fill="#cfd8e6" text-anchor="middle">9 final deliverables</text>
+<text x="36" y="3174" font-size="28" font-weight="700" fill="#14253d" text-anchor="start">Run types (never mixed)</text>
+<rect x="36" y="3198" width="648" height="88" rx="12" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<rect x="36" y="3198" width="10" height="88" rx="5" fill="#2f6f73"/>
+<text x="64" y="3234" font-size="24" font-weight="700" fill="#2f6f73" text-anchor="start">Simulated run</text>
+<text x="64" y="3266" font-size="22" font-weight="400" fill="#566273" text-anchor="start">Follow along with fictional data and outputs</text>
+<rect x="36" y="3296" width="648" height="88" rx="12" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<rect x="36" y="3296" width="10" height="88" rx="5" fill="#3d5a80"/>
+<text x="64" y="3332" font-size="24" font-weight="700" fill="#3d5a80" text-anchor="start">Live AI run: fictional data</text>
+<text x="64" y="3364" font-size="22" font-weight="400" fill="#566273" text-anchor="start">Ask an AI service using fictional data</text>
+<rect x="36" y="3394" width="648" height="88" rx="12" fill="#ffffff" stroke="#d9d4c7" stroke-width="2"/>
+<rect x="36" y="3394" width="10" height="88" rx="5" fill="#14253d"/>
+<text x="64" y="3430" font-size="24" font-weight="700" fill="#14253d" text-anchor="start">Live AI run: approved work data</text>
+<text x="64" y="3462" font-size="22" font-weight="400" fill="#566273" text-anchor="start">Data your organization allows, tier-checked</text>
+<text x="36" y="3540" font-size="28" font-weight="700" fill="#14253d" text-anchor="start">How to use it</text>
+<rect x="36" y="3564" width="316" height="112" rx="12" fill="#f4f1ea" stroke="#d9d4c7" stroke-width="2"/>
+<text x="56" y="3606" font-size="24" font-weight="700" fill="#2f6f73" text-anchor="start">Self-study</text>
+<text x="56" y="3640" font-size="22" font-weight="400" fill="#1f2a37" text-anchor="start">From CH01 in order,</text>
+<text x="56" y="3666" font-size="22" font-weight="400" fill="#1f2a37" text-anchor="start">with one task</text>
+<rect x="368" y="3564" width="316" height="112" rx="12" fill="#f4f1ea" stroke="#d9d4c7" stroke-width="2"/>
+<text x="388" y="3606" font-size="24" font-weight="700" fill="#2f6f73" text-anchor="start">Workshop</text>
+<text x="388" y="3640" font-size="22" font-weight="400" fill="#1f2a37" text-anchor="start">6-hour or</text>
+<text x="388" y="3666" font-size="22" font-weight="400" fill="#1f2a37" text-anchor="start">2 x 3-hour plans</text>
+<rect x="36" y="3688" width="648" height="112" rx="12" fill="#f4f1ea" stroke="#d9d4c7" stroke-width="2"/>
+<text x="56" y="3730" font-size="24" font-weight="700" fill="#2f6f73" text-anchor="start">Instructor materials</text>
+<text x="56" y="3764" font-size="22" font-weight="400" fill="#1f2a37" text-anchor="start">Answers and guides</text>
+<text x="56" y="3790" font-size="22" font-weight="400" fill="#1f2a37" text-anchor="start">in a separate menu</text>
+<text x="360" y="3844" font-size="22" font-weight="500" fill="#566273" text-anchor="middle">Magis Global · AI Workspace Handbook</text>
+</svg>

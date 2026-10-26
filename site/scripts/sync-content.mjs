@@ -30,18 +30,14 @@ const OUT_ROOT = join(SITE_ROOT, "src", "content", "docs");
 const entries = loadManifest();
 const locales = enabledLocales(entries);
 
-// Visible marker for chapters that exist but are not finished or reviewed.
+// Visible marker for chapters in a state readers should know about. A chapter with status Draft (an
+// internal working state kept in content-manifest.json) shows no badge and no banner.
 const STATUS_NOTICE = {
 	ko: {
-		Draft: {
-			badge: "초안",
-			banner: "이 교안은 현재 공개 초안으로 제공되고 있으며, 내용 검토와 개선이 진행 중입니다. 최종 승인된 판본은 아닙니다.",
-		},
 		Translated: { badge: "검토 전", banner: "번역 후 아직 검토되지 않은 장입니다." },
 		"Needs Update": { badge: "수정 필요", banner: "원본이 바뀌어 수정이 필요한 장입니다." },
 	},
 	en: {
-		Draft: { badge: "Draft", banner: "This chapter is currently published as a draft. Review and improvement are under way, and it is not an approved final edition." },
 		Translated: { badge: "Unreviewed", banner: "Translated but not yet reviewed." },
 		"Needs Update": { badge: "Needs update", banner: "The source changed; this chapter needs an update." },
 	},
@@ -143,8 +139,6 @@ if (missingKorean.length > 0) {
 // Copied from ../workshop and ../glossary.md without changing the prose. The instructor guide holds the
 // answers: it gets its own group, a gate page, no search indexing and a noindex tag.
 
-const EXTRA_BANNER =
-	"초안 (저자 승인 전). 시간 배분은 검증되지 않은 예상이며 실제 학습자 시험은 아직 하지 않았습니다.";
 const ANSWERS_BANNER =
 	"이 문서에는 실습의 정답과 오류 해설이 들어 있습니다. 학습자는 실습을 마친 뒤에 열어 보세요.";
 const extraGenerated = [];
@@ -152,7 +146,8 @@ for (const p of EXTRA_PAGES) {
 	const srcFile = join(REPO_ROOT, p.src);
 	if (!existsSync(srcFile)) continue;
 	const { title, body } = extractTitle(readFileSync(srcFile, "utf8"), p.slug);
-	const fm = { title, sidebar: { order: p.order }, banner: { content: p.answers ? ANSWERS_BANNER : EXTRA_BANNER } };
+	const fm = { title, sidebar: { order: p.order }, };
+	if (p.answers) fm.banner = { content: ANSWERS_BANNER };
 	if (p.answers) {
 		fm.pagefind = false;
 		fm.head = [{ tag: "meta", attrs: { name: "robots", content: "noindex, nofollow" } }];
@@ -165,7 +160,7 @@ const hasExtra = (dir) => extraGenerated.some((p) => p.dir === dir);
 if (hasExtra("workshop")) {
 	writeGenerated(
 		join(OUT_ROOT, "ko", "workshop", "index.md"),
-		{ title: "실습자료 안내", sidebar: { order: 0 }, banner: { content: EXTRA_BANNER } },
+		{ title: "실습자료 안내", sidebar: { order: 0 } },
 		[
 			"6시간 워크숍과 자기 학습에 쓰는 참가자용 자료입니다. 모두 교육용 가상 자료이며 실제 개인정보, 고객정보, 회사 기밀은 들어 있지 않습니다.",
 			"",
@@ -213,7 +208,13 @@ function koLanding() {
 	const total = entries.filter((e) => e.language === "ko").length;
 	const core = generated.ko.filter((id) => id.startsWith("AW-CH")).length;
 	lines.push(
-		`> **개발 중인 초안입니다.** 필수 과정 ${core}개 장의 본문 초안이 있습니다. 이 교안은 현재 공개 초안으로 제공되고 있으며, 내용 검토와 개선이 진행 중입니다. 최종 승인된 판본은 아닙니다. 선택·심화 과정은 향후 별도 교육과정으로 개발할 계획이며 지금은 본문이 없습니다.`,
+		`> 프로그래밍 경험이 없는 일반 실무자를 위한 ${core}개 장의 실습형 교안입니다. 실습자료와 용어집을 함께 제공하며, 본 교안은 지속적으로 업데이트됩니다. English overview: [English](${BASE}en/)`,
+		"",
+		"### 한눈에 보기",
+		"",
+		`[![AI 워크스페이스 핸드북 한눈에 보기: 학습 대상, 4개 Part와 14개 장, 누적 실습 흐름, 산출물, 실행 구분, 활용 방법](${BASE}handbook-overview.ko.svg)](${BASE}handbook-overview.ko.svg)`,
+		"",
+		"그림을 누르면 원본 SVG가 열립니다.",
 		""
 	);
 	for (const part of PARTS) {
@@ -231,6 +232,29 @@ function koLanding() {
 			}
 		}
 		lines.push("");
+	}
+	if (hasExtra("workshop")) {
+		lines.push(
+			"### 실습자료(참가자용)",
+			"",
+			"- [실습자료 안내](workshop/)",
+			"- [참가자 워크북](workshop/learner-workbook/)",
+			"- [가상 회의자료](workshop/sample-meeting-notes/)",
+			"- [가상 AI 결과물](workshop/sample-ai-output/)",
+			"- [워크스페이스 양식](workshop/workspace-template/)",
+			""
+		);
+	}
+	if (hasExtra("reference")) {
+		lines.push("### 참고자료", "", "- [용어집](reference/glossary/)", "");
+	}
+	if (hasExtra("instructor")) {
+		lines.push(
+			"### 강사용 (정답·해설 포함)",
+			"",
+			"- [강사용 안내서: 열기 전에](instructor/) _(정답이 들어 있으므로 실습을 마친 뒤에 여세요)_",
+			""
+		);
 	}
 	return lines.join("\n");
 }

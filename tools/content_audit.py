@@ -417,7 +417,11 @@ def check_dist(dist: Path, entries) -> None:
     if en_built - en_releasable:
         record("FAIL", "dist: no unreleased English chapter page", f"built={sorted(en_built - en_releasable)}")
     elif not en_releasable and en_dir.exists():
-        record("FAIL", "dist: no /en/ output while no English chapter is releasable", "dist/en exists")
+        # The only allowed /en/ output is the English overview page (site/src/pages/en/index.astro).
+        extra = sorted(str(p.relative_to(en_dir)) for p in en_dir.rglob("*") if p.is_file() and p.relative_to(en_dir).as_posix() != "index.html")
+        overview = en_dir / "index.html"
+        ok = overview.exists() and not extra and "English overview" in overview.read_text(encoding="utf-8", errors="ignore")
+        record("PASS" if ok else "FAIL", "dist: /en/ holds only the English overview page while no English chapter is releasable", "; ".join(extra) or "overview page missing")
     else:
         record("PASS", "dist: no unreleased English chapter page")
 

@@ -1,23 +1,27 @@
 # AI Workspace Handbook / AI 워크스페이스 구축 핸드북
 
-> **상태: 공개된 초안 (v0.0.4).** 한국어 **필수 과정 CH01~CH14의 본문 초안**이 있으며 모두 `Draft`다. 저자 승인과 실제 학습자 시험은 아직 없다. 선택·심화 OP01~OP03은 `content-manifest.json`에 등록만 되어 있다(`Planned`). 영어 본문은 없다. 사이트: https://victory3217-bot.github.io/rando-ai-workspace-handbook/
+> **AI 워크스페이스 핸드북 (v0.1.0).** 한국어 **필수 과정 CH01~CH14**와 실습자료, 강사용 안내서, 용어집을 공개한다. 본 교안은 지속적으로 업데이트된다. 영어는 소개 페이지만 있고 본문은 준비 중이다. 사이트: https://victory3217-bot.github.io/rando-ai-workspace-handbook/ · English overview: https://victory3217-bot.github.io/rando-ai-workspace-handbook/en/
+>
+> (내부 운영용 장 상태는 `content-manifest.json`에 `Draft`로 관리하며 사이트 화면에는 표시하지 않는다. 선택·심화 OP01~OP03은 `Planned`로만 등록되어 있다.)
+
+![AI 워크스페이스 핸드북 한눈에 보기](site/public/handbook-overview.ko.svg)
 
 프로그래밍 경험이 없는 일반 실무자가 자신의 컴퓨터, 클라우드 저장소, AI 도구, 업무문서를 연결해 **개인 AI 업무환경**을 만들고 실제 업무 하나를 끝내도록 돕는 실습형 핸드북이다. 성공 기준은 AI 도구의 기능을 많이 아는 것이 아니라, 자신의 업무에 쓸 수 있는 환경을 만들고 업무 하나를 완수하는 것이다.
 
-*A public draft of a hands-on handbook for non-programmers. The 14 core Korean chapters exist as drafts that have not been approved by the author or tested with learners; the three optional chapters are only registered as Planned. There is no English edition yet.*
+*A hands-on handbook for non-programmers. The 14 core chapters, workshop materials, and glossary are published in Korean and updated continuously. An English overview page exists; the English edition of the chapters is in preparation.*
 
 ## 저작권과 이용 조건 / Copyright and terms of use
 
 - 이 저장소의 교재, 실습자료, 강사용 안내서, 사이트 코드와 그 밖의 모든 내용의 저작권은 저자(Magis Global)에게 있다. **별도의 오픈소스 라이선스를 부여하지 않는다.**
 - 개인의 학습과 교육 참고를 위해 읽고 웹사이트에서 사용하는 것은 환영한다. 그 밖의 복제, 수정, 재배포, 번역, 상업적 이용(강의·교재·상품에 쓰는 것 포함)은 사전에 저자의 허락을 받아야 한다.
-- 내용은 **저자 승인 전의 초안**이며, 제품 기능과 정책은 바뀔 수 있다. 각 장에 적힌 출처와 확인일을 기준으로 직접 다시 확인하고, 조직의 정보보안 규정이 우선한다. 법률·보안 자문이 아니다.
+- 내용은 지속적으로 업데이트되며, 제품 기능과 정책은 바뀔 수 있다. 각 장에 적힌 출처와 확인일을 기준으로 직접 다시 확인하고, 조직의 정보보안 규정이 우선한다. 법률·보안 자문이 아니다.
 - 모든 예시(회사, 인물, 파일, 회의 메모, AI 결과물)는 교육용 가상 자료이며 실제와 무관하다.
 
 *No open-source license is granted. All rights are reserved by the author (Magis Global). Reading and using the site for personal study is welcome; copying, modifying, redistributing, translating, or commercial use requires the author's prior permission. This is an unreviewed draft, not legal or security advice, and all examples are fictional.*
 
 ## 공개 정책
 
-교안(CH01~CH14), 실습자료와 워크북, **강사용 해설과 정답**, 워크숍 운영자료, 용어집, 사이트 코드, 저자 검토기록을 이 저장소에 모두 공개한다. 실제 개인정보·고객정보·비밀번호·API 키·허가되지 않은 타인의 비공개 자료는 어디에도 넣지 않으며 모든 예시는 가상이다. 웹사이트에서는 학습자가 실습 전에 정답을 먼저 보지 않도록 강사용 안내서를 별도 메뉴(기본 접힘)와 안내 페이지 뒤에 두고 검색에서 제외한다. 저자 승인 전의 초안이다. 공개 절차는 `review/LAUNCH_PLAN_PUBLIC.md`를 본다.
+교안(CH01~CH14), 실습자료와 워크북, **강사용 해설과 정답**, 워크숍 운영자료, 용어집, 사이트 코드, 저자 검토기록을 이 저장소에 모두 공개한다. 실제 개인정보·고객정보·비밀번호·API 키·허가되지 않은 타인의 비공개 자료는 어디에도 넣지 않으며 모든 예시는 가상이다. 웹사이트에서는 학습자가 실습 전에 정답을 먼저 보지 않도록 강사용 안내서를 별도 메뉴(기본 접힘)와 안내 페이지 뒤에 두고 검색에서 제외한다. 공개 절차는 `review/LAUNCH_PLAN_PUBLIC.md`를 본다.
 
 ## 구성
 
@@ -28,25 +32,25 @@
 
 | ID | 제목 | 상태 |
 |---|---|---|
-| AW-CH01 | AI 워크스페이스란 무엇인가 | Draft (본문 초안, 저자 승인 전) |
-| AW-CH02 | AI 워크스페이스의 구성요소와 전체 구조 | Draft (본문 초안, 저자 승인 전) |
-| AW-CH03 | AI에 입력할 수 있는 정보와 정보보안 | Draft (본문 초안, 저자 승인 전) |
-| AW-CH04 | PC·파일·폴더 관리 | Draft (본문 초안, 저자 승인 전) |
-| AW-CH05 | 클라우드 저장소와 업무자료 연결 | Draft (본문 초안, 저자 승인 전) |
-| AW-CH06 | ChatGPT 작업환경 구축 | Draft (본문 초안, 저자 승인 전) |
-| AW-CH07 | Claude 작업환경 구축 | Draft (본문 초안, 저자 승인 전) |
-| AW-CH08 | 개인 지식베이스 구축 | Draft (본문 초안, 저자 승인 전) |
-| AW-CH09 | 문서작성과 자료분석 실습 | Draft (본문 초안, 저자 승인 전) |
-| AW-CH10 | 프롬프트를 업무 지침서로 표준화 | Draft (본문 초안, 저자 승인 전) |
-| AW-CH11 | 반복 업무와 AI Workflow 설계 | Draft (본문 초안, 저자 승인 전) |
-| AW-CH12 | 결과 검증과 오류 해결 | Draft (본문 초안, 저자 승인 전) |
-| AW-CH13 | 백업·버전 관리 기초 | Draft (본문 초안, 저자 승인 전) |
-| AW-CH14 | 나만의 AI 워크스페이스 완성 | Draft (본문 초안, 저자 승인 전) |
+| AW-CH01 | AI 워크스페이스란 무엇인가 | 공개 (내부 상태 `Draft`) |
+| AW-CH02 | AI 워크스페이스의 구성요소와 전체 구조 | 공개 (내부 상태 `Draft`) |
+| AW-CH03 | AI에 입력할 수 있는 정보와 정보보안 | 공개 (내부 상태 `Draft`) |
+| AW-CH04 | PC·파일·폴더 관리 | 공개 (내부 상태 `Draft`) |
+| AW-CH05 | 클라우드 저장소와 업무자료 연결 | 공개 (내부 상태 `Draft`) |
+| AW-CH06 | ChatGPT 작업환경 구축 | 공개 (내부 상태 `Draft`) |
+| AW-CH07 | Claude 작업환경 구축 | 공개 (내부 상태 `Draft`) |
+| AW-CH08 | 개인 지식베이스 구축 | 공개 (내부 상태 `Draft`) |
+| AW-CH09 | 문서작성과 자료분석 실습 | 공개 (내부 상태 `Draft`) |
+| AW-CH10 | 프롬프트를 업무 지침서로 표준화 | 공개 (내부 상태 `Draft`) |
+| AW-CH11 | 반복 업무와 AI Workflow 설계 | 공개 (내부 상태 `Draft`) |
+| AW-CH12 | 결과 검증과 오류 해결 | 공개 (내부 상태 `Draft`) |
+| AW-CH13 | 백업·버전 관리 기초 | 공개 (내부 상태 `Draft`) |
+| AW-CH14 | 나만의 AI 워크스페이스 완성 | 공개 (내부 상태 `Draft`) |
 | AW-OP01 | Git과 GitHub 기초 | Planned |
 | AW-OP02 | Claude Desktop과 AI 코딩 도구 | Planned |
 | AW-OP03 | AI 하네스 엔지니어링 입문 | Planned |
 
-`Draft`는 본문 초안이 있으나 저자 승인과 학습자 시험 전이라는 뜻이고(`last_reviewed`는 비어 있음), `Planned`는 "등록만 했고 파일이 없다"는 뜻이다. 어떤 페이지도 생성되지 않는다. (정확한 상태는 `content-manifest.json`이 기준이며 이 표는 사람이 읽기 위한 사본이다.)
+`Draft`는 내부 운영 상태로, 본문은 공개되어 있으나 저자 검토 승인과 학습자 시험을 거치지 않았다는 뜻이며(`last_reviewed`는 비어 있음, 사이트에는 표시하지 않음), `Planned`는 "등록만 했고 파일이 없다"는 뜻이다. 어떤 페이지도 생성되지 않는다. (정확한 상태는 `content-manifest.json`이 기준이며 이 표는 사람이 읽기 위한 사본이다.)
 
 ## 폴더 구조
 
@@ -67,7 +71,7 @@ site/                   Astro + Starlight 사이트 (생성 계층)
 ## 규칙
 
 1. **장 ID**는 언어와 무관하게 고정한다 (`AW-CH01`...). 파일 첫 줄에 `<!-- chapter_id: AW-CHxx -->`를 넣고, 매니페스트·파일 이름과 일치해야 한다.
-2. **미완성 장을 완성품처럼 보이지 않게 한다.** `Planned`는 페이지가 없고, `Draft`는 사이트에서 "초안" 표시와 안내 배너가 붙는다.
+2. **미완성 장을 완성품처럼 보이지 않게 한다.** `Planned`는 페이지가 없고, `Draft`는 내부 운영 상태이며 사이트에는 배지나 배너 없이 보인다(`Translated`, `Needs Update`는 안내가 붙는다).
 3. **영어 페이지는 영어 장이 `Reviewed` 또는 `Published`일 때만** 만들어진다. 영어 장이 하나도 해당하지 않으면 Starlight에 영어 언어를 아예 등록하지 않으므로 `/en/` 경로가 생기지 않는다. 영어 장이 하나라도 생기면 영어를 Starlight의 *기본 언어*로 바꾼다(아래 "영어 점진 공개" 참고). 영어 장은 한국어 장이 먼저 `Reviewed` 이상이어야 하며, 없으면 `npm run build`가 멈춘다.
 4. **하네스 사례**는 공개가 확인된 저장소만 쓰고, 저장소 이름·파일 경로·확인한 내용·진행 상태·확인일을 모두 적는다. 비공개 저장소, 실제 고객자료, 미공개 교육자료는 쓰지 않는다. 기록은 `source-map.md`에 둔다.
 5. **다른 장으로 가는 `.md` 상대 링크는 쓰지 않는다.** 사이트에서 깨진다. 장 ID(`AW-CH02`)만 적는다.
