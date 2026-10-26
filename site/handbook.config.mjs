@@ -22,9 +22,9 @@ export const HANDBOOK_TITLE = {
 
 export const STATUSES = ["Planned", "Draft", "Translated", "Reviewed", "Published", "Needs Update"];
 
-// An English chapter becomes a page only at these statuses. Anything earlier
-// (or no English file at all) produces no English page.
-export const EN_RELEASABLE = ["Reviewed", "Published"];
+// A chapter becomes a page only at these statuses. "Planned" (or no file at all) produces no page.
+// Draft is an internal working state that is published without a badge, for both languages.
+export const EN_RELEASABLE = ["Draft", "Translated", "Reviewed", "Published", "Needs Update"];
 
 // Sidebar groups. Part membership is only used for navigation; chapter IDs
 // (AW-CHnn / AW-OPnn) never change.
@@ -67,13 +67,22 @@ export const EXTRA_GROUPS = [
 	{ dir: "instructor", label: { ko: "강사용 안내서(정답·해설 포함)", en: "Instructor guide (contains answers)" }, collapsed: true },
 ];
 
+// `locale` is the language of the generated page. The English sources live in ../en/ (a separate path from
+// the Korean ../workshop/ files) and use the same page slugs, so the language selector can switch to the
+// same page.
 export const EXTRA_PAGES = [
-	{ src: "workshop/learner-workbook.md", dir: "workshop", slug: "learner-workbook", order: 1 },
-	{ src: "workshop/sample-meeting-notes.md", dir: "workshop", slug: "sample-meeting-notes", order: 2 },
-	{ src: "workshop/sample-ai-output.md", dir: "workshop", slug: "sample-ai-output", order: 3 },
-	{ src: "workshop/workspace-template.md", dir: "workshop", slug: "workspace-template", order: 4 },
-	{ src: "glossary.md", dir: "reference", slug: "glossary", order: 1 },
-	{ src: "workshop/instructor-guide.md", dir: "instructor", slug: "instructor-guide", order: 2, answers: true },
+	{ locale: "ko", src: "workshop/learner-workbook.md", dir: "workshop", slug: "learner-workbook", order: 1 },
+	{ locale: "ko", src: "workshop/sample-meeting-notes.md", dir: "workshop", slug: "sample-meeting-notes", order: 2 },
+	{ locale: "ko", src: "workshop/sample-ai-output.md", dir: "workshop", slug: "sample-ai-output", order: 3 },
+	{ locale: "ko", src: "workshop/workspace-template.md", dir: "workshop", slug: "workspace-template", order: 4 },
+	{ locale: "ko", src: "glossary.md", dir: "reference", slug: "glossary", order: 1 },
+	{ locale: "ko", src: "workshop/instructor-guide.md", dir: "instructor", slug: "instructor-guide", order: 2, answers: true },
+	{ locale: "en", src: "en/workshop/learner-workbook.md", dir: "workshop", slug: "learner-workbook", order: 1 },
+	{ locale: "en", src: "en/workshop/sample-meeting-notes.md", dir: "workshop", slug: "sample-meeting-notes", order: 2 },
+	{ locale: "en", src: "en/workshop/sample-ai-output.md", dir: "workshop", slug: "sample-ai-output", order: 3 },
+	{ locale: "en", src: "en/workshop/workspace-template.md", dir: "workshop", slug: "workspace-template", order: 4 },
+	{ locale: "en", src: "en/glossary.md", dir: "reference", slug: "glossary", order: 1 },
+	{ locale: "en", src: "en/workshop/instructor-guide.md", dir: "instructor", slug: "instructor-guide", order: 2, answers: true },
 ];
 
 export function loadManifest() {

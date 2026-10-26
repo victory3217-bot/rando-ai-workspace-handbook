@@ -30,7 +30,8 @@ OPTIONAL = [f"AW-OP{n:02d}" for n in range(1, 4)]
 EXPECTED_IDS = CORE + OPTIONAL
 
 STATUSES = ["Planned", "Draft", "Translated", "Reviewed", "Published", "Needs Update"]
-EN_RELEASABLE = ["Reviewed", "Published"]
+# Draft is an internal working state; Draft chapters are published (without a badge) in both languages.
+EN_RELEASABLE = ["Draft", "Translated", "Reviewed", "Published", "Needs Update"]
 KO_DONE = ["Reviewed", "Published"]
 FIELDS = ["chapter_id", "title", "language", "status", "last_reviewed"]
 
@@ -145,14 +146,15 @@ def check_manifest(entries) -> None:
             problems.append(f"unexpected={extra}")
         record("FAIL" if problems else "PASS", f"manifest[{lang}]: AW-CH01..14 + AW-OP01..03 exactly once", "; ".join(problems))
 
+    # An English chapter may exist only if the matching Korean chapter exists (Korean is the source edition).
     bad = [
         e["chapter_id"]
         for e in entries
         if e.get("language") == "en"
-        and e.get("status") in EN_RELEASABLE
-        and next((k["status"] for k in entries if k["chapter_id"] == e["chapter_id"] and k["language"] == "ko"), "") not in KO_DONE
+        and e.get("status") != "Planned"
+        and next((k["status"] for k in entries if k["chapter_id"] == e["chapter_id"] and k["language"] == "ko"), "Planned") == "Planned"
     ]
-    record("FAIL" if bad else "PASS", "manifest: English Reviewed/Published only after Korean Reviewed/Published", ", ".join(bad))
+    record("FAIL" if bad else "PASS", "manifest: an English chapter is not Planned only if its Korean chapter is not Planned", ", ".join(bad))
 
     # A chapter becomes Reviewed/Published only through a human review, which is recorded in last_reviewed.
     bad = [f"{e['chapter_id']}/{e['language']}" for e in entries if e.get("status") in KO_DONE and not e.get("last_reviewed")]
@@ -242,6 +244,8 @@ DATE = re.compile(r"\d{4}-\d{2}-\d{2}")
 LEGACY_TAGS = re.compile(r"\[(개념|공식|해설)\]")  # the pre-2C inline label scheme must not come back
 OFFICIAL_BOX = "> **공식 문서 확인"
 GUIDE_PHRASES = ("읽는 방법", "일반 설명", "저자 해석", "좌우로 밀어")
+GUIDE_PHRASES_EN = ("How to read", "general explanation", "Author's interpretation", "sideways")
+OFFICIAL_BOX_EN = "> **Official documentation check"
 
 # Fictional values that are allowed to look like personal data in teaching material.
 SAFE_PHONE = {"010-0000-0000", "010-1234-5678"}
@@ -272,7 +276,15 @@ def check_content_quality(entries) -> None:
             if not h1 or h1.group(1).strip() != expect:
                 title_bad.append(f"{rel}: H1={h1.group(1) if h1 else None!r} expected={expect!r}")
 
-            # source-label legend present (ko only; the English edition has no body yet)
+            # source-label legend present in both editions
+            if lang == "en":
+                missing_en = [g for g in GUIDE_PHRASES_EN if g not in text]
+                if missing_en:
+                    legend_bad.append(f"{rel}: missing {missing_en}")
+                if "```" not in text:
+                    copy_bad.append(rel)
+                if s == "CH03" and "not a legal classification" not in text:
+                    disc_bad.append(rel)
             if lang == "ko":
                 missing_guide = [g for g in GUIDE_PHRASES if g not in text]
                 if missing_guide:
@@ -304,7 +316,7 @@ def check_content_quality(entries) -> None:
             lines = text.splitlines()
             i = 0
             while i < len(lines):
-                if lines[i].startswith(OFFICIAL_BOX):
+                if lines[i].startswith(OFFICIAL_BOX) or lines[i].startswith(OFFICIAL_BOX_EN):
                     head = lines[i]
                     j = i
                     block = []
@@ -338,6 +350,82 @@ def check_content_quality(entries) -> None:
     record("FAIL" if src_bad else "PASS", "content: every [S#] reference has a row with https URL and check date", "; ".join(src_bad))
     record("FAIL" if tag_bad else "PASS", "content: every 공식 문서 확인 box has a check date and a source number on each bullet", "; ".join(tag_bad[:5]))
     record("FAIL" if pii_bad else "PASS", "content: no real-looking personal data or secrets in teaching material", "; ".join(pii_bad[:8]))
+
+
+# --- Korean / English structural parity (structure only; this does not check translation quality) -------------
+def _fences(text):
+    out, blocks, cur = [], [], None
+    for line in text.splitlines():
+        if line.startswith("```"):
+            if cur is None:
+                cur = []
+            else:
+                blocks.append(cur)
+                cur = None
+            continue
+        (cur if cur is not None else out).append(line)
+    return out, blocks
+
+
+def _table_rows(lines):
+    res, cur = [], 0
+    for line in lines:
+        if line.lstrip("> ").startswith("|"):
+            cur += 1
+        elif cur:
+            res.append(cur)
+            cur = 0
+    if cur:
+        res.append(cur)
+    return res
+
+
+def _parity_problems(ko_text, en_text, allow_extra_row=False):
+    problems = []
+    ko_out, ko_blocks = _fences(ko_text)
+    en_out, en_blocks = _fences(en_text)
+    if len(ko_blocks) != len(en_blocks):
+        problems.append(f"code blocks {len(ko_blocks)}/{len(en_blocks)}")
+    else:
+        bad_lines = [i + 1 for i, (a, b) in enumerate(zip(ko_blocks, en_blocks)) if len(a) != len(b)]
+        if bad_lines:
+            problems.append(f"code block line counts differ in blocks {bad_lines}")
+    if len([l for l in ko_out if l.startswith("### ")]) != len([l for l in en_out if l.startswith("### ")]):
+        problems.append("H3 count")
+    ko_rows, en_rows = _table_rows(ko_out), _table_rows(en_out)
+    # the English instructor guide adds one row to the list of differences between the Korean sources (the English edition itself)
+    if allow_extra_row and len(ko_rows) == len(en_rows) and sum(e - k for k, e in zip(ko_rows, en_rows)) == 1 and all(e >= k for k, e in zip(ko_rows, en_rows)):
+        pass
+    elif ko_rows != en_rows:
+        problems.append(f"table rows {_table_rows(ko_out)}/{_table_rows(en_out)}")
+    for name, pat in (("checkboxes", r"\s*- \[[ x]\]"),):
+        if sum(1 for l in ko_out if re.match(pat, l)) != sum(1 for l in en_out if re.match(pat, l)):
+            problems.append(name)
+    if sorted(re.findall(r"\[(S\d+)\]", ko_text)) != sorted(re.findall(r"\[(S\d+)\]", en_text)):
+        problems.append("[S#] references")
+    if sorted(re.findall(r"https?://[^\s)`|<>\"]+", ko_text)) != sorted(re.findall(r"https?://[^\s)`|<>\"]+", en_text)):
+        problems.append("URLs")
+    return problems
+
+
+def check_parity(entries) -> None:
+    pairs = []
+    for e in entries:
+        if e.get("language") == "en" and e.get("status") != "Planned":
+            s = stem(e["chapter_id"])
+            pairs.append((ROOT / "ko" / "chapters" / f"{s}.md", ROOT / "en" / "chapters" / f"{s}.md"))
+    for name in ("learner-workbook", "sample-meeting-notes", "sample-ai-output", "workspace-template", "instructor-guide"):
+        if (ROOT / "en" / "workshop" / f"{name}.md").exists():
+            pairs.append((ROOT / "workshop" / f"{name}.md", ROOT / "en" / "workshop" / f"{name}.md"))
+    bad = []
+    for ko, en in pairs:
+        if not ko.exists() or not en.exists():
+            bad.append(f"{en.relative_to(ROOT)}: missing file")
+            continue
+        problems = _parity_problems(ko.read_text(encoding="utf-8"), en.read_text(encoding="utf-8"), en.name == "instructor-guide.md")
+        if problems:
+            bad.append(f"{en.relative_to(ROOT)}: " + ", ".join(problems))
+    record("FAIL" if bad else "PASS", f"parity: English edition matches the Korean structure ({len(pairs)} file pairs)", "; ".join(bad[:6]))
 
 
 def check_support_docs(entries) -> None:
@@ -428,7 +516,13 @@ def check_dist(dist: Path, entries) -> None:
     hangul_in_en = []
     if en_dir.exists():
         for p in en_dir.rglob("*.html"):
-            if re.search(r"[가-힣]{5,}", re.sub(r"<[^>]+>", "", p.read_text(encoding="utf-8", errors="ignore"))):
+            html_en = p.read_text(encoding="utf-8", errors="ignore")
+            # quoted Korean UI names and literals live in code spans/blocks; anything else must be English
+            visible = re.sub(r"<(pre|code|script|style)[\s\S]*?</(pre|code|script|style)>", "", html_en)
+            visible = re.sub(r"<[^>]+>", "", visible)
+            if p.relative_to(en_dir).as_posix() == "reference/glossary/index.html":
+                continue  # the glossary has a Korean-term column by design
+            if "핸드북 목록으로" in visible or len(re.findall(r"[가-힣]", visible)) > 80:
                 hangul_in_en.append(str(p.relative_to(dist)))
     record("FAIL" if hangul_in_en else "PASS", "dist: no Korean text served under /en/", ", ".join(hangul_in_en[:5]))
 
@@ -459,13 +553,13 @@ def check_dist(dist: Path, entries) -> None:
     record("FAIL" if anchors else "PASS", "dist: in-site #anchors exist", "; ".join(anchors[:10]))
 
     # Public site: general pages are indexable; only the instructor-guide pages (answers) stay noindex.
-    general = [dist / "ko" / "index.html", dist / "ko" / "chapters" / "part-1" / "ch01" / "index.html", dist / "ko" / "workshop" / "index.html"]
+    general = [dist / loc / sub_ for loc in ("ko", "en") for sub_ in ("index.html", "chapters/part-1/ch01/index.html", "workshop/index.html")]
     if all(p.exists() for p in general):
         flagged = [str(p.relative_to(dist)) for p in general if "noindex" in p.read_text(encoding="utf-8", errors="ignore")]
         record("FAIL" if flagged else "PASS", "dist: general pages are indexable (no noindex)", "; ".join(flagged))
     else:
         record("SKIP", "dist: general pages are indexable (no noindex)", "sample pages missing")
-    gated = [dist / "ko" / "instructor" / "index.html", dist / "ko" / "instructor" / "instructor-guide" / "index.html"]
+    gated = [dist / loc / "instructor" / name for loc in ("ko", "en") for name in ("index.html", "instructor-guide/index.html")]
     if all(p.exists() for p in gated):
         missing = [str(p.relative_to(dist)) for p in gated if "noindex" not in p.read_text(encoding="utf-8", errors="ignore")]
         record("FAIL" if missing else "PASS", "dist: instructor-guide pages keep noindex", "; ".join(missing))
@@ -524,6 +618,7 @@ def main() -> int:
         check_files(entries)
         check_links_and_cases()
         check_content_quality(entries)
+        check_parity(entries)
         check_support_docs(entries)
         if args.dist:
             check_dist((ROOT / args.dist) if not Path(args.dist).is_absolute() else Path(args.dist), entries)

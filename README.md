@@ -1,6 +1,6 @@
 # AI Workspace Handbook / AI 워크스페이스 구축 핸드북
 
-> **AI 워크스페이스 핸드북 (v0.1.0).** 한국어 **필수 과정 CH01~CH14**와 실습자료, 강사용 안내서, 용어집을 공개한다. 본 교안은 지속적으로 업데이트된다. 영어는 소개 페이지만 있고 본문은 준비 중이다. 사이트: https://victory3217-bot.github.io/rando-ai-workspace-handbook/ · English overview: https://victory3217-bot.github.io/rando-ai-workspace-handbook/en/
+> **AI 워크스페이스 핸드북 (v0.1.0).** 한국어 **필수 과정 CH01~CH14**와 실습자료, 강사용 안내서, 용어집을 공개한다. 본 교안은 지속적으로 업데이트된다. 영어판(CH01~CH14, 실습자료, 강사용 안내서, 용어집)도 함께 제공한다. 사이트: https://victory3217-bot.github.io/rando-ai-workspace-handbook/ · English edition: https://victory3217-bot.github.io/rando-ai-workspace-handbook/en/
 >
 > (내부 운영용 장 상태는 `content-manifest.json`에 `Draft`로 관리하며 사이트 화면에는 표시하지 않는다. 선택·심화 OP01~OP03은 `Planned`로만 등록되어 있다.)
 
@@ -8,7 +8,7 @@
 
 프로그래밍 경험이 없는 일반 실무자가 자신의 컴퓨터, 클라우드 저장소, AI 도구, 업무문서를 연결해 **개인 AI 업무환경**을 만들고 실제 업무 하나를 끝내도록 돕는 실습형 핸드북이다. 성공 기준은 AI 도구의 기능을 많이 아는 것이 아니라, 자신의 업무에 쓸 수 있는 환경을 만들고 업무 하나를 완수하는 것이다.
 
-*A hands-on handbook for non-programmers. The 14 core chapters, workshop materials, and glossary are published in Korean and updated continuously. An English overview page exists; the English edition of the chapters is in preparation.*
+*A hands-on handbook for non-programmers. The 14 core chapters, workshop materials, and glossary are published in Korean and updated continuously. The English edition (CH01–CH14, workshop materials, instructor guide, glossary) is available under `/en/`; it is translated from the Korean source edition.*
 
 ## 저작권과 이용 조건 / Copyright and terms of use
 

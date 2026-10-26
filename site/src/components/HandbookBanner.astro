@@ -5,7 +5,7 @@
 import Default from '@astrojs/starlight/components/Banner.astro';
 import type { Props } from '@astrojs/starlight/props';
 
-const isKo = Astro.props.locale !== 'en';
+const isKo = !Astro.url.pathname.includes('/en/');
 const href = `https://magisglobal.co.kr/${isKo ? 'ko' : 'en'}/handbooks/`;
 const label = isKo ? 'Magis Global 핸드북 목록으로 돌아가기' : 'Back to the Magis Global Handbooks';
 ---

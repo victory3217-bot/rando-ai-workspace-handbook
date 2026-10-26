@@ -139,29 +139,31 @@ if (missingKorean.length > 0) {
 // Copied from ../workshop and ../glossary.md without changing the prose. The instructor guide holds the
 // answers: it gets its own group, a gate page, no search indexing and a noindex tag.
 
-const ANSWERS_BANNER =
-	"이 문서에는 실습의 정답과 오류 해설이 들어 있습니다. 학습자는 실습을 마친 뒤에 열어 보세요.";
+const ANSWERS_BANNER = {
+	ko: "이 문서에는 실습의 정답과 오류 해설이 들어 있습니다. 학습자는 실습을 마친 뒤에 열어 보세요.",
+	en: "This document contains the answers and error explanations for the exercises. Learners, open it after you finish the exercises.",
+};
 const extraGenerated = [];
 for (const p of EXTRA_PAGES) {
+	if (!locales.includes(p.locale)) continue;
 	const srcFile = join(REPO_ROOT, p.src);
 	if (!existsSync(srcFile)) continue;
 	const { title, body } = extractTitle(readFileSync(srcFile, "utf8"), p.slug);
-	const fm = { title, sidebar: { order: p.order }, };
-	if (p.answers) fm.banner = { content: ANSWERS_BANNER };
+	const fm = { title, sidebar: { order: p.order } };
 	if (p.answers) {
+		fm.banner = { content: ANSWERS_BANNER[p.locale] };
 		fm.pagefind = false;
 		fm.head = [{ tag: "meta", attrs: { name: "robots", content: "noindex, nofollow" } }];
 	}
-	writeGenerated(join(OUT_ROOT, "ko", p.dir, `${p.slug}.md`), fm, body);
+	writeGenerated(join(OUT_ROOT, p.locale, p.dir, `${p.slug}.md`), fm, body);
 	extraGenerated.push(p);
 }
-const hasExtra = (dir) => extraGenerated.some((p) => p.dir === dir);
+const hasExtra = (loc, dir) => extraGenerated.some((p) => p.locale === loc && p.dir === dir);
 
-if (hasExtra("workshop")) {
-	writeGenerated(
-		join(OUT_ROOT, "ko", "workshop", "index.md"),
-		{ title: "실습자료 안내", sidebar: { order: 0 } },
-		[
+const WORKSHOP_INDEX = {
+	ko: {
+		title: "실습자료 안내",
+		body: [
 			"6시간 워크숍과 자기 학습에 쓰는 참가자용 자료입니다. 모두 교육용 가상 자료이며 실제 개인정보, 고객정보, 회사 기밀은 들어 있지 않습니다.",
 			"",
 			"| 자료 | 용도 |",
@@ -175,20 +177,31 @@ if (hasExtra("workshop")) {
 			"",
 			"**정답과 해설은 이 메뉴에 없습니다.** 실습의 정답과 오류 해설은 강사용 안내서에 있으며, 왼쪽 메뉴 맨 아래의 별도 묶음(기본으로 접혀 있음)에 있습니다. 실습을 마치기 전에는 열지 않는 것을 권합니다. 다만 일부 장(CH03, CH06, CH09, CH12)의 본문 6절에는 저자 해설이 함께 실려 있습니다.",
 			"",
-		].join("\n")
-	);
-}
-if (hasExtra("instructor")) {
-	writeGenerated(
-		join(OUT_ROOT, "ko", "instructor", "index.md"),
-		{
-			title: "강사용 안내서: 열기 전에",
-			sidebar: { order: 1 },
-			banner: { content: ANSWERS_BANNER },
-			pagefind: false,
-			head: [{ tag: "meta", attrs: { name: "robots", content: "noindex, nofollow" } }],
-		},
-		[
+		],
+	},
+	en: {
+		title: "Workshop materials: start here",
+		body: [
+			"These are the participant materials for the 6-hour workshop and for self-study. Everything is fictional teaching material; no real personal information, customer information, or company secrets are included.",
+			"",
+			"| Material | Purpose |",
+			"|---|---|",
+			"| [Learner workbook](learner-workbook/) | One record document that collects the core exercise forms of CH01-CH14 |",
+			"| [Fictional meeting materials](sample-meeting-notes/) | The fictional meeting notes you enter in the exercises (materials 1-6) |",
+			"| [Fictional AI outputs](sample-ai-output/) | Fictional AI outputs for verification practice (not real AI output) |",
+			"| [Workspace template](workspace-template/) | Template for the final workspace map and rule set |",
+			"",
+			"When a document mentions a file name such as `sample-meeting-notes.md`, it means the material with the same name in the table above.",
+			"",
+			"**The answers and explanations are not in this menu.** They are in the instructor guide, in a separate group at the bottom of the left menu (collapsed by default). Please do not open it before you finish the exercises. Note that section 6 of some chapters (CH03, CH06, CH09, CH12) also contains the author's explanations.",
+			"",
+		],
+	},
+};
+const GATE = {
+	ko: {
+		title: "강사용 안내서: 열기 전에",
+		body: [
 			"**이 안내서에는 실습의 정답과 오류 해설이 들어 있습니다.** 공개 자료이지만, 학습자가 실습을 하기 전에 정답이 눈에 띄지 않도록 실습자료와 메뉴를 나누고 검색에서 제외했습니다.",
 			"",
 			"- 학습자: 실습을 마친 뒤에 열어 보세요.",
@@ -196,8 +209,38 @@ if (hasExtra("instructor")) {
 			"",
 			"[강사용 안내서 열기](instructor-guide/)",
 			"",
-		].join("\n")
-	);
+		],
+	},
+	en: {
+		title: "Instructor guide: before you open it",
+		body: [
+			"**This guide contains the answers and error explanations for the exercises.** It is public, but so that learners do not see the answers before they practice, it is kept in a separate menu group and excluded from search.",
+			"",
+			"- Learners: open it after you finish the exercises.",
+			"- Instructors and facilitators: it contains the 6-hour and 2 x 3-hour plans, the answers and explanations, expected questions, alternative paths, and the completion Level 1-3 criteria.",
+			"",
+			"[Open the instructor guide](instructor-guide/)",
+			"",
+		],
+	},
+};
+for (const loc of locales) {
+	if (hasExtra(loc, "workshop")) {
+		writeGenerated(join(OUT_ROOT, loc, "workshop", "index.md"), { title: WORKSHOP_INDEX[loc].title, sidebar: { order: 0 } }, WORKSHOP_INDEX[loc].body.join("\n"));
+	}
+	if (hasExtra(loc, "instructor")) {
+		writeGenerated(
+			join(OUT_ROOT, loc, "instructor", "index.md"),
+			{
+				title: GATE[loc].title,
+				sidebar: { order: 1 },
+				banner: { content: ANSWERS_BANNER[loc] },
+				pagefind: false,
+				head: [{ tag: "meta", attrs: { name: "robots", content: "noindex, nofollow" } }],
+			},
+			GATE[loc].body.join("\n")
+		);
+	}
 }
 
 // ---- landing pages -------------------------------------------------------
@@ -208,7 +251,7 @@ function koLanding() {
 	const total = entries.filter((e) => e.language === "ko").length;
 	const core = generated.ko.filter((id) => id.startsWith("AW-CH")).length;
 	lines.push(
-		`> 프로그래밍 경험이 없는 일반 실무자를 위한 ${core}개 장의 실습형 교안입니다. 실습자료와 용어집을 함께 제공하며, 본 교안은 지속적으로 업데이트됩니다. English overview: [English](${BASE}en/)`,
+		`> 프로그래밍 경험이 없는 일반 실무자를 위한 ${core}개 장의 실습형 교안입니다. 실습자료와 용어집을 함께 제공하며, 본 교안은 지속적으로 업데이트됩니다. English: [English edition](${BASE}en/)`,
 		"",
 		"### 한눈에 보기",
 		"",
@@ -233,7 +276,7 @@ function koLanding() {
 		}
 		lines.push("");
 	}
-	if (hasExtra("workshop")) {
+	if (hasExtra("ko", "workshop")) {
 		lines.push(
 			"### 실습자료(참가자용)",
 			"",
@@ -245,10 +288,10 @@ function koLanding() {
 			""
 		);
 	}
-	if (hasExtra("reference")) {
+	if (hasExtra("ko", "reference")) {
 		lines.push("### 참고자료", "", "- [용어집](reference/glossary/)", "");
 	}
-	if (hasExtra("instructor")) {
+	if (hasExtra("ko", "instructor")) {
 		lines.push(
 			"### 강사용 (정답·해설 포함)",
 			"",
@@ -260,16 +303,52 @@ function koLanding() {
 }
 
 function enLanding() {
-	const lines = ["Chapters listed here have passed review. Others are not published.", ""];
+	const lines = [];
+	const core = generated.en.filter((id) => id.startsWith("AW-CH")).length;
+	lines.push(
+		`> A ${core}-chapter hands-on handbook for office professionals with no programming experience. Workshop materials and a glossary are included, and the handbook is updated continuously. Korean: [한국어 판](${BASE}ko/)`,
+		"",
+		"### At a glance",
+		"",
+		`[![AI Workspace Handbook at a glance: audience, goal, 4 parts and 14 chapters, cumulative practice flow, outputs, run types, and ways to use it](${BASE}handbook-overview.en.svg)](${BASE}handbook-overview.en.svg)`,
+		"",
+		"Select the image to open the original SVG.",
+		""
+	);
 	for (const part of PARTS) {
+		if (part.dir === "optional") continue;
 		const items = part.chapters.filter((id) => generated.en.includes(id));
 		if (items.length === 0) continue;
 		lines.push(`### ${part.label.en}`, "");
 		for (const chapterId of items) {
 			const e = entries.find((x) => x.chapter_id === chapterId && x.language === "en");
-			lines.push(`- [${chapterId} · ${e.title}](chapters/${part.dir}/${fileStem(chapterId).toLowerCase()}/)`);
+			const tag = STATUS_NOTICE.en[e.status] ? ` _(${STATUS_NOTICE.en[e.status].badge})_` : "";
+			lines.push(`- [${chapterId} · ${e.title}](chapters/${part.dir}/${fileStem(chapterId).toLowerCase()}/)${tag}`);
 		}
 		lines.push("");
+	}
+	if (hasExtra("en", "workshop")) {
+		lines.push(
+			"### Workshop materials (for participants)",
+			"",
+			"- [Start here](workshop/)",
+			"- [Learner workbook](workshop/learner-workbook/)",
+			"- [Fictional meeting materials](workshop/sample-meeting-notes/)",
+			"- [Fictional AI outputs](workshop/sample-ai-output/)",
+			"- [Workspace template](workshop/workspace-template/)",
+			""
+		);
+	}
+	if (hasExtra("en", "reference")) {
+		lines.push("### Reference", "", "- [Glossary](reference/glossary/)", "");
+	}
+	if (hasExtra("en", "instructor")) {
+		lines.push(
+			"### Instructor guide (contains answers)",
+			"",
+			"- [Instructor guide: before you open it](instructor/) _(it contains the answers, so open it after the exercises)_",
+			""
+		);
 	}
 	return lines.join("\n");
 }
