@@ -355,7 +355,7 @@ function enLanding() {
 
 writeGenerated(join(OUT_ROOT, "ko", "index.md"), { title: HANDBOOK_TITLE.ko }, koLanding());
 if (locales.includes("en")) {
-	writeGenerated(join(OUT_ROOT, "en", "index.md"), { title: HANDBOOK_TITLE.en }, enLanding());
+	writeGenerated(join(OUT_ROOT, "en", "index.md"), { title: "Start here" }, enLanding());
 }
 
 // Root page: language entry. Lists only locales that are actually enabled.
