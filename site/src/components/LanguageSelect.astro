@@ -1,0 +1,71 @@
+---
+// Replaces Starlight's language selector so that it only offers a language when the same page
+// exists in that language. Starlight's own selector links to the "same" address in every language,
+// which would lead to a 404 for any chapter that is not published in English.
+//
+// Based on @astrojs/starlight 0.42.x components/LanguageSelect.astro. If Starlight is upgraded,
+// compare with the new original (the markup and script below are copied from it).
+import { getCollection } from 'astro:content';
+import config from 'virtual:starlight/user-config';
+import Select from '@astrojs/starlight/components/Select.astro';
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const docs = await getCollection('docs', ({ data }) => import.meta.env.MODE !== 'production' || data.draft === false);
+const existing = new Set(docs.map((d) => d.id.replace(/\/index$/, '')));
+
+const route = Astro.locals.starlightRoute;
+const current = route.locale;
+const currentId = route.id.replace(/\/index$/, '');
+// Pages outside a language folder (the language chooser at the site root, the 404 page) get no selector.
+const inLanguageFolder = Boolean(current) && (currentId === current || currentId.startsWith(current + '/'));
+
+const options = Object.entries(config.locales)
+	.map(([code, locale]) => {
+		if (!locale) return undefined;
+		const sameLocale = code === current;
+		// the same page in the other language, if it exists; otherwise that language's front page
+		const samePageId = current && currentId.startsWith(current + '/') ? code + currentId.slice(current.length) : undefined;
+		const targetId = sameLocale ? currentId : samePageId && existing.has(samePageId) ? samePageId : existing.has(code) ? code : undefined;
+		if (targetId === undefined) return undefined;
+		return { value: `${base}/${targetId}/`, selected: sameLocale, label: locale.label };
+	})
+	.filter((option) => option !== undefined);
+---
+
+{
+	config.isMultilingual && inLanguageFolder && options.length > 1 && (
+		<starlight-lang-select>
+			<Select
+				icon="translate"
+				label={Astro.locals.t('languageSelect.accessibleLabel')}
+				options={options}
+				width="7em"
+			/>
+		</starlight-lang-select>
+	)
+}
+
+<script>
+	class StarlightLanguageSelect extends HTMLElement {
+		constructor() {
+			super();
+			const select = this.querySelector('select');
+			if (select) {
+				select.addEventListener('change', (e) => {
+					if (e.currentTarget instanceof HTMLSelectElement) {
+						window.location.pathname = e.currentTarget.value;
+					}
+				});
+				window.addEventListener('pageshow', (event) => {
+					if (!event.persisted) return;
+					const markupSelectedIndex =
+						select.querySelector<HTMLOptionElement>('option[selected]')?.index;
+					if (markupSelectedIndex !== select.selectedIndex) {
+						select.selectedIndex = markupSelectedIndex ?? 0;
+					}
+				});
+			}
+		}
+	}
+	customElements.define('starlight-lang-select', StarlightLanguageSelect);
+</script>

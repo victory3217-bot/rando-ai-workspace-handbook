@@ -128,6 +128,15 @@ for (const locale of locales) {
 	}
 }
 
+// With two locales English is Starlight's default locale (see astro.config.mjs). An English page that
+// has no Korean counterpart would make Starlight create a fallback page with English text under /ko/,
+// so the build stops instead.
+const missingKorean = generated.en.filter((id) => !generated.ko.includes(id));
+if (missingKorean.length > 0) {
+	console.error(`[sync-content] English chapter(s) ${missingKorean.join(", ")} have no Korean page. Publish the Korean chapter first.`);
+	process.exit(1);
+}
+
 // ---- landing pages -------------------------------------------------------
 
 function koLanding() {

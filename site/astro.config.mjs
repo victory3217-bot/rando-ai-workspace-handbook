@@ -14,6 +14,9 @@ import {
 
 const entries = loadManifest();
 const locales = enabledLocales(entries);
+// Korean is always a superset of English (enforced by the audit), so with two locales English is the
+// Starlight default: Starlight only creates fallback pages FROM the default locale TO the others.
+const defaultLocale = locales.includes("en") ? "en" : "ko";
 
 // Starlight is only told about a locale once that locale has releasable
 // content. With a single configured locale no /en/ route exists at all, and
@@ -29,8 +32,8 @@ const title = Object.fromEntries(locales.map((l) => [l, HANDBOOK_TITLE[l]]));
 // page for it, so unwritten parts do not appear as empty groups.
 const generatedChapters = join(SITE_ROOT, "src", "content", "docs", "ko", "chapters");
 const chapterSidebar = PARTS.filter((p) => existsSync(join(generatedChapters, p.dir))).map((p) => ({
-	label: p.label.ko,
-	translations: { en: p.label.en },
+	label: p.label[defaultLocale],
+	translations: Object.fromEntries(locales.filter((l) => l !== defaultLocale).map((l) => [l, p.label[l]])),
 	items: [{ autogenerate: { directory: `chapters/${p.dir}` } }],
 }));
 
@@ -40,9 +43,13 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title,
-			defaultLocale: "ko",
+			defaultLocale,
 			locales: configuredLocales,
-			components: { Banner: "./src/components/HandbookBanner.astro" },
+			components: {
+				Banner: "./src/components/HandbookBanner.astro",
+				LanguageSelect: "./src/components/LanguageSelect.astro",
+			},
+			routeMiddleware: "./src/route-data.ts",
 			customCss: ["./src/styles/custom.css"],
 			// Unpublished draft: keep out of search engines. Remove this line when the
 			// handbook is approved for public release.

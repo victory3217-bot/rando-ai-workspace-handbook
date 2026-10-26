@@ -20,6 +20,7 @@ import re
 import sys
 from html.parser import HTMLParser
 from pathlib import Path
+from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parent.parent
 BASE = "/rando-ai-workspace-handbook/"
@@ -71,7 +72,18 @@ PUBLIC_REPOS = {
 # Confirmed PRIVATE on 2026-10-26. Must never appear in chapter text.
 PRIVATE_REPOS = {"rando-client-discovery-app", "rando-client-discovery-training"}
 
-CASE_FIELDS = ["저장소:", "파일 경로:", "확인한 내용:", "진행 상태:", "확인일:"]
+REVIEW_SECTIONS = [
+    "1. 장별 핵심 주장",
+    "2. 교육목표",
+    "3. 실습과 완료 기준",
+    "4. 출처가 필요한 주장",
+    "5. 저자의 의사결정이 필요한 항목",
+    "6. 예상 실습시간과 미검증 사항",
+    "7. 강사용 예상 질문과 오류 대응 (초안, 사용해 본 적 없음)",
+    "8. 저자 검토 결과 (저자가 작성)",
+]
+
+CASE_FIELDS =["저장소:", "파일 경로:", "확인한 내용:", "진행 상태:", "확인일:"]
 CASE_FIELDS_EN = ["Repository:", "File path:", "What was confirmed:", "Status:", "Verified on:"]
 
 results: list[tuple[str, str, str]] = []  # (PASS|FAIL|SKIP, check, detail)
@@ -141,6 +153,10 @@ def check_manifest(entries) -> None:
         and next((k["status"] for k in entries if k["chapter_id"] == e["chapter_id"] and k["language"] == "ko"), "") not in KO_DONE
     ]
     record("FAIL" if bad else "PASS", "manifest: English Reviewed/Published only after Korean Reviewed/Published", ", ".join(bad))
+
+    # A chapter becomes Reviewed/Published only through a human review, which is recorded in last_reviewed.
+    bad = [f"{e['chapter_id']}/{e['language']}" for e in entries if e.get("status") in KO_DONE and not e.get("last_reviewed")]
+    record("FAIL" if bad else "PASS", "manifest: Reviewed/Published chapters carry a last_reviewed date", ", ".join(bad))
 
 
 def chapter_files(lang: str) -> dict[str, Path]:
@@ -329,6 +345,16 @@ def check_support_docs(entries) -> None:
     absent = [n for n in need if not (ROOT / n).exists()]
     record("FAIL" if absent else "PASS", "docs: README, VERSION, CHANGELOG, glossary, source-map, manifest exist", ", ".join(absent))
 
+    # every existing Korean chapter has an author-review packet with the agreed eight sections
+    bad = []
+    for stem_ in chapter_files("ko"):
+        packet = ROOT / "review" / f"{stem_}.md"
+        if not packet.exists():
+            bad.append(f"{stem_}: review/{stem_}.md missing")
+        elif h2_list(packet.read_text(encoding="utf-8")) != REVIEW_SECTIONS:
+            bad.append(f"{stem_}: sections {h2_list(packet.read_text(encoding='utf-8'))}")
+    record("FAIL" if bad else "PASS", "review: every Korean chapter has an author-review packet with the eight agreed sections", "; ".join(bad))
+
     sm = ROOT / "source-map.md"
     if sm.exists():
         text = sm.read_text(encoding="utf-8")
@@ -435,6 +461,41 @@ def check_dist(dist: Path, entries) -> None:
         record("PASS" if ok else "FAIL", "dist: noindex present while unpublished")
     else:
         record("SKIP", "dist: noindex present while unpublished", "dist/ko/index.html missing")
+
+    # --- partial English release: everything that points to another language must point to a real page
+    alt_bad, sel_bad, side_bad, empty_bad = [], [], [], []
+    for page in dist.rglob("*.html"):
+        if page.name == "404.html":
+            continue
+        rel = str(page.relative_to(dist))
+        html = page.read_text(encoding="utf-8", errors="ignore")
+        for m in re.finditer(r'<link rel="alternate" hreflang="[^"]+" href="([^"]+)"', html):
+            if not page_for(dist, urlparse(m.group(1)).path).is_file():
+                alt_bad.append(f"{rel} -> {m.group(1)}")
+        sel = re.search(r"<starlight-lang-select[\s\S]*?</starlight-lang-select>", html)
+        if sel:
+            for om in re.finditer(r'<option value="([^"]+)"', sel.group(0)):
+                if not page_for(dist, om.group(1)).is_file():
+                    sel_bad.append(f"{rel} -> {om.group(1)}")
+        if rel.startswith("en" + chr(92)) or rel.startswith("en/"):
+            for lm in re.finditer(r'href="[^"]*/en/chapters/[^"]*/(ch\d+|op\d+)/"', html):
+                if lm.group(1) not in en_releasable:
+                    side_bad.append(f"{rel} lists {lm.group(1)}")
+            for chunk in html.split("<details")[1:]:
+                body = chunk.split("</details>")[0]
+                if "sidebar" in html[: html.find(chunk)][-4000:] and "href=" not in body:
+                    empty_bad.append(f"{rel}: sidebar group without pages")
+    record("FAIL" if alt_bad else "PASS", "dist: every hreflang alternate points to an existing page", "; ".join(alt_bad[:6]))
+    record("FAIL" if sel_bad else "PASS", "dist: every language-selector option points to an existing page", "; ".join(sel_bad[:6]))
+    record("FAIL" if side_bad else "PASS", "dist: English pages list only released English chapters", "; ".join(side_bad[:6]))
+    record("FAIL" if empty_bad else "PASS", "dist: no empty sidebar group on English pages", "; ".join(sorted(set(empty_bad))[:4]))
+
+    sitemap = dist / "sitemap-0.xml"
+    if sitemap.exists():
+        gone = [loc for loc in re.findall(r"<loc>([^<]+)</loc>", sitemap.read_text(encoding="utf-8")) if not page_for(dist, urlparse(loc).path).is_file()]
+        record("FAIL" if gone else "PASS", "dist: every sitemap URL is an existing page", "; ".join(gone[:6]))
+    else:
+        record("SKIP", "dist: every sitemap URL is an existing page", "sitemap-0.xml missing")
 
     record("PASS" if (dist / "pagefind").exists() else "FAIL", "dist: search index (pagefind) generated")
 
