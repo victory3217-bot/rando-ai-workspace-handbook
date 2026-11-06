@@ -45,7 +45,7 @@
 <!-- right panel: errors to rules -->
 <rect x="1080" y="222" width="456" height="360" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
 <text x="1102" y="258" font-size="26" font-weight="bold" fill="#14253d">From CH09 errors to rules</text>
-<text x="1102" y="288" font-size="22" fill="#566273">Fictional case (section 3)</text>
+<text x="1102" y="288" font-size="22" fill="#566273">Fictional case (section 2)</text>
 <text x="1102" y="328" font-size="24" fill="#1f2a37">Fabricated a quotation</text>
 <text x="1102" y="360" font-size="24" font-weight="bold" fill="#a33a3a">→ Prohibitions</text>
 <text x="1102" y="396" font-size="24" fill="#1f2a37">Changed a key word</text>

@@ -4,7 +4,7 @@
 >
 > **How to use it.** During the workshop, fill in only the boxes you know, and leave the others as "Don't know". Mark boxes that you filled in with a fictional example because you do not have the output of an earlier chapter with `[Fictional example]`. For ⑤ work instructions, ⑥ workflow, and ⑦ verification checklist, do not write them anew; write the *document name, version, and location*. ⑨ The work output is written in [5] of CH14, not in this template.
 >
-> **Filling in this template does not decide your Level.** The level is decided by [7] of `learner-workbook.md` and the conditions in section 2-9 of CH14. Do not write real personal information, customer material, or confidential information anywhere.
+> **Filling in this template does not decide your Level.** The level is decided by [7] of `learner-workbook.md` and the conditions in section 1-9 of CH14. Do not write real personal information, customer material, or confidential information anywhere.
 
 ## A. Final workspace map (CH14 [2], ①)
 

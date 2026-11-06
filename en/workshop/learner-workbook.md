@@ -616,7 +616,7 @@ Verification and backup (CH12, CH13):
 Result: all yes → live AI run possible / any no → simulated run (reason: )
 ```
 
-**Running the work (CH14 Exercise 5) and the operating plan (Exercise 6) are follow-up tasks.** Use the forms [5] and [6] in Section 5 of `CH14`.
+**Running the work (CH14 Exercise 5) and the operating plan (Exercise 6) are follow-up tasks.** Use the forms [5] and [6] in Section 4 of `CH14`.
 
 ```text
 [7] Final completion assessment (assessment date: )

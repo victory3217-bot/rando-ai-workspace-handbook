@@ -45,7 +45,7 @@
 <!-- right panel: errors to rules -->
 <rect x="1080" y="222" width="456" height="360" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>
 <text x="1102" y="258" font-size="26" font-weight="bold" fill="#14253d">CH09 오류에서 규칙으로</text>
-<text x="1102" y="288" font-size="22" fill="#566273">가상 사례 (3절)</text>
+<text x="1102" y="288" font-size="22" fill="#566273">가상 사례 (2절)</text>
 <text x="1102" y="328" font-size="24" fill="#1f2a37">지어낸 인용</text>
 <text x="1102" y="360" font-size="24" font-weight="bold" fill="#a33a3a">→ 금지사항</text>
 <text x="1102" y="396" font-size="24" fill="#1f2a37">핵심 단어를 바꿈</text>

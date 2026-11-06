@@ -40,7 +40,7 @@
 
 <!-- case strip -->
 <rect x="64" y="520" width="1472" height="52" rx="12" fill="#f1f5fb" stroke="#c9d4e5" stroke-width="2"/>
-<text x="88" y="555" font-size="24" fill="#1f2a37"><tspan font-weight="700" fill="#2f5d9b">사례(3절)</tspan> · 고객발굴 하네스 문서는 “저장하지 않는다”에서 멈추지 않고 “그래도 전송은 된다”를 함께 밝힌다</text>
+<text x="88" y="555" font-size="24" fill="#1f2a37"><tspan font-weight="700" fill="#2f5d9b">사례(2절)</tspan> · 고객발굴 하네스 문서는 “저장하지 않는다”에서 멈추지 않고 “그래도 전송은 된다”를 함께 밝힌다</text>
 
 <!-- misconception vs fact -->
 <rect x="64" y="595" width="680" height="250" rx="12" fill="#ffffff" stroke="#c9d4e5" stroke-width="2"/>

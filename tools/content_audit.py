@@ -37,26 +37,24 @@ FIELDS = ["chapter_id", "title", "language", "status", "last_reviewed"]
 
 SECTIONS = {
     "ko": [
-        "1. 학습목표",
-        "2. 핵심 개념",
-        "3. 업무 적용 사례",
-        "4. 준비물",
-        "5. 단계별 실습",
-        "6. 결과 검증",
-        "7. 오류 해결",
-        "8. 완료 체크리스트",
-        "9. 참고자료",
+        "1. 핵심 개념",
+        "2. 업무 적용 사례",
+        "3. 준비물",
+        "4. 단계별 실습",
+        "5. 결과 검증",
+        "6. 오류 해결",
+        "7. 완료 체크리스트",
+        "8. 참고자료",
     ],
     "en": [
-        "1. Learning Objectives",
-        "2. Core Concepts",
-        "3. Workplace Application",
-        "4. What You Need",
-        "5. Step-by-Step Practice",
-        "6. Verify the Result",
-        "7. Troubleshooting",
-        "8. Completion Checklist",
-        "9. References",
+        "1. Core Concepts",
+        "2. Workplace Application",
+        "3. What You Need",
+        "4. Step-by-Step Practice",
+        "5. Verify the Result",
+        "6. Troubleshooting",
+        "7. Completion Checklist",
+        "8. References",
     ],
 }
 
@@ -198,7 +196,7 @@ def check_files(entries) -> None:
             if got != SECTIONS[lang]:
                 sec_bad.append(f"{path.name}: {got}")
         record("FAIL" if id_bad else "PASS", f"files[{lang}]: chapter_id comment matches file name and manifest", "; ".join(id_bad))
-        record("FAIL" if sec_bad else "PASS", f"files[{lang}]: nine standard sections in order", "; ".join(sec_bad))
+        record("FAIL" if sec_bad else "PASS", f"files[{lang}]: eight standard sections in order", "; ".join(sec_bad))
 
 
 LINK = re.compile(r"(?<!\!)\[[^\]]*\]\(([^)\s]+)\)")

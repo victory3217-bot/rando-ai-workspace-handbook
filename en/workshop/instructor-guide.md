@@ -152,7 +152,7 @@ Agenda 2) Adjusting Staff C's vacation schedule
 
 No names, amounts, or contact details may remain. Even after masking, people inside the company may be able to guess who is meant, so have participants check that the organization allows its use before using it. *The differences between Material 1 and Material 2 are recorded in section 11.*
 
-### 7-3. Fictional AI draft A (CH06 section 6): 5 errors
+### 7-3. Fictional AI draft A (CH06 section 5): 5 errors
 
 Source text: Material 2.
 
@@ -164,7 +164,7 @@ Source text: Material 2.
 | 4 | "Wednesday of the fourth week of October" | The date is undecided | Fabrication |
 | 5 | "Open items: None" | The substitute worker and the meeting date are still undecided | Omission |
 
-### 7-4. Fictional AI draft B (CH09 section 6): 6 errors + 3 calculations + 1 quotation
+### 7-4. Fictional AI draft B (CH09 section 5): 6 errors + 3 calculations + 1 quotation
 
 Source text: Material 2 and the quantity table.
 
@@ -183,11 +183,11 @@ Source text: Material 2 and the quantity table.
 | Monthly average | 1,250 units | **About 1,217 units** (3,650 ÷ 3) |
 | Cut rate | 5.8% | **5.6%** (700 ÷ 12,500 = 0.056) |
 
-**Expected answer for the CH09 [2] fact-check table (Nos. 1 to 6):** The verdict in every row is "wrong." The category column has sentences written as if they were fact but with no basis in the source text or that differ from it, so you can explain No. 1 as distortion, No. 2 as fabrication, No. 3 as assumption, No. 4 as fabrication, No. 5 as fabrication/assumption, and No. 6 as omission (not matching the facts). If participants write only "fact/inference/assumption/unconfirmed" in the category cell, it can be confusing because these are "wrong sentences written like facts," so explain the category cell as *whether the content is in the source text (fact) / written without being in the source text (inference or assumption)* and gather the verdicts as wrong. (This follows the category criteria in section 2-5 of CH09.)
+**Expected answer for the CH09 [2] fact-check table (Nos. 1 to 6):** The verdict in every row is "wrong." The category column has sentences written as if they were fact but with no basis in the source text or that differ from it, so you can explain No. 1 as distortion, No. 2 as fabrication, No. 3 as assumption, No. 4 as fabrication, No. 5 as fabrication/assumption, and No. 6 as omission (not matching the facts). If participants write only "fact/inference/assumption/unconfirmed" in the category cell, it can be confusing because these are "wrong sentences written like facts," so explain the category cell as *whether the content is in the source text (fact) / written without being in the source text (inference or assumption)* and gather the verdicts as wrong. (This follows the category criteria in section 1-5 of CH09.)
 
 **What the corrected version should look like:** Agenda 1 has Manager A's opposition and Associate B's delivery of the revised proposal ("by next week"); agenda 2 has Staff C's November vacation request and the substitute worker undecided; agenda 3 has the fourth week of October, date undecided; open items have the undecided substitute worker and meeting date; and a "Needs confirmation" list is included. The numbers are 3,650 / about 1,217 / 5.6%.
 
-### 7-5. Fictional AI draft C (CH12 section 6): 8 items
+### 7-5. Fictional AI draft C (CH12 section 5): 8 items
 
 Source text: Material 3. The only document in the index is K01.
 
@@ -212,7 +212,7 @@ Source text: Material 3. The only document in the index is K01.
 | T2 (Material 4) | Mark the deadline and the owner as "Needs confirmation"; do not make up a name or a date |
 | T3 (Material 4) | Do not write sales results that are not in the input material, and report "Not in the material, so not written" |
 
-The author's example in CH10 section 6: in T2, writing "Staff C" as the owner of agenda 2 is a fail (the same phrase from the work instructions is missing from the output format, so it is easy to miss). Have participants find the vague places in their own work instructions themselves.
+The author's example in CH10 section 5: in T2, writing "Staff C" as the owner of agenda 2 is a fail (the same phrase from the work instructions is missing from the output format, so it is easy to miss). Have participants find the vague places in their own work instructions themselves.
 
 ### 7-7. CH08 K01 and the conflict exercise
 
@@ -220,7 +220,7 @@ The rules in knowledge document K01 should match the five lines of Material 5. T
 
 ### 7-8. CH11, CH13, CH14
 
-- CH11: The expected flowchart is the example in CH11 section 2-2. There must be a human approval point at least before sharing or sending. Exceptions include an empty input, personal information showing up, an AI rule violation, a numbers or quotation mismatch, a service that is unavailable, and no approver.
+- CH11: The expected flowchart is the example in CH11 section 1-2. There must be a human approval point at least before sharing or sending. Exceptions include an empty input, personal information showing up, an AI rule violation, a numbers or quotation mismatch, a service that is unavailable, and no approver.
 - CH13: The backup location must be *a place that does not sync* and one whose organization rules were checked. An answer like "I uploaded it to the cloud, so it is backed up" is not complete.
 - CH14: The judgment examples in section 9-2.
 
@@ -260,7 +260,7 @@ Have participants write one of the following on every record (workbook [5][7], C
 
 Do not call running an AI on fictional data "real work execution."
 
-## 9. Level 1 to 3 criteria (same as CH14 section 2-9)
+## 9. Level 1 to 3 criteria (same as CH14 section 1-9)
 
 > These three levels were set by this book for teaching and are not a certification standard. The judgment is the *participant's self-assessment*, not the instructor's verification. A participant who cannot actually run anything because of account or organizational installation limits can still reach Level 1.
 
@@ -280,7 +280,7 @@ Do not call running an AI on fictional data "real work execution."
 | Level 2 | Which folders did you actually create? Which tools did you set up? Was there a "No" in the pre-run check? Did you try restoring fictional files? |
 | Level 3 | Which service and account, and did the organization allow it? What was the tier of the material you entered, and how did you mask it? Where are the verification record and the final confirmation record? |
 
-### 9-2. Judgment examples (the author's examples, CH14 section 6)
+### 9-2. Judgment examples (the author's examples, CH14 section 5)
 
 | Situation | Judgment |
 |---|---|
@@ -315,7 +315,7 @@ Do not call running an AI on fictional data "real work execution."
 | "Do we also do Git or harness engineering?" | Not within this workshop's scope. The direction is to split them off as future separate courses |
 | "I'm running out of time" | Fill in only some cells and leave the rest as `[Fictional example]` or for later. The goal is not to finish the whole form |
 | "I want to write that it worked" | Only as much as there are records for. If there are none, write "not yet measured" |
-| "I accidentally entered real information" | Do not hide it; tell the person in charge and delete that conversation (CH03 section 7). Turning off the training setting alone does not delete it |
+| "I accidentally entered real information" | Do not hide it; tell the person in charge and delete that conversation (CH03 section 6). Turning off the training setting alone does not delete it |
 
 ## 11. Record of differences between the existing manuscript and the workshop materials
 
@@ -331,13 +331,13 @@ We did not edit the existing manuscript, and we did not arbitrarily mix the fict
 | 6 | **The blank minutes template**: CH06, CH08, and CH09 use a "blank minutes template," but no place defines its contents | We newly made Material 6 for the workshop (table + Needs confirmation list + written by and checked by). It has the same items as the output format requirements in the text |
 | 7 | **The header of the fictional AI drafts**: The text has a label saying "deliberately written wrong" | In the participant-facing `sample-ai-output.md`, to hide the number and location of the errors, we changed the wording to "there are parts that need checking." We stated that it is a fictional output |
 | 8 | **The name of ④ in the CH02 form**: CH02 [1] calls ④ "knowledge base," and CH14 writes "work documents and knowledge base" | Workbook block 2 follows CH02's original wording, and `workspace-template.md` follows CH14's original wording. They point to the same box |
-| 9 | **Answers exposed in the text**: CH03 (section 6), CH06 (section 6), CH09 (section 6), and CH12 (section 6) have the author's commentary in the text | If learners look at the site or the text together, the answers are visible. See section 12 |
+| 9 | **Answers exposed in the text**: CH03 (section 5), CH06 (section 5), CH09 (section 5), and CH12 (section 5) have the author's commentary in the text | If learners look at the site or the text together, the answers are visible. See section 12 |
 | 10 | **Time**: The total of the time needed in each chapter's text is about 905 minutes | The workshop does only the core exercises, and all times are unverified estimates |
 | 11 | **English edition**: Names are rendered in English-friendly form (guide table); all dates, amounts, quantities, decisions and errors are identical to the Korean edition | The English files in en/workshop/ and en/chapters/ use the same renderings, and the Korean files remain the source of truth |
 
 ## 12. Remaining cautions
 
-- **Risk of exposing answers:** Some chapters of the textbook contain commentary, so if participants open the textbook alongside, they can see the correct answers for the errors in the fictional AI outputs. This guide and its answers are public material, so they cannot be completely hidden. The website puts the instructor guide behind a separate menu (collapsed by default) and an information page and excludes it from search, but the commentary in section 6 of the text is still there. To hide the answers in a workshop, the facilitator must decide on a way to run it, such as printing with the commentary covered or handing out only the workbook. This package did not edit the text.
+- **Risk of exposing answers:** Some chapters of the textbook contain commentary, so if participants open the textbook alongside, they can see the correct answers for the errors in the fictional AI outputs. This guide and its answers are public material, so they cannot be completely hidden. The website puts the instructor guide behind a separate menu (collapsed by default) and an information page and excludes it from search, but the commentary in section 5 of the text is still there. To hide the answers in a workshop, the facilitator must decide on a way to run it, such as printing with the commentary covered or handing out only the workbook. This package did not edit the text.
 - **Copy button:** The code block copy button on the site was not verified in a regular browser (`README.md`). The workbook is a Markdown file, so we recommend printouts or a note-taking tool so you do not depend on copy and paste.
 - **Official document changes:** Service screens and policies can change. Re-check before class.
 - **Personal information check:** Every person, company, and client in this package is fictional, and the contact `010-0000-0000` is a fake placeholder number. There are no email addresses, real phone numbers, bank accounts, addresses, passwords, or API keys.
